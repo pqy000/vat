@@ -121,7 +121,8 @@ class MultiUCR2018_Forecast(data.Dataset):
         # print("### {}".format(index))
         img, target = self.data[index], self.targets[index].astype(np.int64)
         img1 = self.totensor_transform(self.transform(img.copy()))
-        img2 = self.totensor_transform(self.trend_transform(img.copy()))
+        # img2 = self.totensor_transform(self.trend_transform(img.copy()))
+        img2 = self.totensor_transform(self.transform(img.copy()))
         return img1, img2, target
 
     def __len__(self):

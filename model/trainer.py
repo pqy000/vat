@@ -90,36 +90,35 @@ class Model_SemiMean(torch.nn.Module):
 
                 # unsupervised consistency loss
                 self.update_ema(self.model, self.ema_model, opt.ema_decay, self.global_step)
-                aug1_tilde = self.mixup_beta_batch(aug1, trend)
-                aug1_tilde_hat = self.get_adversarial_perturbations(self.model, aug1_tilde)
+                # aug1_tilde = self.mixup_beta_batch(aug1, trend)
+                aug1_tilde_hat = self.get_adversarial_perturbations(self.model, aug1)
                 # aug2_hat = self.get_adversarial_perturbations(self.model, aug2)
                 # output_aug_hat = self.model(aug2_hat)
                 # alp_loss = self.get_alp_loss(x=aug1, x_hat=aug1_hat, y=output_aug, y_hat=output_aug_hat)
                 # loss += alp_loss
                 # alp.append(alp_loss.item())
-                reg1 = torch.norm((aug1_tilde-aug1_tilde_hat), p=2)
-                temp = (aug1_tilde_hat[:,:-2,:] - aug1_tilde_hat[:,1:-1,:]
-                        + aug1_tilde_hat[:,2:,:] - aug1_tilde_hat[:,1:-1,:]).reshape(aug1_tilde_hat.size(0), -1)
-                diff1 = torch.norm(temp, dim=1, p=2)
-                reg2 = torch.mean(diff1)
+                # reg1 = torch.norm((aug1_tilde-aug1_tilde_hat), p=2)
+                # temp = (aug1_tilde_hat[:,:-2,:] - aug1_tilde_hat[:,1:-1,:]
+                #         + aug1_tilde_hat[:,2:,:] - aug1_tilde_hat[:,1:-1,:]).reshape(aug1_tilde_hat.size(0), -1)
+                # diff1 = torch.norm(temp, dim=1, p=2)
+                # reg2 = torch.mean(diff1)
                 # reg_loss = (0.5*reg1 + self.lambda_reg *reg2)
-                # reg_loss = (self.lambda_reg * reg2)
-                reg_loss = 0
-                output_aug = self.model(aug1_tilde)
+
+                output_aug = self.model(aug1)
                 with torch.no_grad():
                     output_aug_tilde_ema = self.ema_model(aug1_tilde_hat)
                     output_aug_tilde_ema = output_aug_tilde_ema.detach()
                 cons_loss = mse_with_softmax(output_aug, output_aug_tilde_ema)
                 cons_loss *= self.rampup(epoch) * self.usp_weight
-                other_loss = self.beta_reg * reg_loss
-                loss += (cons_loss + other_loss)
+                # other_loss = self.beta_reg * reg_loss
+                # loss += (cons_loss + other_loss)
+                loss += cons_loss
 
                 prediction = output_aug.argmax(-1)
                 correct = prediction.eq(targetAug).sum()
                 loss_unlabel.append(cons_loss.item())
                 acc_unlabel.append(100.0 * correct / len(targetAug))
-                self.wb.log({'cons_unlabel': cons_loss, 'other_loss': other_loss, 'reg1': reg1, 'reg2': reg2,
-                             'loss_unlabel': cons_loss + other_loss, 'loss': loss})
+                self.wb.log({'cons_unlabel': cons_loss})
                 optimizer.zero_grad()
                 loss.backward()
                 optimizer.step()
@@ -266,19 +265,19 @@ class Model_SemiMean(torch.nn.Module):
             y = f(x)
             y_hat = f(x_hat)
             lds_loss = mse_with_softmax(y, y_hat)
-            # y_diff = self.d_Y(y, y_hat)
-            # reg1 = torch.norm((x-x_hat), p=2)
-            # temp = (x[:,:-2,:] - x_hat[:,1:-1,:] + x[:,2:,:] - x_hat[:,1:-1,:]).reshape(batch_size, -1)
-            # diff1 = torch.norm(temp, dim=1, p=2)
-            # reg2 = torch.mean(diff1)
-            # reg_loss = (0.5*reg1 + self.lambda_reg *reg2)
-            # y_diff = lds_loss + self.beta_reg * reg_loss
-            # self.wb.log({'lds_loss': lds_loss, 'reg1': reg1, 'reg2': reg2})
-            y_diff = lds_loss
+            reg1 = torch.norm((x-x_hat), p=2)
+            temp = (x[:,:-2,:] - x_hat[:,1:-1,:] + x[:,2:,:] - x_hat[:,1:-1,:]).reshape(batch_size, -1)
+            diff1 = torch.norm(temp, dim=1, p=2)
+            reg2 = torch.mean(diff1)
+            reg_loss = (0.5*reg1 + self.lambda_reg *reg2)
+            y_diff = lds_loss + self.beta_reg * reg_loss
+
+            self.wb.log({'lds_loss': lds_loss, 'reg1': reg1, 'reg2': reg2})
+            # y_diff = lds_loss
+
             y_diff.backward()
             d = normalize(d.grad).detach()
             f.zero_grad()
-            self.wb.log({'lds_loss':lds_loss})
 
         r_adv = normalize(d) * self.eps(x)
         r_adv[r_adv != r_adv] = 0

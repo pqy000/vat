@@ -105,7 +105,7 @@ def parse_option():
     parser.add_argument('--lambda_Rm', type=float, default=1, help='lambda_Rm')
     parser.add_argument('--lambda_Rs', type=float, default=1, help='lambda_Rs')
     parser.add_argument('--lambda_reg', type=float, default=2, help='lambda_reg')
-    parser.add_argument('--beta_reg', type=float, default=1e-5, help='beta_reg')
+    parser.add_argument('--beta_reg', type=float, default=1e-3, help='beta_reg')
     parser.add_argument('--Saliency_dir', type=str, default='results/saliency/', help='saliency path')
     parser.add_argument('--Mask_dir', type=str, default='results/mask/', help='saliency path')
     opt = parser.parse_args()

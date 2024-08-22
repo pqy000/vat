@@ -3,3 +3,9 @@ Dataset  Train  Test  Dimension  Class  Seed  Acc_label  Acc_unlabel  Epoch_max
 2024-08-22-15:47:51
 Dataset  Train  Test  Dimension  Class  Seed  Acc_label  Acc_unlabel  Epoch_max
 UWaveGestureLibraryAll  2688  894  945  8  1996  91.62946428571429  87.3139877319336  179
+2024-08-22-19:47:08
+Dataset  Train  Test  Dimension  Class  Seed  Acc_label  Acc_unlabel  Epoch_max
+2024-08-22-20:24:12
+Dataset  Train  Test  Dimension  Class  Seed  Acc_label  Acc_unlabel  Epoch_max
+2024-08-22-20:25:19
+Dataset  Train  Test  Dimension  Class  Seed  Acc_label  Acc_unlabel  Epoch_max

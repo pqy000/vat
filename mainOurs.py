@@ -38,7 +38,7 @@ def parse_option():
     parser.add_argument('--learning_rate', type=float, default=2e-3, help='learning rate')
     parser.add_argument('--weight_rampup', type=int, default=30, help='weight rampup')
     # model dataset
-    parser.add_argument('--dataset_name', type=str, default='UWaveGestureLibraryAll', help='dataset')
+    parser.add_argument('--dataset_name', type=str, default='EpilepticSeizure', help='dataset')
     parser.add_argument('--nb_class', type=int, default=3, help='class number')
 
     # ucr_path = '../datasets/UCRArchive_2018'
@@ -53,7 +53,7 @@ def parse_option():
     parser.add_argument('--usp_weight', type=float, default=1, help='usp weight')
     parser.add_argument('--ema_decay', type=float, default=0.99, help='weight')
     parser.add_argument('--model_select', type=str, default='TCN', help='Training model type')
-    parser.add_argument('--nhid', type=int, default=256, help='feature_size')
+    parser.add_argument('--nhid', type=int, default=128, help='feature_size')
     parser.add_argument('--levels', type=int, default=10, help='feature_size')
     parser.add_argument('--ksize', type=int, default=3, help='kernel size')
     parser.add_argument('--dropout', type=float, default=0.05, help='dropout applied to layers (default: 0.05)')
@@ -125,8 +125,8 @@ if __name__ == "__main__":
     opt.wb = wandb.init(project=opt.dataset_name+"_semitime", config=opt, mode="online", group=str(opt.label_ratio))
     exp = 'exp-cls'
 
-    Seeds = [1996, 2024, 2000]
-    Runs = range(0, 1, 1)
+    Seeds = [2000]
+    Runs = range(0, 2, 1)
 
     aug1 = ['jitter','cutout']
     aug2 = ['G0']
@@ -181,7 +181,8 @@ if __name__ == "__main__":
         print('[INFO] Running at:', opt.dataset_name)
 
         if opt.dataset_name == "CricketX" or opt.dataset_name == "UWaveGestureLibraryAll" \
-                or opt.dataset_name == "InsectWingbeatSound":
+                or opt.dataset_name == "InsectWingbeatSound" or opt.dataset_name == "EpilepticSeizure"\
+                or opt.dataset_name == "MFPT" or opt.data_name == "XJTU":
             x_train, y_train, x_val, y_val, x_test, y_test, opt.nb_class, _ = load_ucr2018(opt.ucr_path, opt.dataset_name)
         elif opt.dataset_name == "Heartbeat" or opt.dataset_name == "NATOPS" \
                 or opt.dataset_name == "SelfRegulationSCP2":

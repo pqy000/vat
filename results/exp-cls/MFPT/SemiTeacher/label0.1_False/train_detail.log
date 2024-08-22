@@ -1,0 +1,8 @@
+2024-08-22-08:03:15
+Dataset  Train  Test  Dimension  Class  Seed  Acc_label  Acc_unlabel  Epoch_max
+2024-08-22-08:04:59
+Dataset  Train  Test  Dimension  Class  Seed  Acc_label  Acc_unlabel  Epoch_max
+2024-08-22-08:06:36
+Dataset  Train  Test  Dimension  Class  Seed  Acc_label  Acc_unlabel  Epoch_max
+MFPT  1548  506  1024  15  2000  47.124191761016846  36.0  782
+MFPT  1548  506  1024  15  2000  39.399245738983154  31.9375  446

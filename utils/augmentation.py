@@ -262,28 +262,6 @@ def scaling_s(x, sigma=0.1, plot=False):
 
     return x_
 
-def scaling_t(x, kernel_size=6, sigma=1.0):
-    kernel = gaussian_kernel_1d(kernel_size, sigma)
-    x_ = np.zeros_like(x)
-    for j in range(x.shape[1]):
-        x_[:, j] = np.convolve(x[:, j], kernel, mode='same')
-    # print(x.squeeze())
-    # print(x_.squeeze())
-    return x_
-
-def gaussian_kernel_1d(size: int, sigma: float):
-    """Create a 1D Gaussian kernel using numpy."""
-    x = np.arange(-size//2 + 1, size//2 + 1)
-    kernel = np.exp(-x**2 / (2 * sigma**2))
-    kernel /= kernel.sum()  # Normalize the kernel
-    return kernel
-
-def gaussian_kernel_1d(size: int, sigma: float):
-    """Create a 1D Gaussian kernel using numpy."""
-    x = np.arange(-size//2 + 1, size//2 + 1)
-    kernel = np.exp(-x**2 / (2 * sigma**2))
-    kernel /= kernel.sum()
-    return kernel
 
 def rotation_s(x, plot=False):
     flip = np.random.choice([-1], size=(1, x.shape[1]))

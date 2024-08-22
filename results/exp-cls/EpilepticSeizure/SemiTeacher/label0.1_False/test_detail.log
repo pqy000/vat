@@ -1,0 +1,10 @@
+2024-08-21-23:51:31
+Dataset  Train  Test   Dimension  Class  Seed  Acc_max  Epoch_max
+2024-08-22-10:22:38
+Dataset  Train  Test   Dimension  Class  Seed  Acc_max  Epoch_max
+EpilepticSeizure  6900  2300  178  5  2000  64.48  209
+2024-08-22-12:03:30
+Dataset  Train  Test   Dimension  Class  Seed  Acc_max  Epoch_max
+2024-08-22-12:27:00
+Dataset  Train  Test   Dimension  Class  Seed  Acc_max  Epoch_max
+EpilepticSeizure  6900  2300  178  5  2000  58.61  94

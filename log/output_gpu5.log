@@ -1,0 +1,1599 @@
+wandb: Currently logged in as: pqy000 (pqythu). Use `wandb login --relogin` to force relogin
+2024-08-21 21:27:28.963175: I tensorflow/core/platform/cpu_feature_guard.cc:193] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX2 FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2024-08-21 21:27:29.847361: W tensorflow/compiler/xla/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libnvinfer.so.7'; dlerror: libnvinfer.so.7: cannot open shared object file: No such file or directory; LD_LIBRARY_PATH: /data/qingyi/miniconda3/envs/py3/lib/python3.7/site-packages/cv2/../../lib64:/opt/cudnn/lib64:/usr/local/cuda/lib64
+2024-08-21 21:27:29.847467: W tensorflow/compiler/xla/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libnvinfer_plugin.so.7'; dlerror: libnvinfer_plugin.so.7: cannot open shared object file: No such file or directory; LD_LIBRARY_PATH: /data/qingyi/miniconda3/envs/py3/lib/python3.7/site-packages/cv2/../../lib64:/opt/cudnn/lib64:/usr/local/cuda/lib64
+2024-08-21 21:27:29.847480: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Cannot dlopen some TensorRT libraries. If you would like to use Nvidia GPU with TensorRT, please make sure the missing libraries mentioned above are installed properly.
+wandb: wandb version 0.17.7 is available!  To upgrade, please run:
+wandb:  $ pip install wandb --upgrade
+wandb: Tracking run with wandb version 0.12.17
+wandb: Run data is saved locally in /home/qingyi/GPU20/SemiOur/wandb/run-20240821_212726-1cr60sta
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run honest-butterfly-9
+wandb: ⭐️ View project at https://wandb.ai/pqythu/InsectWingbeatSound_semitime
+wandb: 🚀 View run at https://wandb.ai/pqythu/InsectWingbeatSound_semitime/runs/1cr60sta
+[INFO] Running at: InsectWingbeatSound
+[INFO] InsectWingbeatSound
+[Stat] All class: {0: 200, 1: 200, 2: 200, 3: 200, 4: 200, 5: 200, 6: 200, 7: 200, 8: 200, 9: 200, 10: 200}
+[Stat] Train class: mean=120.0, std=0.0
+[Stat] Val class: mean=40.0, std=0.0
+[Stat] Test class: mean=40.0, std=0.0
+Train:(1320, 256, 1), Test:(440, 256, 1), Class:11
+rp_params: [3, 0]
+[Test-0] Val ACC:8.93%, Best Test ACC.: 8.93% in Epoch 0
+Epoch [1][SemiTeacher][InsectWingbeatSound] loss= 0.00041; Epoch Label ACC.= 19.42%, UnLabel ACC.= 9.33%, Lipistz loss = 0, Train Unlabel Best ACC.= 9.3%, Train Max Epoch=0
+[Test-1] Val ACC:8.93%, Best Test ACC.: 8.93% in Epoch 1
+EarlyStopping counter: 1 out of 200
+Epoch [2][SemiTeacher][InsectWingbeatSound] loss= 0.00238; Epoch Label ACC.= 21.35%, UnLabel ACC.= 8.17%, Lipistz loss = 0, Train Unlabel Best ACC.= 9.3%, Train Max Epoch=0
+[Test-2] Val ACC:15.62%, Best Test ACC.: 15.85% in Epoch 2
+Validation loss decreased (inf --> 15.625000).  Saving model ...
+Epoch [3][SemiTeacher][InsectWingbeatSound] loss= 0.00343; Epoch Label ACC.= 22.32%, UnLabel ACC.= 12.99%, Lipistz loss = 0, Train Unlabel Best ACC.= 13.0%, Train Max Epoch=2
+[Test-3] Val ACC:18.08%, Best Test ACC.: 18.30% in Epoch 3
+Validation loss decreased (15.625000 --> 18.080357).  Saving model ...
+Epoch [4][SemiTeacher][InsectWingbeatSound] loss= 0.00558; Epoch Label ACC.= 37.13%, UnLabel ACC.= 15.16%, Lipistz loss = 0, Train Unlabel Best ACC.= 15.2%, Train Max Epoch=3
+[Test-4] Val ACC:21.43%, Best Test ACC.: 22.77% in Epoch 4
+Validation loss decreased (18.080357 --> 21.428571).  Saving model ...
+Epoch [5][SemiTeacher][InsectWingbeatSound] loss= 0.00443; Epoch Label ACC.= 36.46%, UnLabel ACC.= 16.00%, Lipistz loss = 0, Train Unlabel Best ACC.= 16.0%, Train Max Epoch=4
+[Test-5] Val ACC:45.73%, Best Test ACC.: 49.08% in Epoch 5
+Validation loss decreased (21.428571 --> 45.727041).  Saving model ...
+Epoch [6][SemiTeacher][InsectWingbeatSound] loss= 0.01447; Epoch Label ACC.= 47.17%, UnLabel ACC.= 27.89%, Lipistz loss = 0, Train Unlabel Best ACC.= 27.9%, Train Max Epoch=5
+[Test-6] Val ACC:47.16%, Best Test ACC.: 52.01% in Epoch 6
+Validation loss decreased (45.727041 --> 47.161990).  Saving model ...
+Epoch [7][SemiTeacher][InsectWingbeatSound] loss= 0.02387; Epoch Label ACC.= 61.09%, UnLabel ACC.= 36.61%, Lipistz loss = 0, Train Unlabel Best ACC.= 36.6%, Train Max Epoch=6
+EarlyStopping counter: 1 out of 200
+Epoch [8][SemiTeacher][InsectWingbeatSound] loss= 0.02344; Epoch Label ACC.= 58.26%, UnLabel ACC.= 36.00%, Lipistz loss = 0, Train Unlabel Best ACC.= 36.6%, Train Max Epoch=6
+[Test-8] Val ACC:47.83%, Best Test ACC.: 45.57% in Epoch 8
+Validation loss decreased (47.161990 --> 47.831633).  Saving model ...
+Epoch [9][SemiTeacher][InsectWingbeatSound] loss= 0.02392; Epoch Label ACC.= 58.18%, UnLabel ACC.= 34.90%, Lipistz loss = 0, Train Unlabel Best ACC.= 36.6%, Train Max Epoch=6
+EarlyStopping counter: 1 out of 200
+Epoch [10][SemiTeacher][InsectWingbeatSound] loss= 0.02067; Epoch Label ACC.= 58.56%, UnLabel ACC.= 36.46%, Lipistz loss = 0, Train Unlabel Best ACC.= 36.6%, Train Max Epoch=6
+[Test-10] Val ACC:51.82%, Best Test ACC.: 52.42% in Epoch 10
+Validation loss decreased (47.831633 --> 51.817603).  Saving model ...
+Epoch [11][SemiTeacher][InsectWingbeatSound] loss= 0.02687; Epoch Label ACC.= 69.05%, UnLabel ACC.= 39.82%, Lipistz loss = 0, Train Unlabel Best ACC.= 39.8%, Train Max Epoch=10
+[Test-11] Val ACC:53.03%, Best Test ACC.: 56.28% in Epoch 11
+Validation loss decreased (51.817603 --> 53.029337).  Saving model ...
+Epoch [12][SemiTeacher][InsectWingbeatSound] loss= 0.02458; Epoch Label ACC.= 71.21%, UnLabel ACC.= 41.53%, Lipistz loss = 0, Train Unlabel Best ACC.= 41.5%, Train Max Epoch=11
+EarlyStopping counter: 1 out of 200
+Epoch [13][SemiTeacher][InsectWingbeatSound] loss= 0.02603; Epoch Label ACC.= 67.34%, UnLabel ACC.= 43.59%, Lipistz loss = 0, Train Unlabel Best ACC.= 43.6%, Train Max Epoch=12
+EarlyStopping counter: 2 out of 200
+Epoch [14][SemiTeacher][InsectWingbeatSound] loss= 0.02663; Epoch Label ACC.= 63.62%, UnLabel ACC.= 41.22%, Lipistz loss = 0, Train Unlabel Best ACC.= 43.6%, Train Max Epoch=12
+EarlyStopping counter: 3 out of 200
+Epoch [15][SemiTeacher][InsectWingbeatSound] loss= 0.02356; Epoch Label ACC.= 62.65%, UnLabel ACC.= 42.49%, Lipistz loss = 0, Train Unlabel Best ACC.= 43.6%, Train Max Epoch=12
+[Test-15] Val ACC:56.25%, Best Test ACC.: 63.27% in Epoch 15
+Validation loss decreased (53.029337 --> 56.250000).  Saving model ...
+Epoch [16][SemiTeacher][InsectWingbeatSound] loss= 0.02936; Epoch Label ACC.= 73.07%, UnLabel ACC.= 43.08%, Lipistz loss = 0, Train Unlabel Best ACC.= 43.6%, Train Max Epoch=12
+EarlyStopping counter: 1 out of 200
+Epoch [17][SemiTeacher][InsectWingbeatSound] loss= 0.02865; Epoch Label ACC.= 75.60%, UnLabel ACC.= 48.01%, Lipistz loss = 0, Train Unlabel Best ACC.= 48.0%, Train Max Epoch=16
+EarlyStopping counter: 2 out of 200
+Epoch [18][SemiTeacher][InsectWingbeatSound] loss= 0.02974; Epoch Label ACC.= 72.77%, UnLabel ACC.= 47.71%, Lipistz loss = 0, Train Unlabel Best ACC.= 48.0%, Train Max Epoch=16
+EarlyStopping counter: 3 out of 200
+Epoch [19][SemiTeacher][InsectWingbeatSound] loss= 0.03156; Epoch Label ACC.= 69.35%, UnLabel ACC.= 45.48%, Lipistz loss = 0, Train Unlabel Best ACC.= 48.0%, Train Max Epoch=16
+EarlyStopping counter: 4 out of 200
+Epoch [20][SemiTeacher][InsectWingbeatSound] loss= 0.03550; Epoch Label ACC.= 76.86%, UnLabel ACC.= 47.31%, Lipistz loss = 0, Train Unlabel Best ACC.= 48.0%, Train Max Epoch=16
+EarlyStopping counter: 5 out of 200
+Epoch [21][SemiTeacher][InsectWingbeatSound] loss= 0.03584; Epoch Label ACC.= 78.79%, UnLabel ACC.= 44.72%, Lipistz loss = 0, Train Unlabel Best ACC.= 48.0%, Train Max Epoch=16
+[Test-21] Val ACC:56.47%, Best Test ACC.: 61.70% in Epoch 21
+Validation loss decreased (56.250000 --> 56.473215).  Saving model ...
+Epoch [22][SemiTeacher][InsectWingbeatSound] loss= 0.03742; Epoch Label ACC.= 77.75%, UnLabel ACC.= 48.24%, Lipistz loss = 0, Train Unlabel Best ACC.= 48.2%, Train Max Epoch=21
+[Test-22] Val ACC:58.07%, Best Test ACC.: 60.17% in Epoch 22
+Validation loss decreased (56.473215 --> 58.067603).  Saving model ...
+Epoch [23][SemiTeacher][InsectWingbeatSound] loss= 0.03728; Epoch Label ACC.= 68.75%, UnLabel ACC.= 47.28%, Lipistz loss = 0, Train Unlabel Best ACC.= 48.2%, Train Max Epoch=21
+[Test-23] Val ACC:59.44%, Best Test ACC.: 60.94% in Epoch 23
+Validation loss decreased (58.067603 --> 59.438776).  Saving model ...
+Epoch [24][SemiTeacher][InsectWingbeatSound] loss= 0.03329; Epoch Label ACC.= 67.93%, UnLabel ACC.= 47.80%, Lipistz loss = 0, Train Unlabel Best ACC.= 48.2%, Train Max Epoch=21
+EarlyStopping counter: 1 out of 200
+Epoch [25][SemiTeacher][InsectWingbeatSound] loss= 0.03268; Epoch Label ACC.= 77.01%, UnLabel ACC.= 48.38%, Lipistz loss = 0, Train Unlabel Best ACC.= 48.4%, Train Max Epoch=24
+EarlyStopping counter: 2 out of 200
+Epoch [26][SemiTeacher][InsectWingbeatSound] loss= 0.03509; Epoch Label ACC.= 74.48%, UnLabel ACC.= 50.31%, Lipistz loss = 0, Train Unlabel Best ACC.= 50.3%, Train Max Epoch=25
+EarlyStopping counter: 3 out of 200
+Epoch [27][SemiTeacher][InsectWingbeatSound] loss= 0.03551; Epoch Label ACC.= 75.74%, UnLabel ACC.= 48.24%, Lipistz loss = 0, Train Unlabel Best ACC.= 50.3%, Train Max Epoch=25
+EarlyStopping counter: 4 out of 200
+Epoch [28][SemiTeacher][InsectWingbeatSound] loss= 0.03952; Epoch Label ACC.= 84.08%, UnLabel ACC.= 49.54%, Lipistz loss = 0, Train Unlabel Best ACC.= 50.3%, Train Max Epoch=25
+EarlyStopping counter: 5 out of 200
+Epoch [29][SemiTeacher][InsectWingbeatSound] loss= 0.04035; Epoch Label ACC.= 75.22%, UnLabel ACC.= 45.43%, Lipistz loss = 0, Train Unlabel Best ACC.= 50.3%, Train Max Epoch=25
+EarlyStopping counter: 6 out of 200
+Epoch [30][SemiTeacher][InsectWingbeatSound] loss= 0.03685; Epoch Label ACC.= 83.11%, UnLabel ACC.= 50.97%, Lipistz loss = 0, Train Unlabel Best ACC.= 51.0%, Train Max Epoch=29
+[Test-30] Val ACC:61.10%, Best Test ACC.: 62.50% in Epoch 30
+Validation loss decreased (59.438776 --> 61.096939).  Saving model ...
+Epoch [31][SemiTeacher][InsectWingbeatSound] loss= 0.03921; Epoch Label ACC.= 83.18%, UnLabel ACC.= 48.87%, Lipistz loss = 0, Train Unlabel Best ACC.= 51.0%, Train Max Epoch=29
+EarlyStopping counter: 1 out of 200
+Epoch [32][SemiTeacher][InsectWingbeatSound] loss= 0.04091; Epoch Label ACC.= 78.35%, UnLabel ACC.= 47.54%, Lipistz loss = 0, Train Unlabel Best ACC.= 51.0%, Train Max Epoch=29
+EarlyStopping counter: 2 out of 200
+Epoch [33][SemiTeacher][InsectWingbeatSound] loss= 0.03770; Epoch Label ACC.= 83.33%, UnLabel ACC.= 51.24%, Lipistz loss = 0, Train Unlabel Best ACC.= 51.2%, Train Max Epoch=32
+EarlyStopping counter: 3 out of 200
+Epoch [34][SemiTeacher][InsectWingbeatSound] loss= 0.04055; Epoch Label ACC.= 78.65%, UnLabel ACC.= 48.60%, Lipistz loss = 0, Train Unlabel Best ACC.= 51.2%, Train Max Epoch=32
+EarlyStopping counter: 4 out of 200
+Epoch [35][SemiTeacher][InsectWingbeatSound] loss= 0.03993; Epoch Label ACC.= 83.56%, UnLabel ACC.= 48.60%, Lipistz loss = 0, Train Unlabel Best ACC.= 51.2%, Train Max Epoch=32
+EarlyStopping counter: 5 out of 200
+Epoch [36][SemiTeacher][InsectWingbeatSound] loss= 0.04230; Epoch Label ACC.= 82.81%, UnLabel ACC.= 52.22%, Lipistz loss = 0, Train Unlabel Best ACC.= 52.2%, Train Max Epoch=35
+EarlyStopping counter: 6 out of 200
+Epoch [37][SemiTeacher][InsectWingbeatSound] loss= 0.04120; Epoch Label ACC.= 81.32%, UnLabel ACC.= 50.88%, Lipistz loss = 0, Train Unlabel Best ACC.= 52.2%, Train Max Epoch=35
+EarlyStopping counter: 7 out of 200
+Epoch [38][SemiTeacher][InsectWingbeatSound] loss= 0.04174; Epoch Label ACC.= 77.53%, UnLabel ACC.= 50.86%, Lipistz loss = 0, Train Unlabel Best ACC.= 52.2%, Train Max Epoch=35
+EarlyStopping counter: 8 out of 200
+Epoch [39][SemiTeacher][InsectWingbeatSound] loss= 0.04105; Epoch Label ACC.= 75.22%, UnLabel ACC.= 46.32%, Lipistz loss = 0, Train Unlabel Best ACC.= 52.2%, Train Max Epoch=35
+EarlyStopping counter: 9 out of 200
+Epoch [40][SemiTeacher][InsectWingbeatSound] loss= 0.04006; Epoch Label ACC.= 84.23%, UnLabel ACC.= 47.84%, Lipistz loss = 0, Train Unlabel Best ACC.= 52.2%, Train Max Epoch=35
+EarlyStopping counter: 10 out of 200
+Epoch [41][SemiTeacher][InsectWingbeatSound] loss= 0.03793; Epoch Label ACC.= 77.08%, UnLabel ACC.= 48.05%, Lipistz loss = 0, Train Unlabel Best ACC.= 52.2%, Train Max Epoch=35
+EarlyStopping counter: 11 out of 200
+Epoch [42][SemiTeacher][InsectWingbeatSound] loss= 0.03800; Epoch Label ACC.= 84.45%, UnLabel ACC.= 48.96%, Lipistz loss = 0, Train Unlabel Best ACC.= 52.2%, Train Max Epoch=35
+EarlyStopping counter: 12 out of 200
+Epoch [43][SemiTeacher][InsectWingbeatSound] loss= 0.03933; Epoch Label ACC.= 81.70%, UnLabel ACC.= 48.69%, Lipistz loss = 0, Train Unlabel Best ACC.= 52.2%, Train Max Epoch=35
+EarlyStopping counter: 13 out of 200
+Epoch [44][SemiTeacher][InsectWingbeatSound] loss= 0.04290; Epoch Label ACC.= 83.71%, UnLabel ACC.= 49.33%, Lipistz loss = 0, Train Unlabel Best ACC.= 52.2%, Train Max Epoch=35
+EarlyStopping counter: 14 out of 200
+Epoch [45][SemiTeacher][InsectWingbeatSound] loss= 0.04274; Epoch Label ACC.= 87.72%, UnLabel ACC.= 50.54%, Lipistz loss = 0, Train Unlabel Best ACC.= 52.2%, Train Max Epoch=35
+EarlyStopping counter: 15 out of 200
+Epoch [46][SemiTeacher][InsectWingbeatSound] loss= 0.04661; Epoch Label ACC.= 85.19%, UnLabel ACC.= 48.36%, Lipistz loss = 0, Train Unlabel Best ACC.= 52.2%, Train Max Epoch=35
+EarlyStopping counter: 16 out of 200
+Epoch [47][SemiTeacher][InsectWingbeatSound] loss= 0.04367; Epoch Label ACC.= 78.87%, UnLabel ACC.= 48.91%, Lipistz loss = 0, Train Unlabel Best ACC.= 52.2%, Train Max Epoch=35
+EarlyStopping counter: 17 out of 200
+Epoch [48][SemiTeacher][InsectWingbeatSound] loss= 0.04284; Epoch Label ACC.= 83.63%, UnLabel ACC.= 50.21%, Lipistz loss = 0, Train Unlabel Best ACC.= 52.2%, Train Max Epoch=35
+EarlyStopping counter: 18 out of 200
+Epoch [49][SemiTeacher][InsectWingbeatSound] loss= 0.04298; Epoch Label ACC.= 82.89%, UnLabel ACC.= 48.76%, Lipistz loss = 0, Train Unlabel Best ACC.= 52.2%, Train Max Epoch=35
+EarlyStopping counter: 19 out of 200
+Epoch [50][SemiTeacher][InsectWingbeatSound] loss= 0.04047; Epoch Label ACC.= 83.93%, UnLabel ACC.= 52.16%, Lipistz loss = 0, Train Unlabel Best ACC.= 52.2%, Train Max Epoch=35
+EarlyStopping counter: 20 out of 200
+Epoch [51][SemiTeacher][InsectWingbeatSound] loss= 0.04225; Epoch Label ACC.= 85.57%, UnLabel ACC.= 52.57%, Lipistz loss = 0, Train Unlabel Best ACC.= 52.6%, Train Max Epoch=50
+EarlyStopping counter: 21 out of 200
+Epoch [52][SemiTeacher][InsectWingbeatSound] loss= 0.04203; Epoch Label ACC.= 78.72%, UnLabel ACC.= 48.23%, Lipistz loss = 0, Train Unlabel Best ACC.= 52.6%, Train Max Epoch=50
+EarlyStopping counter: 22 out of 200
+Epoch [53][SemiTeacher][InsectWingbeatSound] loss= 0.04193; Epoch Label ACC.= 84.23%, UnLabel ACC.= 50.06%, Lipistz loss = 0, Train Unlabel Best ACC.= 52.6%, Train Max Epoch=50
+EarlyStopping counter: 23 out of 200
+Epoch [54][SemiTeacher][InsectWingbeatSound] loss= 0.04049; Epoch Label ACC.= 84.52%, UnLabel ACC.= 50.51%, Lipistz loss = 0, Train Unlabel Best ACC.= 52.6%, Train Max Epoch=50
+EarlyStopping counter: 24 out of 200
+Epoch [55][SemiTeacher][InsectWingbeatSound] loss= 0.04126; Epoch Label ACC.= 86.01%, UnLabel ACC.= 51.65%, Lipistz loss = 0, Train Unlabel Best ACC.= 52.6%, Train Max Epoch=50
+[Test-55] Val ACC:62.02%, Best Test ACC.: 62.09% in Epoch 55
+Validation loss decreased (61.096939 --> 62.021684).  Saving model ...
+Epoch [56][SemiTeacher][InsectWingbeatSound] loss= 0.04121; Epoch Label ACC.= 82.51%, UnLabel ACC.= 50.34%, Lipistz loss = 0, Train Unlabel Best ACC.= 52.6%, Train Max Epoch=50
+EarlyStopping counter: 1 out of 200
+Epoch [57][SemiTeacher][InsectWingbeatSound] loss= 0.04248; Epoch Label ACC.= 89.29%, UnLabel ACC.= 53.11%, Lipistz loss = 0, Train Unlabel Best ACC.= 53.1%, Train Max Epoch=56
+EarlyStopping counter: 2 out of 200
+Epoch [58][SemiTeacher][InsectWingbeatSound] loss= 0.04245; Epoch Label ACC.= 81.92%, UnLabel ACC.= 49.51%, Lipistz loss = 0, Train Unlabel Best ACC.= 53.1%, Train Max Epoch=56
+EarlyStopping counter: 3 out of 200
+Epoch [59][SemiTeacher][InsectWingbeatSound] loss= 0.04493; Epoch Label ACC.= 85.71%, UnLabel ACC.= 49.99%, Lipistz loss = 0, Train Unlabel Best ACC.= 53.1%, Train Max Epoch=56
+EarlyStopping counter: 4 out of 200
+Epoch [60][SemiTeacher][InsectWingbeatSound] loss= 0.04224; Epoch Label ACC.= 88.10%, UnLabel ACC.= 51.32%, Lipistz loss = 0, Train Unlabel Best ACC.= 53.1%, Train Max Epoch=56
+EarlyStopping counter: 5 out of 200
+Epoch [61][SemiTeacher][InsectWingbeatSound] loss= 0.04079; Epoch Label ACC.= 83.26%, UnLabel ACC.= 47.78%, Lipistz loss = 0, Train Unlabel Best ACC.= 53.1%, Train Max Epoch=56
+EarlyStopping counter: 6 out of 200
+Epoch [62][SemiTeacher][InsectWingbeatSound] loss= 0.04258; Epoch Label ACC.= 84.23%, UnLabel ACC.= 52.35%, Lipistz loss = 0, Train Unlabel Best ACC.= 53.1%, Train Max Epoch=56
+EarlyStopping counter: 7 out of 200
+Epoch [63][SemiTeacher][InsectWingbeatSound] loss= 0.04162; Epoch Label ACC.= 90.33%, UnLabel ACC.= 53.72%, Lipistz loss = 0, Train Unlabel Best ACC.= 53.7%, Train Max Epoch=62
+EarlyStopping counter: 8 out of 200
+Epoch [64][SemiTeacher][InsectWingbeatSound] loss= 0.04314; Epoch Label ACC.= 88.17%, UnLabel ACC.= 51.09%, Lipistz loss = 0, Train Unlabel Best ACC.= 53.7%, Train Max Epoch=62
+EarlyStopping counter: 9 out of 200
+Epoch [65][SemiTeacher][InsectWingbeatSound] loss= 0.04386; Epoch Label ACC.= 87.72%, UnLabel ACC.= 50.64%, Lipistz loss = 0, Train Unlabel Best ACC.= 53.7%, Train Max Epoch=62
+EarlyStopping counter: 10 out of 200
+Epoch [66][SemiTeacher][InsectWingbeatSound] loss= 0.04262; Epoch Label ACC.= 90.40%, UnLabel ACC.= 50.12%, Lipistz loss = 0, Train Unlabel Best ACC.= 53.7%, Train Max Epoch=62
+EarlyStopping counter: 11 out of 200
+Epoch [67][SemiTeacher][InsectWingbeatSound] loss= 0.04616; Epoch Label ACC.= 90.92%, UnLabel ACC.= 51.93%, Lipistz loss = 0, Train Unlabel Best ACC.= 53.7%, Train Max Epoch=62
+EarlyStopping counter: 12 out of 200
+Epoch [68][SemiTeacher][InsectWingbeatSound] loss= 0.04620; Epoch Label ACC.= 87.87%, UnLabel ACC.= 50.19%, Lipistz loss = 0, Train Unlabel Best ACC.= 53.7%, Train Max Epoch=62
+EarlyStopping counter: 13 out of 200
+Epoch [69][SemiTeacher][InsectWingbeatSound] loss= 0.04714; Epoch Label ACC.= 82.81%, UnLabel ACC.= 51.04%, Lipistz loss = 0, Train Unlabel Best ACC.= 53.7%, Train Max Epoch=62
+EarlyStopping counter: 14 out of 200
+Epoch [70][SemiTeacher][InsectWingbeatSound] loss= 0.04105; Epoch Label ACC.= 87.05%, UnLabel ACC.= 51.21%, Lipistz loss = 0, Train Unlabel Best ACC.= 53.7%, Train Max Epoch=62
+EarlyStopping counter: 15 out of 200
+Epoch [71][SemiTeacher][InsectWingbeatSound] loss= 0.04400; Epoch Label ACC.= 84.52%, UnLabel ACC.= 50.61%, Lipistz loss = 0, Train Unlabel Best ACC.= 53.7%, Train Max Epoch=62
+EarlyStopping counter: 16 out of 200
+Epoch [72][SemiTeacher][InsectWingbeatSound] loss= 0.04375; Epoch Label ACC.= 87.05%, UnLabel ACC.= 50.68%, Lipistz loss = 0, Train Unlabel Best ACC.= 53.7%, Train Max Epoch=62
+EarlyStopping counter: 17 out of 200
+Epoch [73][SemiTeacher][InsectWingbeatSound] loss= 0.04380; Epoch Label ACC.= 87.95%, UnLabel ACC.= 51.93%, Lipistz loss = 0, Train Unlabel Best ACC.= 53.7%, Train Max Epoch=62
+EarlyStopping counter: 18 out of 200
+Epoch [74][SemiTeacher][InsectWingbeatSound] loss= 0.04553; Epoch Label ACC.= 86.76%, UnLabel ACC.= 52.11%, Lipistz loss = 0, Train Unlabel Best ACC.= 53.7%, Train Max Epoch=62
+EarlyStopping counter: 19 out of 200
+Epoch [75][SemiTeacher][InsectWingbeatSound] loss= 0.04306; Epoch Label ACC.= 90.33%, UnLabel ACC.= 51.35%, Lipistz loss = 0, Train Unlabel Best ACC.= 53.7%, Train Max Epoch=62
+EarlyStopping counter: 20 out of 200
+Epoch [76][SemiTeacher][InsectWingbeatSound] loss= 0.04524; Epoch Label ACC.= 86.31%, UnLabel ACC.= 52.96%, Lipistz loss = 0, Train Unlabel Best ACC.= 53.7%, Train Max Epoch=62
+EarlyStopping counter: 21 out of 200
+Epoch [77][SemiTeacher][InsectWingbeatSound] loss= 0.04710; Epoch Label ACC.= 87.57%, UnLabel ACC.= 51.93%, Lipistz loss = 0, Train Unlabel Best ACC.= 53.7%, Train Max Epoch=62
+EarlyStopping counter: 22 out of 200
+Epoch [78][SemiTeacher][InsectWingbeatSound] loss= 0.04438; Epoch Label ACC.= 92.34%, UnLabel ACC.= 50.83%, Lipistz loss = 0, Train Unlabel Best ACC.= 53.7%, Train Max Epoch=62
+EarlyStopping counter: 23 out of 200
+Epoch [79][SemiTeacher][InsectWingbeatSound] loss= 0.04369; Epoch Label ACC.= 90.85%, UnLabel ACC.= 52.35%, Lipistz loss = 0, Train Unlabel Best ACC.= 53.7%, Train Max Epoch=62
+EarlyStopping counter: 24 out of 200
+Epoch [80][SemiTeacher][InsectWingbeatSound] loss= 0.04400; Epoch Label ACC.= 87.20%, UnLabel ACC.= 49.43%, Lipistz loss = 0, Train Unlabel Best ACC.= 53.7%, Train Max Epoch=62
+EarlyStopping counter: 25 out of 200
+Epoch [81][SemiTeacher][InsectWingbeatSound] loss= 0.04670; Epoch Label ACC.= 91.37%, UnLabel ACC.= 49.66%, Lipistz loss = 0, Train Unlabel Best ACC.= 53.7%, Train Max Epoch=62
+EarlyStopping counter: 26 out of 200
+Epoch [82][SemiTeacher][InsectWingbeatSound] loss= 0.04860; Epoch Label ACC.= 86.46%, UnLabel ACC.= 52.20%, Lipistz loss = 0, Train Unlabel Best ACC.= 53.7%, Train Max Epoch=62
+EarlyStopping counter: 27 out of 200
+Epoch [83][SemiTeacher][InsectWingbeatSound] loss= 0.04527; Epoch Label ACC.= 92.41%, UnLabel ACC.= 52.31%, Lipistz loss = 0, Train Unlabel Best ACC.= 53.7%, Train Max Epoch=62
+EarlyStopping counter: 28 out of 200
+Epoch [84][SemiTeacher][InsectWingbeatSound] loss= 0.04735; Epoch Label ACC.= 93.23%, UnLabel ACC.= 52.05%, Lipistz loss = 0, Train Unlabel Best ACC.= 53.7%, Train Max Epoch=62
+EarlyStopping counter: 29 out of 200
+Epoch [85][SemiTeacher][InsectWingbeatSound] loss= 0.04328; Epoch Label ACC.= 90.55%, UnLabel ACC.= 50.89%, Lipistz loss = 0, Train Unlabel Best ACC.= 53.7%, Train Max Epoch=62
+EarlyStopping counter: 30 out of 200
+Epoch [86][SemiTeacher][InsectWingbeatSound] loss= 0.04495; Epoch Label ACC.= 86.83%, UnLabel ACC.= 51.65%, Lipistz loss = 0, Train Unlabel Best ACC.= 53.7%, Train Max Epoch=62
+EarlyStopping counter: 31 out of 200
+Epoch [87][SemiTeacher][InsectWingbeatSound] loss= 0.04321; Epoch Label ACC.= 87.65%, UnLabel ACC.= 52.08%, Lipistz loss = 0, Train Unlabel Best ACC.= 53.7%, Train Max Epoch=62
+EarlyStopping counter: 32 out of 200
+Epoch [88][SemiTeacher][InsectWingbeatSound] loss= 0.04326; Epoch Label ACC.= 89.43%, UnLabel ACC.= 51.95%, Lipistz loss = 0, Train Unlabel Best ACC.= 53.7%, Train Max Epoch=62
+EarlyStopping counter: 33 out of 200
+Epoch [89][SemiTeacher][InsectWingbeatSound] loss= 0.04668; Epoch Label ACC.= 82.66%, UnLabel ACC.= 51.40%, Lipistz loss = 0, Train Unlabel Best ACC.= 53.7%, Train Max Epoch=62
+EarlyStopping counter: 34 out of 200
+Epoch [90][SemiTeacher][InsectWingbeatSound] loss= 0.04171; Epoch Label ACC.= 88.47%, UnLabel ACC.= 52.87%, Lipistz loss = 0, Train Unlabel Best ACC.= 53.7%, Train Max Epoch=62
+EarlyStopping counter: 35 out of 200
+Epoch [91][SemiTeacher][InsectWingbeatSound] loss= 0.04547; Epoch Label ACC.= 87.43%, UnLabel ACC.= 48.35%, Lipistz loss = 0, Train Unlabel Best ACC.= 53.7%, Train Max Epoch=62
+EarlyStopping counter: 36 out of 200
+Epoch [92][SemiTeacher][InsectWingbeatSound] loss= 0.04626; Epoch Label ACC.= 82.74%, UnLabel ACC.= 53.23%, Lipistz loss = 0, Train Unlabel Best ACC.= 53.7%, Train Max Epoch=62
+EarlyStopping counter: 37 out of 200
+Epoch [93][SemiTeacher][InsectWingbeatSound] loss= 0.04472; Epoch Label ACC.= 86.61%, UnLabel ACC.= 53.39%, Lipistz loss = 0, Train Unlabel Best ACC.= 53.7%, Train Max Epoch=62
+EarlyStopping counter: 38 out of 200
+Epoch [94][SemiTeacher][InsectWingbeatSound] loss= 0.04564; Epoch Label ACC.= 86.68%, UnLabel ACC.= 49.35%, Lipistz loss = 0, Train Unlabel Best ACC.= 53.7%, Train Max Epoch=62
+EarlyStopping counter: 39 out of 200
+Epoch [95][SemiTeacher][InsectWingbeatSound] loss= 0.04484; Epoch Label ACC.= 90.03%, UnLabel ACC.= 51.77%, Lipistz loss = 0, Train Unlabel Best ACC.= 53.7%, Train Max Epoch=62
+EarlyStopping counter: 40 out of 200
+Epoch [96][SemiTeacher][InsectWingbeatSound] loss= 0.04262; Epoch Label ACC.= 88.84%, UnLabel ACC.= 50.54%, Lipistz loss = 0, Train Unlabel Best ACC.= 53.7%, Train Max Epoch=62
+EarlyStopping counter: 41 out of 200
+Epoch [97][SemiTeacher][InsectWingbeatSound] loss= 0.04765; Epoch Label ACC.= 88.39%, UnLabel ACC.= 48.56%, Lipistz loss = 0, Train Unlabel Best ACC.= 53.7%, Train Max Epoch=62
+EarlyStopping counter: 42 out of 200
+Epoch [98][SemiTeacher][InsectWingbeatSound] loss= 0.04516; Epoch Label ACC.= 87.65%, UnLabel ACC.= 47.65%, Lipistz loss = 0, Train Unlabel Best ACC.= 53.7%, Train Max Epoch=62
+EarlyStopping counter: 43 out of 200
+Epoch [99][SemiTeacher][InsectWingbeatSound] loss= 0.04892; Epoch Label ACC.= 91.22%, UnLabel ACC.= 49.91%, Lipistz loss = 0, Train Unlabel Best ACC.= 53.7%, Train Max Epoch=62
+EarlyStopping counter: 44 out of 200
+Epoch [100][SemiTeacher][InsectWingbeatSound] loss= 0.04630; Epoch Label ACC.= 84.82%, UnLabel ACC.= 49.58%, Lipistz loss = 0, Train Unlabel Best ACC.= 53.7%, Train Max Epoch=62
+EarlyStopping counter: 45 out of 200
+Epoch [101][SemiTeacher][InsectWingbeatSound] loss= 0.04509; Epoch Label ACC.= 88.62%, UnLabel ACC.= 46.83%, Lipistz loss = 0, Train Unlabel Best ACC.= 53.7%, Train Max Epoch=62
+EarlyStopping counter: 46 out of 200
+Epoch [102][SemiTeacher][InsectWingbeatSound] loss= 0.04558; Epoch Label ACC.= 91.00%, UnLabel ACC.= 50.54%, Lipistz loss = 0, Train Unlabel Best ACC.= 53.7%, Train Max Epoch=62
+EarlyStopping counter: 47 out of 200
+Epoch [103][SemiTeacher][InsectWingbeatSound] loss= 0.04433; Epoch Label ACC.= 88.17%, UnLabel ACC.= 52.22%, Lipistz loss = 0, Train Unlabel Best ACC.= 53.7%, Train Max Epoch=62
+EarlyStopping counter: 48 out of 200
+Epoch [104][SemiTeacher][InsectWingbeatSound] loss= 0.04382; Epoch Label ACC.= 89.73%, UnLabel ACC.= 52.29%, Lipistz loss = 0, Train Unlabel Best ACC.= 53.7%, Train Max Epoch=62
+EarlyStopping counter: 49 out of 200
+Epoch [105][SemiTeacher][InsectWingbeatSound] loss= 0.04743; Epoch Label ACC.= 92.93%, UnLabel ACC.= 53.21%, Lipistz loss = 0, Train Unlabel Best ACC.= 53.7%, Train Max Epoch=62
+EarlyStopping counter: 50 out of 200
+Epoch [106][SemiTeacher][InsectWingbeatSound] loss= 0.04583; Epoch Label ACC.= 92.34%, UnLabel ACC.= 52.34%, Lipistz loss = 0, Train Unlabel Best ACC.= 53.7%, Train Max Epoch=62
+EarlyStopping counter: 51 out of 200
+Epoch [107][SemiTeacher][InsectWingbeatSound] loss= 0.04565; Epoch Label ACC.= 83.11%, UnLabel ACC.= 50.92%, Lipistz loss = 0, Train Unlabel Best ACC.= 53.7%, Train Max Epoch=62
+EarlyStopping counter: 52 out of 200
+Epoch [108][SemiTeacher][InsectWingbeatSound] loss= 0.04700; Epoch Label ACC.= 90.25%, UnLabel ACC.= 53.76%, Lipistz loss = 0, Train Unlabel Best ACC.= 53.8%, Train Max Epoch=107
+EarlyStopping counter: 53 out of 200
+Epoch [109][SemiTeacher][InsectWingbeatSound] loss= 0.04467; Epoch Label ACC.= 91.82%, UnLabel ACC.= 51.86%, Lipistz loss = 0, Train Unlabel Best ACC.= 53.8%, Train Max Epoch=107
+EarlyStopping counter: 54 out of 200
+Epoch [110][SemiTeacher][InsectWingbeatSound] loss= 0.04564; Epoch Label ACC.= 90.25%, UnLabel ACC.= 51.70%, Lipistz loss = 0, Train Unlabel Best ACC.= 53.8%, Train Max Epoch=107
+EarlyStopping counter: 55 out of 200
+Epoch [111][SemiTeacher][InsectWingbeatSound] loss= 0.04604; Epoch Label ACC.= 90.18%, UnLabel ACC.= 52.22%, Lipistz loss = 0, Train Unlabel Best ACC.= 53.8%, Train Max Epoch=107
+EarlyStopping counter: 56 out of 200
+Epoch [112][SemiTeacher][InsectWingbeatSound] loss= 0.04451; Epoch Label ACC.= 88.76%, UnLabel ACC.= 50.49%, Lipistz loss = 0, Train Unlabel Best ACC.= 53.8%, Train Max Epoch=107
+EarlyStopping counter: 57 out of 200
+Epoch [113][SemiTeacher][InsectWingbeatSound] loss= 0.04361; Epoch Label ACC.= 89.51%, UnLabel ACC.= 51.00%, Lipistz loss = 0, Train Unlabel Best ACC.= 53.8%, Train Max Epoch=107
+EarlyStopping counter: 58 out of 200
+Epoch [114][SemiTeacher][InsectWingbeatSound] loss= 0.04411; Epoch Label ACC.= 91.67%, UnLabel ACC.= 52.65%, Lipistz loss = 0, Train Unlabel Best ACC.= 53.8%, Train Max Epoch=107
+EarlyStopping counter: 59 out of 200
+Epoch [115][SemiTeacher][InsectWingbeatSound] loss= 0.04581; Epoch Label ACC.= 93.23%, UnLabel ACC.= 53.50%, Lipistz loss = 0, Train Unlabel Best ACC.= 53.8%, Train Max Epoch=107
+EarlyStopping counter: 60 out of 200
+Epoch [116][SemiTeacher][InsectWingbeatSound] loss= 0.04843; Epoch Label ACC.= 88.47%, UnLabel ACC.= 50.04%, Lipistz loss = 0, Train Unlabel Best ACC.= 53.8%, Train Max Epoch=107
+EarlyStopping counter: 61 out of 200
+Epoch [117][SemiTeacher][InsectWingbeatSound] loss= 0.04727; Epoch Label ACC.= 92.63%, UnLabel ACC.= 49.81%, Lipistz loss = 0, Train Unlabel Best ACC.= 53.8%, Train Max Epoch=107
+EarlyStopping counter: 62 out of 200
+Epoch [118][SemiTeacher][InsectWingbeatSound] loss= 0.04625; Epoch Label ACC.= 91.52%, UnLabel ACC.= 51.19%, Lipistz loss = 0, Train Unlabel Best ACC.= 53.8%, Train Max Epoch=107
+EarlyStopping counter: 63 out of 200
+Epoch [119][SemiTeacher][InsectWingbeatSound] loss= 0.04711; Epoch Label ACC.= 86.76%, UnLabel ACC.= 50.31%, Lipistz loss = 0, Train Unlabel Best ACC.= 53.8%, Train Max Epoch=107
+EarlyStopping counter: 64 out of 200
+Epoch [120][SemiTeacher][InsectWingbeatSound] loss= 0.04509; Epoch Label ACC.= 91.29%, UnLabel ACC.= 50.79%, Lipistz loss = 0, Train Unlabel Best ACC.= 53.8%, Train Max Epoch=107
+EarlyStopping counter: 65 out of 200
+Epoch [121][SemiTeacher][InsectWingbeatSound] loss= 0.04481; Epoch Label ACC.= 90.03%, UnLabel ACC.= 52.23%, Lipistz loss = 0, Train Unlabel Best ACC.= 53.8%, Train Max Epoch=107
+EarlyStopping counter: 66 out of 200
+Epoch [122][SemiTeacher][InsectWingbeatSound] loss= 0.04743; Epoch Label ACC.= 89.88%, UnLabel ACC.= 51.37%, Lipistz loss = 0, Train Unlabel Best ACC.= 53.8%, Train Max Epoch=107
+EarlyStopping counter: 67 out of 200
+Epoch [123][SemiTeacher][InsectWingbeatSound] loss= 0.04466; Epoch Label ACC.= 91.07%, UnLabel ACC.= 48.97%, Lipistz loss = 0, Train Unlabel Best ACC.= 53.8%, Train Max Epoch=107
+EarlyStopping counter: 68 out of 200
+Epoch [124][SemiTeacher][InsectWingbeatSound] loss= 0.04808; Epoch Label ACC.= 94.20%, UnLabel ACC.= 52.99%, Lipistz loss = 0, Train Unlabel Best ACC.= 53.8%, Train Max Epoch=107
+EarlyStopping counter: 69 out of 200
+Epoch [125][SemiTeacher][InsectWingbeatSound] loss= 0.04845; Epoch Label ACC.= 93.53%, UnLabel ACC.= 50.68%, Lipistz loss = 0, Train Unlabel Best ACC.= 53.8%, Train Max Epoch=107
+EarlyStopping counter: 70 out of 200
+Epoch [126][SemiTeacher][InsectWingbeatSound] loss= 0.05100; Epoch Label ACC.= 84.38%, UnLabel ACC.= 48.63%, Lipistz loss = 0, Train Unlabel Best ACC.= 53.8%, Train Max Epoch=107
+EarlyStopping counter: 71 out of 200
+Epoch [127][SemiTeacher][InsectWingbeatSound] loss= 0.04523; Epoch Label ACC.= 91.29%, UnLabel ACC.= 51.86%, Lipistz loss = 0, Train Unlabel Best ACC.= 53.8%, Train Max Epoch=107
+EarlyStopping counter: 72 out of 200
+Epoch [128][SemiTeacher][InsectWingbeatSound] loss= 0.04650; Epoch Label ACC.= 85.27%, UnLabel ACC.= 51.65%, Lipistz loss = 0, Train Unlabel Best ACC.= 53.8%, Train Max Epoch=107
+EarlyStopping counter: 73 out of 200
+Epoch [129][SemiTeacher][InsectWingbeatSound] loss= 0.04461; Epoch Label ACC.= 85.34%, UnLabel ACC.= 51.53%, Lipistz loss = 0, Train Unlabel Best ACC.= 53.8%, Train Max Epoch=107
+EarlyStopping counter: 74 out of 200
+Epoch [130][SemiTeacher][InsectWingbeatSound] loss= 0.04458; Epoch Label ACC.= 92.41%, UnLabel ACC.= 52.75%, Lipistz loss = 0, Train Unlabel Best ACC.= 53.8%, Train Max Epoch=107
+EarlyStopping counter: 75 out of 200
+Epoch [131][SemiTeacher][InsectWingbeatSound] loss= 0.04862; Epoch Label ACC.= 89.51%, UnLabel ACC.= 49.94%, Lipistz loss = 0, Train Unlabel Best ACC.= 53.8%, Train Max Epoch=107
+EarlyStopping counter: 76 out of 200
+Epoch [132][SemiTeacher][InsectWingbeatSound] loss= 0.04327; Epoch Label ACC.= 91.00%, UnLabel ACC.= 51.83%, Lipistz loss = 0, Train Unlabel Best ACC.= 53.8%, Train Max Epoch=107
+EarlyStopping counter: 77 out of 200
+Epoch [133][SemiTeacher][InsectWingbeatSound] loss= 0.04082; Epoch Label ACC.= 92.34%, UnLabel ACC.= 51.58%, Lipistz loss = 0, Train Unlabel Best ACC.= 53.8%, Train Max Epoch=107
+EarlyStopping counter: 78 out of 200
+Epoch [134][SemiTeacher][InsectWingbeatSound] loss= 0.04374; Epoch Label ACC.= 90.33%, UnLabel ACC.= 51.16%, Lipistz loss = 0, Train Unlabel Best ACC.= 53.8%, Train Max Epoch=107
+EarlyStopping counter: 79 out of 200
+Epoch [135][SemiTeacher][InsectWingbeatSound] loss= 0.04477; Epoch Label ACC.= 88.62%, UnLabel ACC.= 52.25%, Lipistz loss = 0, Train Unlabel Best ACC.= 53.8%, Train Max Epoch=107
+EarlyStopping counter: 80 out of 200
+Epoch [136][SemiTeacher][InsectWingbeatSound] loss= 0.04476; Epoch Label ACC.= 87.72%, UnLabel ACC.= 49.21%, Lipistz loss = 0, Train Unlabel Best ACC.= 53.8%, Train Max Epoch=107
+EarlyStopping counter: 81 out of 200
+Epoch [137][SemiTeacher][InsectWingbeatSound] loss= 0.04515; Epoch Label ACC.= 94.27%, UnLabel ACC.= 52.56%, Lipistz loss = 0, Train Unlabel Best ACC.= 53.8%, Train Max Epoch=107
+EarlyStopping counter: 82 out of 200
+Epoch [138][SemiTeacher][InsectWingbeatSound] loss= 0.04878; Epoch Label ACC.= 89.36%, UnLabel ACC.= 49.99%, Lipistz loss = 0, Train Unlabel Best ACC.= 53.8%, Train Max Epoch=107
+EarlyStopping counter: 83 out of 200
+Epoch [139][SemiTeacher][InsectWingbeatSound] loss= 0.04664; Epoch Label ACC.= 95.09%, UnLabel ACC.= 50.77%, Lipistz loss = 0, Train Unlabel Best ACC.= 53.8%, Train Max Epoch=107
+EarlyStopping counter: 84 out of 200
+Epoch [140][SemiTeacher][InsectWingbeatSound] loss= 0.04664; Epoch Label ACC.= 87.80%, UnLabel ACC.= 51.49%, Lipistz loss = 0, Train Unlabel Best ACC.= 53.8%, Train Max Epoch=107
+EarlyStopping counter: 85 out of 200
+Epoch [141][SemiTeacher][InsectWingbeatSound] loss= 0.04414; Epoch Label ACC.= 87.80%, UnLabel ACC.= 53.88%, Lipistz loss = 0, Train Unlabel Best ACC.= 53.9%, Train Max Epoch=140
+EarlyStopping counter: 86 out of 200
+Epoch [142][SemiTeacher][InsectWingbeatSound] loss= 0.04235; Epoch Label ACC.= 84.75%, UnLabel ACC.= 51.06%, Lipistz loss = 0, Train Unlabel Best ACC.= 53.9%, Train Max Epoch=140
+EarlyStopping counter: 87 out of 200
+Epoch [143][SemiTeacher][InsectWingbeatSound] loss= 0.04728; Epoch Label ACC.= 85.42%, UnLabel ACC.= 50.19%, Lipistz loss = 0, Train Unlabel Best ACC.= 53.9%, Train Max Epoch=140
+EarlyStopping counter: 88 out of 200
+Epoch [144][SemiTeacher][InsectWingbeatSound] loss= 0.04520; Epoch Label ACC.= 86.76%, UnLabel ACC.= 50.22%, Lipistz loss = 0, Train Unlabel Best ACC.= 53.9%, Train Max Epoch=140
+EarlyStopping counter: 89 out of 200
+Epoch [145][SemiTeacher][InsectWingbeatSound] loss= 0.04375; Epoch Label ACC.= 88.69%, UnLabel ACC.= 51.10%, Lipistz loss = 0, Train Unlabel Best ACC.= 53.9%, Train Max Epoch=140
+EarlyStopping counter: 90 out of 200
+Epoch [146][SemiTeacher][InsectWingbeatSound] loss= 0.04161; Epoch Label ACC.= 91.00%, UnLabel ACC.= 50.58%, Lipistz loss = 0, Train Unlabel Best ACC.= 53.9%, Train Max Epoch=140
+EarlyStopping counter: 91 out of 200
+Epoch [147][SemiTeacher][InsectWingbeatSound] loss= 0.04656; Epoch Label ACC.= 92.93%, UnLabel ACC.= 54.61%, Lipistz loss = 0, Train Unlabel Best ACC.= 54.6%, Train Max Epoch=146
+EarlyStopping counter: 92 out of 200
+Epoch [148][SemiTeacher][InsectWingbeatSound] loss= 0.04473; Epoch Label ACC.= 93.97%, UnLabel ACC.= 50.51%, Lipistz loss = 0, Train Unlabel Best ACC.= 54.6%, Train Max Epoch=146
+EarlyStopping counter: 93 out of 200
+Epoch [149][SemiTeacher][InsectWingbeatSound] loss= 0.04853; Epoch Label ACC.= 94.12%, UnLabel ACC.= 51.37%, Lipistz loss = 0, Train Unlabel Best ACC.= 54.6%, Train Max Epoch=146
+EarlyStopping counter: 94 out of 200
+Epoch [150][SemiTeacher][InsectWingbeatSound] loss= 0.04808; Epoch Label ACC.= 88.54%, UnLabel ACC.= 47.96%, Lipistz loss = 0, Train Unlabel Best ACC.= 54.6%, Train Max Epoch=146
+EarlyStopping counter: 95 out of 200
+Epoch [151][SemiTeacher][InsectWingbeatSound] loss= 0.04567; Epoch Label ACC.= 88.99%, UnLabel ACC.= 51.13%, Lipistz loss = 0, Train Unlabel Best ACC.= 54.6%, Train Max Epoch=146
+EarlyStopping counter: 96 out of 200
+Epoch [152][SemiTeacher][InsectWingbeatSound] loss= 0.04729; Epoch Label ACC.= 91.00%, UnLabel ACC.= 50.71%, Lipistz loss = 0, Train Unlabel Best ACC.= 54.6%, Train Max Epoch=146
+EarlyStopping counter: 97 out of 200
+Epoch [153][SemiTeacher][InsectWingbeatSound] loss= 0.04366; Epoch Label ACC.= 92.19%, UnLabel ACC.= 52.75%, Lipistz loss = 0, Train Unlabel Best ACC.= 54.6%, Train Max Epoch=146
+EarlyStopping counter: 98 out of 200
+Epoch [154][SemiTeacher][InsectWingbeatSound] loss= 0.04750; Epoch Label ACC.= 90.48%, UnLabel ACC.= 52.10%, Lipistz loss = 0, Train Unlabel Best ACC.= 54.6%, Train Max Epoch=146
+EarlyStopping counter: 99 out of 200
+Epoch [155][SemiTeacher][InsectWingbeatSound] loss= 0.04623; Epoch Label ACC.= 88.99%, UnLabel ACC.= 52.05%, Lipistz loss = 0, Train Unlabel Best ACC.= 54.6%, Train Max Epoch=146
+EarlyStopping counter: 100 out of 200
+Epoch [156][SemiTeacher][InsectWingbeatSound] loss= 0.04509; Epoch Label ACC.= 88.91%, UnLabel ACC.= 50.07%, Lipistz loss = 0, Train Unlabel Best ACC.= 54.6%, Train Max Epoch=146
+EarlyStopping counter: 101 out of 200
+Epoch [157][SemiTeacher][InsectWingbeatSound] loss= 0.04486; Epoch Label ACC.= 92.11%, UnLabel ACC.= 52.47%, Lipistz loss = 0, Train Unlabel Best ACC.= 54.6%, Train Max Epoch=146
+EarlyStopping counter: 102 out of 200
+Epoch [158][SemiTeacher][InsectWingbeatSound] loss= 0.04533; Epoch Label ACC.= 92.19%, UnLabel ACC.= 51.50%, Lipistz loss = 0, Train Unlabel Best ACC.= 54.6%, Train Max Epoch=146
+EarlyStopping counter: 103 out of 200
+Epoch [159][SemiTeacher][InsectWingbeatSound] loss= 0.04455; Epoch Label ACC.= 92.86%, UnLabel ACC.= 48.74%, Lipistz loss = 0, Train Unlabel Best ACC.= 54.6%, Train Max Epoch=146
+EarlyStopping counter: 104 out of 200
+Epoch [160][SemiTeacher][InsectWingbeatSound] loss= 0.04493; Epoch Label ACC.= 92.34%, UnLabel ACC.= 51.64%, Lipistz loss = 0, Train Unlabel Best ACC.= 54.6%, Train Max Epoch=146
+EarlyStopping counter: 105 out of 200
+Epoch [161][SemiTeacher][InsectWingbeatSound] loss= 0.04707; Epoch Label ACC.= 88.32%, UnLabel ACC.= 51.46%, Lipistz loss = 0, Train Unlabel Best ACC.= 54.6%, Train Max Epoch=146
+EarlyStopping counter: 106 out of 200
+Epoch [162][SemiTeacher][InsectWingbeatSound] loss= 0.04421; Epoch Label ACC.= 92.63%, UnLabel ACC.= 50.89%, Lipistz loss = 0, Train Unlabel Best ACC.= 54.6%, Train Max Epoch=146
+EarlyStopping counter: 107 out of 200
+Epoch [163][SemiTeacher][InsectWingbeatSound] loss= 0.04586; Epoch Label ACC.= 87.65%, UnLabel ACC.= 49.21%, Lipistz loss = 0, Train Unlabel Best ACC.= 54.6%, Train Max Epoch=146
+EarlyStopping counter: 108 out of 200
+Epoch [164][SemiTeacher][InsectWingbeatSound] loss= 0.04727; Epoch Label ACC.= 88.39%, UnLabel ACC.= 50.22%, Lipistz loss = 0, Train Unlabel Best ACC.= 54.6%, Train Max Epoch=146
+EarlyStopping counter: 109 out of 200
+Epoch [165][SemiTeacher][InsectWingbeatSound] loss= 0.04367; Epoch Label ACC.= 91.67%, UnLabel ACC.= 50.45%, Lipistz loss = 0, Train Unlabel Best ACC.= 54.6%, Train Max Epoch=146
+EarlyStopping counter: 110 out of 200
+Epoch [166][SemiTeacher][InsectWingbeatSound] loss= 0.04339; Epoch Label ACC.= 92.26%, UnLabel ACC.= 53.44%, Lipistz loss = 0, Train Unlabel Best ACC.= 54.6%, Train Max Epoch=146
+EarlyStopping counter: 111 out of 200
+Epoch [167][SemiTeacher][InsectWingbeatSound] loss= 0.04629; Epoch Label ACC.= 91.67%, UnLabel ACC.= 50.74%, Lipistz loss = 0, Train Unlabel Best ACC.= 54.6%, Train Max Epoch=146
+EarlyStopping counter: 112 out of 200
+Epoch [168][SemiTeacher][InsectWingbeatSound] loss= 0.04543; Epoch Label ACC.= 93.97%, UnLabel ACC.= 51.26%, Lipistz loss = 0, Train Unlabel Best ACC.= 54.6%, Train Max Epoch=146
+EarlyStopping counter: 113 out of 200
+Epoch [169][SemiTeacher][InsectWingbeatSound] loss= 0.04217; Epoch Label ACC.= 93.97%, UnLabel ACC.= 52.07%, Lipistz loss = 0, Train Unlabel Best ACC.= 54.6%, Train Max Epoch=146
+EarlyStopping counter: 114 out of 200
+Epoch [170][SemiTeacher][InsectWingbeatSound] loss= 0.04455; Epoch Label ACC.= 93.23%, UnLabel ACC.= 53.96%, Lipistz loss = 0, Train Unlabel Best ACC.= 54.6%, Train Max Epoch=146
+EarlyStopping counter: 115 out of 200
+Epoch [171][SemiTeacher][InsectWingbeatSound] loss= 0.04462; Epoch Label ACC.= 90.70%, UnLabel ACC.= 52.46%, Lipistz loss = 0, Train Unlabel Best ACC.= 54.6%, Train Max Epoch=146
+EarlyStopping counter: 116 out of 200
+Epoch [172][SemiTeacher][InsectWingbeatSound] loss= 0.04771; Epoch Label ACC.= 91.15%, UnLabel ACC.= 50.65%, Lipistz loss = 0, Train Unlabel Best ACC.= 54.6%, Train Max Epoch=146
+EarlyStopping counter: 117 out of 200
+Epoch [173][SemiTeacher][InsectWingbeatSound] loss= 0.04784; Epoch Label ACC.= 91.44%, UnLabel ACC.= 50.62%, Lipistz loss = 0, Train Unlabel Best ACC.= 54.6%, Train Max Epoch=146
+EarlyStopping counter: 118 out of 200
+Epoch [174][SemiTeacher][InsectWingbeatSound] loss= 0.04594; Epoch Label ACC.= 93.82%, UnLabel ACC.= 49.18%, Lipistz loss = 0, Train Unlabel Best ACC.= 54.6%, Train Max Epoch=146
+EarlyStopping counter: 119 out of 200
+Epoch [175][SemiTeacher][InsectWingbeatSound] loss= 0.04385; Epoch Label ACC.= 90.18%, UnLabel ACC.= 51.70%, Lipistz loss = 0, Train Unlabel Best ACC.= 54.6%, Train Max Epoch=146
+EarlyStopping counter: 120 out of 200
+Epoch [176][SemiTeacher][InsectWingbeatSound] loss= 0.04656; Epoch Label ACC.= 91.07%, UnLabel ACC.= 48.53%, Lipistz loss = 0, Train Unlabel Best ACC.= 54.6%, Train Max Epoch=146
+EarlyStopping counter: 121 out of 200
+Epoch [177][SemiTeacher][InsectWingbeatSound] loss= 0.04762; Epoch Label ACC.= 91.89%, UnLabel ACC.= 49.29%, Lipistz loss = 0, Train Unlabel Best ACC.= 54.6%, Train Max Epoch=146
+EarlyStopping counter: 122 out of 200
+Epoch [178][SemiTeacher][InsectWingbeatSound] loss= 0.04740; Epoch Label ACC.= 92.93%, UnLabel ACC.= 52.65%, Lipistz loss = 0, Train Unlabel Best ACC.= 54.6%, Train Max Epoch=146
+EarlyStopping counter: 123 out of 200
+Epoch [179][SemiTeacher][InsectWingbeatSound] loss= 0.04784; Epoch Label ACC.= 88.99%, UnLabel ACC.= 52.07%, Lipistz loss = 0, Train Unlabel Best ACC.= 54.6%, Train Max Epoch=146
+EarlyStopping counter: 124 out of 200
+Epoch [180][SemiTeacher][InsectWingbeatSound] loss= 0.04721; Epoch Label ACC.= 91.82%, UnLabel ACC.= 50.71%, Lipistz loss = 0, Train Unlabel Best ACC.= 54.6%, Train Max Epoch=146
+EarlyStopping counter: 125 out of 200
+Epoch [181][SemiTeacher][InsectWingbeatSound] loss= 0.04423; Epoch Label ACC.= 92.93%, UnLabel ACC.= 50.31%, Lipistz loss = 0, Train Unlabel Best ACC.= 54.6%, Train Max Epoch=146
+EarlyStopping counter: 126 out of 200
+Epoch [182][SemiTeacher][InsectWingbeatSound] loss= 0.04493; Epoch Label ACC.= 94.72%, UnLabel ACC.= 51.73%, Lipistz loss = 0, Train Unlabel Best ACC.= 54.6%, Train Max Epoch=146
+EarlyStopping counter: 127 out of 200
+Epoch [183][SemiTeacher][InsectWingbeatSound] loss= 0.04341; Epoch Label ACC.= 94.49%, UnLabel ACC.= 54.27%, Lipistz loss = 0, Train Unlabel Best ACC.= 54.6%, Train Max Epoch=146
+EarlyStopping counter: 128 out of 200
+Epoch [184][SemiTeacher][InsectWingbeatSound] loss= 0.04603; Epoch Label ACC.= 95.91%, UnLabel ACC.= 53.23%, Lipistz loss = 0, Train Unlabel Best ACC.= 54.6%, Train Max Epoch=146
+EarlyStopping counter: 129 out of 200
+Epoch [185][SemiTeacher][InsectWingbeatSound] loss= 0.04567; Epoch Label ACC.= 91.15%, UnLabel ACC.= 53.87%, Lipistz loss = 0, Train Unlabel Best ACC.= 54.6%, Train Max Epoch=146
+EarlyStopping counter: 130 out of 200
+Epoch [186][SemiTeacher][InsectWingbeatSound] loss= 0.04837; Epoch Label ACC.= 91.44%, UnLabel ACC.= 51.49%, Lipistz loss = 0, Train Unlabel Best ACC.= 54.6%, Train Max Epoch=146
+EarlyStopping counter: 131 out of 200
+Epoch [187][SemiTeacher][InsectWingbeatSound] loss= 0.04639; Epoch Label ACC.= 89.96%, UnLabel ACC.= 51.06%, Lipistz loss = 0, Train Unlabel Best ACC.= 54.6%, Train Max Epoch=146
+EarlyStopping counter: 132 out of 200
+Epoch [188][SemiTeacher][InsectWingbeatSound] loss= 0.04675; Epoch Label ACC.= 94.57%, UnLabel ACC.= 51.55%, Lipistz loss = 0, Train Unlabel Best ACC.= 54.6%, Train Max Epoch=146
+EarlyStopping counter: 133 out of 200
+Epoch [189][SemiTeacher][InsectWingbeatSound] loss= 0.04627; Epoch Label ACC.= 94.27%, UnLabel ACC.= 52.11%, Lipistz loss = 0, Train Unlabel Best ACC.= 54.6%, Train Max Epoch=146
+EarlyStopping counter: 134 out of 200
+Epoch [190][SemiTeacher][InsectWingbeatSound] loss= 0.04655; Epoch Label ACC.= 90.40%, UnLabel ACC.= 52.51%, Lipistz loss = 0, Train Unlabel Best ACC.= 54.6%, Train Max Epoch=146
+EarlyStopping counter: 135 out of 200
+Epoch [191][SemiTeacher][InsectWingbeatSound] loss= 0.04708; Epoch Label ACC.= 89.51%, UnLabel ACC.= 49.55%, Lipistz loss = 0, Train Unlabel Best ACC.= 54.6%, Train Max Epoch=146
+EarlyStopping counter: 136 out of 200
+Epoch [192][SemiTeacher][InsectWingbeatSound] loss= 0.04702; Epoch Label ACC.= 94.72%, UnLabel ACC.= 53.66%, Lipistz loss = 0, Train Unlabel Best ACC.= 54.6%, Train Max Epoch=146
+EarlyStopping counter: 137 out of 200
+Epoch [193][SemiTeacher][InsectWingbeatSound] loss= 0.04588; Epoch Label ACC.= 89.88%, UnLabel ACC.= 52.02%, Lipistz loss = 0, Train Unlabel Best ACC.= 54.6%, Train Max Epoch=146
+EarlyStopping counter: 138 out of 200
+Epoch [194][SemiTeacher][InsectWingbeatSound] loss= 0.04648; Epoch Label ACC.= 95.24%, UnLabel ACC.= 53.08%, Lipistz loss = 0, Train Unlabel Best ACC.= 54.6%, Train Max Epoch=146
+EarlyStopping counter: 139 out of 200
+Epoch [195][SemiTeacher][InsectWingbeatSound] loss= 0.04404; Epoch Label ACC.= 93.68%, UnLabel ACC.= 52.95%, Lipistz loss = 0, Train Unlabel Best ACC.= 54.6%, Train Max Epoch=146
+EarlyStopping counter: 140 out of 200
+Epoch [196][SemiTeacher][InsectWingbeatSound] loss= 0.04775; Epoch Label ACC.= 91.07%, UnLabel ACC.= 52.93%, Lipistz loss = 0, Train Unlabel Best ACC.= 54.6%, Train Max Epoch=146
+EarlyStopping counter: 141 out of 200
+Epoch [197][SemiTeacher][InsectWingbeatSound] loss= 0.04647; Epoch Label ACC.= 91.22%, UnLabel ACC.= 49.52%, Lipistz loss = 0, Train Unlabel Best ACC.= 54.6%, Train Max Epoch=146
+EarlyStopping counter: 142 out of 200
+Epoch [198][SemiTeacher][InsectWingbeatSound] loss= 0.04666; Epoch Label ACC.= 92.93%, UnLabel ACC.= 47.69%, Lipistz loss = 0, Train Unlabel Best ACC.= 54.6%, Train Max Epoch=146
+EarlyStopping counter: 143 out of 200
+Epoch [199][SemiTeacher][InsectWingbeatSound] loss= 0.04643; Epoch Label ACC.= 91.67%, UnLabel ACC.= 49.66%, Lipistz loss = 0, Train Unlabel Best ACC.= 54.6%, Train Max Epoch=146
+EarlyStopping counter: 144 out of 200
+[INFO] save backbone at epoch 199!
+Epoch [200][SemiTeacher][InsectWingbeatSound] loss= 0.04679; Epoch Label ACC.= 93.23%, UnLabel ACC.= 51.29%, Lipistz loss = 0, Train Unlabel Best ACC.= 54.6%, Train Max Epoch=146
+EarlyStopping counter: 145 out of 200
+Epoch [201][SemiTeacher][InsectWingbeatSound] loss= 0.04349; Epoch Label ACC.= 92.11%, UnLabel ACC.= 51.19%, Lipistz loss = 0, Train Unlabel Best ACC.= 54.6%, Train Max Epoch=146
+EarlyStopping counter: 146 out of 200
+Epoch [202][SemiTeacher][InsectWingbeatSound] loss= 0.04486; Epoch Label ACC.= 94.87%, UnLabel ACC.= 49.39%, Lipistz loss = 0, Train Unlabel Best ACC.= 54.6%, Train Max Epoch=146
+EarlyStopping counter: 147 out of 200
+Epoch [203][SemiTeacher][InsectWingbeatSound] loss= 0.04552; Epoch Label ACC.= 92.86%, UnLabel ACC.= 55.15%, Lipistz loss = 0, Train Unlabel Best ACC.= 55.1%, Train Max Epoch=202
+EarlyStopping counter: 148 out of 200
+Epoch [204][SemiTeacher][InsectWingbeatSound] loss= 0.04697; Epoch Label ACC.= 93.30%, UnLabel ACC.= 51.46%, Lipistz loss = 0, Train Unlabel Best ACC.= 55.1%, Train Max Epoch=202
+EarlyStopping counter: 149 out of 200
+Epoch [205][SemiTeacher][InsectWingbeatSound] loss= 0.04343; Epoch Label ACC.= 91.67%, UnLabel ACC.= 52.98%, Lipistz loss = 0, Train Unlabel Best ACC.= 55.1%, Train Max Epoch=202
+EarlyStopping counter: 150 out of 200
+Epoch [206][SemiTeacher][InsectWingbeatSound] loss= 0.05128; Epoch Label ACC.= 86.61%, UnLabel ACC.= 51.85%, Lipistz loss = 0, Train Unlabel Best ACC.= 55.1%, Train Max Epoch=202
+EarlyStopping counter: 151 out of 200
+Epoch [207][SemiTeacher][InsectWingbeatSound] loss= 0.04623; Epoch Label ACC.= 87.20%, UnLabel ACC.= 51.37%, Lipistz loss = 0, Train Unlabel Best ACC.= 55.1%, Train Max Epoch=202
+EarlyStopping counter: 152 out of 200
+Epoch [208][SemiTeacher][InsectWingbeatSound] loss= 0.04800; Epoch Label ACC.= 89.51%, UnLabel ACC.= 49.12%, Lipistz loss = 0, Train Unlabel Best ACC.= 55.1%, Train Max Epoch=202
+EarlyStopping counter: 153 out of 200
+Epoch [209][SemiTeacher][InsectWingbeatSound] loss= 0.04747; Epoch Label ACC.= 92.71%, UnLabel ACC.= 51.10%, Lipistz loss = 0, Train Unlabel Best ACC.= 55.1%, Train Max Epoch=202
+EarlyStopping counter: 154 out of 200
+Epoch [210][SemiTeacher][InsectWingbeatSound] loss= 0.04873; Epoch Label ACC.= 88.99%, UnLabel ACC.= 48.38%, Lipistz loss = 0, Train Unlabel Best ACC.= 55.1%, Train Max Epoch=202
+EarlyStopping counter: 155 out of 200
+Epoch [211][SemiTeacher][InsectWingbeatSound] loss= 0.04530; Epoch Label ACC.= 93.15%, UnLabel ACC.= 48.99%, Lipistz loss = 0, Train Unlabel Best ACC.= 55.1%, Train Max Epoch=202
+EarlyStopping counter: 156 out of 200
+Epoch [212][SemiTeacher][InsectWingbeatSound] loss= 0.04550; Epoch Label ACC.= 91.67%, UnLabel ACC.= 52.14%, Lipistz loss = 0, Train Unlabel Best ACC.= 55.1%, Train Max Epoch=202
+EarlyStopping counter: 157 out of 200
+Epoch [213][SemiTeacher][InsectWingbeatSound] loss= 0.04788; Epoch Label ACC.= 89.51%, UnLabel ACC.= 50.76%, Lipistz loss = 0, Train Unlabel Best ACC.= 55.1%, Train Max Epoch=202
+EarlyStopping counter: 158 out of 200
+Epoch [214][SemiTeacher][InsectWingbeatSound] loss= 0.04584; Epoch Label ACC.= 88.91%, UnLabel ACC.= 52.92%, Lipistz loss = 0, Train Unlabel Best ACC.= 55.1%, Train Max Epoch=202
+EarlyStopping counter: 159 out of 200
+Epoch [215][SemiTeacher][InsectWingbeatSound] loss= 0.04457; Epoch Label ACC.= 88.39%, UnLabel ACC.= 50.16%, Lipistz loss = 0, Train Unlabel Best ACC.= 55.1%, Train Max Epoch=202
+EarlyStopping counter: 160 out of 200
+Epoch [216][SemiTeacher][InsectWingbeatSound] loss= 0.04595; Epoch Label ACC.= 92.34%, UnLabel ACC.= 51.13%, Lipistz loss = 0, Train Unlabel Best ACC.= 55.1%, Train Max Epoch=202
+EarlyStopping counter: 161 out of 200
+Epoch [217][SemiTeacher][InsectWingbeatSound] loss= 0.04398; Epoch Label ACC.= 92.11%, UnLabel ACC.= 53.47%, Lipistz loss = 0, Train Unlabel Best ACC.= 55.1%, Train Max Epoch=202
+EarlyStopping counter: 162 out of 200
+Epoch [218][SemiTeacher][InsectWingbeatSound] loss= 0.04596; Epoch Label ACC.= 92.71%, UnLabel ACC.= 50.24%, Lipistz loss = 0, Train Unlabel Best ACC.= 55.1%, Train Max Epoch=202
+EarlyStopping counter: 163 out of 200
+Epoch [219][SemiTeacher][InsectWingbeatSound] loss= 0.04459; Epoch Label ACC.= 95.98%, UnLabel ACC.= 54.60%, Lipistz loss = 0, Train Unlabel Best ACC.= 55.1%, Train Max Epoch=202
+EarlyStopping counter: 164 out of 200
+Epoch [220][SemiTeacher][InsectWingbeatSound] loss= 0.04547; Epoch Label ACC.= 94.72%, UnLabel ACC.= 53.08%, Lipistz loss = 0, Train Unlabel Best ACC.= 55.1%, Train Max Epoch=202
+EarlyStopping counter: 165 out of 200
+Epoch [221][SemiTeacher][InsectWingbeatSound] loss= 0.04777; Epoch Label ACC.= 91.22%, UnLabel ACC.= 49.72%, Lipistz loss = 0, Train Unlabel Best ACC.= 55.1%, Train Max Epoch=202
+EarlyStopping counter: 166 out of 200
+Epoch [222][SemiTeacher][InsectWingbeatSound] loss= 0.04402; Epoch Label ACC.= 92.34%, UnLabel ACC.= 50.55%, Lipistz loss = 0, Train Unlabel Best ACC.= 55.1%, Train Max Epoch=202
+EarlyStopping counter: 167 out of 200
+Epoch [223][SemiTeacher][InsectWingbeatSound] loss= 0.04571; Epoch Label ACC.= 93.97%, UnLabel ACC.= 52.13%, Lipistz loss = 0, Train Unlabel Best ACC.= 55.1%, Train Max Epoch=202
+EarlyStopping counter: 168 out of 200
+Epoch [224][SemiTeacher][InsectWingbeatSound] loss= 0.04875; Epoch Label ACC.= 93.01%, UnLabel ACC.= 51.90%, Lipistz loss = 0, Train Unlabel Best ACC.= 55.1%, Train Max Epoch=202
+EarlyStopping counter: 169 out of 200
+Epoch [225][SemiTeacher][InsectWingbeatSound] loss= 0.04347; Epoch Label ACC.= 95.31%, UnLabel ACC.= 51.00%, Lipistz loss = 0, Train Unlabel Best ACC.= 55.1%, Train Max Epoch=202
+EarlyStopping counter: 170 out of 200
+Epoch [226][SemiTeacher][InsectWingbeatSound] loss= 0.04387; Epoch Label ACC.= 94.79%, UnLabel ACC.= 52.56%, Lipistz loss = 0, Train Unlabel Best ACC.= 55.1%, Train Max Epoch=202
+EarlyStopping counter: 171 out of 200
+Epoch [227][SemiTeacher][InsectWingbeatSound] loss= 0.04783; Epoch Label ACC.= 94.12%, UnLabel ACC.= 52.50%, Lipistz loss = 0, Train Unlabel Best ACC.= 55.1%, Train Max Epoch=202
+EarlyStopping counter: 172 out of 200
+Epoch [228][SemiTeacher][InsectWingbeatSound] loss= 0.04754; Epoch Label ACC.= 94.42%, UnLabel ACC.= 52.72%, Lipistz loss = 0, Train Unlabel Best ACC.= 55.1%, Train Max Epoch=202
+EarlyStopping counter: 173 out of 200
+Epoch [229][SemiTeacher][InsectWingbeatSound] loss= 0.04934; Epoch Label ACC.= 92.93%, UnLabel ACC.= 50.43%, Lipistz loss = 0, Train Unlabel Best ACC.= 55.1%, Train Max Epoch=202
+EarlyStopping counter: 174 out of 200
+Epoch [230][SemiTeacher][InsectWingbeatSound] loss= 0.04691; Epoch Label ACC.= 94.57%, UnLabel ACC.= 51.88%, Lipistz loss = 0, Train Unlabel Best ACC.= 55.1%, Train Max Epoch=202
+EarlyStopping counter: 175 out of 200
+Epoch [231][SemiTeacher][InsectWingbeatSound] loss= 0.04621; Epoch Label ACC.= 96.28%, UnLabel ACC.= 55.04%, Lipistz loss = 0, Train Unlabel Best ACC.= 55.1%, Train Max Epoch=202
+EarlyStopping counter: 176 out of 200
+Epoch [232][SemiTeacher][InsectWingbeatSound] loss= 0.04658; Epoch Label ACC.= 90.55%, UnLabel ACC.= 53.04%, Lipistz loss = 0, Train Unlabel Best ACC.= 55.1%, Train Max Epoch=202
+EarlyStopping counter: 177 out of 200
+Epoch [233][SemiTeacher][InsectWingbeatSound] loss= 0.04805; Epoch Label ACC.= 92.71%, UnLabel ACC.= 49.49%, Lipistz loss = 0, Train Unlabel Best ACC.= 55.1%, Train Max Epoch=202
+EarlyStopping counter: 178 out of 200
+Epoch [234][SemiTeacher][InsectWingbeatSound] loss= 0.04715; Epoch Label ACC.= 91.44%, UnLabel ACC.= 50.15%, Lipistz loss = 0, Train Unlabel Best ACC.= 55.1%, Train Max Epoch=202
+EarlyStopping counter: 179 out of 200
+Epoch [235][SemiTeacher][InsectWingbeatSound] loss= 0.04740; Epoch Label ACC.= 95.16%, UnLabel ACC.= 51.25%, Lipistz loss = 0, Train Unlabel Best ACC.= 55.1%, Train Max Epoch=202
+EarlyStopping counter: 180 out of 200
+Epoch [236][SemiTeacher][InsectWingbeatSound] loss= 0.04658; Epoch Label ACC.= 92.78%, UnLabel ACC.= 51.03%, Lipistz loss = 0, Train Unlabel Best ACC.= 55.1%, Train Max Epoch=202
+EarlyStopping counter: 181 out of 200
+Epoch [237][SemiTeacher][InsectWingbeatSound] loss= 0.04615; Epoch Label ACC.= 95.68%, UnLabel ACC.= 52.81%, Lipistz loss = 0, Train Unlabel Best ACC.= 55.1%, Train Max Epoch=202
+EarlyStopping counter: 182 out of 200
+Epoch [238][SemiTeacher][InsectWingbeatSound] loss= 0.04795; Epoch Label ACC.= 94.79%, UnLabel ACC.= 54.23%, Lipistz loss = 0, Train Unlabel Best ACC.= 55.1%, Train Max Epoch=202
+EarlyStopping counter: 183 out of 200
+Epoch [239][SemiTeacher][InsectWingbeatSound] loss= 0.04752; Epoch Label ACC.= 92.63%, UnLabel ACC.= 52.57%, Lipistz loss = 0, Train Unlabel Best ACC.= 55.1%, Train Max Epoch=202
+EarlyStopping counter: 184 out of 200
+Epoch [240][SemiTeacher][InsectWingbeatSound] loss= 0.04847; Epoch Label ACC.= 89.88%, UnLabel ACC.= 52.53%, Lipistz loss = 0, Train Unlabel Best ACC.= 55.1%, Train Max Epoch=202
+EarlyStopping counter: 185 out of 200
+Epoch [241][SemiTeacher][InsectWingbeatSound] loss= 0.04469; Epoch Label ACC.= 94.12%, UnLabel ACC.= 52.81%, Lipistz loss = 0, Train Unlabel Best ACC.= 55.1%, Train Max Epoch=202
+EarlyStopping counter: 186 out of 200
+Epoch [242][SemiTeacher][InsectWingbeatSound] loss= 0.04636; Epoch Label ACC.= 90.62%, UnLabel ACC.= 49.97%, Lipistz loss = 0, Train Unlabel Best ACC.= 55.1%, Train Max Epoch=202
+EarlyStopping counter: 187 out of 200
+Epoch [243][SemiTeacher][InsectWingbeatSound] loss= 0.04574; Epoch Label ACC.= 95.24%, UnLabel ACC.= 51.46%, Lipistz loss = 0, Train Unlabel Best ACC.= 55.1%, Train Max Epoch=202
+EarlyStopping counter: 188 out of 200
+Epoch [244][SemiTeacher][InsectWingbeatSound] loss= 0.04655; Epoch Label ACC.= 92.86%, UnLabel ACC.= 51.70%, Lipistz loss = 0, Train Unlabel Best ACC.= 55.1%, Train Max Epoch=202
+EarlyStopping counter: 189 out of 200
+Epoch [245][SemiTeacher][InsectWingbeatSound] loss= 0.04612; Epoch Label ACC.= 91.44%, UnLabel ACC.= 53.78%, Lipistz loss = 0, Train Unlabel Best ACC.= 55.1%, Train Max Epoch=202
+EarlyStopping counter: 190 out of 200
+Epoch [246][SemiTeacher][InsectWingbeatSound] loss= 0.04510; Epoch Label ACC.= 95.54%, UnLabel ACC.= 53.26%, Lipistz loss = 0, Train Unlabel Best ACC.= 55.1%, Train Max Epoch=202
+EarlyStopping counter: 191 out of 200
+Epoch [247][SemiTeacher][InsectWingbeatSound] loss= 0.04321; Epoch Label ACC.= 91.37%, UnLabel ACC.= 53.39%, Lipistz loss = 0, Train Unlabel Best ACC.= 55.1%, Train Max Epoch=202
+EarlyStopping counter: 192 out of 200
+Epoch [248][SemiTeacher][InsectWingbeatSound] loss= 0.04731; Epoch Label ACC.= 91.07%, UnLabel ACC.= 52.80%, Lipistz loss = 0, Train Unlabel Best ACC.= 55.1%, Train Max Epoch=202
+EarlyStopping counter: 193 out of 200
+Epoch [249][SemiTeacher][InsectWingbeatSound] loss= 0.04519; Epoch Label ACC.= 93.97%, UnLabel ACC.= 51.55%, Lipistz loss = 0, Train Unlabel Best ACC.= 55.1%, Train Max Epoch=202
+EarlyStopping counter: 194 out of 200
+Epoch [250][SemiTeacher][InsectWingbeatSound] loss= 0.04685; Epoch Label ACC.= 91.44%, UnLabel ACC.= 54.21%, Lipistz loss = 0, Train Unlabel Best ACC.= 55.1%, Train Max Epoch=202
+EarlyStopping counter: 195 out of 200
+Epoch [251][SemiTeacher][InsectWingbeatSound] loss= 0.04297; Epoch Label ACC.= 94.42%, UnLabel ACC.= 54.52%, Lipistz loss = 0, Train Unlabel Best ACC.= 55.1%, Train Max Epoch=202
+EarlyStopping counter: 196 out of 200
+Epoch [252][SemiTeacher][InsectWingbeatSound] loss= 0.04250; Epoch Label ACC.= 96.95%, UnLabel ACC.= 53.66%, Lipistz loss = 0, Train Unlabel Best ACC.= 55.1%, Train Max Epoch=202
+EarlyStopping counter: 197 out of 200
+Epoch [253][SemiTeacher][InsectWingbeatSound] loss= 0.04676; Epoch Label ACC.= 92.63%, UnLabel ACC.= 51.58%, Lipistz loss = 0, Train Unlabel Best ACC.= 55.1%, Train Max Epoch=202
+EarlyStopping counter: 198 out of 200
+Epoch [254][SemiTeacher][InsectWingbeatSound] loss= 0.04369; Epoch Label ACC.= 92.93%, UnLabel ACC.= 54.18%, Lipistz loss = 0, Train Unlabel Best ACC.= 55.1%, Train Max Epoch=202
+EarlyStopping counter: 199 out of 200
+Epoch [255][SemiTeacher][InsectWingbeatSound] loss= 0.04554; Epoch Label ACC.= 92.78%, UnLabel ACC.= 52.92%, Lipistz loss = 0, Train Unlabel Best ACC.= 55.1%, Train Max Epoch=202
+EarlyStopping counter: 200 out of 200
+Early stopping
+[INFO] Running at: InsectWingbeatSound
+[INFO] InsectWingbeatSound
+[Stat] All class: {0: 200, 1: 200, 2: 200, 3: 200, 4: 200, 5: 200, 6: 200, 7: 200, 8: 200, 9: 200, 10: 200}
+[Stat] Train class: mean=120.0, std=0.0
+[Stat] Val class: mean=40.0, std=0.0
+[Stat] Test class: mean=40.0, std=0.0
+Train:(1320, 256, 1), Test:(440, 256, 1), Class:11
+rp_params: [3, 256]
+[Test-0] Val ACC:8.93%, Best Test ACC.: 8.93% in Epoch 0
+Epoch [1][SemiTeacher][InsectWingbeatSound] loss= 0.00042; Epoch Label ACC.= 12.35%, UnLabel ACC.= 8.96%, Lipistz loss = 0, Train Unlabel Best ACC.= 9.0%, Train Max Epoch=0
+[Test-1] Val ACC:9.44%, Best Test ACC.: 9.44% in Epoch 1
+Validation loss decreased (inf --> 9.438776).  Saving model ...
+Epoch [2][SemiTeacher][InsectWingbeatSound] loss= 0.00246; Epoch Label ACC.= 17.78%, UnLabel ACC.= 9.85%, Lipistz loss = 0, Train Unlabel Best ACC.= 9.9%, Train Max Epoch=1
+EarlyStopping counter: 1 out of 200
+Epoch [3][SemiTeacher][InsectWingbeatSound] loss= 0.00094; Epoch Label ACC.= 12.95%, UnLabel ACC.= 9.48%, Lipistz loss = 0, Train Unlabel Best ACC.= 9.9%, Train Max Epoch=1
+[Test-3] Val ACC:9.82%, Best Test ACC.: 9.38% in Epoch 3
+Validation loss decreased (9.438776 --> 9.821429).  Saving model ...
+Epoch [4][SemiTeacher][InsectWingbeatSound] loss= 0.00092; Epoch Label ACC.= 12.72%, UnLabel ACC.= 8.54%, Lipistz loss = 0, Train Unlabel Best ACC.= 9.9%, Train Max Epoch=1
+EarlyStopping counter: 1 out of 200
+Epoch [5][SemiTeacher][InsectWingbeatSound] loss= 0.00151; Epoch Label ACC.= 13.47%, UnLabel ACC.= 9.09%, Lipistz loss = 0, Train Unlabel Best ACC.= 9.9%, Train Max Epoch=1
+[Test-5] Val ACC:13.84%, Best Test ACC.: 12.95% in Epoch 5
+Validation loss decreased (9.821429 --> 13.839286).  Saving model ...
+Epoch [6][SemiTeacher][InsectWingbeatSound] loss= 0.00148; Epoch Label ACC.= 18.15%, UnLabel ACC.= 11.53%, Lipistz loss = 0, Train Unlabel Best ACC.= 11.5%, Train Max Epoch=5
+[Test-6] Val ACC:20.09%, Best Test ACC.: 21.65% in Epoch 6
+Validation loss decreased (13.839286 --> 20.089286).  Saving model ...
+Epoch [7][SemiTeacher][InsectWingbeatSound] loss= 0.00453; Epoch Label ACC.= 32.89%, UnLabel ACC.= 13.57%, Lipistz loss = 0, Train Unlabel Best ACC.= 13.6%, Train Max Epoch=6
+[Test-7] Val ACC:44.07%, Best Test ACC.: 41.17% in Epoch 7
+Validation loss decreased (20.089286 --> 44.068878).  Saving model ...
+Epoch [8][SemiTeacher][InsectWingbeatSound] loss= 0.02049; Epoch Label ACC.= 54.02%, UnLabel ACC.= 27.65%, Lipistz loss = 0, Train Unlabel Best ACC.= 27.6%, Train Max Epoch=7
+[Test-8] Val ACC:48.95%, Best Test ACC.: 48.63% in Epoch 8
+Validation loss decreased (44.068878 --> 48.947704).  Saving model ...
+Epoch [9][SemiTeacher][InsectWingbeatSound] loss= 0.02445; Epoch Label ACC.= 60.04%, UnLabel ACC.= 34.15%, Lipistz loss = 0, Train Unlabel Best ACC.= 34.2%, Train Max Epoch=8
+[Test-9] Val ACC:50.38%, Best Test ACC.: 50.67% in Epoch 9
+Validation loss decreased (48.947704 --> 50.382653).  Saving model ...
+Epoch [10][SemiTeacher][InsectWingbeatSound] loss= 0.02941; Epoch Label ACC.= 69.27%, UnLabel ACC.= 40.13%, Lipistz loss = 0, Train Unlabel Best ACC.= 40.1%, Train Max Epoch=9
+[Test-10] Val ACC:53.51%, Best Test ACC.: 54.85% in Epoch 10
+Validation loss decreased (50.382653 --> 53.507653).  Saving model ...
+Epoch [11][SemiTeacher][InsectWingbeatSound] loss= 0.02621; Epoch Label ACC.= 67.04%, UnLabel ACC.= 37.13%, Lipistz loss = 0, Train Unlabel Best ACC.= 40.1%, Train Max Epoch=9
+EarlyStopping counter: 1 out of 200
+Epoch [12][SemiTeacher][InsectWingbeatSound] loss= 0.03274; Epoch Label ACC.= 77.90%, UnLabel ACC.= 45.04%, Lipistz loss = 0, Train Unlabel Best ACC.= 45.0%, Train Max Epoch=11
+[Test-12] Val ACC:55.33%, Best Test ACC.: 54.97% in Epoch 12
+Validation loss decreased (53.507653 --> 55.325255).  Saving model ...
+Epoch [13][SemiTeacher][InsectWingbeatSound] loss= 0.02230; Epoch Label ACC.= 65.48%, UnLabel ACC.= 42.72%, Lipistz loss = 0, Train Unlabel Best ACC.= 45.0%, Train Max Epoch=11
+[Test-13] Val ACC:55.55%, Best Test ACC.: 54.43% in Epoch 13
+Validation loss decreased (55.325255 --> 55.548470).  Saving model ...
+Epoch [14][SemiTeacher][InsectWingbeatSound] loss= 0.02211; Epoch Label ACC.= 73.29%, UnLabel ACC.= 43.20%, Lipistz loss = 0, Train Unlabel Best ACC.= 45.0%, Train Max Epoch=11
+EarlyStopping counter: 1 out of 200
+Epoch [15][SemiTeacher][InsectWingbeatSound] loss= 0.02134; Epoch Label ACC.= 70.16%, UnLabel ACC.= 45.00%, Lipistz loss = 0, Train Unlabel Best ACC.= 45.0%, Train Max Epoch=11
+EarlyStopping counter: 2 out of 200
+Epoch [16][SemiTeacher][InsectWingbeatSound] loss= 0.01807; Epoch Label ACC.= 69.42%, UnLabel ACC.= 40.97%, Lipistz loss = 0, Train Unlabel Best ACC.= 45.0%, Train Max Epoch=11
+EarlyStopping counter: 3 out of 200
+Epoch [17][SemiTeacher][InsectWingbeatSound] loss= 0.02398; Epoch Label ACC.= 78.50%, UnLabel ACC.= 46.62%, Lipistz loss = 0, Train Unlabel Best ACC.= 46.6%, Train Max Epoch=16
+[Test-17] Val ACC:55.61%, Best Test ACC.: 52.23% in Epoch 17
+Validation loss decreased (55.548470 --> 55.612246).  Saving model ...
+Epoch [18][SemiTeacher][InsectWingbeatSound] loss= 0.02649; Epoch Label ACC.= 79.69%, UnLabel ACC.= 47.34%, Lipistz loss = 0, Train Unlabel Best ACC.= 47.3%, Train Max Epoch=17
+EarlyStopping counter: 1 out of 200
+Epoch [19][SemiTeacher][InsectWingbeatSound] loss= 0.02861; Epoch Label ACC.= 76.64%, UnLabel ACC.= 47.53%, Lipistz loss = 0, Train Unlabel Best ACC.= 47.5%, Train Max Epoch=18
+[Test-19] Val ACC:56.92%, Best Test ACC.: 54.11% in Epoch 19
+Validation loss decreased (55.612246 --> 56.919643).  Saving model ...
+Epoch [20][SemiTeacher][InsectWingbeatSound] loss= 0.03097; Epoch Label ACC.= 82.22%, UnLabel ACC.= 48.42%, Lipistz loss = 0, Train Unlabel Best ACC.= 48.4%, Train Max Epoch=19
+EarlyStopping counter: 1 out of 200
+Epoch [21][SemiTeacher][InsectWingbeatSound] loss= 0.03306; Epoch Label ACC.= 79.91%, UnLabel ACC.= 46.77%, Lipistz loss = 0, Train Unlabel Best ACC.= 48.4%, Train Max Epoch=19
+[Test-21] Val ACC:57.11%, Best Test ACC.: 56.86% in Epoch 21
+Validation loss decreased (56.919643 --> 57.110970).  Saving model ...
+Epoch [22][SemiTeacher][InsectWingbeatSound] loss= 0.03337; Epoch Label ACC.= 78.79%, UnLabel ACC.= 48.15%, Lipistz loss = 0, Train Unlabel Best ACC.= 48.4%, Train Max Epoch=19
+[Test-22] Val ACC:59.15%, Best Test ACC.: 59.79% in Epoch 22
+Validation loss decreased (57.110970 --> 59.151786).  Saving model ...
+Epoch [23][SemiTeacher][InsectWingbeatSound] loss= 0.03636; Epoch Label ACC.= 83.71%, UnLabel ACC.= 48.90%, Lipistz loss = 0, Train Unlabel Best ACC.= 48.9%, Train Max Epoch=22
+EarlyStopping counter: 1 out of 200
+Epoch [24][SemiTeacher][InsectWingbeatSound] loss= 0.03737; Epoch Label ACC.= 81.25%, UnLabel ACC.= 48.54%, Lipistz loss = 0, Train Unlabel Best ACC.= 48.9%, Train Max Epoch=22
+EarlyStopping counter: 2 out of 200
+Epoch [25][SemiTeacher][InsectWingbeatSound] loss= 0.03744; Epoch Label ACC.= 81.32%, UnLabel ACC.= 46.56%, Lipistz loss = 0, Train Unlabel Best ACC.= 48.9%, Train Max Epoch=22
+EarlyStopping counter: 3 out of 200
+Epoch [26][SemiTeacher][InsectWingbeatSound] loss= 0.03800; Epoch Label ACC.= 76.93%, UnLabel ACC.= 45.13%, Lipistz loss = 0, Train Unlabel Best ACC.= 48.9%, Train Max Epoch=22
+EarlyStopping counter: 4 out of 200
+Epoch [27][SemiTeacher][InsectWingbeatSound] loss= 0.03675; Epoch Label ACC.= 88.62%, UnLabel ACC.= 49.15%, Lipistz loss = 0, Train Unlabel Best ACC.= 49.2%, Train Max Epoch=26
+EarlyStopping counter: 5 out of 200
+Epoch [28][SemiTeacher][InsectWingbeatSound] loss= 0.03753; Epoch Label ACC.= 88.62%, UnLabel ACC.= 49.97%, Lipistz loss = 0, Train Unlabel Best ACC.= 50.0%, Train Max Epoch=27
+EarlyStopping counter: 6 out of 200
+Epoch [29][SemiTeacher][InsectWingbeatSound] loss= 0.03826; Epoch Label ACC.= 84.23%, UnLabel ACC.= 49.45%, Lipistz loss = 0, Train Unlabel Best ACC.= 50.0%, Train Max Epoch=27
+EarlyStopping counter: 7 out of 200
+Epoch [30][SemiTeacher][InsectWingbeatSound] loss= 0.03885; Epoch Label ACC.= 87.80%, UnLabel ACC.= 50.89%, Lipistz loss = 0, Train Unlabel Best ACC.= 50.9%, Train Max Epoch=29
+EarlyStopping counter: 8 out of 200
+Epoch [31][SemiTeacher][InsectWingbeatSound] loss= 0.03972; Epoch Label ACC.= 88.62%, UnLabel ACC.= 48.05%, Lipistz loss = 0, Train Unlabel Best ACC.= 50.9%, Train Max Epoch=29
+[Test-31] Val ACC:62.72%, Best Test ACC.: 58.77% in Epoch 31
+Validation loss decreased (59.151786 --> 62.723214).  Saving model ...
+Epoch [32][SemiTeacher][InsectWingbeatSound] loss= 0.03875; Epoch Label ACC.= 88.62%, UnLabel ACC.= 50.19%, Lipistz loss = 0, Train Unlabel Best ACC.= 50.9%, Train Max Epoch=29
+EarlyStopping counter: 1 out of 200
+Epoch [33][SemiTeacher][InsectWingbeatSound] loss= 0.03838; Epoch Label ACC.= 80.58%, UnLabel ACC.= 49.90%, Lipistz loss = 0, Train Unlabel Best ACC.= 50.9%, Train Max Epoch=29
+EarlyStopping counter: 2 out of 200
+Epoch [34][SemiTeacher][InsectWingbeatSound] loss= 0.03841; Epoch Label ACC.= 88.02%, UnLabel ACC.= 51.28%, Lipistz loss = 0, Train Unlabel Best ACC.= 51.3%, Train Max Epoch=33
+EarlyStopping counter: 3 out of 200
+Epoch [35][SemiTeacher][InsectWingbeatSound] loss= 0.04117; Epoch Label ACC.= 80.73%, UnLabel ACC.= 49.52%, Lipistz loss = 0, Train Unlabel Best ACC.= 51.3%, Train Max Epoch=33
+EarlyStopping counter: 4 out of 200
+Epoch [36][SemiTeacher][InsectWingbeatSound] loss= 0.03924; Epoch Label ACC.= 88.10%, UnLabel ACC.= 50.37%, Lipistz loss = 0, Train Unlabel Best ACC.= 51.3%, Train Max Epoch=33
+EarlyStopping counter: 5 out of 200
+Epoch [37][SemiTeacher][InsectWingbeatSound] loss= 0.04301; Epoch Label ACC.= 83.33%, UnLabel ACC.= 51.00%, Lipistz loss = 0, Train Unlabel Best ACC.= 51.3%, Train Max Epoch=33
+EarlyStopping counter: 6 out of 200
+Epoch [38][SemiTeacher][InsectWingbeatSound] loss= 0.04088; Epoch Label ACC.= 86.61%, UnLabel ACC.= 50.92%, Lipistz loss = 0, Train Unlabel Best ACC.= 51.3%, Train Max Epoch=33
+EarlyStopping counter: 7 out of 200
+Epoch [39][SemiTeacher][InsectWingbeatSound] loss= 0.03931; Epoch Label ACC.= 82.66%, UnLabel ACC.= 51.34%, Lipistz loss = 0, Train Unlabel Best ACC.= 51.3%, Train Max Epoch=38
+EarlyStopping counter: 8 out of 200
+Epoch [40][SemiTeacher][InsectWingbeatSound] loss= 0.03768; Epoch Label ACC.= 86.53%, UnLabel ACC.= 49.23%, Lipistz loss = 0, Train Unlabel Best ACC.= 51.3%, Train Max Epoch=38
+EarlyStopping counter: 9 out of 200
+Epoch [41][SemiTeacher][InsectWingbeatSound] loss= 0.03813; Epoch Label ACC.= 87.20%, UnLabel ACC.= 50.85%, Lipistz loss = 0, Train Unlabel Best ACC.= 51.3%, Train Max Epoch=38
+EarlyStopping counter: 10 out of 200
+Epoch [42][SemiTeacher][InsectWingbeatSound] loss= 0.03874; Epoch Label ACC.= 79.76%, UnLabel ACC.= 47.84%, Lipistz loss = 0, Train Unlabel Best ACC.= 51.3%, Train Max Epoch=38
+EarlyStopping counter: 11 out of 200
+Epoch [43][SemiTeacher][InsectWingbeatSound] loss= 0.03859; Epoch Label ACC.= 79.02%, UnLabel ACC.= 46.00%, Lipistz loss = 0, Train Unlabel Best ACC.= 51.3%, Train Max Epoch=38
+EarlyStopping counter: 12 out of 200
+Epoch [44][SemiTeacher][InsectWingbeatSound] loss= 0.03686; Epoch Label ACC.= 81.40%, UnLabel ACC.= 49.48%, Lipistz loss = 0, Train Unlabel Best ACC.= 51.3%, Train Max Epoch=38
+EarlyStopping counter: 13 out of 200
+Epoch [45][SemiTeacher][InsectWingbeatSound] loss= 0.03769; Epoch Label ACC.= 85.49%, UnLabel ACC.= 52.43%, Lipistz loss = 0, Train Unlabel Best ACC.= 52.4%, Train Max Epoch=44
+EarlyStopping counter: 14 out of 200
+Epoch [46][SemiTeacher][InsectWingbeatSound] loss= 0.03639; Epoch Label ACC.= 86.53%, UnLabel ACC.= 55.07%, Lipistz loss = 0, Train Unlabel Best ACC.= 55.1%, Train Max Epoch=45
+EarlyStopping counter: 15 out of 200
+Epoch [47][SemiTeacher][InsectWingbeatSound] loss= 0.04018; Epoch Label ACC.= 87.43%, UnLabel ACC.= 52.49%, Lipistz loss = 0, Train Unlabel Best ACC.= 55.1%, Train Max Epoch=45
+EarlyStopping counter: 16 out of 200
+Epoch [48][SemiTeacher][InsectWingbeatSound] loss= 0.04047; Epoch Label ACC.= 80.80%, UnLabel ACC.= 50.31%, Lipistz loss = 0, Train Unlabel Best ACC.= 55.1%, Train Max Epoch=45
+EarlyStopping counter: 17 out of 200
+Epoch [49][SemiTeacher][InsectWingbeatSound] loss= 0.03739; Epoch Label ACC.= 86.83%, UnLabel ACC.= 49.94%, Lipistz loss = 0, Train Unlabel Best ACC.= 55.1%, Train Max Epoch=45
+EarlyStopping counter: 18 out of 200
+Epoch [50][SemiTeacher][InsectWingbeatSound] loss= 0.04064; Epoch Label ACC.= 84.30%, UnLabel ACC.= 50.60%, Lipistz loss = 0, Train Unlabel Best ACC.= 55.1%, Train Max Epoch=45
+EarlyStopping counter: 19 out of 200
+Epoch [51][SemiTeacher][InsectWingbeatSound] loss= 0.04154; Epoch Label ACC.= 82.51%, UnLabel ACC.= 50.09%, Lipistz loss = 0, Train Unlabel Best ACC.= 55.1%, Train Max Epoch=45
+EarlyStopping counter: 20 out of 200
+Epoch [52][SemiTeacher][InsectWingbeatSound] loss= 0.03786; Epoch Label ACC.= 88.54%, UnLabel ACC.= 50.94%, Lipistz loss = 0, Train Unlabel Best ACC.= 55.1%, Train Max Epoch=45
+EarlyStopping counter: 21 out of 200
+Epoch [53][SemiTeacher][InsectWingbeatSound] loss= 0.03898; Epoch Label ACC.= 83.11%, UnLabel ACC.= 48.82%, Lipistz loss = 0, Train Unlabel Best ACC.= 55.1%, Train Max Epoch=45
+EarlyStopping counter: 22 out of 200
+Epoch [54][SemiTeacher][InsectWingbeatSound] loss= 0.03980; Epoch Label ACC.= 83.71%, UnLabel ACC.= 48.81%, Lipistz loss = 0, Train Unlabel Best ACC.= 55.1%, Train Max Epoch=45
+EarlyStopping counter: 23 out of 200
+Epoch [55][SemiTeacher][InsectWingbeatSound] loss= 0.03722; Epoch Label ACC.= 86.24%, UnLabel ACC.= 52.34%, Lipistz loss = 0, Train Unlabel Best ACC.= 55.1%, Train Max Epoch=45
+EarlyStopping counter: 24 out of 200
+Epoch [56][SemiTeacher][InsectWingbeatSound] loss= 0.03895; Epoch Label ACC.= 86.98%, UnLabel ACC.= 50.88%, Lipistz loss = 0, Train Unlabel Best ACC.= 55.1%, Train Max Epoch=45
+EarlyStopping counter: 25 out of 200
+Epoch [57][SemiTeacher][InsectWingbeatSound] loss= 0.03642; Epoch Label ACC.= 92.93%, UnLabel ACC.= 51.28%, Lipistz loss = 0, Train Unlabel Best ACC.= 55.1%, Train Max Epoch=45
+EarlyStopping counter: 26 out of 200
+Epoch [58][SemiTeacher][InsectWingbeatSound] loss= 0.04131; Epoch Label ACC.= 79.69%, UnLabel ACC.= 46.18%, Lipistz loss = 0, Train Unlabel Best ACC.= 55.1%, Train Max Epoch=45
+EarlyStopping counter: 27 out of 200
+Epoch [59][SemiTeacher][InsectWingbeatSound] loss= 0.03896; Epoch Label ACC.= 88.10%, UnLabel ACC.= 53.07%, Lipistz loss = 0, Train Unlabel Best ACC.= 55.1%, Train Max Epoch=45
+EarlyStopping counter: 28 out of 200
+Epoch [60][SemiTeacher][InsectWingbeatSound] loss= 0.03991; Epoch Label ACC.= 90.10%, UnLabel ACC.= 53.57%, Lipistz loss = 0, Train Unlabel Best ACC.= 55.1%, Train Max Epoch=45
+EarlyStopping counter: 29 out of 200
+Epoch [61][SemiTeacher][InsectWingbeatSound] loss= 0.04197; Epoch Label ACC.= 87.80%, UnLabel ACC.= 52.28%, Lipistz loss = 0, Train Unlabel Best ACC.= 55.1%, Train Max Epoch=45
+EarlyStopping counter: 30 out of 200
+Epoch [62][SemiTeacher][InsectWingbeatSound] loss= 0.04413; Epoch Label ACC.= 84.08%, UnLabel ACC.= 48.84%, Lipistz loss = 0, Train Unlabel Best ACC.= 55.1%, Train Max Epoch=45
+EarlyStopping counter: 31 out of 200
+Epoch [63][SemiTeacher][InsectWingbeatSound] loss= 0.04140; Epoch Label ACC.= 87.20%, UnLabel ACC.= 51.46%, Lipistz loss = 0, Train Unlabel Best ACC.= 55.1%, Train Max Epoch=45
+EarlyStopping counter: 32 out of 200
+Epoch [64][SemiTeacher][InsectWingbeatSound] loss= 0.03880; Epoch Label ACC.= 92.49%, UnLabel ACC.= 49.67%, Lipistz loss = 0, Train Unlabel Best ACC.= 55.1%, Train Max Epoch=45
+EarlyStopping counter: 33 out of 200
+Epoch [65][SemiTeacher][InsectWingbeatSound] loss= 0.04338; Epoch Label ACC.= 88.91%, UnLabel ACC.= 51.56%, Lipistz loss = 0, Train Unlabel Best ACC.= 55.1%, Train Max Epoch=45
+EarlyStopping counter: 34 out of 200
+Epoch [66][SemiTeacher][InsectWingbeatSound] loss= 0.04255; Epoch Label ACC.= 87.28%, UnLabel ACC.= 50.19%, Lipistz loss = 0, Train Unlabel Best ACC.= 55.1%, Train Max Epoch=45
+EarlyStopping counter: 35 out of 200
+Epoch [67][SemiTeacher][InsectWingbeatSound] loss= 0.04050; Epoch Label ACC.= 80.88%, UnLabel ACC.= 48.72%, Lipistz loss = 0, Train Unlabel Best ACC.= 55.1%, Train Max Epoch=45
+EarlyStopping counter: 36 out of 200
+Epoch [68][SemiTeacher][InsectWingbeatSound] loss= 0.04344; Epoch Label ACC.= 85.19%, UnLabel ACC.= 50.95%, Lipistz loss = 0, Train Unlabel Best ACC.= 55.1%, Train Max Epoch=45
+EarlyStopping counter: 37 out of 200
+Epoch [69][SemiTeacher][InsectWingbeatSound] loss= 0.04113; Epoch Label ACC.= 79.99%, UnLabel ACC.= 49.32%, Lipistz loss = 0, Train Unlabel Best ACC.= 55.1%, Train Max Epoch=45
+EarlyStopping counter: 38 out of 200
+Epoch [70][SemiTeacher][InsectWingbeatSound] loss= 0.03852; Epoch Label ACC.= 88.02%, UnLabel ACC.= 51.65%, Lipistz loss = 0, Train Unlabel Best ACC.= 55.1%, Train Max Epoch=45
+EarlyStopping counter: 39 out of 200
+Epoch [71][SemiTeacher][InsectWingbeatSound] loss= 0.03949; Epoch Label ACC.= 89.36%, UnLabel ACC.= 51.99%, Lipistz loss = 0, Train Unlabel Best ACC.= 55.1%, Train Max Epoch=45
+EarlyStopping counter: 40 out of 200
+Epoch [72][SemiTeacher][InsectWingbeatSound] loss= 0.04047; Epoch Label ACC.= 84.23%, UnLabel ACC.= 49.82%, Lipistz loss = 0, Train Unlabel Best ACC.= 55.1%, Train Max Epoch=45
+EarlyStopping counter: 41 out of 200
+Epoch [73][SemiTeacher][InsectWingbeatSound] loss= 0.03833; Epoch Label ACC.= 93.01%, UnLabel ACC.= 51.12%, Lipistz loss = 0, Train Unlabel Best ACC.= 55.1%, Train Max Epoch=45
+EarlyStopping counter: 42 out of 200
+Epoch [74][SemiTeacher][InsectWingbeatSound] loss= 0.03880; Epoch Label ACC.= 86.53%, UnLabel ACC.= 51.58%, Lipistz loss = 0, Train Unlabel Best ACC.= 55.1%, Train Max Epoch=45
+EarlyStopping counter: 43 out of 200
+Epoch [75][SemiTeacher][InsectWingbeatSound] loss= 0.04115; Epoch Label ACC.= 88.47%, UnLabel ACC.= 51.37%, Lipistz loss = 0, Train Unlabel Best ACC.= 55.1%, Train Max Epoch=45
+EarlyStopping counter: 44 out of 200
+Epoch [76][SemiTeacher][InsectWingbeatSound] loss= 0.04012; Epoch Label ACC.= 90.85%, UnLabel ACC.= 50.39%, Lipistz loss = 0, Train Unlabel Best ACC.= 55.1%, Train Max Epoch=45
+EarlyStopping counter: 45 out of 200
+Epoch [77][SemiTeacher][InsectWingbeatSound] loss= 0.04213; Epoch Label ACC.= 93.75%, UnLabel ACC.= 51.88%, Lipistz loss = 0, Train Unlabel Best ACC.= 55.1%, Train Max Epoch=45
+EarlyStopping counter: 46 out of 200
+Epoch [78][SemiTeacher][InsectWingbeatSound] loss= 0.04361; Epoch Label ACC.= 88.91%, UnLabel ACC.= 54.15%, Lipistz loss = 0, Train Unlabel Best ACC.= 55.1%, Train Max Epoch=45
+EarlyStopping counter: 47 out of 200
+Epoch [79][SemiTeacher][InsectWingbeatSound] loss= 0.03951; Epoch Label ACC.= 85.42%, UnLabel ACC.= 49.02%, Lipistz loss = 0, Train Unlabel Best ACC.= 55.1%, Train Max Epoch=45
+EarlyStopping counter: 48 out of 200
+Epoch [80][SemiTeacher][InsectWingbeatSound] loss= 0.04043; Epoch Label ACC.= 86.38%, UnLabel ACC.= 49.99%, Lipistz loss = 0, Train Unlabel Best ACC.= 55.1%, Train Max Epoch=45
+EarlyStopping counter: 49 out of 200
+Epoch [81][SemiTeacher][InsectWingbeatSound] loss= 0.04321; Epoch Label ACC.= 84.45%, UnLabel ACC.= 46.15%, Lipistz loss = 0, Train Unlabel Best ACC.= 55.1%, Train Max Epoch=45
+EarlyStopping counter: 50 out of 200
+Epoch [82][SemiTeacher][InsectWingbeatSound] loss= 0.03953; Epoch Label ACC.= 86.01%, UnLabel ACC.= 49.27%, Lipistz loss = 0, Train Unlabel Best ACC.= 55.1%, Train Max Epoch=45
+EarlyStopping counter: 51 out of 200
+Epoch [83][SemiTeacher][InsectWingbeatSound] loss= 0.04150; Epoch Label ACC.= 92.34%, UnLabel ACC.= 50.58%, Lipistz loss = 0, Train Unlabel Best ACC.= 55.1%, Train Max Epoch=45
+EarlyStopping counter: 52 out of 200
+Epoch [84][SemiTeacher][InsectWingbeatSound] loss= 0.04192; Epoch Label ACC.= 90.48%, UnLabel ACC.= 53.35%, Lipistz loss = 0, Train Unlabel Best ACC.= 55.1%, Train Max Epoch=45
+EarlyStopping counter: 53 out of 200
+Epoch [85][SemiTeacher][InsectWingbeatSound] loss= 0.04217; Epoch Label ACC.= 92.93%, UnLabel ACC.= 49.18%, Lipistz loss = 0, Train Unlabel Best ACC.= 55.1%, Train Max Epoch=45
+EarlyStopping counter: 54 out of 200
+Epoch [86][SemiTeacher][InsectWingbeatSound] loss= 0.04164; Epoch Label ACC.= 93.23%, UnLabel ACC.= 51.98%, Lipistz loss = 0, Train Unlabel Best ACC.= 55.1%, Train Max Epoch=45
+EarlyStopping counter: 55 out of 200
+Epoch [87][SemiTeacher][InsectWingbeatSound] loss= 0.04633; Epoch Label ACC.= 90.33%, UnLabel ACC.= 47.34%, Lipistz loss = 0, Train Unlabel Best ACC.= 55.1%, Train Max Epoch=45
+EarlyStopping counter: 56 out of 200
+Epoch [88][SemiTeacher][InsectWingbeatSound] loss= 0.04534; Epoch Label ACC.= 90.48%, UnLabel ACC.= 51.44%, Lipistz loss = 0, Train Unlabel Best ACC.= 55.1%, Train Max Epoch=45
+EarlyStopping counter: 57 out of 200
+Epoch [89][SemiTeacher][InsectWingbeatSound] loss= 0.04598; Epoch Label ACC.= 95.91%, UnLabel ACC.= 51.59%, Lipistz loss = 0, Train Unlabel Best ACC.= 55.1%, Train Max Epoch=45
+EarlyStopping counter: 58 out of 200
+Epoch [90][SemiTeacher][InsectWingbeatSound] loss= 0.04546; Epoch Label ACC.= 88.54%, UnLabel ACC.= 47.60%, Lipistz loss = 0, Train Unlabel Best ACC.= 55.1%, Train Max Epoch=45
+EarlyStopping counter: 59 out of 200
+Epoch [91][SemiTeacher][InsectWingbeatSound] loss= 0.04397; Epoch Label ACC.= 86.61%, UnLabel ACC.= 49.51%, Lipistz loss = 0, Train Unlabel Best ACC.= 55.1%, Train Max Epoch=45
+EarlyStopping counter: 60 out of 200
+Epoch [92][SemiTeacher][InsectWingbeatSound] loss= 0.04109; Epoch Label ACC.= 87.80%, UnLabel ACC.= 49.96%, Lipistz loss = 0, Train Unlabel Best ACC.= 55.1%, Train Max Epoch=45
+EarlyStopping counter: 61 out of 200
+Epoch [93][SemiTeacher][InsectWingbeatSound] loss= 0.04338; Epoch Label ACC.= 91.59%, UnLabel ACC.= 52.10%, Lipistz loss = 0, Train Unlabel Best ACC.= 55.1%, Train Max Epoch=45
+EarlyStopping counter: 62 out of 200
+Epoch [94][SemiTeacher][InsectWingbeatSound] loss= 0.04453; Epoch Label ACC.= 88.99%, UnLabel ACC.= 51.24%, Lipistz loss = 0, Train Unlabel Best ACC.= 55.1%, Train Max Epoch=45
+EarlyStopping counter: 63 out of 200
+Epoch [95][SemiTeacher][InsectWingbeatSound] loss= 0.04266; Epoch Label ACC.= 90.92%, UnLabel ACC.= 50.18%, Lipistz loss = 0, Train Unlabel Best ACC.= 55.1%, Train Max Epoch=45
+EarlyStopping counter: 64 out of 200
+Epoch [96][SemiTeacher][InsectWingbeatSound] loss= 0.04350; Epoch Label ACC.= 90.70%, UnLabel ACC.= 50.31%, Lipistz loss = 0, Train Unlabel Best ACC.= 55.1%, Train Max Epoch=45
+EarlyStopping counter: 65 out of 200
+Epoch [97][SemiTeacher][InsectWingbeatSound] loss= 0.04451; Epoch Label ACC.= 88.91%, UnLabel ACC.= 51.12%, Lipistz loss = 0, Train Unlabel Best ACC.= 55.1%, Train Max Epoch=45
+EarlyStopping counter: 66 out of 200
+Epoch [98][SemiTeacher][InsectWingbeatSound] loss= 0.04226; Epoch Label ACC.= 92.93%, UnLabel ACC.= 49.93%, Lipistz loss = 0, Train Unlabel Best ACC.= 55.1%, Train Max Epoch=45
+EarlyStopping counter: 67 out of 200
+Epoch [99][SemiTeacher][InsectWingbeatSound] loss= 0.04185; Epoch Label ACC.= 89.73%, UnLabel ACC.= 53.04%, Lipistz loss = 0, Train Unlabel Best ACC.= 55.1%, Train Max Epoch=45
+EarlyStopping counter: 68 out of 200
+Epoch [100][SemiTeacher][InsectWingbeatSound] loss= 0.04136; Epoch Label ACC.= 88.76%, UnLabel ACC.= 52.04%, Lipistz loss = 0, Train Unlabel Best ACC.= 55.1%, Train Max Epoch=45
+EarlyStopping counter: 69 out of 200
+Epoch [101][SemiTeacher][InsectWingbeatSound] loss= 0.04159; Epoch Label ACC.= 85.19%, UnLabel ACC.= 50.58%, Lipistz loss = 0, Train Unlabel Best ACC.= 55.1%, Train Max Epoch=45
+EarlyStopping counter: 70 out of 200
+Epoch [102][SemiTeacher][InsectWingbeatSound] loss= 0.04386; Epoch Label ACC.= 90.18%, UnLabel ACC.= 50.06%, Lipistz loss = 0, Train Unlabel Best ACC.= 55.1%, Train Max Epoch=45
+EarlyStopping counter: 71 out of 200
+Epoch [103][SemiTeacher][InsectWingbeatSound] loss= 0.04112; Epoch Label ACC.= 88.99%, UnLabel ACC.= 51.98%, Lipistz loss = 0, Train Unlabel Best ACC.= 55.1%, Train Max Epoch=45
+EarlyStopping counter: 72 out of 200
+Epoch [104][SemiTeacher][InsectWingbeatSound] loss= 0.04222; Epoch Label ACC.= 91.22%, UnLabel ACC.= 49.84%, Lipistz loss = 0, Train Unlabel Best ACC.= 55.1%, Train Max Epoch=45
+EarlyStopping counter: 73 out of 200
+Epoch [105][SemiTeacher][InsectWingbeatSound] loss= 0.04228; Epoch Label ACC.= 93.23%, UnLabel ACC.= 52.28%, Lipistz loss = 0, Train Unlabel Best ACC.= 55.1%, Train Max Epoch=45
+EarlyStopping counter: 74 out of 200
+Epoch [106][SemiTeacher][InsectWingbeatSound] loss= 0.04387; Epoch Label ACC.= 85.71%, UnLabel ACC.= 49.70%, Lipistz loss = 0, Train Unlabel Best ACC.= 55.1%, Train Max Epoch=45
+EarlyStopping counter: 75 out of 200
+Epoch [107][SemiTeacher][InsectWingbeatSound] loss= 0.04298; Epoch Label ACC.= 85.04%, UnLabel ACC.= 51.90%, Lipistz loss = 0, Train Unlabel Best ACC.= 55.1%, Train Max Epoch=45
+EarlyStopping counter: 76 out of 200
+Epoch [108][SemiTeacher][InsectWingbeatSound] loss= 0.04150; Epoch Label ACC.= 86.38%, UnLabel ACC.= 48.36%, Lipistz loss = 0, Train Unlabel Best ACC.= 55.1%, Train Max Epoch=45
+EarlyStopping counter: 77 out of 200
+Epoch [109][SemiTeacher][InsectWingbeatSound] loss= 0.04184; Epoch Label ACC.= 91.74%, UnLabel ACC.= 54.03%, Lipistz loss = 0, Train Unlabel Best ACC.= 55.1%, Train Max Epoch=45
+EarlyStopping counter: 78 out of 200
+Epoch [110][SemiTeacher][InsectWingbeatSound] loss= 0.04321; Epoch Label ACC.= 90.33%, UnLabel ACC.= 49.60%, Lipistz loss = 0, Train Unlabel Best ACC.= 55.1%, Train Max Epoch=45
+EarlyStopping counter: 79 out of 200
+Epoch [111][SemiTeacher][InsectWingbeatSound] loss= 0.03963; Epoch Label ACC.= 92.19%, UnLabel ACC.= 53.01%, Lipistz loss = 0, Train Unlabel Best ACC.= 55.1%, Train Max Epoch=45
+EarlyStopping counter: 80 out of 200
+Epoch [112][SemiTeacher][InsectWingbeatSound] loss= 0.04234; Epoch Label ACC.= 92.56%, UnLabel ACC.= 51.93%, Lipistz loss = 0, Train Unlabel Best ACC.= 55.1%, Train Max Epoch=45
+EarlyStopping counter: 81 out of 200
+Epoch [113][SemiTeacher][InsectWingbeatSound] loss= 0.04578; Epoch Label ACC.= 89.96%, UnLabel ACC.= 52.44%, Lipistz loss = 0, Train Unlabel Best ACC.= 55.1%, Train Max Epoch=45
+EarlyStopping counter: 82 out of 200
+Epoch [114][SemiTeacher][InsectWingbeatSound] loss= 0.04224; Epoch Label ACC.= 91.89%, UnLabel ACC.= 50.24%, Lipistz loss = 0, Train Unlabel Best ACC.= 55.1%, Train Max Epoch=45
+EarlyStopping counter: 83 out of 200
+Epoch [115][SemiTeacher][InsectWingbeatSound] loss= 0.04448; Epoch Label ACC.= 87.57%, UnLabel ACC.= 49.35%, Lipistz loss = 0, Train Unlabel Best ACC.= 55.1%, Train Max Epoch=45
+EarlyStopping counter: 84 out of 200
+Epoch [116][SemiTeacher][InsectWingbeatSound] loss= 0.04217; Epoch Label ACC.= 89.66%, UnLabel ACC.= 52.74%, Lipistz loss = 0, Train Unlabel Best ACC.= 55.1%, Train Max Epoch=45
+EarlyStopping counter: 85 out of 200
+Epoch [117][SemiTeacher][InsectWingbeatSound] loss= 0.04218; Epoch Label ACC.= 88.76%, UnLabel ACC.= 52.59%, Lipistz loss = 0, Train Unlabel Best ACC.= 55.1%, Train Max Epoch=45
+EarlyStopping counter: 86 out of 200
+Epoch [118][SemiTeacher][InsectWingbeatSound] loss= 0.04277; Epoch Label ACC.= 89.96%, UnLabel ACC.= 50.67%, Lipistz loss = 0, Train Unlabel Best ACC.= 55.1%, Train Max Epoch=45
+EarlyStopping counter: 87 out of 200
+Epoch [119][SemiTeacher][InsectWingbeatSound] loss= 0.03871; Epoch Label ACC.= 93.90%, UnLabel ACC.= 52.59%, Lipistz loss = 0, Train Unlabel Best ACC.= 55.1%, Train Max Epoch=45
+EarlyStopping counter: 88 out of 200
+Epoch [120][SemiTeacher][InsectWingbeatSound] loss= 0.04224; Epoch Label ACC.= 93.38%, UnLabel ACC.= 53.69%, Lipistz loss = 0, Train Unlabel Best ACC.= 55.1%, Train Max Epoch=45
+EarlyStopping counter: 89 out of 200
+Epoch [121][SemiTeacher][InsectWingbeatSound] loss= 0.04098; Epoch Label ACC.= 92.19%, UnLabel ACC.= 52.14%, Lipistz loss = 0, Train Unlabel Best ACC.= 55.1%, Train Max Epoch=45
+EarlyStopping counter: 90 out of 200
+Epoch [122][SemiTeacher][InsectWingbeatSound] loss= 0.04252; Epoch Label ACC.= 93.68%, UnLabel ACC.= 52.41%, Lipistz loss = 0, Train Unlabel Best ACC.= 55.1%, Train Max Epoch=45
+EarlyStopping counter: 91 out of 200
+Epoch [123][SemiTeacher][InsectWingbeatSound] loss= 0.04465; Epoch Label ACC.= 92.71%, UnLabel ACC.= 50.89%, Lipistz loss = 0, Train Unlabel Best ACC.= 55.1%, Train Max Epoch=45
+EarlyStopping counter: 92 out of 200
+Epoch [124][SemiTeacher][InsectWingbeatSound] loss= 0.04133; Epoch Label ACC.= 92.19%, UnLabel ACC.= 52.47%, Lipistz loss = 0, Train Unlabel Best ACC.= 55.1%, Train Max Epoch=45
+EarlyStopping counter: 93 out of 200
+Epoch [125][SemiTeacher][InsectWingbeatSound] loss= 0.04425; Epoch Label ACC.= 89.66%, UnLabel ACC.= 51.99%, Lipistz loss = 0, Train Unlabel Best ACC.= 55.1%, Train Max Epoch=45
+EarlyStopping counter: 94 out of 200
+Epoch [126][SemiTeacher][InsectWingbeatSound] loss= 0.04674; Epoch Label ACC.= 87.57%, UnLabel ACC.= 51.61%, Lipistz loss = 0, Train Unlabel Best ACC.= 55.1%, Train Max Epoch=45
+EarlyStopping counter: 95 out of 200
+Epoch [127][SemiTeacher][InsectWingbeatSound] loss= 0.04100; Epoch Label ACC.= 92.71%, UnLabel ACC.= 52.77%, Lipistz loss = 0, Train Unlabel Best ACC.= 55.1%, Train Max Epoch=45
+EarlyStopping counter: 96 out of 200
+Epoch [128][SemiTeacher][InsectWingbeatSound] loss= 0.04017; Epoch Label ACC.= 91.82%, UnLabel ACC.= 52.34%, Lipistz loss = 0, Train Unlabel Best ACC.= 55.1%, Train Max Epoch=45
+EarlyStopping counter: 97 out of 200
+Epoch [129][SemiTeacher][InsectWingbeatSound] loss= 0.04126; Epoch Label ACC.= 93.08%, UnLabel ACC.= 53.38%, Lipistz loss = 0, Train Unlabel Best ACC.= 55.1%, Train Max Epoch=45
+EarlyStopping counter: 98 out of 200
+Epoch [130][SemiTeacher][InsectWingbeatSound] loss= 0.04287; Epoch Label ACC.= 95.24%, UnLabel ACC.= 53.29%, Lipistz loss = 0, Train Unlabel Best ACC.= 55.1%, Train Max Epoch=45
+EarlyStopping counter: 99 out of 200
+Epoch [131][SemiTeacher][InsectWingbeatSound] loss= 0.04252; Epoch Label ACC.= 92.26%, UnLabel ACC.= 52.40%, Lipistz loss = 0, Train Unlabel Best ACC.= 55.1%, Train Max Epoch=45
+EarlyStopping counter: 100 out of 200
+Epoch [132][SemiTeacher][InsectWingbeatSound] loss= 0.04194; Epoch Label ACC.= 94.49%, UnLabel ACC.= 50.68%, Lipistz loss = 0, Train Unlabel Best ACC.= 55.1%, Train Max Epoch=45
+EarlyStopping counter: 101 out of 200
+Epoch [133][SemiTeacher][InsectWingbeatSound] loss= 0.04465; Epoch Label ACC.= 91.44%, UnLabel ACC.= 51.93%, Lipistz loss = 0, Train Unlabel Best ACC.= 55.1%, Train Max Epoch=45
+EarlyStopping counter: 102 out of 200
+Epoch [134][SemiTeacher][InsectWingbeatSound] loss= 0.04231; Epoch Label ACC.= 94.20%, UnLabel ACC.= 52.57%, Lipistz loss = 0, Train Unlabel Best ACC.= 55.1%, Train Max Epoch=45
+EarlyStopping counter: 103 out of 200
+Epoch [135][SemiTeacher][InsectWingbeatSound] loss= 0.03963; Epoch Label ACC.= 91.74%, UnLabel ACC.= 52.13%, Lipistz loss = 0, Train Unlabel Best ACC.= 55.1%, Train Max Epoch=45
+EarlyStopping counter: 104 out of 200
+Epoch [136][SemiTeacher][InsectWingbeatSound] loss= 0.04325; Epoch Label ACC.= 92.04%, UnLabel ACC.= 49.69%, Lipistz loss = 0, Train Unlabel Best ACC.= 55.1%, Train Max Epoch=45
+EarlyStopping counter: 105 out of 200
+Epoch [137][SemiTeacher][InsectWingbeatSound] loss= 0.04072; Epoch Label ACC.= 93.45%, UnLabel ACC.= 52.80%, Lipistz loss = 0, Train Unlabel Best ACC.= 55.1%, Train Max Epoch=45
+EarlyStopping counter: 106 out of 200
+Epoch [138][SemiTeacher][InsectWingbeatSound] loss= 0.04470; Epoch Label ACC.= 90.33%, UnLabel ACC.= 51.07%, Lipistz loss = 0, Train Unlabel Best ACC.= 55.1%, Train Max Epoch=45
+EarlyStopping counter: 107 out of 200
+Epoch [139][SemiTeacher][InsectWingbeatSound] loss= 0.04356; Epoch Label ACC.= 89.43%, UnLabel ACC.= 53.26%, Lipistz loss = 0, Train Unlabel Best ACC.= 55.1%, Train Max Epoch=45
+EarlyStopping counter: 108 out of 200
+Epoch [140][SemiTeacher][InsectWingbeatSound] loss= 0.04358; Epoch Label ACC.= 90.92%, UnLabel ACC.= 51.03%, Lipistz loss = 0, Train Unlabel Best ACC.= 55.1%, Train Max Epoch=45
+EarlyStopping counter: 109 out of 200
+Epoch [141][SemiTeacher][InsectWingbeatSound] loss= 0.04595; Epoch Label ACC.= 87.50%, UnLabel ACC.= 52.60%, Lipistz loss = 0, Train Unlabel Best ACC.= 55.1%, Train Max Epoch=45
+EarlyStopping counter: 110 out of 200
+Epoch [142][SemiTeacher][InsectWingbeatSound] loss= 0.03940; Epoch Label ACC.= 91.74%, UnLabel ACC.= 51.71%, Lipistz loss = 0, Train Unlabel Best ACC.= 55.1%, Train Max Epoch=45
+EarlyStopping counter: 111 out of 200
+Epoch [143][SemiTeacher][InsectWingbeatSound] loss= 0.04186; Epoch Label ACC.= 89.06%, UnLabel ACC.= 53.05%, Lipistz loss = 0, Train Unlabel Best ACC.= 55.1%, Train Max Epoch=45
+EarlyStopping counter: 112 out of 200
+Epoch [144][SemiTeacher][InsectWingbeatSound] loss= 0.04221; Epoch Label ACC.= 92.11%, UnLabel ACC.= 52.47%, Lipistz loss = 0, Train Unlabel Best ACC.= 55.1%, Train Max Epoch=45
+EarlyStopping counter: 113 out of 200
+Epoch [145][SemiTeacher][InsectWingbeatSound] loss= 0.04137; Epoch Label ACC.= 89.51%, UnLabel ACC.= 51.00%, Lipistz loss = 0, Train Unlabel Best ACC.= 55.1%, Train Max Epoch=45
+EarlyStopping counter: 114 out of 200
+Epoch [146][SemiTeacher][InsectWingbeatSound] loss= 0.04135; Epoch Label ACC.= 92.63%, UnLabel ACC.= 51.35%, Lipistz loss = 0, Train Unlabel Best ACC.= 55.1%, Train Max Epoch=45
+EarlyStopping counter: 115 out of 200
+Epoch [147][SemiTeacher][InsectWingbeatSound] loss= 0.04256; Epoch Label ACC.= 92.63%, UnLabel ACC.= 51.98%, Lipistz loss = 0, Train Unlabel Best ACC.= 55.1%, Train Max Epoch=45
+EarlyStopping counter: 116 out of 200
+Epoch [148][SemiTeacher][InsectWingbeatSound] loss= 0.04085; Epoch Label ACC.= 92.56%, UnLabel ACC.= 50.98%, Lipistz loss = 0, Train Unlabel Best ACC.= 55.1%, Train Max Epoch=45
+EarlyStopping counter: 117 out of 200
+Epoch [149][SemiTeacher][InsectWingbeatSound] loss= 0.04235; Epoch Label ACC.= 89.88%, UnLabel ACC.= 49.78%, Lipistz loss = 0, Train Unlabel Best ACC.= 55.1%, Train Max Epoch=45
+EarlyStopping counter: 118 out of 200
+Epoch [150][SemiTeacher][InsectWingbeatSound] loss= 0.04426; Epoch Label ACC.= 91.59%, UnLabel ACC.= 51.52%, Lipistz loss = 0, Train Unlabel Best ACC.= 55.1%, Train Max Epoch=45
+EarlyStopping counter: 119 out of 200
+Epoch [151][SemiTeacher][InsectWingbeatSound] loss= 0.04436; Epoch Label ACC.= 90.85%, UnLabel ACC.= 51.24%, Lipistz loss = 0, Train Unlabel Best ACC.= 55.1%, Train Max Epoch=45
+EarlyStopping counter: 120 out of 200
+Epoch [152][SemiTeacher][InsectWingbeatSound] loss= 0.04431; Epoch Label ACC.= 92.19%, UnLabel ACC.= 55.49%, Lipistz loss = 0, Train Unlabel Best ACC.= 55.5%, Train Max Epoch=151
+EarlyStopping counter: 121 out of 200
+Epoch [153][SemiTeacher][InsectWingbeatSound] loss= 0.04294; Epoch Label ACC.= 87.95%, UnLabel ACC.= 53.24%, Lipistz loss = 0, Train Unlabel Best ACC.= 55.5%, Train Max Epoch=151
+EarlyStopping counter: 122 out of 200
+Epoch [154][SemiTeacher][InsectWingbeatSound] loss= 0.04271; Epoch Label ACC.= 93.75%, UnLabel ACC.= 51.83%, Lipistz loss = 0, Train Unlabel Best ACC.= 55.5%, Train Max Epoch=151
+EarlyStopping counter: 123 out of 200
+Epoch [155][SemiTeacher][InsectWingbeatSound] loss= 0.03988; Epoch Label ACC.= 94.05%, UnLabel ACC.= 52.86%, Lipistz loss = 0, Train Unlabel Best ACC.= 55.5%, Train Max Epoch=151
+EarlyStopping counter: 124 out of 200
+Epoch [156][SemiTeacher][InsectWingbeatSound] loss= 0.04286; Epoch Label ACC.= 94.72%, UnLabel ACC.= 53.75%, Lipistz loss = 0, Train Unlabel Best ACC.= 55.5%, Train Max Epoch=151
+EarlyStopping counter: 125 out of 200
+Epoch [157][SemiTeacher][InsectWingbeatSound] loss= 0.04112; Epoch Label ACC.= 90.03%, UnLabel ACC.= 52.72%, Lipistz loss = 0, Train Unlabel Best ACC.= 55.5%, Train Max Epoch=151
+EarlyStopping counter: 126 out of 200
+Epoch [158][SemiTeacher][InsectWingbeatSound] loss= 0.04370; Epoch Label ACC.= 89.29%, UnLabel ACC.= 51.44%, Lipistz loss = 0, Train Unlabel Best ACC.= 55.5%, Train Max Epoch=151
+EarlyStopping counter: 127 out of 200
+Epoch [159][SemiTeacher][InsectWingbeatSound] loss= 0.04305; Epoch Label ACC.= 94.05%, UnLabel ACC.= 51.12%, Lipistz loss = 0, Train Unlabel Best ACC.= 55.5%, Train Max Epoch=151
+EarlyStopping counter: 128 out of 200
+Epoch [160][SemiTeacher][InsectWingbeatSound] loss= 0.04277; Epoch Label ACC.= 91.67%, UnLabel ACC.= 49.96%, Lipistz loss = 0, Train Unlabel Best ACC.= 55.5%, Train Max Epoch=151
+EarlyStopping counter: 129 out of 200
+Epoch [161][SemiTeacher][InsectWingbeatSound] loss= 0.04549; Epoch Label ACC.= 92.19%, UnLabel ACC.= 53.42%, Lipistz loss = 0, Train Unlabel Best ACC.= 55.5%, Train Max Epoch=151
+EarlyStopping counter: 130 out of 200
+Epoch [162][SemiTeacher][InsectWingbeatSound] loss= 0.04391; Epoch Label ACC.= 94.27%, UnLabel ACC.= 52.19%, Lipistz loss = 0, Train Unlabel Best ACC.= 55.5%, Train Max Epoch=151
+EarlyStopping counter: 131 out of 200
+Epoch [163][SemiTeacher][InsectWingbeatSound] loss= 0.04412; Epoch Label ACC.= 93.23%, UnLabel ACC.= 51.52%, Lipistz loss = 0, Train Unlabel Best ACC.= 55.5%, Train Max Epoch=151
+EarlyStopping counter: 132 out of 200
+Epoch [164][SemiTeacher][InsectWingbeatSound] loss= 0.04461; Epoch Label ACC.= 91.07%, UnLabel ACC.= 51.25%, Lipistz loss = 0, Train Unlabel Best ACC.= 55.5%, Train Max Epoch=151
+EarlyStopping counter: 133 out of 200
+Epoch [165][SemiTeacher][InsectWingbeatSound] loss= 0.04488; Epoch Label ACC.= 92.11%, UnLabel ACC.= 51.37%, Lipistz loss = 0, Train Unlabel Best ACC.= 55.5%, Train Max Epoch=151
+EarlyStopping counter: 134 out of 200
+Epoch [166][SemiTeacher][InsectWingbeatSound] loss= 0.04319; Epoch Label ACC.= 94.49%, UnLabel ACC.= 51.61%, Lipistz loss = 0, Train Unlabel Best ACC.= 55.5%, Train Max Epoch=151
+EarlyStopping counter: 135 out of 200
+Epoch [167][SemiTeacher][InsectWingbeatSound] loss= 0.04594; Epoch Label ACC.= 92.41%, UnLabel ACC.= 52.51%, Lipistz loss = 0, Train Unlabel Best ACC.= 55.5%, Train Max Epoch=151
+EarlyStopping counter: 136 out of 200
+Epoch [168][SemiTeacher][InsectWingbeatSound] loss= 0.04580; Epoch Label ACC.= 92.56%, UnLabel ACC.= 49.76%, Lipistz loss = 0, Train Unlabel Best ACC.= 55.5%, Train Max Epoch=151
+EarlyStopping counter: 137 out of 200
+Epoch [169][SemiTeacher][InsectWingbeatSound] loss= 0.04485; Epoch Label ACC.= 90.03%, UnLabel ACC.= 52.14%, Lipistz loss = 0, Train Unlabel Best ACC.= 55.5%, Train Max Epoch=151
+EarlyStopping counter: 138 out of 200
+Epoch [170][SemiTeacher][InsectWingbeatSound] loss= 0.04417; Epoch Label ACC.= 93.75%, UnLabel ACC.= 52.46%, Lipistz loss = 0, Train Unlabel Best ACC.= 55.5%, Train Max Epoch=151
+EarlyStopping counter: 139 out of 200
+Epoch [171][SemiTeacher][InsectWingbeatSound] loss= 0.04588; Epoch Label ACC.= 92.93%, UnLabel ACC.= 51.68%, Lipistz loss = 0, Train Unlabel Best ACC.= 55.5%, Train Max Epoch=151
+EarlyStopping counter: 140 out of 200
+Epoch [172][SemiTeacher][InsectWingbeatSound] loss= 0.04372; Epoch Label ACC.= 95.01%, UnLabel ACC.= 51.61%, Lipistz loss = 0, Train Unlabel Best ACC.= 55.5%, Train Max Epoch=151
+EarlyStopping counter: 141 out of 200
+Epoch [173][SemiTeacher][InsectWingbeatSound] loss= 0.04399; Epoch Label ACC.= 92.41%, UnLabel ACC.= 53.99%, Lipistz loss = 0, Train Unlabel Best ACC.= 55.5%, Train Max Epoch=151
+EarlyStopping counter: 142 out of 200
+Epoch [174][SemiTeacher][InsectWingbeatSound] loss= 0.04058; Epoch Label ACC.= 94.49%, UnLabel ACC.= 54.39%, Lipistz loss = 0, Train Unlabel Best ACC.= 55.5%, Train Max Epoch=151
+EarlyStopping counter: 143 out of 200
+Epoch [175][SemiTeacher][InsectWingbeatSound] loss= 0.04584; Epoch Label ACC.= 89.43%, UnLabel ACC.= 49.93%, Lipistz loss = 0, Train Unlabel Best ACC.= 55.5%, Train Max Epoch=151
+EarlyStopping counter: 144 out of 200
+Epoch [176][SemiTeacher][InsectWingbeatSound] loss= 0.04083; Epoch Label ACC.= 94.49%, UnLabel ACC.= 53.65%, Lipistz loss = 0, Train Unlabel Best ACC.= 55.5%, Train Max Epoch=151
+EarlyStopping counter: 145 out of 200
+Epoch [177][SemiTeacher][InsectWingbeatSound] loss= 0.04252; Epoch Label ACC.= 91.82%, UnLabel ACC.= 51.62%, Lipistz loss = 0, Train Unlabel Best ACC.= 55.5%, Train Max Epoch=151
+EarlyStopping counter: 146 out of 200
+Epoch [178][SemiTeacher][InsectWingbeatSound] loss= 0.04147; Epoch Label ACC.= 91.37%, UnLabel ACC.= 52.60%, Lipistz loss = 0, Train Unlabel Best ACC.= 55.5%, Train Max Epoch=151
+EarlyStopping counter: 147 out of 200
+Epoch [179][SemiTeacher][InsectWingbeatSound] loss= 0.04168; Epoch Label ACC.= 88.84%, UnLabel ACC.= 53.94%, Lipistz loss = 0, Train Unlabel Best ACC.= 55.5%, Train Max Epoch=151
+EarlyStopping counter: 148 out of 200
+Epoch [180][SemiTeacher][InsectWingbeatSound] loss= 0.04141; Epoch Label ACC.= 89.66%, UnLabel ACC.= 49.84%, Lipistz loss = 0, Train Unlabel Best ACC.= 55.5%, Train Max Epoch=151
+EarlyStopping counter: 149 out of 200
+Epoch [181][SemiTeacher][InsectWingbeatSound] loss= 0.04076; Epoch Label ACC.= 91.22%, UnLabel ACC.= 51.56%, Lipistz loss = 0, Train Unlabel Best ACC.= 55.5%, Train Max Epoch=151
+EarlyStopping counter: 150 out of 200
+Epoch [182][SemiTeacher][InsectWingbeatSound] loss= 0.04419; Epoch Label ACC.= 90.70%, UnLabel ACC.= 51.76%, Lipistz loss = 0, Train Unlabel Best ACC.= 55.5%, Train Max Epoch=151
+EarlyStopping counter: 151 out of 200
+Epoch [183][SemiTeacher][InsectWingbeatSound] loss= 0.04419; Epoch Label ACC.= 95.09%, UnLabel ACC.= 51.49%, Lipistz loss = 0, Train Unlabel Best ACC.= 55.5%, Train Max Epoch=151
+EarlyStopping counter: 152 out of 200
+Epoch [184][SemiTeacher][InsectWingbeatSound] loss= 0.04267; Epoch Label ACC.= 91.00%, UnLabel ACC.= 53.56%, Lipistz loss = 0, Train Unlabel Best ACC.= 55.5%, Train Max Epoch=151
+EarlyStopping counter: 153 out of 200
+Epoch [185][SemiTeacher][InsectWingbeatSound] loss= 0.04303; Epoch Label ACC.= 94.79%, UnLabel ACC.= 52.95%, Lipistz loss = 0, Train Unlabel Best ACC.= 55.5%, Train Max Epoch=151
+EarlyStopping counter: 154 out of 200
+Epoch [186][SemiTeacher][InsectWingbeatSound] loss= 0.04458; Epoch Label ACC.= 90.92%, UnLabel ACC.= 51.98%, Lipistz loss = 0, Train Unlabel Best ACC.= 55.5%, Train Max Epoch=151
+EarlyStopping counter: 155 out of 200
+Epoch [187][SemiTeacher][InsectWingbeatSound] loss= 0.04396; Epoch Label ACC.= 94.57%, UnLabel ACC.= 52.56%, Lipistz loss = 0, Train Unlabel Best ACC.= 55.5%, Train Max Epoch=151
+EarlyStopping counter: 156 out of 200
+Epoch [188][SemiTeacher][InsectWingbeatSound] loss= 0.04417; Epoch Label ACC.= 90.92%, UnLabel ACC.= 51.44%, Lipistz loss = 0, Train Unlabel Best ACC.= 55.5%, Train Max Epoch=151
+EarlyStopping counter: 157 out of 200
+Epoch [189][SemiTeacher][InsectWingbeatSound] loss= 0.04541; Epoch Label ACC.= 92.93%, UnLabel ACC.= 51.96%, Lipistz loss = 0, Train Unlabel Best ACC.= 55.5%, Train Max Epoch=151
+EarlyStopping counter: 158 out of 200
+Epoch [190][SemiTeacher][InsectWingbeatSound] loss= 0.04420; Epoch Label ACC.= 85.57%, UnLabel ACC.= 47.69%, Lipistz loss = 0, Train Unlabel Best ACC.= 55.5%, Train Max Epoch=151
+EarlyStopping counter: 159 out of 200
+Epoch [191][SemiTeacher][InsectWingbeatSound] loss= 0.04399; Epoch Label ACC.= 91.67%, UnLabel ACC.= 51.16%, Lipistz loss = 0, Train Unlabel Best ACC.= 55.5%, Train Max Epoch=151
+EarlyStopping counter: 160 out of 200
+Epoch [192][SemiTeacher][InsectWingbeatSound] loss= 0.04562; Epoch Label ACC.= 91.59%, UnLabel ACC.= 50.16%, Lipistz loss = 0, Train Unlabel Best ACC.= 55.5%, Train Max Epoch=151
+EarlyStopping counter: 161 out of 200
+Epoch [193][SemiTeacher][InsectWingbeatSound] loss= 0.04431; Epoch Label ACC.= 95.31%, UnLabel ACC.= 55.57%, Lipistz loss = 0, Train Unlabel Best ACC.= 55.6%, Train Max Epoch=192
+EarlyStopping counter: 162 out of 200
+Epoch [194][SemiTeacher][InsectWingbeatSound] loss= 0.04257; Epoch Label ACC.= 93.90%, UnLabel ACC.= 51.46%, Lipistz loss = 0, Train Unlabel Best ACC.= 55.6%, Train Max Epoch=192
+EarlyStopping counter: 163 out of 200
+Epoch [195][SemiTeacher][InsectWingbeatSound] loss= 0.04399; Epoch Label ACC.= 95.46%, UnLabel ACC.= 51.43%, Lipistz loss = 0, Train Unlabel Best ACC.= 55.6%, Train Max Epoch=192
+EarlyStopping counter: 164 out of 200
+Epoch [196][SemiTeacher][InsectWingbeatSound] loss= 0.04148; Epoch Label ACC.= 94.27%, UnLabel ACC.= 50.37%, Lipistz loss = 0, Train Unlabel Best ACC.= 55.6%, Train Max Epoch=192
+EarlyStopping counter: 165 out of 200
+Epoch [197][SemiTeacher][InsectWingbeatSound] loss= 0.04703; Epoch Label ACC.= 94.05%, UnLabel ACC.= 51.44%, Lipistz loss = 0, Train Unlabel Best ACC.= 55.6%, Train Max Epoch=192
+EarlyStopping counter: 166 out of 200
+Epoch [198][SemiTeacher][InsectWingbeatSound] loss= 0.04221; Epoch Label ACC.= 94.42%, UnLabel ACC.= 49.58%, Lipistz loss = 0, Train Unlabel Best ACC.= 55.6%, Train Max Epoch=192
+EarlyStopping counter: 167 out of 200
+Epoch [199][SemiTeacher][InsectWingbeatSound] loss= 0.04276; Epoch Label ACC.= 94.49%, UnLabel ACC.= 50.37%, Lipistz loss = 0, Train Unlabel Best ACC.= 55.6%, Train Max Epoch=192
+EarlyStopping counter: 168 out of 200
+[INFO] save backbone at epoch 199!
+Epoch [200][SemiTeacher][InsectWingbeatSound] loss= 0.04054; Epoch Label ACC.= 95.24%, UnLabel ACC.= 50.68%, Lipistz loss = 0, Train Unlabel Best ACC.= 55.6%, Train Max Epoch=192
+EarlyStopping counter: 169 out of 200
+Epoch [201][SemiTeacher][InsectWingbeatSound] loss= 0.04337; Epoch Label ACC.= 93.90%, UnLabel ACC.= 51.44%, Lipistz loss = 0, Train Unlabel Best ACC.= 55.6%, Train Max Epoch=192
+EarlyStopping counter: 170 out of 200
+Epoch [202][SemiTeacher][InsectWingbeatSound] loss= 0.04354; Epoch Label ACC.= 94.64%, UnLabel ACC.= 53.04%, Lipistz loss = 0, Train Unlabel Best ACC.= 55.6%, Train Max Epoch=192
+EarlyStopping counter: 171 out of 200
+Epoch [203][SemiTeacher][InsectWingbeatSound] loss= 0.04460; Epoch Label ACC.= 96.28%, UnLabel ACC.= 52.96%, Lipistz loss = 0, Train Unlabel Best ACC.= 55.6%, Train Max Epoch=192
+EarlyStopping counter: 172 out of 200
+Epoch [204][SemiTeacher][InsectWingbeatSound] loss= 0.04417; Epoch Label ACC.= 93.60%, UnLabel ACC.= 50.13%, Lipistz loss = 0, Train Unlabel Best ACC.= 55.6%, Train Max Epoch=192
+EarlyStopping counter: 173 out of 200
+Epoch [205][SemiTeacher][InsectWingbeatSound] loss= 0.04140; Epoch Label ACC.= 93.08%, UnLabel ACC.= 51.21%, Lipistz loss = 0, Train Unlabel Best ACC.= 55.6%, Train Max Epoch=192
+EarlyStopping counter: 174 out of 200
+Epoch [206][SemiTeacher][InsectWingbeatSound] loss= 0.04094; Epoch Label ACC.= 91.89%, UnLabel ACC.= 49.96%, Lipistz loss = 0, Train Unlabel Best ACC.= 55.6%, Train Max Epoch=192
+EarlyStopping counter: 175 out of 200
+Epoch [207][SemiTeacher][InsectWingbeatSound] loss= 0.04333; Epoch Label ACC.= 91.59%, UnLabel ACC.= 52.28%, Lipistz loss = 0, Train Unlabel Best ACC.= 55.6%, Train Max Epoch=192
+EarlyStopping counter: 176 out of 200
+Epoch [208][SemiTeacher][InsectWingbeatSound] loss= 0.04466; Epoch Label ACC.= 92.11%, UnLabel ACC.= 51.55%, Lipistz loss = 0, Train Unlabel Best ACC.= 55.6%, Train Max Epoch=192
+EarlyStopping counter: 177 out of 200
+Epoch [209][SemiTeacher][InsectWingbeatSound] loss= 0.04393; Epoch Label ACC.= 94.35%, UnLabel ACC.= 53.87%, Lipistz loss = 0, Train Unlabel Best ACC.= 55.6%, Train Max Epoch=192
+EarlyStopping counter: 178 out of 200
+Epoch [210][SemiTeacher][InsectWingbeatSound] loss= 0.04456; Epoch Label ACC.= 91.37%, UnLabel ACC.= 52.08%, Lipistz loss = 0, Train Unlabel Best ACC.= 55.6%, Train Max Epoch=192
+EarlyStopping counter: 179 out of 200
+Epoch [211][SemiTeacher][InsectWingbeatSound] loss= 0.04330; Epoch Label ACC.= 94.94%, UnLabel ACC.= 50.57%, Lipistz loss = 0, Train Unlabel Best ACC.= 55.6%, Train Max Epoch=192
+EarlyStopping counter: 180 out of 200
+Epoch [212][SemiTeacher][InsectWingbeatSound] loss= 0.04376; Epoch Label ACC.= 95.68%, UnLabel ACC.= 52.65%, Lipistz loss = 0, Train Unlabel Best ACC.= 55.6%, Train Max Epoch=192
+EarlyStopping counter: 181 out of 200
+Epoch [213][SemiTeacher][InsectWingbeatSound] loss= 0.04354; Epoch Label ACC.= 91.89%, UnLabel ACC.= 50.09%, Lipistz loss = 0, Train Unlabel Best ACC.= 55.6%, Train Max Epoch=192
+EarlyStopping counter: 182 out of 200
+Epoch [214][SemiTeacher][InsectWingbeatSound] loss= 0.04317; Epoch Label ACC.= 94.94%, UnLabel ACC.= 51.67%, Lipistz loss = 0, Train Unlabel Best ACC.= 55.6%, Train Max Epoch=192
+EarlyStopping counter: 183 out of 200
+Epoch [215][SemiTeacher][InsectWingbeatSound] loss= 0.04512; Epoch Label ACC.= 97.25%, UnLabel ACC.= 51.00%, Lipistz loss = 0, Train Unlabel Best ACC.= 55.6%, Train Max Epoch=192
+EarlyStopping counter: 184 out of 200
+Epoch [216][SemiTeacher][InsectWingbeatSound] loss= 0.04250; Epoch Label ACC.= 94.72%, UnLabel ACC.= 51.06%, Lipistz loss = 0, Train Unlabel Best ACC.= 55.6%, Train Max Epoch=192
+EarlyStopping counter: 185 out of 200
+Epoch [217][SemiTeacher][InsectWingbeatSound] loss= 0.04235; Epoch Label ACC.= 90.77%, UnLabel ACC.= 53.33%, Lipistz loss = 0, Train Unlabel Best ACC.= 55.6%, Train Max Epoch=192
+EarlyStopping counter: 186 out of 200
+Epoch [218][SemiTeacher][InsectWingbeatSound] loss= 0.04440; Epoch Label ACC.= 88.91%, UnLabel ACC.= 53.11%, Lipistz loss = 0, Train Unlabel Best ACC.= 55.6%, Train Max Epoch=192
+EarlyStopping counter: 187 out of 200
+Epoch [219][SemiTeacher][InsectWingbeatSound] loss= 0.04372; Epoch Label ACC.= 93.01%, UnLabel ACC.= 53.18%, Lipistz loss = 0, Train Unlabel Best ACC.= 55.6%, Train Max Epoch=192
+EarlyStopping counter: 188 out of 200
+Epoch [220][SemiTeacher][InsectWingbeatSound] loss= 0.04425; Epoch Label ACC.= 91.52%, UnLabel ACC.= 52.49%, Lipistz loss = 0, Train Unlabel Best ACC.= 55.6%, Train Max Epoch=192
+EarlyStopping counter: 189 out of 200
+Epoch [221][SemiTeacher][InsectWingbeatSound] loss= 0.04428; Epoch Label ACC.= 91.37%, UnLabel ACC.= 51.56%, Lipistz loss = 0, Train Unlabel Best ACC.= 55.6%, Train Max Epoch=192
+EarlyStopping counter: 190 out of 200
+Epoch [222][SemiTeacher][InsectWingbeatSound] loss= 0.04298; Epoch Label ACC.= 94.87%, UnLabel ACC.= 51.64%, Lipistz loss = 0, Train Unlabel Best ACC.= 55.6%, Train Max Epoch=192
+EarlyStopping counter: 191 out of 200
+Epoch [223][SemiTeacher][InsectWingbeatSound] loss= 0.04188; Epoch Label ACC.= 86.61%, UnLabel ACC.= 54.61%, Lipistz loss = 0, Train Unlabel Best ACC.= 55.6%, Train Max Epoch=192
+EarlyStopping counter: 192 out of 200
+Epoch [224][SemiTeacher][InsectWingbeatSound] loss= 0.04414; Epoch Label ACC.= 95.98%, UnLabel ACC.= 52.63%, Lipistz loss = 0, Train Unlabel Best ACC.= 55.6%, Train Max Epoch=192
+EarlyStopping counter: 193 out of 200
+Epoch [225][SemiTeacher][InsectWingbeatSound] loss= 0.04133; Epoch Label ACC.= 92.78%, UnLabel ACC.= 51.55%, Lipistz loss = 0, Train Unlabel Best ACC.= 55.6%, Train Max Epoch=192
+EarlyStopping counter: 194 out of 200
+Epoch [226][SemiTeacher][InsectWingbeatSound] loss= 0.04248; Epoch Label ACC.= 94.35%, UnLabel ACC.= 52.20%, Lipistz loss = 0, Train Unlabel Best ACC.= 55.6%, Train Max Epoch=192
+EarlyStopping counter: 195 out of 200
+Epoch [227][SemiTeacher][InsectWingbeatSound] loss= 0.04871; Epoch Label ACC.= 93.75%, UnLabel ACC.= 50.60%, Lipistz loss = 0, Train Unlabel Best ACC.= 55.6%, Train Max Epoch=192
+EarlyStopping counter: 196 out of 200
+Epoch [228][SemiTeacher][InsectWingbeatSound] loss= 0.04406; Epoch Label ACC.= 90.92%, UnLabel ACC.= 50.60%, Lipistz loss = 0, Train Unlabel Best ACC.= 55.6%, Train Max Epoch=192
+EarlyStopping counter: 197 out of 200
+Epoch [229][SemiTeacher][InsectWingbeatSound] loss= 0.04582; Epoch Label ACC.= 95.39%, UnLabel ACC.= 53.45%, Lipistz loss = 0, Train Unlabel Best ACC.= 55.6%, Train Max Epoch=192
+EarlyStopping counter: 198 out of 200
+Epoch [230][SemiTeacher][InsectWingbeatSound] loss= 0.04264; Epoch Label ACC.= 92.71%, UnLabel ACC.= 53.42%, Lipistz loss = 0, Train Unlabel Best ACC.= 55.6%, Train Max Epoch=192
+EarlyStopping counter: 199 out of 200
+Epoch [231][SemiTeacher][InsectWingbeatSound] loss= 0.04477; Epoch Label ACC.= 91.52%, UnLabel ACC.= 52.90%, Lipistz loss = 0, Train Unlabel Best ACC.= 55.6%, Train Max Epoch=192
+EarlyStopping counter: 200 out of 200
+Early stopping
+[INFO] Running at: InsectWingbeatSound
+[INFO] InsectWingbeatSound
+[Stat] All class: {0: 200, 1: 200, 2: 200, 3: 200, 4: 200, 5: 200, 6: 200, 7: 200, 8: 200, 9: 200, 10: 200}
+[Stat] Train class: mean=120.0, std=0.0
+[Stat] Val class: mean=40.0, std=0.0
+[Stat] Test class: mean=40.0, std=0.0
+Train:(1320, 256, 1), Test:(440, 256, 1), Class:11
+rp_params: [3, 256]
+[Test-0] Val ACC:9.15%, Best Test ACC.: 9.60% in Epoch 0
+Epoch [1][SemiTeacher][InsectWingbeatSound] loss= 0.00073; Epoch Label ACC.= 16.59%, UnLabel ACC.= 9.27%, Lipistz loss = 0, Train Unlabel Best ACC.= 9.3%, Train Max Epoch=0
+EarlyStopping counter: 1 out of 200
+Epoch [2][SemiTeacher][InsectWingbeatSound] loss= 0.00176; Epoch Label ACC.= 20.46%, UnLabel ACC.= 9.58%, Lipistz loss = 0, Train Unlabel Best ACC.= 9.6%, Train Max Epoch=1
+[Test-2] Val ACC:9.89%, Best Test ACC.: 9.44% in Epoch 2
+Validation loss decreased (inf --> 9.885204).  Saving model ...
+Epoch [3][SemiTeacher][InsectWingbeatSound] loss= 0.00119; Epoch Label ACC.= 21.50%, UnLabel ACC.= 9.63%, Lipistz loss = 0, Train Unlabel Best ACC.= 9.6%, Train Max Epoch=2
+[Test-3] Val ACC:18.85%, Best Test ACC.: 18.88% in Epoch 3
+Validation loss decreased (9.885204 --> 18.845663).  Saving model ...
+Epoch [4][SemiTeacher][InsectWingbeatSound] loss= 0.00206; Epoch Label ACC.= 27.08%, UnLabel ACC.= 12.92%, Lipistz loss = 0, Train Unlabel Best ACC.= 12.9%, Train Max Epoch=3
+[Test-4] Val ACC:29.82%, Best Test ACC.: 29.53% in Epoch 4
+Validation loss decreased (18.845663 --> 29.815051).  Saving model ...
+Epoch [5][SemiTeacher][InsectWingbeatSound] loss= 0.00399; Epoch Label ACC.= 28.94%, UnLabel ACC.= 18.74%, Lipistz loss = 0, Train Unlabel Best ACC.= 18.7%, Train Max Epoch=4
+[Test-5] Val ACC:36.80%, Best Test ACC.: 39.80% in Epoch 5
+Validation loss decreased (29.815051 --> 36.798470).  Saving model ...
+Epoch [6][SemiTeacher][InsectWingbeatSound] loss= 0.01515; Epoch Label ACC.= 44.57%, UnLabel ACC.= 23.78%, Lipistz loss = 0, Train Unlabel Best ACC.= 23.8%, Train Max Epoch=5
+[Test-6] Val ACC:40.53%, Best Test ACC.: 41.61% in Epoch 6
+Validation loss decreased (36.798470 --> 40.529337).  Saving model ...
+Epoch [7][SemiTeacher][InsectWingbeatSound] loss= 0.02223; Epoch Label ACC.= 54.39%, UnLabel ACC.= 32.14%, Lipistz loss = 0, Train Unlabel Best ACC.= 32.1%, Train Max Epoch=6
+[Test-7] Val ACC:45.85%, Best Test ACC.: 47.80% in Epoch 7
+Validation loss decreased (40.529337 --> 45.854592).  Saving model ...
+Epoch [8][SemiTeacher][InsectWingbeatSound] loss= 0.02593; Epoch Label ACC.= 62.87%, UnLabel ACC.= 34.40%, Lipistz loss = 0, Train Unlabel Best ACC.= 34.4%, Train Max Epoch=7
+[Test-8] Val ACC:48.88%, Best Test ACC.: 48.98% in Epoch 8
+Validation loss decreased (45.854592 --> 48.883930).  Saving model ...
+Epoch [9][SemiTeacher][InsectWingbeatSound] loss= 0.02218; Epoch Label ACC.= 59.60%, UnLabel ACC.= 38.81%, Lipistz loss = 0, Train Unlabel Best ACC.= 38.8%, Train Max Epoch=8
+EarlyStopping counter: 1 out of 200
+Epoch [10][SemiTeacher][InsectWingbeatSound] loss= 0.02087; Epoch Label ACC.= 57.96%, UnLabel ACC.= 41.01%, Lipistz loss = 0, Train Unlabel Best ACC.= 41.0%, Train Max Epoch=9
+[Test-10] Val ACC:49.14%, Best Test ACC.: 48.21% in Epoch 10
+Validation loss decreased (48.883930 --> 49.139031).  Saving model ...
+Epoch [11][SemiTeacher][InsectWingbeatSound] loss= 0.01962; Epoch Label ACC.= 61.76%, UnLabel ACC.= 36.12%, Lipistz loss = 0, Train Unlabel Best ACC.= 41.0%, Train Max Epoch=9
+[Test-11] Val ACC:51.08%, Best Test ACC.: 50.26% in Epoch 11
+Validation loss decreased (49.139031 --> 51.084184).  Saving model ...
+Epoch [12][SemiTeacher][InsectWingbeatSound] loss= 0.02154; Epoch Label ACC.= 68.01%, UnLabel ACC.= 38.57%, Lipistz loss = 0, Train Unlabel Best ACC.= 41.0%, Train Max Epoch=9
+[Test-12] Val ACC:52.55%, Best Test ACC.: 48.66% in Epoch 12
+Validation loss decreased (51.084184 --> 52.551021).  Saving model ...
+Epoch [13][SemiTeacher][InsectWingbeatSound] loss= 0.02221; Epoch Label ACC.= 68.60%, UnLabel ACC.= 42.07%, Lipistz loss = 0, Train Unlabel Best ACC.= 42.1%, Train Max Epoch=12
+[Test-13] Val ACC:53.70%, Best Test ACC.: 49.97% in Epoch 13
+Validation loss decreased (52.551021 --> 53.698980).  Saving model ...
+Epoch [14][SemiTeacher][InsectWingbeatSound] loss= 0.02359; Epoch Label ACC.= 68.53%, UnLabel ACC.= 42.17%, Lipistz loss = 0, Train Unlabel Best ACC.= 42.2%, Train Max Epoch=13
+EarlyStopping counter: 1 out of 200
+Epoch [15][SemiTeacher][InsectWingbeatSound] loss= 0.02304; Epoch Label ACC.= 67.56%, UnLabel ACC.= 42.75%, Lipistz loss = 0, Train Unlabel Best ACC.= 42.8%, Train Max Epoch=14
+EarlyStopping counter: 2 out of 200
+Epoch [16][SemiTeacher][InsectWingbeatSound] loss= 0.02620; Epoch Label ACC.= 75.60%, UnLabel ACC.= 43.36%, Lipistz loss = 0, Train Unlabel Best ACC.= 43.4%, Train Max Epoch=15
+EarlyStopping counter: 3 out of 200
+Epoch [17][SemiTeacher][InsectWingbeatSound] loss= 0.02847; Epoch Label ACC.= 77.16%, UnLabel ACC.= 43.79%, Lipistz loss = 0, Train Unlabel Best ACC.= 43.8%, Train Max Epoch=16
+EarlyStopping counter: 4 out of 200
+Epoch [18][SemiTeacher][InsectWingbeatSound] loss= 0.02807; Epoch Label ACC.= 67.41%, UnLabel ACC.= 43.33%, Lipistz loss = 0, Train Unlabel Best ACC.= 43.8%, Train Max Epoch=16
+EarlyStopping counter: 5 out of 200
+Epoch [19][SemiTeacher][InsectWingbeatSound] loss= 0.02906; Epoch Label ACC.= 70.91%, UnLabel ACC.= 44.32%, Lipistz loss = 0, Train Unlabel Best ACC.= 44.3%, Train Max Epoch=18
+EarlyStopping counter: 6 out of 200
+Epoch [20][SemiTeacher][InsectWingbeatSound] loss= 0.02753; Epoch Label ACC.= 74.48%, UnLabel ACC.= 42.31%, Lipistz loss = 0, Train Unlabel Best ACC.= 44.3%, Train Max Epoch=18
+EarlyStopping counter: 7 out of 200
+Epoch [21][SemiTeacher][InsectWingbeatSound] loss= 0.03002; Epoch Label ACC.= 70.91%, UnLabel ACC.= 42.59%, Lipistz loss = 0, Train Unlabel Best ACC.= 44.3%, Train Max Epoch=18
+EarlyStopping counter: 8 out of 200
+Epoch [22][SemiTeacher][InsectWingbeatSound] loss= 0.03051; Epoch Label ACC.= 68.68%, UnLabel ACC.= 43.85%, Lipistz loss = 0, Train Unlabel Best ACC.= 44.3%, Train Max Epoch=18
+EarlyStopping counter: 9 out of 200
+Epoch [23][SemiTeacher][InsectWingbeatSound] loss= 0.02972; Epoch Label ACC.= 80.36%, UnLabel ACC.= 45.36%, Lipistz loss = 0, Train Unlabel Best ACC.= 45.4%, Train Max Epoch=22
+[Test-23] Val ACC:55.55%, Best Test ACC.: 51.28% in Epoch 23
+Validation loss decreased (53.698980 --> 55.548470).  Saving model ...
+Epoch [24][SemiTeacher][InsectWingbeatSound] loss= 0.03118; Epoch Label ACC.= 71.13%, UnLabel ACC.= 42.60%, Lipistz loss = 0, Train Unlabel Best ACC.= 45.4%, Train Max Epoch=22
+EarlyStopping counter: 1 out of 200
+Epoch [25][SemiTeacher][InsectWingbeatSound] loss= 0.03263; Epoch Label ACC.= 78.87%, UnLabel ACC.= 44.51%, Lipistz loss = 0, Train Unlabel Best ACC.= 45.4%, Train Max Epoch=22
+EarlyStopping counter: 2 out of 200
+Epoch [26][SemiTeacher][InsectWingbeatSound] loss= 0.03336; Epoch Label ACC.= 73.36%, UnLabel ACC.= 43.90%, Lipistz loss = 0, Train Unlabel Best ACC.= 45.4%, Train Max Epoch=22
+EarlyStopping counter: 3 out of 200
+Epoch [27][SemiTeacher][InsectWingbeatSound] loss= 0.03239; Epoch Label ACC.= 77.75%, UnLabel ACC.= 44.52%, Lipistz loss = 0, Train Unlabel Best ACC.= 45.4%, Train Max Epoch=22
+EarlyStopping counter: 4 out of 200
+Epoch [28][SemiTeacher][InsectWingbeatSound] loss= 0.03526; Epoch Label ACC.= 80.73%, UnLabel ACC.= 46.01%, Lipistz loss = 0, Train Unlabel Best ACC.= 46.0%, Train Max Epoch=27
+[Test-28] Val ACC:56.44%, Best Test ACC.: 51.69% in Epoch 28
+Validation loss decreased (55.548470 --> 56.441327).  Saving model ...
+Epoch [29][SemiTeacher][InsectWingbeatSound] loss= 0.03716; Epoch Label ACC.= 80.51%, UnLabel ACC.= 45.33%, Lipistz loss = 0, Train Unlabel Best ACC.= 46.0%, Train Max Epoch=27
+[Test-29] Val ACC:57.27%, Best Test ACC.: 54.24% in Epoch 29
+Validation loss decreased (56.441327 --> 57.270409).  Saving model ...
+Epoch [30][SemiTeacher][InsectWingbeatSound] loss= 0.03524; Epoch Label ACC.= 80.36%, UnLabel ACC.= 45.88%, Lipistz loss = 0, Train Unlabel Best ACC.= 46.0%, Train Max Epoch=27
+EarlyStopping counter: 1 out of 200
+Epoch [31][SemiTeacher][InsectWingbeatSound] loss= 0.03681; Epoch Label ACC.= 81.32%, UnLabel ACC.= 46.26%, Lipistz loss = 0, Train Unlabel Best ACC.= 46.3%, Train Max Epoch=30
+EarlyStopping counter: 2 out of 200
+Epoch [32][SemiTeacher][InsectWingbeatSound] loss= 0.03519; Epoch Label ACC.= 75.07%, UnLabel ACC.= 43.81%, Lipistz loss = 0, Train Unlabel Best ACC.= 46.3%, Train Max Epoch=30
+EarlyStopping counter: 3 out of 200
+Epoch [33][SemiTeacher][InsectWingbeatSound] loss= 0.03757; Epoch Label ACC.= 80.21%, UnLabel ACC.= 44.85%, Lipistz loss = 0, Train Unlabel Best ACC.= 46.3%, Train Max Epoch=30
+[Test-33] Val ACC:57.84%, Best Test ACC.: 52.84% in Epoch 33
+Validation loss decreased (57.270409 --> 57.844389).  Saving model ...
+Epoch [34][SemiTeacher][InsectWingbeatSound] loss= 0.03970; Epoch Label ACC.= 85.64%, UnLabel ACC.= 48.20%, Lipistz loss = 0, Train Unlabel Best ACC.= 48.2%, Train Max Epoch=33
+EarlyStopping counter: 1 out of 200
+Epoch [35][SemiTeacher][InsectWingbeatSound] loss= 0.04058; Epoch Label ACC.= 85.64%, UnLabel ACC.= 43.65%, Lipistz loss = 0, Train Unlabel Best ACC.= 48.2%, Train Max Epoch=33
+EarlyStopping counter: 2 out of 200
+Epoch [36][SemiTeacher][InsectWingbeatSound] loss= 0.04147; Epoch Label ACC.= 79.91%, UnLabel ACC.= 43.76%, Lipistz loss = 0, Train Unlabel Best ACC.= 48.2%, Train Max Epoch=33
+EarlyStopping counter: 3 out of 200
+Epoch [37][SemiTeacher][InsectWingbeatSound] loss= 0.04083; Epoch Label ACC.= 75.97%, UnLabel ACC.= 45.67%, Lipistz loss = 0, Train Unlabel Best ACC.= 48.2%, Train Max Epoch=33
+EarlyStopping counter: 4 out of 200
+Epoch [38][SemiTeacher][InsectWingbeatSound] loss= 0.04210; Epoch Label ACC.= 78.05%, UnLabel ACC.= 43.93%, Lipistz loss = 0, Train Unlabel Best ACC.= 48.2%, Train Max Epoch=33
+EarlyStopping counter: 5 out of 200
+Epoch [39][SemiTeacher][InsectWingbeatSound] loss= 0.04149; Epoch Label ACC.= 83.18%, UnLabel ACC.= 45.85%, Lipistz loss = 0, Train Unlabel Best ACC.= 48.2%, Train Max Epoch=33
+EarlyStopping counter: 6 out of 200
+Epoch [40][SemiTeacher][InsectWingbeatSound] loss= 0.03824; Epoch Label ACC.= 85.42%, UnLabel ACC.= 48.94%, Lipistz loss = 0, Train Unlabel Best ACC.= 48.9%, Train Max Epoch=39
+EarlyStopping counter: 7 out of 200
+Epoch [41][SemiTeacher][InsectWingbeatSound] loss= 0.04344; Epoch Label ACC.= 84.00%, UnLabel ACC.= 44.93%, Lipistz loss = 0, Train Unlabel Best ACC.= 48.9%, Train Max Epoch=39
+EarlyStopping counter: 8 out of 200
+Epoch [42][SemiTeacher][InsectWingbeatSound] loss= 0.04179; Epoch Label ACC.= 83.48%, UnLabel ACC.= 43.85%, Lipistz loss = 0, Train Unlabel Best ACC.= 48.9%, Train Max Epoch=39
+EarlyStopping counter: 9 out of 200
+Epoch [43][SemiTeacher][InsectWingbeatSound] loss= 0.04549; Epoch Label ACC.= 85.42%, UnLabel ACC.= 46.85%, Lipistz loss = 0, Train Unlabel Best ACC.= 48.9%, Train Max Epoch=39
+EarlyStopping counter: 10 out of 200
+Epoch [44][SemiTeacher][InsectWingbeatSound] loss= 0.04336; Epoch Label ACC.= 86.76%, UnLabel ACC.= 49.58%, Lipistz loss = 0, Train Unlabel Best ACC.= 49.6%, Train Max Epoch=43
+EarlyStopping counter: 11 out of 200
+Epoch [45][SemiTeacher][InsectWingbeatSound] loss= 0.04378; Epoch Label ACC.= 80.51%, UnLabel ACC.= 49.46%, Lipistz loss = 0, Train Unlabel Best ACC.= 49.6%, Train Max Epoch=43
+EarlyStopping counter: 12 out of 200
+Epoch [46][SemiTeacher][InsectWingbeatSound] loss= 0.04150; Epoch Label ACC.= 77.53%, UnLabel ACC.= 46.31%, Lipistz loss = 0, Train Unlabel Best ACC.= 49.6%, Train Max Epoch=43
+EarlyStopping counter: 13 out of 200
+Epoch [47][SemiTeacher][InsectWingbeatSound] loss= 0.03856; Epoch Label ACC.= 78.50%, UnLabel ACC.= 48.24%, Lipistz loss = 0, Train Unlabel Best ACC.= 49.6%, Train Max Epoch=43
+EarlyStopping counter: 14 out of 200
+Epoch [48][SemiTeacher][InsectWingbeatSound] loss= 0.04019; Epoch Label ACC.= 79.61%, UnLabel ACC.= 49.33%, Lipistz loss = 0, Train Unlabel Best ACC.= 49.6%, Train Max Epoch=43
+[Test-48] Val ACC:58.96%, Best Test ACC.: 55.39% in Epoch 48
+Validation loss decreased (57.844389 --> 58.960460).  Saving model ...
+Epoch [49][SemiTeacher][InsectWingbeatSound] loss= 0.04089; Epoch Label ACC.= 83.71%, UnLabel ACC.= 50.18%, Lipistz loss = 0, Train Unlabel Best ACC.= 50.2%, Train Max Epoch=48
+EarlyStopping counter: 1 out of 200
+Epoch [50][SemiTeacher][InsectWingbeatSound] loss= 0.04023; Epoch Label ACC.= 82.51%, UnLabel ACC.= 46.82%, Lipistz loss = 0, Train Unlabel Best ACC.= 50.2%, Train Max Epoch=48
+EarlyStopping counter: 2 out of 200
+Epoch [51][SemiTeacher][InsectWingbeatSound] loss= 0.04139; Epoch Label ACC.= 85.42%, UnLabel ACC.= 47.02%, Lipistz loss = 0, Train Unlabel Best ACC.= 50.2%, Train Max Epoch=48
+EarlyStopping counter: 3 out of 200
+Epoch [52][SemiTeacher][InsectWingbeatSound] loss= 0.04325; Epoch Label ACC.= 85.12%, UnLabel ACC.= 46.37%, Lipistz loss = 0, Train Unlabel Best ACC.= 50.2%, Train Max Epoch=48
+EarlyStopping counter: 4 out of 200
+Epoch [53][SemiTeacher][InsectWingbeatSound] loss= 0.04406; Epoch Label ACC.= 85.19%, UnLabel ACC.= 48.78%, Lipistz loss = 0, Train Unlabel Best ACC.= 50.2%, Train Max Epoch=48
+EarlyStopping counter: 5 out of 200
+Epoch [54][SemiTeacher][InsectWingbeatSound] loss= 0.04202; Epoch Label ACC.= 85.34%, UnLabel ACC.= 48.91%, Lipistz loss = 0, Train Unlabel Best ACC.= 50.2%, Train Max Epoch=48
+EarlyStopping counter: 6 out of 200
+Epoch [55][SemiTeacher][InsectWingbeatSound] loss= 0.04511; Epoch Label ACC.= 82.29%, UnLabel ACC.= 49.67%, Lipistz loss = 0, Train Unlabel Best ACC.= 50.2%, Train Max Epoch=48
+[Test-55] Val ACC:58.96%, Best Test ACC.: 54.56% in Epoch 55
+EarlyStopping counter: 7 out of 200
+Epoch [56][SemiTeacher][InsectWingbeatSound] loss= 0.04085; Epoch Label ACC.= 87.13%, UnLabel ACC.= 50.97%, Lipistz loss = 0, Train Unlabel Best ACC.= 51.0%, Train Max Epoch=55
+EarlyStopping counter: 8 out of 200
+Epoch [57][SemiTeacher][InsectWingbeatSound] loss= 0.04685; Epoch Label ACC.= 81.32%, UnLabel ACC.= 49.67%, Lipistz loss = 0, Train Unlabel Best ACC.= 51.0%, Train Max Epoch=55
+EarlyStopping counter: 9 out of 200
+Epoch [58][SemiTeacher][InsectWingbeatSound] loss= 0.04175; Epoch Label ACC.= 88.99%, UnLabel ACC.= 50.27%, Lipistz loss = 0, Train Unlabel Best ACC.= 51.0%, Train Max Epoch=55
+EarlyStopping counter: 10 out of 200
+Epoch [59][SemiTeacher][InsectWingbeatSound] loss= 0.04426; Epoch Label ACC.= 88.91%, UnLabel ACC.= 51.89%, Lipistz loss = 0, Train Unlabel Best ACC.= 51.9%, Train Max Epoch=58
+EarlyStopping counter: 11 out of 200
+Epoch [60][SemiTeacher][InsectWingbeatSound] loss= 0.04528; Epoch Label ACC.= 88.02%, UnLabel ACC.= 50.70%, Lipistz loss = 0, Train Unlabel Best ACC.= 51.9%, Train Max Epoch=58
+EarlyStopping counter: 12 out of 200
+Epoch [61][SemiTeacher][InsectWingbeatSound] loss= 0.04312; Epoch Label ACC.= 87.65%, UnLabel ACC.= 49.99%, Lipistz loss = 0, Train Unlabel Best ACC.= 51.9%, Train Max Epoch=58
+EarlyStopping counter: 13 out of 200
+Epoch [62][SemiTeacher][InsectWingbeatSound] loss= 0.04145; Epoch Label ACC.= 85.12%, UnLabel ACC.= 49.93%, Lipistz loss = 0, Train Unlabel Best ACC.= 51.9%, Train Max Epoch=58
+EarlyStopping counter: 14 out of 200
+Epoch [63][SemiTeacher][InsectWingbeatSound] loss= 0.04324; Epoch Label ACC.= 86.24%, UnLabel ACC.= 48.27%, Lipistz loss = 0, Train Unlabel Best ACC.= 51.9%, Train Max Epoch=58
+EarlyStopping counter: 15 out of 200
+Epoch [64][SemiTeacher][InsectWingbeatSound] loss= 0.04680; Epoch Label ACC.= 81.77%, UnLabel ACC.= 46.21%, Lipistz loss = 0, Train Unlabel Best ACC.= 51.9%, Train Max Epoch=58
+EarlyStopping counter: 16 out of 200
+Epoch [65][SemiTeacher][InsectWingbeatSound] loss= 0.04601; Epoch Label ACC.= 87.57%, UnLabel ACC.= 48.15%, Lipistz loss = 0, Train Unlabel Best ACC.= 51.9%, Train Max Epoch=58
+EarlyStopping counter: 17 out of 200
+Epoch [66][SemiTeacher][InsectWingbeatSound] loss= 0.04632; Epoch Label ACC.= 86.24%, UnLabel ACC.= 47.14%, Lipistz loss = 0, Train Unlabel Best ACC.= 51.9%, Train Max Epoch=58
+EarlyStopping counter: 18 out of 200
+Epoch [67][SemiTeacher][InsectWingbeatSound] loss= 0.04198; Epoch Label ACC.= 82.44%, UnLabel ACC.= 48.29%, Lipistz loss = 0, Train Unlabel Best ACC.= 51.9%, Train Max Epoch=58
+EarlyStopping counter: 19 out of 200
+Epoch [68][SemiTeacher][InsectWingbeatSound] loss= 0.04619; Epoch Label ACC.= 85.71%, UnLabel ACC.= 47.59%, Lipistz loss = 0, Train Unlabel Best ACC.= 51.9%, Train Max Epoch=58
+EarlyStopping counter: 20 out of 200
+Epoch [69][SemiTeacher][InsectWingbeatSound] loss= 0.04495; Epoch Label ACC.= 86.83%, UnLabel ACC.= 47.78%, Lipistz loss = 0, Train Unlabel Best ACC.= 51.9%, Train Max Epoch=58
+EarlyStopping counter: 21 out of 200
+Epoch [70][SemiTeacher][InsectWingbeatSound] loss= 0.04599; Epoch Label ACC.= 88.54%, UnLabel ACC.= 47.92%, Lipistz loss = 0, Train Unlabel Best ACC.= 51.9%, Train Max Epoch=58
+EarlyStopping counter: 22 out of 200
+Epoch [71][SemiTeacher][InsectWingbeatSound] loss= 0.04457; Epoch Label ACC.= 88.62%, UnLabel ACC.= 48.54%, Lipistz loss = 0, Train Unlabel Best ACC.= 51.9%, Train Max Epoch=58
+EarlyStopping counter: 23 out of 200
+Epoch [72][SemiTeacher][InsectWingbeatSound] loss= 0.04611; Epoch Label ACC.= 90.85%, UnLabel ACC.= 50.45%, Lipistz loss = 0, Train Unlabel Best ACC.= 51.9%, Train Max Epoch=58
+EarlyStopping counter: 24 out of 200
+Epoch [73][SemiTeacher][InsectWingbeatSound] loss= 0.04768; Epoch Label ACC.= 88.54%, UnLabel ACC.= 46.74%, Lipistz loss = 0, Train Unlabel Best ACC.= 51.9%, Train Max Epoch=58
+EarlyStopping counter: 25 out of 200
+Epoch [74][SemiTeacher][InsectWingbeatSound] loss= 0.04752; Epoch Label ACC.= 89.88%, UnLabel ACC.= 46.62%, Lipistz loss = 0, Train Unlabel Best ACC.= 51.9%, Train Max Epoch=58
+EarlyStopping counter: 26 out of 200
+Epoch [75][SemiTeacher][InsectWingbeatSound] loss= 0.04746; Epoch Label ACC.= 85.42%, UnLabel ACC.= 47.29%, Lipistz loss = 0, Train Unlabel Best ACC.= 51.9%, Train Max Epoch=58
+EarlyStopping counter: 27 out of 200
+Epoch [76][SemiTeacher][InsectWingbeatSound] loss= 0.04635; Epoch Label ACC.= 85.94%, UnLabel ACC.= 45.21%, Lipistz loss = 0, Train Unlabel Best ACC.= 51.9%, Train Max Epoch=58
+[Test-76] Val ACC:58.96%, Best Test ACC.: 53.67% in Epoch 76
+EarlyStopping counter: 28 out of 200
+Epoch [77][SemiTeacher][InsectWingbeatSound] loss= 0.04744; Epoch Label ACC.= 84.97%, UnLabel ACC.= 48.79%, Lipistz loss = 0, Train Unlabel Best ACC.= 51.9%, Train Max Epoch=58
+EarlyStopping counter: 29 out of 200
+Epoch [78][SemiTeacher][InsectWingbeatSound] loss= 0.04569; Epoch Label ACC.= 84.15%, UnLabel ACC.= 48.74%, Lipistz loss = 0, Train Unlabel Best ACC.= 51.9%, Train Max Epoch=58
+EarlyStopping counter: 30 out of 200
+Epoch [79][SemiTeacher][InsectWingbeatSound] loss= 0.04570; Epoch Label ACC.= 83.56%, UnLabel ACC.= 47.43%, Lipistz loss = 0, Train Unlabel Best ACC.= 51.9%, Train Max Epoch=58
+EarlyStopping counter: 31 out of 200
+Epoch [80][SemiTeacher][InsectWingbeatSound] loss= 0.04487; Epoch Label ACC.= 87.80%, UnLabel ACC.= 49.48%, Lipistz loss = 0, Train Unlabel Best ACC.= 51.9%, Train Max Epoch=58
+EarlyStopping counter: 32 out of 200
+Epoch [81][SemiTeacher][InsectWingbeatSound] loss= 0.04489; Epoch Label ACC.= 87.50%, UnLabel ACC.= 50.48%, Lipistz loss = 0, Train Unlabel Best ACC.= 51.9%, Train Max Epoch=58
+EarlyStopping counter: 33 out of 200
+Epoch [82][SemiTeacher][InsectWingbeatSound] loss= 0.04583; Epoch Label ACC.= 87.20%, UnLabel ACC.= 49.27%, Lipistz loss = 0, Train Unlabel Best ACC.= 51.9%, Train Max Epoch=58
+EarlyStopping counter: 34 out of 200
+Epoch [83][SemiTeacher][InsectWingbeatSound] loss= 0.04842; Epoch Label ACC.= 85.86%, UnLabel ACC.= 49.93%, Lipistz loss = 0, Train Unlabel Best ACC.= 51.9%, Train Max Epoch=58
+EarlyStopping counter: 35 out of 200
+Epoch [84][SemiTeacher][InsectWingbeatSound] loss= 0.04220; Epoch Label ACC.= 88.24%, UnLabel ACC.= 46.73%, Lipistz loss = 0, Train Unlabel Best ACC.= 51.9%, Train Max Epoch=58
+EarlyStopping counter: 36 out of 200
+Epoch [85][SemiTeacher][InsectWingbeatSound] loss= 0.04517; Epoch Label ACC.= 90.18%, UnLabel ACC.= 48.63%, Lipistz loss = 0, Train Unlabel Best ACC.= 51.9%, Train Max Epoch=58
+EarlyStopping counter: 37 out of 200
+Epoch [86][SemiTeacher][InsectWingbeatSound] loss= 0.04633; Epoch Label ACC.= 86.90%, UnLabel ACC.= 47.77%, Lipistz loss = 0, Train Unlabel Best ACC.= 51.9%, Train Max Epoch=58
+EarlyStopping counter: 38 out of 200
+Epoch [87][SemiTeacher][InsectWingbeatSound] loss= 0.04412; Epoch Label ACC.= 87.13%, UnLabel ACC.= 47.32%, Lipistz loss = 0, Train Unlabel Best ACC.= 51.9%, Train Max Epoch=58
+EarlyStopping counter: 39 out of 200
+Epoch [88][SemiTeacher][InsectWingbeatSound] loss= 0.04528; Epoch Label ACC.= 80.36%, UnLabel ACC.= 45.45%, Lipistz loss = 0, Train Unlabel Best ACC.= 51.9%, Train Max Epoch=58
+EarlyStopping counter: 40 out of 200
+Epoch [89][SemiTeacher][InsectWingbeatSound] loss= 0.04350; Epoch Label ACC.= 87.20%, UnLabel ACC.= 47.37%, Lipistz loss = 0, Train Unlabel Best ACC.= 51.9%, Train Max Epoch=58
+EarlyStopping counter: 41 out of 200
+Epoch [90][SemiTeacher][InsectWingbeatSound] loss= 0.04228; Epoch Label ACC.= 84.15%, UnLabel ACC.= 46.58%, Lipistz loss = 0, Train Unlabel Best ACC.= 51.9%, Train Max Epoch=58
+EarlyStopping counter: 42 out of 200
+Epoch [91][SemiTeacher][InsectWingbeatSound] loss= 0.04441; Epoch Label ACC.= 86.31%, UnLabel ACC.= 45.91%, Lipistz loss = 0, Train Unlabel Best ACC.= 51.9%, Train Max Epoch=58
+EarlyStopping counter: 43 out of 200
+Epoch [92][SemiTeacher][InsectWingbeatSound] loss= 0.04348; Epoch Label ACC.= 87.72%, UnLabel ACC.= 45.98%, Lipistz loss = 0, Train Unlabel Best ACC.= 51.9%, Train Max Epoch=58
+EarlyStopping counter: 44 out of 200
+Epoch [93][SemiTeacher][InsectWingbeatSound] loss= 0.04550; Epoch Label ACC.= 86.53%, UnLabel ACC.= 46.65%, Lipistz loss = 0, Train Unlabel Best ACC.= 51.9%, Train Max Epoch=58
+EarlyStopping counter: 45 out of 200
+Epoch [94][SemiTeacher][InsectWingbeatSound] loss= 0.04477; Epoch Label ACC.= 90.48%, UnLabel ACC.= 47.26%, Lipistz loss = 0, Train Unlabel Best ACC.= 51.9%, Train Max Epoch=58
+EarlyStopping counter: 46 out of 200
+Epoch [95][SemiTeacher][InsectWingbeatSound] loss= 0.04579; Epoch Label ACC.= 88.17%, UnLabel ACC.= 47.83%, Lipistz loss = 0, Train Unlabel Best ACC.= 51.9%, Train Max Epoch=58
+EarlyStopping counter: 47 out of 200
+Epoch [96][SemiTeacher][InsectWingbeatSound] loss= 0.04356; Epoch Label ACC.= 92.11%, UnLabel ACC.= 49.49%, Lipistz loss = 0, Train Unlabel Best ACC.= 51.9%, Train Max Epoch=58
+EarlyStopping counter: 48 out of 200
+Epoch [97][SemiTeacher][InsectWingbeatSound] loss= 0.05001; Epoch Label ACC.= 86.38%, UnLabel ACC.= 44.02%, Lipistz loss = 0, Train Unlabel Best ACC.= 51.9%, Train Max Epoch=58
+EarlyStopping counter: 49 out of 200
+Epoch [98][SemiTeacher][InsectWingbeatSound] loss= 0.04348; Epoch Label ACC.= 89.81%, UnLabel ACC.= 46.06%, Lipistz loss = 0, Train Unlabel Best ACC.= 51.9%, Train Max Epoch=58
+EarlyStopping counter: 50 out of 200
+Epoch [99][SemiTeacher][InsectWingbeatSound] loss= 0.04766; Epoch Label ACC.= 88.69%, UnLabel ACC.= 47.84%, Lipistz loss = 0, Train Unlabel Best ACC.= 51.9%, Train Max Epoch=58
+EarlyStopping counter: 51 out of 200
+Epoch [100][SemiTeacher][InsectWingbeatSound] loss= 0.04452; Epoch Label ACC.= 87.50%, UnLabel ACC.= 49.93%, Lipistz loss = 0, Train Unlabel Best ACC.= 51.9%, Train Max Epoch=58
+EarlyStopping counter: 52 out of 200
+Epoch [101][SemiTeacher][InsectWingbeatSound] loss= 0.04454; Epoch Label ACC.= 83.41%, UnLabel ACC.= 49.17%, Lipistz loss = 0, Train Unlabel Best ACC.= 51.9%, Train Max Epoch=58
+EarlyStopping counter: 53 out of 200
+Epoch [102][SemiTeacher][InsectWingbeatSound] loss= 0.04228; Epoch Label ACC.= 85.94%, UnLabel ACC.= 51.43%, Lipistz loss = 0, Train Unlabel Best ACC.= 51.9%, Train Max Epoch=58
+EarlyStopping counter: 54 out of 200
+Epoch [103][SemiTeacher][InsectWingbeatSound] loss= 0.04378; Epoch Label ACC.= 89.51%, UnLabel ACC.= 51.00%, Lipistz loss = 0, Train Unlabel Best ACC.= 51.9%, Train Max Epoch=58
+EarlyStopping counter: 55 out of 200
+Epoch [104][SemiTeacher][InsectWingbeatSound] loss= 0.04312; Epoch Label ACC.= 85.19%, UnLabel ACC.= 50.55%, Lipistz loss = 0, Train Unlabel Best ACC.= 51.9%, Train Max Epoch=58
+EarlyStopping counter: 56 out of 200
+Epoch [105][SemiTeacher][InsectWingbeatSound] loss= 0.04006; Epoch Label ACC.= 86.68%, UnLabel ACC.= 49.18%, Lipistz loss = 0, Train Unlabel Best ACC.= 51.9%, Train Max Epoch=58
+EarlyStopping counter: 57 out of 200
+Epoch [106][SemiTeacher][InsectWingbeatSound] loss= 0.04171; Epoch Label ACC.= 84.38%, UnLabel ACC.= 48.63%, Lipistz loss = 0, Train Unlabel Best ACC.= 51.9%, Train Max Epoch=58
+EarlyStopping counter: 58 out of 200
+Epoch [107][SemiTeacher][InsectWingbeatSound] loss= 0.04316; Epoch Label ACC.= 88.47%, UnLabel ACC.= 49.57%, Lipistz loss = 0, Train Unlabel Best ACC.= 51.9%, Train Max Epoch=58
+EarlyStopping counter: 59 out of 200
+Epoch [108][SemiTeacher][InsectWingbeatSound] loss= 0.04633; Epoch Label ACC.= 84.67%, UnLabel ACC.= 49.09%, Lipistz loss = 0, Train Unlabel Best ACC.= 51.9%, Train Max Epoch=58
+EarlyStopping counter: 60 out of 200
+Epoch [109][SemiTeacher][InsectWingbeatSound] loss= 0.04082; Epoch Label ACC.= 88.99%, UnLabel ACC.= 51.13%, Lipistz loss = 0, Train Unlabel Best ACC.= 51.9%, Train Max Epoch=58
+EarlyStopping counter: 61 out of 200
+Epoch [110][SemiTeacher][InsectWingbeatSound] loss= 0.04418; Epoch Label ACC.= 89.21%, UnLabel ACC.= 50.21%, Lipistz loss = 0, Train Unlabel Best ACC.= 51.9%, Train Max Epoch=58
+EarlyStopping counter: 62 out of 200
+Epoch [111][SemiTeacher][InsectWingbeatSound] loss= 0.04465; Epoch Label ACC.= 89.88%, UnLabel ACC.= 48.14%, Lipistz loss = 0, Train Unlabel Best ACC.= 51.9%, Train Max Epoch=58
+EarlyStopping counter: 63 out of 200
+Epoch [112][SemiTeacher][InsectWingbeatSound] loss= 0.04565; Epoch Label ACC.= 90.62%, UnLabel ACC.= 50.91%, Lipistz loss = 0, Train Unlabel Best ACC.= 51.9%, Train Max Epoch=58
+EarlyStopping counter: 64 out of 200
+Epoch [113][SemiTeacher][InsectWingbeatSound] loss= 0.04309; Epoch Label ACC.= 91.37%, UnLabel ACC.= 50.34%, Lipistz loss = 0, Train Unlabel Best ACC.= 51.9%, Train Max Epoch=58
+EarlyStopping counter: 65 out of 200
+Epoch [114][SemiTeacher][InsectWingbeatSound] loss= 0.04763; Epoch Label ACC.= 90.70%, UnLabel ACC.= 48.51%, Lipistz loss = 0, Train Unlabel Best ACC.= 51.9%, Train Max Epoch=58
+EarlyStopping counter: 66 out of 200
+Epoch [115][SemiTeacher][InsectWingbeatSound] loss= 0.04416; Epoch Label ACC.= 91.22%, UnLabel ACC.= 50.12%, Lipistz loss = 0, Train Unlabel Best ACC.= 51.9%, Train Max Epoch=58
+EarlyStopping counter: 67 out of 200
+Epoch [116][SemiTeacher][InsectWingbeatSound] loss= 0.04357; Epoch Label ACC.= 87.80%, UnLabel ACC.= 47.44%, Lipistz loss = 0, Train Unlabel Best ACC.= 51.9%, Train Max Epoch=58
+EarlyStopping counter: 68 out of 200
+Epoch [117][SemiTeacher][InsectWingbeatSound] loss= 0.04683; Epoch Label ACC.= 88.32%, UnLabel ACC.= 47.31%, Lipistz loss = 0, Train Unlabel Best ACC.= 51.9%, Train Max Epoch=58
+EarlyStopping counter: 69 out of 200
+Epoch [118][SemiTeacher][InsectWingbeatSound] loss= 0.04423; Epoch Label ACC.= 87.72%, UnLabel ACC.= 50.37%, Lipistz loss = 0, Train Unlabel Best ACC.= 51.9%, Train Max Epoch=58
+EarlyStopping counter: 70 out of 200
+Epoch [119][SemiTeacher][InsectWingbeatSound] loss= 0.04393; Epoch Label ACC.= 87.65%, UnLabel ACC.= 47.29%, Lipistz loss = 0, Train Unlabel Best ACC.= 51.9%, Train Max Epoch=58
+EarlyStopping counter: 71 out of 200
+Epoch [120][SemiTeacher][InsectWingbeatSound] loss= 0.04617; Epoch Label ACC.= 90.92%, UnLabel ACC.= 46.74%, Lipistz loss = 0, Train Unlabel Best ACC.= 51.9%, Train Max Epoch=58
+EarlyStopping counter: 72 out of 200
+Epoch [121][SemiTeacher][InsectWingbeatSound] loss= 0.04401; Epoch Label ACC.= 91.07%, UnLabel ACC.= 47.50%, Lipistz loss = 0, Train Unlabel Best ACC.= 51.9%, Train Max Epoch=58
+EarlyStopping counter: 73 out of 200
+Epoch [122][SemiTeacher][InsectWingbeatSound] loss= 0.04573; Epoch Label ACC.= 93.68%, UnLabel ACC.= 49.30%, Lipistz loss = 0, Train Unlabel Best ACC.= 51.9%, Train Max Epoch=58
+EarlyStopping counter: 74 out of 200
+Epoch [123][SemiTeacher][InsectWingbeatSound] loss= 0.04627; Epoch Label ACC.= 87.28%, UnLabel ACC.= 52.66%, Lipistz loss = 0, Train Unlabel Best ACC.= 52.7%, Train Max Epoch=122
+EarlyStopping counter: 75 out of 200
+Epoch [124][SemiTeacher][InsectWingbeatSound] loss= 0.04288; Epoch Label ACC.= 88.47%, UnLabel ACC.= 49.66%, Lipistz loss = 0, Train Unlabel Best ACC.= 52.7%, Train Max Epoch=122
+EarlyStopping counter: 76 out of 200
+Epoch [125][SemiTeacher][InsectWingbeatSound] loss= 0.04192; Epoch Label ACC.= 93.15%, UnLabel ACC.= 51.03%, Lipistz loss = 0, Train Unlabel Best ACC.= 52.7%, Train Max Epoch=122
+EarlyStopping counter: 77 out of 200
+Epoch [126][SemiTeacher][InsectWingbeatSound] loss= 0.04319; Epoch Label ACC.= 90.70%, UnLabel ACC.= 51.70%, Lipistz loss = 0, Train Unlabel Best ACC.= 52.7%, Train Max Epoch=122
+EarlyStopping counter: 78 out of 200
+Epoch [127][SemiTeacher][InsectWingbeatSound] loss= 0.04472; Epoch Label ACC.= 93.08%, UnLabel ACC.= 47.66%, Lipistz loss = 0, Train Unlabel Best ACC.= 52.7%, Train Max Epoch=122
+EarlyStopping counter: 79 out of 200
+Epoch [128][SemiTeacher][InsectWingbeatSound] loss= 0.04553; Epoch Label ACC.= 90.33%, UnLabel ACC.= 48.69%, Lipistz loss = 0, Train Unlabel Best ACC.= 52.7%, Train Max Epoch=122
+EarlyStopping counter: 80 out of 200
+Epoch [129][SemiTeacher][InsectWingbeatSound] loss= 0.04690; Epoch Label ACC.= 92.19%, UnLabel ACC.= 50.61%, Lipistz loss = 0, Train Unlabel Best ACC.= 52.7%, Train Max Epoch=122
+EarlyStopping counter: 81 out of 200
+Epoch [130][SemiTeacher][InsectWingbeatSound] loss= 0.04567; Epoch Label ACC.= 90.62%, UnLabel ACC.= 50.43%, Lipistz loss = 0, Train Unlabel Best ACC.= 52.7%, Train Max Epoch=122
+EarlyStopping counter: 82 out of 200
+Epoch [131][SemiTeacher][InsectWingbeatSound] loss= 0.04379; Epoch Label ACC.= 88.10%, UnLabel ACC.= 50.15%, Lipistz loss = 0, Train Unlabel Best ACC.= 52.7%, Train Max Epoch=122
+EarlyStopping counter: 83 out of 200
+Epoch [132][SemiTeacher][InsectWingbeatSound] loss= 0.04506; Epoch Label ACC.= 89.14%, UnLabel ACC.= 48.11%, Lipistz loss = 0, Train Unlabel Best ACC.= 52.7%, Train Max Epoch=122
+EarlyStopping counter: 84 out of 200
+Epoch [133][SemiTeacher][InsectWingbeatSound] loss= 0.04523; Epoch Label ACC.= 86.83%, UnLabel ACC.= 47.69%, Lipistz loss = 0, Train Unlabel Best ACC.= 52.7%, Train Max Epoch=122
+EarlyStopping counter: 85 out of 200
+Epoch [134][SemiTeacher][InsectWingbeatSound] loss= 0.04643; Epoch Label ACC.= 91.37%, UnLabel ACC.= 48.93%, Lipistz loss = 0, Train Unlabel Best ACC.= 52.7%, Train Max Epoch=122
+EarlyStopping counter: 86 out of 200
+Epoch [135][SemiTeacher][InsectWingbeatSound] loss= 0.04655; Epoch Label ACC.= 90.48%, UnLabel ACC.= 48.85%, Lipistz loss = 0, Train Unlabel Best ACC.= 52.7%, Train Max Epoch=122
+EarlyStopping counter: 87 out of 200
+Epoch [136][SemiTeacher][InsectWingbeatSound] loss= 0.04317; Epoch Label ACC.= 93.45%, UnLabel ACC.= 48.04%, Lipistz loss = 0, Train Unlabel Best ACC.= 52.7%, Train Max Epoch=122
+EarlyStopping counter: 88 out of 200
+Epoch [137][SemiTeacher][InsectWingbeatSound] loss= 0.04367; Epoch Label ACC.= 91.74%, UnLabel ACC.= 49.15%, Lipistz loss = 0, Train Unlabel Best ACC.= 52.7%, Train Max Epoch=122
+EarlyStopping counter: 89 out of 200
+Epoch [138][SemiTeacher][InsectWingbeatSound] loss= 0.04612; Epoch Label ACC.= 82.37%, UnLabel ACC.= 48.29%, Lipistz loss = 0, Train Unlabel Best ACC.= 52.7%, Train Max Epoch=122
+EarlyStopping counter: 90 out of 200
+Epoch [139][SemiTeacher][InsectWingbeatSound] loss= 0.04678; Epoch Label ACC.= 84.30%, UnLabel ACC.= 51.07%, Lipistz loss = 0, Train Unlabel Best ACC.= 52.7%, Train Max Epoch=122
+EarlyStopping counter: 91 out of 200
+Epoch [140][SemiTeacher][InsectWingbeatSound] loss= 0.04176; Epoch Label ACC.= 87.80%, UnLabel ACC.= 49.27%, Lipistz loss = 0, Train Unlabel Best ACC.= 52.7%, Train Max Epoch=122
+EarlyStopping counter: 92 out of 200
+Epoch [141][SemiTeacher][InsectWingbeatSound] loss= 0.04376; Epoch Label ACC.= 91.89%, UnLabel ACC.= 51.65%, Lipistz loss = 0, Train Unlabel Best ACC.= 52.7%, Train Max Epoch=122
+EarlyStopping counter: 93 out of 200
+Epoch [142][SemiTeacher][InsectWingbeatSound] loss= 0.04371; Epoch Label ACC.= 87.43%, UnLabel ACC.= 47.83%, Lipistz loss = 0, Train Unlabel Best ACC.= 52.7%, Train Max Epoch=122
+EarlyStopping counter: 94 out of 200
+Epoch [143][SemiTeacher][InsectWingbeatSound] loss= 0.04401; Epoch Label ACC.= 84.90%, UnLabel ACC.= 50.01%, Lipistz loss = 0, Train Unlabel Best ACC.= 52.7%, Train Max Epoch=122
+EarlyStopping counter: 95 out of 200
+Epoch [144][SemiTeacher][InsectWingbeatSound] loss= 0.04441; Epoch Label ACC.= 87.72%, UnLabel ACC.= 51.37%, Lipistz loss = 0, Train Unlabel Best ACC.= 52.7%, Train Max Epoch=122
+EarlyStopping counter: 96 out of 200
+Epoch [145][SemiTeacher][InsectWingbeatSound] loss= 0.04243; Epoch Label ACC.= 92.78%, UnLabel ACC.= 49.87%, Lipistz loss = 0, Train Unlabel Best ACC.= 52.7%, Train Max Epoch=122
+EarlyStopping counter: 97 out of 200
+Epoch [146][SemiTeacher][InsectWingbeatSound] loss= 0.04201; Epoch Label ACC.= 91.37%, UnLabel ACC.= 49.57%, Lipistz loss = 0, Train Unlabel Best ACC.= 52.7%, Train Max Epoch=122
+EarlyStopping counter: 98 out of 200
+Epoch [147][SemiTeacher][InsectWingbeatSound] loss= 0.04628; Epoch Label ACC.= 91.59%, UnLabel ACC.= 50.30%, Lipistz loss = 0, Train Unlabel Best ACC.= 52.7%, Train Max Epoch=122
+EarlyStopping counter: 99 out of 200
+Epoch [148][SemiTeacher][InsectWingbeatSound] loss= 0.04482; Epoch Label ACC.= 92.04%, UnLabel ACC.= 50.00%, Lipistz loss = 0, Train Unlabel Best ACC.= 52.7%, Train Max Epoch=122
+EarlyStopping counter: 100 out of 200
+Epoch [149][SemiTeacher][InsectWingbeatSound] loss= 0.04762; Epoch Label ACC.= 91.44%, UnLabel ACC.= 48.08%, Lipistz loss = 0, Train Unlabel Best ACC.= 52.7%, Train Max Epoch=122
+EarlyStopping counter: 101 out of 200
+Epoch [150][SemiTeacher][InsectWingbeatSound] loss= 0.04528; Epoch Label ACC.= 95.01%, UnLabel ACC.= 46.68%, Lipistz loss = 0, Train Unlabel Best ACC.= 52.7%, Train Max Epoch=122
+EarlyStopping counter: 102 out of 200
+Epoch [151][SemiTeacher][InsectWingbeatSound] loss= 0.04517; Epoch Label ACC.= 92.93%, UnLabel ACC.= 48.60%, Lipistz loss = 0, Train Unlabel Best ACC.= 52.7%, Train Max Epoch=122
+EarlyStopping counter: 103 out of 200
+Epoch [152][SemiTeacher][InsectWingbeatSound] loss= 0.04717; Epoch Label ACC.= 87.50%, UnLabel ACC.= 48.17%, Lipistz loss = 0, Train Unlabel Best ACC.= 52.7%, Train Max Epoch=122
+EarlyStopping counter: 104 out of 200
+Epoch [153][SemiTeacher][InsectWingbeatSound] loss= 0.04649; Epoch Label ACC.= 92.49%, UnLabel ACC.= 47.77%, Lipistz loss = 0, Train Unlabel Best ACC.= 52.7%, Train Max Epoch=122
+EarlyStopping counter: 105 out of 200
+Epoch [154][SemiTeacher][InsectWingbeatSound] loss= 0.04436; Epoch Label ACC.= 91.44%, UnLabel ACC.= 48.33%, Lipistz loss = 0, Train Unlabel Best ACC.= 52.7%, Train Max Epoch=122
+EarlyStopping counter: 106 out of 200
+Epoch [155][SemiTeacher][InsectWingbeatSound] loss= 0.04288; Epoch Label ACC.= 94.87%, UnLabel ACC.= 49.36%, Lipistz loss = 0, Train Unlabel Best ACC.= 52.7%, Train Max Epoch=122
+EarlyStopping counter: 107 out of 200
+Epoch [156][SemiTeacher][InsectWingbeatSound] loss= 0.04320; Epoch Label ACC.= 91.37%, UnLabel ACC.= 49.02%, Lipistz loss = 0, Train Unlabel Best ACC.= 52.7%, Train Max Epoch=122
+EarlyStopping counter: 108 out of 200
+Epoch [157][SemiTeacher][InsectWingbeatSound] loss= 0.04679; Epoch Label ACC.= 91.96%, UnLabel ACC.= 49.06%, Lipistz loss = 0, Train Unlabel Best ACC.= 52.7%, Train Max Epoch=122
+EarlyStopping counter: 109 out of 200
+Epoch [158][SemiTeacher][InsectWingbeatSound] loss= 0.04643; Epoch Label ACC.= 92.56%, UnLabel ACC.= 48.87%, Lipistz loss = 0, Train Unlabel Best ACC.= 52.7%, Train Max Epoch=122
+EarlyStopping counter: 110 out of 200
+Epoch [159][SemiTeacher][InsectWingbeatSound] loss= 0.04494; Epoch Label ACC.= 90.85%, UnLabel ACC.= 49.63%, Lipistz loss = 0, Train Unlabel Best ACC.= 52.7%, Train Max Epoch=122
+EarlyStopping counter: 111 out of 200
+Epoch [160][SemiTeacher][InsectWingbeatSound] loss= 0.04497; Epoch Label ACC.= 89.06%, UnLabel ACC.= 49.51%, Lipistz loss = 0, Train Unlabel Best ACC.= 52.7%, Train Max Epoch=122
+EarlyStopping counter: 112 out of 200
+Epoch [161][SemiTeacher][InsectWingbeatSound] loss= 0.04366; Epoch Label ACC.= 88.76%, UnLabel ACC.= 43.97%, Lipistz loss = 0, Train Unlabel Best ACC.= 52.7%, Train Max Epoch=122
+EarlyStopping counter: 113 out of 200
+Epoch [162][SemiTeacher][InsectWingbeatSound] loss= 0.04187; Epoch Label ACC.= 87.87%, UnLabel ACC.= 49.88%, Lipistz loss = 0, Train Unlabel Best ACC.= 52.7%, Train Max Epoch=122
+EarlyStopping counter: 114 out of 200
+Epoch [163][SemiTeacher][InsectWingbeatSound] loss= 0.04421; Epoch Label ACC.= 90.18%, UnLabel ACC.= 50.73%, Lipistz loss = 0, Train Unlabel Best ACC.= 52.7%, Train Max Epoch=122
+EarlyStopping counter: 115 out of 200
+Epoch [164][SemiTeacher][InsectWingbeatSound] loss= 0.04239; Epoch Label ACC.= 90.33%, UnLabel ACC.= 51.31%, Lipistz loss = 0, Train Unlabel Best ACC.= 52.7%, Train Max Epoch=122
+EarlyStopping counter: 116 out of 200
+Epoch [165][SemiTeacher][InsectWingbeatSound] loss= 0.04194; Epoch Label ACC.= 92.78%, UnLabel ACC.= 50.85%, Lipistz loss = 0, Train Unlabel Best ACC.= 52.7%, Train Max Epoch=122
+EarlyStopping counter: 117 out of 200
+Epoch [166][SemiTeacher][InsectWingbeatSound] loss= 0.04216; Epoch Label ACC.= 92.63%, UnLabel ACC.= 52.38%, Lipistz loss = 0, Train Unlabel Best ACC.= 52.7%, Train Max Epoch=122
+EarlyStopping counter: 118 out of 200
+Epoch [167][SemiTeacher][InsectWingbeatSound] loss= 0.04199; Epoch Label ACC.= 93.23%, UnLabel ACC.= 51.32%, Lipistz loss = 0, Train Unlabel Best ACC.= 52.7%, Train Max Epoch=122
+EarlyStopping counter: 119 out of 200
+Epoch [168][SemiTeacher][InsectWingbeatSound] loss= 0.04477; Epoch Label ACC.= 91.00%, UnLabel ACC.= 50.79%, Lipistz loss = 0, Train Unlabel Best ACC.= 52.7%, Train Max Epoch=122
+EarlyStopping counter: 120 out of 200
+Epoch [169][SemiTeacher][InsectWingbeatSound] loss= 0.04528; Epoch Label ACC.= 88.91%, UnLabel ACC.= 48.17%, Lipistz loss = 0, Train Unlabel Best ACC.= 52.7%, Train Max Epoch=122
+EarlyStopping counter: 121 out of 200
+Epoch [170][SemiTeacher][InsectWingbeatSound] loss= 0.04388; Epoch Label ACC.= 88.99%, UnLabel ACC.= 48.54%, Lipistz loss = 0, Train Unlabel Best ACC.= 52.7%, Train Max Epoch=122
+EarlyStopping counter: 122 out of 200
+Epoch [171][SemiTeacher][InsectWingbeatSound] loss= 0.04469; Epoch Label ACC.= 93.08%, UnLabel ACC.= 51.93%, Lipistz loss = 0, Train Unlabel Best ACC.= 52.7%, Train Max Epoch=122
+EarlyStopping counter: 123 out of 200
+Epoch [172][SemiTeacher][InsectWingbeatSound] loss= 0.04446; Epoch Label ACC.= 89.14%, UnLabel ACC.= 47.81%, Lipistz loss = 0, Train Unlabel Best ACC.= 52.7%, Train Max Epoch=122
+EarlyStopping counter: 124 out of 200
+Epoch [173][SemiTeacher][InsectWingbeatSound] loss= 0.04442; Epoch Label ACC.= 88.62%, UnLabel ACC.= 47.04%, Lipistz loss = 0, Train Unlabel Best ACC.= 52.7%, Train Max Epoch=122
+EarlyStopping counter: 125 out of 200
+Epoch [174][SemiTeacher][InsectWingbeatSound] loss= 0.04333; Epoch Label ACC.= 93.30%, UnLabel ACC.= 49.96%, Lipistz loss = 0, Train Unlabel Best ACC.= 52.7%, Train Max Epoch=122
+EarlyStopping counter: 126 out of 200
+Epoch [175][SemiTeacher][InsectWingbeatSound] loss= 0.04438; Epoch Label ACC.= 93.53%, UnLabel ACC.= 51.07%, Lipistz loss = 0, Train Unlabel Best ACC.= 52.7%, Train Max Epoch=122
+EarlyStopping counter: 127 out of 200
+Epoch [176][SemiTeacher][InsectWingbeatSound] loss= 0.04666; Epoch Label ACC.= 93.90%, UnLabel ACC.= 49.69%, Lipistz loss = 0, Train Unlabel Best ACC.= 52.7%, Train Max Epoch=122
+EarlyStopping counter: 128 out of 200
+Epoch [177][SemiTeacher][InsectWingbeatSound] loss= 0.04746; Epoch Label ACC.= 93.45%, UnLabel ACC.= 47.84%, Lipistz loss = 0, Train Unlabel Best ACC.= 52.7%, Train Max Epoch=122
+EarlyStopping counter: 129 out of 200
+Epoch [178][SemiTeacher][InsectWingbeatSound] loss= 0.04754; Epoch Label ACC.= 86.09%, UnLabel ACC.= 47.68%, Lipistz loss = 0, Train Unlabel Best ACC.= 52.7%, Train Max Epoch=122
+EarlyStopping counter: 130 out of 200
+Epoch [179][SemiTeacher][InsectWingbeatSound] loss= 0.04732; Epoch Label ACC.= 88.02%, UnLabel ACC.= 48.05%, Lipistz loss = 0, Train Unlabel Best ACC.= 52.7%, Train Max Epoch=122
+EarlyStopping counter: 131 out of 200
+Epoch [180][SemiTeacher][InsectWingbeatSound] loss= 0.04501; Epoch Label ACC.= 93.75%, UnLabel ACC.= 50.40%, Lipistz loss = 0, Train Unlabel Best ACC.= 52.7%, Train Max Epoch=122
+EarlyStopping counter: 132 out of 200
+Epoch [181][SemiTeacher][InsectWingbeatSound] loss= 0.04594; Epoch Label ACC.= 92.93%, UnLabel ACC.= 48.60%, Lipistz loss = 0, Train Unlabel Best ACC.= 52.7%, Train Max Epoch=122
+EarlyStopping counter: 133 out of 200
+Epoch [182][SemiTeacher][InsectWingbeatSound] loss= 0.04360; Epoch Label ACC.= 88.69%, UnLabel ACC.= 50.01%, Lipistz loss = 0, Train Unlabel Best ACC.= 52.7%, Train Max Epoch=122
+EarlyStopping counter: 134 out of 200
+Epoch [183][SemiTeacher][InsectWingbeatSound] loss= 0.04597; Epoch Label ACC.= 92.93%, UnLabel ACC.= 50.31%, Lipistz loss = 0, Train Unlabel Best ACC.= 52.7%, Train Max Epoch=122
+EarlyStopping counter: 135 out of 200
+Epoch [184][SemiTeacher][InsectWingbeatSound] loss= 0.04568; Epoch Label ACC.= 94.35%, UnLabel ACC.= 49.08%, Lipistz loss = 0, Train Unlabel Best ACC.= 52.7%, Train Max Epoch=122
+EarlyStopping counter: 136 out of 200
+Epoch [185][SemiTeacher][InsectWingbeatSound] loss= 0.04574; Epoch Label ACC.= 91.44%, UnLabel ACC.= 48.96%, Lipistz loss = 0, Train Unlabel Best ACC.= 52.7%, Train Max Epoch=122
+EarlyStopping counter: 137 out of 200
+Epoch [186][SemiTeacher][InsectWingbeatSound] loss= 0.04591; Epoch Label ACC.= 95.39%, UnLabel ACC.= 48.01%, Lipistz loss = 0, Train Unlabel Best ACC.= 52.7%, Train Max Epoch=122
+EarlyStopping counter: 138 out of 200
+Epoch [187][SemiTeacher][InsectWingbeatSound] loss= 0.04388; Epoch Label ACC.= 91.52%, UnLabel ACC.= 52.16%, Lipistz loss = 0, Train Unlabel Best ACC.= 52.7%, Train Max Epoch=122
+EarlyStopping counter: 139 out of 200
+Epoch [188][SemiTeacher][InsectWingbeatSound] loss= 0.04480; Epoch Label ACC.= 91.89%, UnLabel ACC.= 49.30%, Lipistz loss = 0, Train Unlabel Best ACC.= 52.7%, Train Max Epoch=122
+EarlyStopping counter: 140 out of 200
+Epoch [189][SemiTeacher][InsectWingbeatSound] loss= 0.04296; Epoch Label ACC.= 91.29%, UnLabel ACC.= 47.77%, Lipistz loss = 0, Train Unlabel Best ACC.= 52.7%, Train Max Epoch=122
+EarlyStopping counter: 141 out of 200
+Epoch [190][SemiTeacher][InsectWingbeatSound] loss= 0.04541; Epoch Label ACC.= 93.30%, UnLabel ACC.= 50.51%, Lipistz loss = 0, Train Unlabel Best ACC.= 52.7%, Train Max Epoch=122
+EarlyStopping counter: 142 out of 200
+Epoch [191][SemiTeacher][InsectWingbeatSound] loss= 0.04429; Epoch Label ACC.= 87.43%, UnLabel ACC.= 49.96%, Lipistz loss = 0, Train Unlabel Best ACC.= 52.7%, Train Max Epoch=122
+EarlyStopping counter: 143 out of 200
+Epoch [192][SemiTeacher][InsectWingbeatSound] loss= 0.04744; Epoch Label ACC.= 92.49%, UnLabel ACC.= 49.18%, Lipistz loss = 0, Train Unlabel Best ACC.= 52.7%, Train Max Epoch=122
+EarlyStopping counter: 144 out of 200
+Epoch [193][SemiTeacher][InsectWingbeatSound] loss= 0.04486; Epoch Label ACC.= 90.77%, UnLabel ACC.= 49.20%, Lipistz loss = 0, Train Unlabel Best ACC.= 52.7%, Train Max Epoch=122
+EarlyStopping counter: 145 out of 200
+Epoch [194][SemiTeacher][InsectWingbeatSound] loss= 0.04398; Epoch Label ACC.= 90.33%, UnLabel ACC.= 47.77%, Lipistz loss = 0, Train Unlabel Best ACC.= 52.7%, Train Max Epoch=122
+EarlyStopping counter: 146 out of 200
+Epoch [195][SemiTeacher][InsectWingbeatSound] loss= 0.04553; Epoch Label ACC.= 94.05%, UnLabel ACC.= 50.28%, Lipistz loss = 0, Train Unlabel Best ACC.= 52.7%, Train Max Epoch=122
+EarlyStopping counter: 147 out of 200
+Epoch [196][SemiTeacher][InsectWingbeatSound] loss= 0.04476; Epoch Label ACC.= 89.96%, UnLabel ACC.= 48.96%, Lipistz loss = 0, Train Unlabel Best ACC.= 52.7%, Train Max Epoch=122
+EarlyStopping counter: 148 out of 200
+Epoch [197][SemiTeacher][InsectWingbeatSound] loss= 0.04393; Epoch Label ACC.= 92.26%, UnLabel ACC.= 49.66%, Lipistz loss = 0, Train Unlabel Best ACC.= 52.7%, Train Max Epoch=122
+EarlyStopping counter: 149 out of 200
+Epoch [198][SemiTeacher][InsectWingbeatSound] loss= 0.04551; Epoch Label ACC.= 86.38%, UnLabel ACC.= 47.04%, Lipistz loss = 0, Train Unlabel Best ACC.= 52.7%, Train Max Epoch=122
+EarlyStopping counter: 150 out of 200
+Epoch [199][SemiTeacher][InsectWingbeatSound] loss= 0.04371; Epoch Label ACC.= 86.01%, UnLabel ACC.= 49.91%, Lipistz loss = 0, Train Unlabel Best ACC.= 52.7%, Train Max Epoch=122
+EarlyStopping counter: 151 out of 200
+[INFO] save backbone at epoch 199!
+Epoch [200][SemiTeacher][InsectWingbeatSound] loss= 0.04490; Epoch Label ACC.= 90.48%, UnLabel ACC.= 49.45%, Lipistz loss = 0, Train Unlabel Best ACC.= 52.7%, Train Max Epoch=122
+EarlyStopping counter: 152 out of 200
+Epoch [201][SemiTeacher][InsectWingbeatSound] loss= 0.04648; Epoch Label ACC.= 88.99%, UnLabel ACC.= 49.69%, Lipistz loss = 0, Train Unlabel Best ACC.= 52.7%, Train Max Epoch=122
+EarlyStopping counter: 153 out of 200
+Epoch [202][SemiTeacher][InsectWingbeatSound] loss= 0.04587; Epoch Label ACC.= 85.64%, UnLabel ACC.= 49.00%, Lipistz loss = 0, Train Unlabel Best ACC.= 52.7%, Train Max Epoch=122
+EarlyStopping counter: 154 out of 200
+Epoch [203][SemiTeacher][InsectWingbeatSound] loss= 0.04626; Epoch Label ACC.= 88.17%, UnLabel ACC.= 47.19%, Lipistz loss = 0, Train Unlabel Best ACC.= 52.7%, Train Max Epoch=122
+EarlyStopping counter: 155 out of 200
+Epoch [204][SemiTeacher][InsectWingbeatSound] loss= 0.04590; Epoch Label ACC.= 90.92%, UnLabel ACC.= 47.81%, Lipistz loss = 0, Train Unlabel Best ACC.= 52.7%, Train Max Epoch=122
+EarlyStopping counter: 156 out of 200
+Epoch [205][SemiTeacher][InsectWingbeatSound] loss= 0.04481; Epoch Label ACC.= 90.25%, UnLabel ACC.= 50.49%, Lipistz loss = 0, Train Unlabel Best ACC.= 52.7%, Train Max Epoch=122
+EarlyStopping counter: 157 out of 200
+Epoch [206][SemiTeacher][InsectWingbeatSound] loss= 0.04524; Epoch Label ACC.= 92.56%, UnLabel ACC.= 50.27%, Lipistz loss = 0, Train Unlabel Best ACC.= 52.7%, Train Max Epoch=122
+EarlyStopping counter: 158 out of 200
+Epoch [207][SemiTeacher][InsectWingbeatSound] loss= 0.04546; Epoch Label ACC.= 91.00%, UnLabel ACC.= 49.45%, Lipistz loss = 0, Train Unlabel Best ACC.= 52.7%, Train Max Epoch=122
+EarlyStopping counter: 159 out of 200
+Epoch [208][SemiTeacher][InsectWingbeatSound] loss= 0.04473; Epoch Label ACC.= 90.62%, UnLabel ACC.= 51.62%, Lipistz loss = 0, Train Unlabel Best ACC.= 52.7%, Train Max Epoch=122
+EarlyStopping counter: 160 out of 200
+Epoch [209][SemiTeacher][InsectWingbeatSound] loss= 0.04699; Epoch Label ACC.= 91.96%, UnLabel ACC.= 50.79%, Lipistz loss = 0, Train Unlabel Best ACC.= 52.7%, Train Max Epoch=122
+EarlyStopping counter: 161 out of 200
+Epoch [210][SemiTeacher][InsectWingbeatSound] loss= 0.04654; Epoch Label ACC.= 90.33%, UnLabel ACC.= 48.60%, Lipistz loss = 0, Train Unlabel Best ACC.= 52.7%, Train Max Epoch=122
+EarlyStopping counter: 162 out of 200
+Epoch [211][SemiTeacher][InsectWingbeatSound] loss= 0.04497; Epoch Label ACC.= 87.80%, UnLabel ACC.= 47.95%, Lipistz loss = 0, Train Unlabel Best ACC.= 52.7%, Train Max Epoch=122
+EarlyStopping counter: 163 out of 200
+Epoch [212][SemiTeacher][InsectWingbeatSound] loss= 0.04572; Epoch Label ACC.= 89.14%, UnLabel ACC.= 44.91%, Lipistz loss = 0, Train Unlabel Best ACC.= 52.7%, Train Max Epoch=122
+EarlyStopping counter: 164 out of 200
+Epoch [213][SemiTeacher][InsectWingbeatSound] loss= 0.04478; Epoch Label ACC.= 90.77%, UnLabel ACC.= 49.40%, Lipistz loss = 0, Train Unlabel Best ACC.= 52.7%, Train Max Epoch=122
+EarlyStopping counter: 165 out of 200
+Epoch [214][SemiTeacher][InsectWingbeatSound] loss= 0.04426; Epoch Label ACC.= 88.99%, UnLabel ACC.= 48.39%, Lipistz loss = 0, Train Unlabel Best ACC.= 52.7%, Train Max Epoch=122
+EarlyStopping counter: 166 out of 200
+Epoch [215][SemiTeacher][InsectWingbeatSound] loss= 0.04532; Epoch Label ACC.= 92.26%, UnLabel ACC.= 53.07%, Lipistz loss = 0, Train Unlabel Best ACC.= 53.1%, Train Max Epoch=214
+EarlyStopping counter: 167 out of 200
+Epoch [216][SemiTeacher][InsectWingbeatSound] loss= 0.04378; Epoch Label ACC.= 95.54%, UnLabel ACC.= 50.62%, Lipistz loss = 0, Train Unlabel Best ACC.= 53.1%, Train Max Epoch=214
+EarlyStopping counter: 168 out of 200
+Epoch [217][SemiTeacher][InsectWingbeatSound] loss= 0.04457; Epoch Label ACC.= 96.35%, UnLabel ACC.= 49.67%, Lipistz loss = 0, Train Unlabel Best ACC.= 53.1%, Train Max Epoch=214
+EarlyStopping counter: 169 out of 200
+Epoch [218][SemiTeacher][InsectWingbeatSound] loss= 0.04416; Epoch Label ACC.= 89.51%, UnLabel ACC.= 48.87%, Lipistz loss = 0, Train Unlabel Best ACC.= 53.1%, Train Max Epoch=214
+EarlyStopping counter: 170 out of 200
+Epoch [219][SemiTeacher][InsectWingbeatSound] loss= 0.04382; Epoch Label ACC.= 88.76%, UnLabel ACC.= 49.51%, Lipistz loss = 0, Train Unlabel Best ACC.= 53.1%, Train Max Epoch=214
+EarlyStopping counter: 171 out of 200
+Epoch [220][SemiTeacher][InsectWingbeatSound] loss= 0.04531; Epoch Label ACC.= 89.81%, UnLabel ACC.= 50.01%, Lipistz loss = 0, Train Unlabel Best ACC.= 53.1%, Train Max Epoch=214
+EarlyStopping counter: 172 out of 200
+Epoch [221][SemiTeacher][InsectWingbeatSound] loss= 0.04450; Epoch Label ACC.= 91.96%, UnLabel ACC.= 48.32%, Lipistz loss = 0, Train Unlabel Best ACC.= 53.1%, Train Max Epoch=214
+EarlyStopping counter: 173 out of 200
+Epoch [222][SemiTeacher][InsectWingbeatSound] loss= 0.04510; Epoch Label ACC.= 90.55%, UnLabel ACC.= 49.61%, Lipistz loss = 0, Train Unlabel Best ACC.= 53.1%, Train Max Epoch=214
+EarlyStopping counter: 174 out of 200
+Epoch [223][SemiTeacher][InsectWingbeatSound] loss= 0.04449; Epoch Label ACC.= 90.62%, UnLabel ACC.= 47.16%, Lipistz loss = 0, Train Unlabel Best ACC.= 53.1%, Train Max Epoch=214
+EarlyStopping counter: 175 out of 200
+Epoch [224][SemiTeacher][InsectWingbeatSound] loss= 0.04740; Epoch Label ACC.= 92.11%, UnLabel ACC.= 49.08%, Lipistz loss = 0, Train Unlabel Best ACC.= 53.1%, Train Max Epoch=214
+EarlyStopping counter: 176 out of 200
+Epoch [225][SemiTeacher][InsectWingbeatSound] loss= 0.04489; Epoch Label ACC.= 89.88%, UnLabel ACC.= 51.34%, Lipistz loss = 0, Train Unlabel Best ACC.= 53.1%, Train Max Epoch=214
+EarlyStopping counter: 177 out of 200
+Epoch [226][SemiTeacher][InsectWingbeatSound] loss= 0.04506; Epoch Label ACC.= 91.59%, UnLabel ACC.= 51.70%, Lipistz loss = 0, Train Unlabel Best ACC.= 53.1%, Train Max Epoch=214
+EarlyStopping counter: 178 out of 200
+Epoch [227][SemiTeacher][InsectWingbeatSound] loss= 0.04789; Epoch Label ACC.= 94.79%, UnLabel ACC.= 51.68%, Lipistz loss = 0, Train Unlabel Best ACC.= 53.1%, Train Max Epoch=214
+EarlyStopping counter: 179 out of 200
+Epoch [228][SemiTeacher][InsectWingbeatSound] loss= 0.04591; Epoch Label ACC.= 95.76%, UnLabel ACC.= 51.88%, Lipistz loss = 0, Train Unlabel Best ACC.= 53.1%, Train Max Epoch=214
+EarlyStopping counter: 180 out of 200
+Epoch [229][SemiTeacher][InsectWingbeatSound] loss= 0.04403; Epoch Label ACC.= 95.54%, UnLabel ACC.= 50.61%, Lipistz loss = 0, Train Unlabel Best ACC.= 53.1%, Train Max Epoch=214
+EarlyStopping counter: 181 out of 200
+Epoch [230][SemiTeacher][InsectWingbeatSound] loss= 0.04584; Epoch Label ACC.= 95.54%, UnLabel ACC.= 50.28%, Lipistz loss = 0, Train Unlabel Best ACC.= 53.1%, Train Max Epoch=214
+EarlyStopping counter: 182 out of 200
+Epoch [231][SemiTeacher][InsectWingbeatSound] loss= 0.04449; Epoch Label ACC.= 92.41%, UnLabel ACC.= 52.59%, Lipistz loss = 0, Train Unlabel Best ACC.= 53.1%, Train Max Epoch=214
+EarlyStopping counter: 183 out of 200
+Epoch [232][SemiTeacher][InsectWingbeatSound] loss= 0.04715; Epoch Label ACC.= 94.94%, UnLabel ACC.= 52.29%, Lipistz loss = 0, Train Unlabel Best ACC.= 53.1%, Train Max Epoch=214
+EarlyStopping counter: 184 out of 200
+Epoch [233][SemiTeacher][InsectWingbeatSound] loss= 0.04931; Epoch Label ACC.= 93.97%, UnLabel ACC.= 50.64%, Lipistz loss = 0, Train Unlabel Best ACC.= 53.1%, Train Max Epoch=214
+EarlyStopping counter: 185 out of 200
+Epoch [234][SemiTeacher][InsectWingbeatSound] loss= 0.04892; Epoch Label ACC.= 88.54%, UnLabel ACC.= 47.17%, Lipistz loss = 0, Train Unlabel Best ACC.= 53.1%, Train Max Epoch=214
+EarlyStopping counter: 186 out of 200
+Epoch [235][SemiTeacher][InsectWingbeatSound] loss= 0.04624; Epoch Label ACC.= 94.12%, UnLabel ACC.= 47.47%, Lipistz loss = 0, Train Unlabel Best ACC.= 53.1%, Train Max Epoch=214
+EarlyStopping counter: 187 out of 200
+Epoch [236][SemiTeacher][InsectWingbeatSound] loss= 0.04398; Epoch Label ACC.= 90.25%, UnLabel ACC.= 50.45%, Lipistz loss = 0, Train Unlabel Best ACC.= 53.1%, Train Max Epoch=214
+EarlyStopping counter: 188 out of 200
+Epoch [237][SemiTeacher][InsectWingbeatSound] loss= 0.04549; Epoch Label ACC.= 92.78%, UnLabel ACC.= 49.61%, Lipistz loss = 0, Train Unlabel Best ACC.= 53.1%, Train Max Epoch=214
+EarlyStopping counter: 189 out of 200
+Epoch [238][SemiTeacher][InsectWingbeatSound] loss= 0.04501; Epoch Label ACC.= 94.27%, UnLabel ACC.= 51.50%, Lipistz loss = 0, Train Unlabel Best ACC.= 53.1%, Train Max Epoch=214
+EarlyStopping counter: 190 out of 200
+Epoch [239][SemiTeacher][InsectWingbeatSound] loss= 0.04575; Epoch Label ACC.= 93.15%, UnLabel ACC.= 50.00%, Lipistz loss = 0, Train Unlabel Best ACC.= 53.1%, Train Max Epoch=214
+EarlyStopping counter: 191 out of 200
+Epoch [240][SemiTeacher][InsectWingbeatSound] loss= 0.04556; Epoch Label ACC.= 93.82%, UnLabel ACC.= 50.37%, Lipistz loss = 0, Train Unlabel Best ACC.= 53.1%, Train Max Epoch=214
+EarlyStopping counter: 192 out of 200
+Epoch [241][SemiTeacher][InsectWingbeatSound] loss= 0.04662; Epoch Label ACC.= 93.53%, UnLabel ACC.= 50.94%, Lipistz loss = 0, Train Unlabel Best ACC.= 53.1%, Train Max Epoch=214
+EarlyStopping counter: 193 out of 200
+Epoch [242][SemiTeacher][InsectWingbeatSound] loss= 0.04825; Epoch Label ACC.= 94.42%, UnLabel ACC.= 51.06%, Lipistz loss = 0, Train Unlabel Best ACC.= 53.1%, Train Max Epoch=214
+EarlyStopping counter: 194 out of 200
+Epoch [243][SemiTeacher][InsectWingbeatSound] loss= 0.04409; Epoch Label ACC.= 94.87%, UnLabel ACC.= 51.28%, Lipistz loss = 0, Train Unlabel Best ACC.= 53.1%, Train Max Epoch=214
+EarlyStopping counter: 195 out of 200
+Epoch [244][SemiTeacher][InsectWingbeatSound] loss= 0.04611; Epoch Label ACC.= 94.42%, UnLabel ACC.= 50.54%, Lipistz loss = 0, Train Unlabel Best ACC.= 53.1%, Train Max Epoch=214
+EarlyStopping counter: 196 out of 200
+Epoch [245][SemiTeacher][InsectWingbeatSound] loss= 0.04763; Epoch Label ACC.= 96.13%, UnLabel ACC.= 51.29%, Lipistz loss = 0, Train Unlabel Best ACC.= 53.1%, Train Max Epoch=214
+EarlyStopping counter: 197 out of 200
+Epoch [246][SemiTeacher][InsectWingbeatSound] loss= 0.04554; Epoch Label ACC.= 89.73%, UnLabel ACC.= 47.96%, Lipistz loss = 0, Train Unlabel Best ACC.= 53.1%, Train Max Epoch=214
+EarlyStopping counter: 198 out of 200
+Epoch [247][SemiTeacher][InsectWingbeatSound] loss= 0.04849; Epoch Label ACC.= 89.14%, UnLabel ACC.= 48.94%, Lipistz loss = 0, Train Unlabel Best ACC.= 53.1%, Train Max Epoch=214
+EarlyStopping counter: 199 out of 200
+Epoch [248][SemiTeacher][InsectWingbeatSound] loss= 0.04648; Epoch Label ACC.= 89.51%, UnLabel ACC.= 50.73%, Lipistz loss = 0, Train Unlabel Best ACC.= 53.1%, Train Max Epoch=214
+EarlyStopping counter: 200 out of 200
+Early stopping
+wandb: Waiting for W&B process to finish... (success).
+wandb: - 0.001 MB of 0.001 MB uploaded (0.000 MB deduped)wandb: \ 0.001 MB of 0.001 MB uploaded (0.000 MB deduped)wandb: | 0.001 MB of 0.001 MB uploaded (0.000 MB deduped)wandb: / 0.001 MB of 0.151 MB uploaded (0.000 MB deduped)wandb: - 0.001 MB of 0.157 MB uploaded (0.000 MB deduped)wandb: \ 0.001 MB of 0.157 MB uploaded (0.000 MB deduped)wandb: | 0.001 MB of 0.157 MB uploaded (0.000 MB deduped)wandb: / 0.001 MB of 0.157 MB uploaded (0.000 MB deduped)wandb: - 0.001 MB of 0.157 MB uploaded (0.000 MB deduped)wandb: \ 0.001 MB of 0.157 MB uploaded (0.000 MB deduped)wandb: | 0.001 MB of 0.157 MB uploaded (0.000 MB deduped)wandb: / 0.001 MB of 0.157 MB uploaded (0.000 MB deduped)wandb: - 0.001 MB of 0.157 MB uploaded (0.000 MB deduped)wandb: \ 0.001 MB of 0.157 MB uploaded (0.000 MB deduped)wandb: | 0.001 MB of 0.157 MB uploaded (0.000 MB deduped)wandb: / 0.001 MB of 0.157 MB uploaded (0.000 MB deduped)wandb: - 0.001 MB of 0.157 MB uploaded (0.000 MB deduped)wandb: \ 0.082 MB of 0.157 MB uploaded (0.000 MB deduped)wandb: | 0.157 MB of 0.157 MB uploaded (0.000 MB deduped)wandb: / 0.157 MB of 0.157 MB uploaded (0.000 MB deduped)wandb: - 0.157 MB of 0.157 MB uploaded (0.000 MB deduped)wandb: \ 0.157 MB of 0.157 MB uploaded (0.000 MB deduped)wandb: | 0.157 MB of 0.157 MB uploaded (0.000 MB deduped)wandb: / 0.157 MB of 0.157 MB uploaded (0.000 MB deduped)wandb: - 0.157 MB of 0.157 MB uploaded (0.000 MB deduped)wandb: \ 0.157 MB of 0.157 MB uploaded (0.000 MB deduped)wandb: | 0.157 MB of 0.157 MB uploaded (0.000 MB deduped)wandb: / 0.157 MB of 0.157 MB uploaded (0.000 MB deduped)wandb: - 0.157 MB of 0.157 MB uploaded (0.000 MB deduped)wandb:                                                                                
+wandb: 
+wandb: Run history:
+wandb:    acc_epoch_label ▁▃▆▆▆▇▇▇▇██▇█▇▁▅▆▇▆▇▇█▇▇███▃▆▆▇▆▆▇▇▇█▆▇▇
+wandb:  acc_epoch_unlabel ▂▅▅▆▆▆▆▆▆▇▇▆▇▇▁▅▆▇▅▇▇▇▇▇█▇▇▄▆▅▅▅▆▆▆▆▆▆▆▅
+wandb:          acc_label ▃▅▆▇▇▆▇▆▇▇█▇▇█▁▆▆▇▆▇█▇▇▇▇▇▇▅▆▆▇▆▇▇▇▇▇▇▆█
+wandb:           acc_mean ▁
+wandb:            acc_std ▁
+wandb:        acc_unlabel ▄▆▆▆▇▆▆▆▇▇█▇▇▆▁▆▅▆▆▆▆▆▆▅▅▇▇▆▇▇▆▅▇▇▅▆▇▆▆▅
+wandb:      best_test_acc ▁▁▂▂▆▇▆▇█████▁▁▂▃▅▆▇▇▇▇▇█▁▁▂▄▅▆▆▆▆▆▆▇▇▇▇
+wandb:           lds_loss ▄▅▃▄▆▅▅▅▄▆▇▅█▄▁▄▅▅▇▇▅▆▄▆▆▅▄▃▄▆▅▇▅▅▇▅▇▇▆█
+wandb: loss_epoch_unlabel ▁▄▆▆▇▆▇▇█▇▇███▁▅▅▆▆▇▆▆▆▆▇▇▆▂▅▆█▆▆▇▆▆▇▇▇█
+wandb:         loss_label ▆▄▃▂▃▂▂▃▂▂▁▂▂▁█▃▃▂▃▂▁▂▂▁▂▂▂▄▃▃▂▃▂▂▁▂▂▂▂▁
+wandb:       loss_unlabel ▄▅▅▇▆▅█▄▅▆▆▆▅▆▁▅▅▆▆▅▅▆▅▅▆▆█▃▅▆▆▆▆▇▆▆▇▇▅▆
+wandb:               reg1 ▆▅▁▃▆▃▅▅█▄▄▇▂▃▅▅▆▅▇▅▄▅▅▄▅▆▇▃▂▅▂▂▅▂▁▂▁▆▃▂
+wandb:               reg2 ▅▃▂▃▅▃▃▅▅█▂▆▂▂▅▁▃▄▄▃▄▂▁▄▄▅▅▃▃▅▅▂▄▁▃▁▃▄▄▃
+wandb: 
+wandb: Run summary:
+wandb:    acc_epoch_label 89.50893
+wandb:  acc_epoch_unlabel 50.72917
+wandb:          acc_label 100.0
+wandb:           acc_mean 58.18
+wandb:            acc_std 3.46
+wandb:        acc_unlabel 52.5
+wandb:      best_test_acc 53.66709
+wandb:           lds_loss 0.0094
+wandb: loss_epoch_unlabel 0.04648
+wandb:         loss_label 0.00764
+wandb:       loss_unlabel 0.03543
+wandb:               reg1 8.33664
+wandb:               reg2 4.24272
+wandb: 
+wandb: Synced honest-butterfly-9: https://wandb.ai/pqythu/InsectWingbeatSound_semitime/runs/1cr60sta
+wandb: Synced 6 W&B file(s), 0 media file(s), 0 artifact file(s) and 0 other file(s)
+wandb: Find logs at: ./wandb/run-20240821_212726-1cr60sta/logs

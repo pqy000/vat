@@ -21,8 +21,7 @@ def parse_option():
     parser = argparse.ArgumentParser('argument for training')
     parser.add_argument('--save_freq', type=int, default=200,
                         help='save frequency')
-    parser.add_argument('--batch_size', type=int, default=64,
-                        help='batch_size')
+    parser.add_argument('--batch_size', type=int, default=64, help='batch_size')
     parser.add_argument('--K', type=int, default=4, help='Number of augmentation for each sample')
     parser.add_argument('--alpha', type=float, default=0.5, help='Past-future split point')
     parser.add_argument('--lr', type=float, default=0.01)
@@ -39,7 +38,7 @@ def parse_option():
     parser.add_argument('--learning_rate', type=float, default=2e-3, help='learning rate')
     parser.add_argument('--weight_rampup', type=int, default=30, help='weight rampup')
     # model dataset
-    parser.add_argument('--dataset_name', type=str, default='CricketX', help='dataset')
+    parser.add_argument('--dataset_name', type=str, default='UWaveGestureLibraryAll', help='dataset')
     parser.add_argument('--nb_class', type=int, default=3, help='class number')
 
     # ucr_path = '../datasets/UCRArchive_2018'
@@ -50,12 +49,12 @@ def parse_option():
     parser.add_argument('--backbone', type=str, default='SimConv4')
     parser.add_argument('--model_name', type=str, default='SemiTeacher',
                         choices=['SupCE', 'SemiTime','SemiTeacher', 'PI', 'MTL', 'TapNet'], help='choose method')
-    parser.add_argument('--label_ratio', type=float, default=0.2, help='label ratio')
+    parser.add_argument('--label_ratio', type=float, default=0.4, help='label ratio')
     parser.add_argument('--usp_weight', type=float, default=1, help='usp weight')
     parser.add_argument('--ema_decay', type=float, default=0.99, help='weight')
     parser.add_argument('--model_select', type=str, default='TCN', help='Training model type')
-    parser.add_argument('--nhid', type=int, default=128, help='feature_size')
-    parser.add_argument('--levels', type=int, default=8, help='feature_size')
+    parser.add_argument('--nhid', type=int, default=256, help='feature_size')
+    parser.add_argument('--levels', type=int, default=10, help='feature_size')
     parser.add_argument('--ksize', type=int, default=3, help='kernel size')
     parser.add_argument('--dropout', type=float, default=0.05, help='dropout applied to layers (default: 0.05)')
     parser.add_argument('--lip', type=bool, default=True, help='Whether to limit the lipisitz constant')
@@ -65,7 +64,7 @@ def parse_option():
     parser.add_argument('--iter', type=int, default=50, help='iteration')
     # cuda settings
     parser.add_argument('--no-cuda', default=False, help='Disables CUDA training.')
-    parser.add_argument('--seed', type=int, default=2024, help='Random seed.')
+    parser.add_argument('--seed', type=int, default=42, help='Random seed.')
 
     parser.add_argument('--wd', type=float, default=1e-3,
                         help='Weight decay (L2 loss on parameters). default: 5e-3')
@@ -104,7 +103,7 @@ def parse_option():
     parser.add_argument('--img_path', type=str, default='examples/fl.jpg', help='image path')
     parser.add_argument('--lambda_Rm', type=float, default=1, help='lambda_Rm')
     parser.add_argument('--lambda_Rs', type=float, default=1, help='lambda_Rs')
-    parser.add_argument('--lambda_reg', type=float, default=2, help='lambda_reg')
+    parser.add_argument('--lambda_reg', type=float, default=1, help='lambda_reg')
     parser.add_argument('--beta_reg', type=float, default=1e-3, help='beta_reg')
     parser.add_argument('--Saliency_dir', type=str, default='results/saliency/', help='saliency path')
     parser.add_argument('--Mask_dir', type=str, default='results/mask/', help='saliency path')
@@ -123,15 +122,14 @@ if __name__ == "__main__":
     opt.kernels = [int(l) for l in opt.kernels.split(",")]
     opt.filters = [int(l) for l in opt.filters.split(",")]
     opt.rp_params = [float(l) for l in opt.rp_params.split(",")]
-    opt.wb = wandb.init(project=opt.dataset_name+"_semitime", config=opt,
-                        mode="online", group=str(opt.label_ratio))
+    opt.wb = wandb.init(project=opt.dataset_name+"_semitime", config=opt, mode="online", group=str(opt.label_ratio))
     exp = 'exp-cls'
 
-    Seeds = [1996]
+    Seeds = [1996, 2024, 2000]
     Runs = range(0, 1, 1)
 
-    aug1 = ['jitter','cutout', 'G0']
-    aug2 = ['none']
+    aug1 = ['jitter','cutout']
+    aug2 = ['G0']
     if opt.model_name == 'SemiTime':
         model_paras = 'label{}_{}'.format(opt.label_ratio, opt.alpha)
     if opt.model_name == "SemiTeacher":
@@ -142,8 +140,7 @@ if __name__ == "__main__":
     if aug1 == aug2:
         opt.aug_type = [aug1]
     elif type(aug1) is list:
-        # opt.aug_type = aug1 + aug2
-        opt.aug_type = aug1
+        opt.aug_type = aug1 + aug2
     else:
         opt.aug_type = [aug1, aug2]
 
@@ -228,7 +225,7 @@ if __name__ == "__main__":
 
             ACCs_run[run] = acc_test
             MAX_EPOCHs_run[run] = epoch_max
-            opt.wb.log({'final_test': acc_test})
+            # opt.wb.log({'acc_test': acc_test, 'acc_unlabel': acc_unlabel})
 
         ACCs_seed[seed] = round(np.mean(list(ACCs_run.values())), 2)
         MAX_EPOCHs_seed[seed] = np.max(list(MAX_EPOCHs_run.values()))
@@ -243,7 +240,7 @@ if __name__ == "__main__":
     ACCs_seed_mean = round(np.mean(list(ACCs_seed.values())), 2)
     ACCs_seed_std = round(np.std(list(ACCs_seed.values())), 2)
     MAX_EPOCHs_seed_max = np.max(list(MAX_EPOCHs_seed.values()))
-
+    opt.wb.log({"acc_mean" : ACCs_seed_mean, "acc_std"  : ACCs_seed_std})
     print("{} {} {} {}".format(opt.dataset_name, ACCs_seed_mean,
                                ACCs_seed_std, MAX_EPOCHs_seed_max), file=file2print)
     file2print.flush()

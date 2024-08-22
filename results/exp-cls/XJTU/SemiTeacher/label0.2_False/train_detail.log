@@ -1,0 +1,6 @@
+2024-08-21-23:51:42
+Dataset  Train  Test  Dimension  Class  Seed  Acc_label  Acc_unlabel  Epoch_max
+2024-08-22-08:06:21
+Dataset  Train  Test  Dimension  Class  Seed  Acc_label  Acc_unlabel  Epoch_max
+XJTU  1155  375  1024  15  2000  39.56439399719238  35.11513137817383  935
+XJTU  1155  375  1024  15  2000  33.3191286722819  41.1184196472168  977

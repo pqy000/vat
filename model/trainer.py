@@ -63,7 +63,7 @@ class Model_SemiMean(torch.nn.Module):
         #### Training procedure #####
         patience = opt.patience
         early_stopping = EarlyStopping(patience, verbose=True,
-                         checkpoint_pth='{}/backbone_best.tar'.format(opt.ckpt_dir))
+                                       checkpoint_pth='{}/backbone_best.tar'.format(opt.ckpt_dir))
         optimizer = torch.optim.Adam(self.model.parameters(), lr=opt.learning_rate)
         train_max_epoch, train_best_acc, val_best_acc = 0, 0, 0
         lipresults = list()
@@ -73,11 +73,11 @@ class Model_SemiMean(torch.nn.Module):
             acc_label, acc_unlabel, loss_label, loss_unlabel, alp = list(), list(), list(), list(), list()
             for i, (data_labeled, data_unlabel) in enumerate(zip(cycle(train_loader_label), train_loader)):
                 self.global_step += 1
-                # label_data and unlabel_data
+                # label_data and # unlabel_data
                 x, targets = data_labeled
-                aug1, trend, targetAug = data_unlabel
-                x, targets, aug1, trend, targetAug = x.cuda(), targets.cuda(), \
-                                        aug1.float().cuda(), trend.float().cuda(), targetAug.cuda()
+                aug1, aug2, targetAug = data_unlabel
+                x, targets, aug1, aug2, targetAug = x.cuda(), targets.cuda(), \
+                                        aug1.float().cuda(), aug2.float().cuda(), targetAug.cuda()
                 ###############################################
                 # supervised loss
                 outputs = self.model(x)
@@ -90,35 +90,36 @@ class Model_SemiMean(torch.nn.Module):
 
                 # unsupervised consistency loss
                 self.update_ema(self.model, self.ema_model, opt.ema_decay, self.global_step)
-                # aug1_tilde = self.mixup_beta_batch(aug1, trend)
-                aug1_tilde_hat = self.get_adversarial_perturbations(self.model, aug1)
-                # aug2_hat = self.get_adversarial_perturbations(self.model, aug2)
-                # output_aug_hat = self.model(aug2_hat)
+
+                output_aug = self.model(aug1)
+                # aug1 = self.mixup_beta_batch(aug1, aug2)
+                aug1_hat = self.get_adversarial_perturbations(self.model, aug1)
+
+                # output_aug_hat = self.model(aug1_hat)
                 # alp_loss = self.get_alp_loss(x=aug1, x_hat=aug1_hat, y=output_aug, y_hat=output_aug_hat)
                 # loss += alp_loss
                 # alp.append(alp_loss.item())
-                # reg1 = torch.norm((aug1_tilde-aug1_tilde_hat), p=2)
-                # temp = (aug1_tilde_hat[:,:-2,:] - aug1_tilde_hat[:,1:-1,:]
-                #         + aug1_tilde_hat[:,2:,:] - aug1_tilde_hat[:,1:-1,:]).reshape(aug1_tilde_hat.size(0), -1)
-                # diff1 = torch.norm(temp, dim=1, p=2)
-                # reg2 = torch.mean(diff1)
-                # reg_loss = (0.5*reg1 + self.lambda_reg *reg2)
 
-                output_aug = self.model(aug1)
                 with torch.no_grad():
-                    output_aug_tilde_ema = self.ema_model(aug1_tilde_hat)
-                    output_aug_tilde_ema = output_aug_tilde_ema.detach()
-                cons_loss = mse_with_softmax(output_aug, output_aug_tilde_ema)
-                cons_loss *= self.rampup(epoch) * self.usp_weight
-                # other_loss = self.beta_reg * reg_loss
-                # loss += (cons_loss + other_loss)
-                loss += cons_loss
+                    output_aug_ema = self.ema_model(aug1_hat)
+                    output_aug_ema = output_aug_ema.detach()
+                cons_loss = mse_with_softmax(output_aug_ema, output_aug)
 
+                # with torch.no_grad():
+                #     output_aug_ema = self.ema_model(aug2)
+                #     output_aug_ema = output_aug_ema.detach()
+                # cons_loss = mse_with_softmax(output_aug_ema, output_aug)
+
+                # cons_loss *= self.rampup(epoch) * self.usp_weight
                 prediction = output_aug.argmax(-1)
                 correct = prediction.eq(targetAug).sum()
                 loss_unlabel.append(cons_loss.item())
                 acc_unlabel.append(100.0 * correct / len(targetAug))
-                self.wb.log({'cons_unlabel': cons_loss})
+                # loss += cons_loss * self.lambda_Rm
+                loss += cons_loss
+                self.wb.log({'loss_unlabel': cons_loss,
+                             'acc_unlabel': 100.0 * correct / len(targetAug)})
+
                 optimizer.zero_grad()
                 loss.backward()
                 optimizer.step()
@@ -126,7 +127,8 @@ class Model_SemiMean(torch.nn.Module):
             acc_epoch_label = sum(acc_label) / len(acc_label)
             acc_epoch_unlabel = sum(acc_unlabel) / len(acc_unlabel)
             loss_epoch_unlabel = sum(loss_unlabel) / len(loss_unlabel)
-
+            # alp_epoch = sum(alp) / len(alp)
+            alp_epoch = 0
             if acc_epoch_unlabel > train_best_acc:
                 train_best_acc = acc_epoch_unlabel
                 train_max_epoch = epoch
@@ -164,15 +166,18 @@ class Model_SemiMean(torch.nn.Module):
             if(early_stopping.early_stop):
                 print("Early stopping")
                 break
+
             if (epoch + 1) % opt.save_freq == 0:
                 print("[INFO] save backbone at epoch {}!".format(epoch))
                 torch.save(self.model.state_dict(), '{}/backbone_{}.tar'.format(opt.ckpt_dir, epoch))
-
+            alp_epoch = round(alp_epoch, 4)
+            lipresults.append(str(alp_epoch))
             print('Epoch [{}][{}][{}] loss= {:.5f}; Epoch Label ACC.= {:.2f}%, UnLabel ACC.= {:.2f}%, '
-                  'Train Unlabel Best ACC.= {:.1f}%, Train Max Epoch={}' \
+                  'Lipistz loss = {}, Train Unlabel Best ACC.= {:.1f}%, Train Max Epoch={}' \
                   .format(epoch + 1, opt.model_name, opt.dataset_name, loss_epoch_unlabel,
-                          acc_epoch_label, acc_epoch_unlabel, train_best_acc, train_max_epoch))
-            self.wb.log({'acc_epoch_label': acc_epoch_label, 'acc_epoch_unlabel': acc_epoch_unlabel})
+                          acc_epoch_label, acc_epoch_unlabel, alp_epoch, train_best_acc, train_max_epoch))
+            self.wb.log({'acc_epoch_label': acc_epoch_label, 'acc_epoch_unlabel': acc_epoch_unlabel,
+                         'loss_epoch_unlabel': loss_epoch_unlabel})
 
         # record lipschitz constant
         if opt.lip and not opt.saliency:
@@ -265,19 +270,21 @@ class Model_SemiMean(torch.nn.Module):
             y = f(x)
             y_hat = f(x_hat)
             lds_loss = mse_with_softmax(y, y_hat)
+            # y_diff = self.d_Y(y, y_hat)
+
             reg1 = torch.norm((x-x_hat), p=2)
-            temp = (x[:,:-2,:] - x_hat[:,1:-1,:] + x[:,2:,:] - x_hat[:,1:-1,:]).reshape(batch_size, -1)
+            temp = (x[:,:-2,:] - x_hat[:,1:-1,:] + x[:,2:,:] - x_hat[:,1:-1,:])
+            temp = temp.reshape(batch_size, -1)
             diff1 = torch.norm(temp, dim=1, p=2)
             reg2 = torch.mean(diff1)
             reg_loss = (0.5*reg1 + self.lambda_reg *reg2)
-            y_diff = lds_loss + self.beta_reg * reg_loss
 
-            self.wb.log({'lds_loss': lds_loss, 'reg1': reg1, 'reg2': reg2})
             # y_diff = lds_loss
-
+            y_diff = lds_loss + self.beta_reg * reg_loss
             y_diff.backward()
             d = normalize(d.grad).detach()
             f.zero_grad()
+            self.wb.log({'lds_loss':lds_loss, 'reg1':reg1, 'reg2':reg2})
 
         r_adv = normalize(d) * self.eps(x)
         r_adv[r_adv != r_adv] = 0

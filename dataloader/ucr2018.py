@@ -108,20 +108,17 @@ class MultiUCR2018_Forecast_new(data.Dataset):
         return self.data.shape[0]
 
 class MultiUCR2018_Forecast(data.Dataset):
-    def __init__(self, data, targets, K, transform,
-                 totensor_transform, trend_transform):
+    def __init__(self, data, targets, K, transform, totensor_transform):
         self.data = np.asarray(data, dtype=np.float32)
         self.targets = np.asarray(targets, dtype=np.int16)
         self.K = K  # tot number of augmentations
         self.transform = transform
         self.totensor_transform = totensor_transform
-        self.trend_transform = trend_transform
 
     def __getitem__(self, index):
         # print("### {}".format(index))
         img, target = self.data[index], self.targets[index].astype(np.int64)
         img1 = self.totensor_transform(self.transform(img.copy()))
-        # img2 = self.totensor_transform(self.trend_transform(img.copy()))
         img2 = self.totensor_transform(self.transform(img.copy()))
         return img1, img2, target
 

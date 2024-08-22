@@ -1,3 +1,19 @@
 2024-08-20-16:17:34
 Dataset  Train  Test   Dimension  Class  Seed  Acc_max  Epoch_max
 CricketX  468  156  300  12  2024  69.42  438
+2024-08-21-18:24:51
+Dataset  Train  Test   Dimension  Class  Seed  Acc_max  Epoch_max
+CricketX  468  156  300  12  2024  61.46  322
+2024-08-21-19:50:01
+Dataset  Train  Test   Dimension  Class  Seed  Acc_max  Epoch_max
+CricketX  468  156  300  12  2024  70.46  908
+2024-08-21-20:38:52
+Dataset  Train  Test   Dimension  Class  Seed  Acc_max  Epoch_max
+2024-08-21-20:43:24
+Dataset  Train  Test   Dimension  Class  Seed  Acc_max  Epoch_max
+CricketX  468  156  300  12  1997  63.99  506
+2024-08-21-21:30:41
+Dataset  Train  Test   Dimension  Class  Seed  Acc_max  Epoch_max
+CricketX  468  156  300  12  1996  53.57  689
+CricketX  468  156  300  12  2024  72.02  513
+CricketX  468  156  300  12  2000  69.27  345

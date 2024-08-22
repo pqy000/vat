@@ -63,7 +63,6 @@ def train_SemiMean(x_train, y_train, x_val, y_val, x_test, y_test, opt):
     train_transform = transforms.Compose(transforms_targets)
     train_transform_label = transforms.Compose(transforms_targets + [transforms.ToTensor()])
     tensor_transform = transforms.ToTensor()
-    trend_transform = transforms.Scaling(sigma=1.0, p=0.8)
 
     #########################################
     #########Different torch dataset#########
@@ -72,9 +71,7 @@ def train_SemiMean(x_train, y_train, x_val, y_val, x_test, y_test, opt):
     val_set = UCR2018(data=x_val, targets=y_val, transform=tensor_transform)
     test_set = UCR2018(data=x_test, targets=y_test, transform=tensor_transform)
     train_set = MultiUCR2018_Forecast(data=x_train, targets=y_train, K=K,
-                                      transform=train_transform,
-                                      totensor_transform=tensor_transform,
-                                      trend_transform=trend_transform)
+                                      transform=train_transform, totensor_transform=tensor_transform)
 
     #######################################
     #########Separate labeled data#########

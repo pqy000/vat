@@ -1,0 +1,621 @@
+[INFO] Running at: EpilepticSeizure
+[Stat] All class: {0: 2300, 1: 2300, 2: 2300, 3: 2300, 4: 2300}
+[Stat] Train class: mean=1380.0, std=0.0
+[Stat] Val class: mean=460.0, std=0.0
+[Stat] Test class: mean=460.0, std=0.0
+Train:(6900, 178, 1), Test:(2300, 178, 1), Class:5
+rp_params: [3, 0]
+[Test-0] Val ACC:21.27%, Best Test ACC.: 22.09% in Epoch 0
+Epoch [1][SemiTeacher][EpilepticSeizure] loss= 0.00174; Epoch Label ACC.= 20.32%, UnLabel ACC.= 19.97%, Lipistz loss = 0, Train Unlabel Best ACC.= 20.0%, Train Max Epoch=0
+[Test-1] Val ACC:31.51%, Best Test ACC.: 32.24% in Epoch 1
+Validation loss decreased (inf --> 31.507523).  Saving model ...
+Epoch [2][SemiTeacher][EpilepticSeizure] loss= 0.00240; Epoch Label ACC.= 24.77%, UnLabel ACC.= 23.93%, Lipistz loss = 0, Train Unlabel Best ACC.= 23.9%, Train Max Epoch=1
+[Test-2] Val ACC:36.46%, Best Test ACC.: 37.28% in Epoch 2
+Validation loss decreased (31.507523 --> 36.458333).  Saving model ...
+Epoch [3][SemiTeacher][EpilepticSeizure] loss= 0.02197; Epoch Label ACC.= 34.00%, UnLabel ACC.= 31.47%, Lipistz loss = 0, Train Unlabel Best ACC.= 31.5%, Train Max Epoch=2
+[Test-3] Val ACC:40.60%, Best Test ACC.: 41.14% in Epoch 3
+Validation loss decreased (36.458333 --> 40.604745).  Saving model ...
+Epoch [4][SemiTeacher][EpilepticSeizure] loss= 0.06347; Epoch Label ACC.= 39.44%, UnLabel ACC.= 36.86%, Lipistz loss = 0, Train Unlabel Best ACC.= 36.9%, Train Max Epoch=3
+EarlyStopping counter: 1 out of 200
+Epoch [5][SemiTeacher][EpilepticSeizure] loss= 0.05607; Epoch Label ACC.= 38.16%, UnLabel ACC.= 36.44%, Lipistz loss = 0, Train Unlabel Best ACC.= 36.9%, Train Max Epoch=3
+[Test-5] Val ACC:42.90%, Best Test ACC.: 44.13% in Epoch 5
+Validation loss decreased (40.604745 --> 42.899306).  Saving model ...
+Epoch [6][SemiTeacher][EpilepticSeizure] loss= 0.06790; Epoch Label ACC.= 43.41%, UnLabel ACC.= 38.83%, Lipistz loss = 0, Train Unlabel Best ACC.= 38.8%, Train Max Epoch=5
+[Test-6] Val ACC:43.65%, Best Test ACC.: 45.59% in Epoch 6
+Validation loss decreased (42.899306 --> 43.654514).  Saving model ...
+Epoch [7][SemiTeacher][EpilepticSeizure] loss= 0.09159; Epoch Label ACC.= 45.49%, UnLabel ACC.= 40.08%, Lipistz loss = 0, Train Unlabel Best ACC.= 40.1%, Train Max Epoch=6
+[Test-7] Val ACC:44.84%, Best Test ACC.: 46.63% in Epoch 7
+Validation loss decreased (43.654514 --> 44.840857).  Saving model ...
+Epoch [8][SemiTeacher][EpilepticSeizure] loss= 0.09728; Epoch Label ACC.= 48.05%, UnLabel ACC.= 40.00%, Lipistz loss = 0, Train Unlabel Best ACC.= 40.1%, Train Max Epoch=6
+EarlyStopping counter: 1 out of 200
+Epoch [9][SemiTeacher][EpilepticSeizure] loss= 0.07976; Epoch Label ACC.= 42.01%, UnLabel ACC.= 36.99%, Lipistz loss = 0, Train Unlabel Best ACC.= 40.1%, Train Max Epoch=6
+EarlyStopping counter: 2 out of 200
+Epoch [10][SemiTeacher][EpilepticSeizure] loss= 0.10853; Epoch Label ACC.= 50.65%, UnLabel ACC.= 40.91%, Lipistz loss = 0, Train Unlabel Best ACC.= 40.9%, Train Max Epoch=9
+EarlyStopping counter: 3 out of 200
+Epoch [11][SemiTeacher][EpilepticSeizure] loss= 0.11399; Epoch Label ACC.= 49.86%, UnLabel ACC.= 40.99%, Lipistz loss = 0, Train Unlabel Best ACC.= 41.0%, Train Max Epoch=10
+EarlyStopping counter: 4 out of 200
+Epoch [12][SemiTeacher][EpilepticSeizure] loss= 0.11235; Epoch Label ACC.= 53.07%, UnLabel ACC.= 40.66%, Lipistz loss = 0, Train Unlabel Best ACC.= 41.0%, Train Max Epoch=10
+[Test-12] Val ACC:46.89%, Best Test ACC.: 47.47% in Epoch 12
+Validation loss decreased (44.840857 --> 46.886574).  Saving model ...
+Epoch [13][SemiTeacher][EpilepticSeizure] loss= 0.11706; Epoch Label ACC.= 51.07%, UnLabel ACC.= 39.78%, Lipistz loss = 0, Train Unlabel Best ACC.= 41.0%, Train Max Epoch=10
+EarlyStopping counter: 1 out of 200
+Epoch [14][SemiTeacher][EpilepticSeizure] loss= 0.11468; Epoch Label ACC.= 56.11%, UnLabel ACC.= 40.73%, Lipistz loss = 0, Train Unlabel Best ACC.= 41.0%, Train Max Epoch=10
+EarlyStopping counter: 2 out of 200
+Epoch [15][SemiTeacher][EpilepticSeizure] loss= 0.10811; Epoch Label ACC.= 60.43%, UnLabel ACC.= 42.92%, Lipistz loss = 0, Train Unlabel Best ACC.= 42.9%, Train Max Epoch=14
+[Test-15] Val ACC:49.25%, Best Test ACC.: 50.40% in Epoch 15
+Validation loss decreased (46.886574 --> 49.253472).  Saving model ...
+Epoch [16][SemiTeacher][EpilepticSeizure] loss= 0.11994; Epoch Label ACC.= 65.86%, UnLabel ACC.= 42.34%, Lipistz loss = 0, Train Unlabel Best ACC.= 42.9%, Train Max Epoch=14
+EarlyStopping counter: 1 out of 200
+Epoch [17][SemiTeacher][EpilepticSeizure] loss= 0.12545; Epoch Label ACC.= 67.34%, UnLabel ACC.= 43.03%, Lipistz loss = 0, Train Unlabel Best ACC.= 43.0%, Train Max Epoch=16
+[Test-17] Val ACC:51.12%, Best Test ACC.: 52.76% in Epoch 17
+Validation loss decreased (49.253472 --> 51.122685).  Saving model ...
+Epoch [18][SemiTeacher][EpilepticSeizure] loss= 0.12042; Epoch Label ACC.= 66.78%, UnLabel ACC.= 44.66%, Lipistz loss = 0, Train Unlabel Best ACC.= 44.7%, Train Max Epoch=17
+[Test-18] Val ACC:55.13%, Best Test ACC.: 56.25% in Epoch 18
+Validation loss decreased (51.122685 --> 55.133102).  Saving model ...
+Epoch [19][SemiTeacher][EpilepticSeizure] loss= 0.11458; Epoch Label ACC.= 70.71%, UnLabel ACC.= 46.37%, Lipistz loss = 0, Train Unlabel Best ACC.= 46.4%, Train Max Epoch=18
+EarlyStopping counter: 1 out of 200
+Epoch [20][SemiTeacher][EpilepticSeizure] loss= 0.10648; Epoch Label ACC.= 69.85%, UnLabel ACC.= 45.78%, Lipistz loss = 0, Train Unlabel Best ACC.= 46.4%, Train Max Epoch=18
+[Test-20] Val ACC:55.40%, Best Test ACC.: 55.87% in Epoch 20
+Validation loss decreased (55.133102 --> 55.402199).  Saving model ...
+Epoch [21][SemiTeacher][EpilepticSeizure] loss= 0.10260; Epoch Label ACC.= 71.82%, UnLabel ACC.= 46.90%, Lipistz loss = 0, Train Unlabel Best ACC.= 46.9%, Train Max Epoch=20
+EarlyStopping counter: 1 out of 200
+Epoch [22][SemiTeacher][EpilepticSeizure] loss= 0.10085; Epoch Label ACC.= 74.92%, UnLabel ACC.= 46.79%, Lipistz loss = 0, Train Unlabel Best ACC.= 46.9%, Train Max Epoch=20
+[Test-22] Val ACC:56.19%, Best Test ACC.: 55.08% in Epoch 22
+Validation loss decreased (55.402199 --> 56.192130).  Saving model ...
+Epoch [23][SemiTeacher][EpilepticSeizure] loss= 0.10476; Epoch Label ACC.= 77.09%, UnLabel ACC.= 46.14%, Lipistz loss = 0, Train Unlabel Best ACC.= 46.9%, Train Max Epoch=20
+[Test-23] Val ACC:56.74%, Best Test ACC.: 56.04% in Epoch 23
+Validation loss decreased (56.192130 --> 56.739005).  Saving model ...
+Epoch [24][SemiTeacher][EpilepticSeizure] loss= 0.10678; Epoch Label ACC.= 76.61%, UnLabel ACC.= 48.02%, Lipistz loss = 0, Train Unlabel Best ACC.= 48.0%, Train Max Epoch=23
+EarlyStopping counter: 1 out of 200
+Epoch [25][SemiTeacher][EpilepticSeizure] loss= 0.11820; Epoch Label ACC.= 82.47%, UnLabel ACC.= 48.08%, Lipistz loss = 0, Train Unlabel Best ACC.= 48.1%, Train Max Epoch=24
+[Test-25] Val ACC:57.34%, Best Test ACC.: 59.19% in Epoch 25
+Validation loss decreased (56.739005 --> 57.340857).  Saving model ...
+Epoch [26][SemiTeacher][EpilepticSeizure] loss= 0.11573; Epoch Label ACC.= 82.08%, UnLabel ACC.= 48.76%, Lipistz loss = 0, Train Unlabel Best ACC.= 48.8%, Train Max Epoch=25
+EarlyStopping counter: 1 out of 200
+Epoch [27][SemiTeacher][EpilepticSeizure] loss= 0.11648; Epoch Label ACC.= 82.19%, UnLabel ACC.= 47.71%, Lipistz loss = 0, Train Unlabel Best ACC.= 48.8%, Train Max Epoch=25
+[Test-27] Val ACC:57.58%, Best Test ACC.: 57.37% in Epoch 27
+Validation loss decreased (57.340857 --> 57.583912).  Saving model ...
+Epoch [28][SemiTeacher][EpilepticSeizure] loss= 0.11616; Epoch Label ACC.= 83.97%, UnLabel ACC.= 48.61%, Lipistz loss = 0, Train Unlabel Best ACC.= 48.8%, Train Max Epoch=25
+[Test-28] Val ACC:58.61%, Best Test ACC.: 58.50% in Epoch 28
+Validation loss decreased (57.583912 --> 58.611111).  Saving model ...
+Epoch [29][SemiTeacher][EpilepticSeizure] loss= 0.11440; Epoch Label ACC.= 82.59%, UnLabel ACC.= 47.91%, Lipistz loss = 0, Train Unlabel Best ACC.= 48.8%, Train Max Epoch=25
+EarlyStopping counter: 1 out of 200
+Epoch [30][SemiTeacher][EpilepticSeizure] loss= 0.12973; Epoch Label ACC.= 86.74%, UnLabel ACC.= 48.86%, Lipistz loss = 0, Train Unlabel Best ACC.= 48.9%, Train Max Epoch=29
+EarlyStopping counter: 2 out of 200
+Epoch [31][SemiTeacher][EpilepticSeizure] loss= 0.13283; Epoch Label ACC.= 84.84%, UnLabel ACC.= 48.27%, Lipistz loss = 0, Train Unlabel Best ACC.= 48.9%, Train Max Epoch=29
+EarlyStopping counter: 3 out of 200
+Epoch [32][SemiTeacher][EpilepticSeizure] loss= 0.14038; Epoch Label ACC.= 88.07%, UnLabel ACC.= 48.73%, Lipistz loss = 0, Train Unlabel Best ACC.= 48.9%, Train Max Epoch=29
+EarlyStopping counter: 4 out of 200
+Epoch [33][SemiTeacher][EpilepticSeizure] loss= 0.13932; Epoch Label ACC.= 86.44%, UnLabel ACC.= 48.70%, Lipistz loss = 0, Train Unlabel Best ACC.= 48.9%, Train Max Epoch=29
+[Test-33] Val ACC:58.74%, Best Test ACC.: 59.98% in Epoch 33
+Validation loss decreased (58.611111 --> 58.735532).  Saving model ...
+Epoch [34][SemiTeacher][EpilepticSeizure] loss= 0.14456; Epoch Label ACC.= 87.97%, UnLabel ACC.= 48.88%, Lipistz loss = 0, Train Unlabel Best ACC.= 48.9%, Train Max Epoch=33
+[Test-34] Val ACC:59.20%, Best Test ACC.: 59.03% in Epoch 34
+Validation loss decreased (58.735532 --> 59.201389).  Saving model ...
+Epoch [35][SemiTeacher][EpilepticSeizure] loss= 0.14375; Epoch Label ACC.= 88.74%, UnLabel ACC.= 48.28%, Lipistz loss = 0, Train Unlabel Best ACC.= 48.9%, Train Max Epoch=33
+EarlyStopping counter: 1 out of 200
+Epoch [36][SemiTeacher][EpilepticSeizure] loss= 0.14666; Epoch Label ACC.= 87.79%, UnLabel ACC.= 49.75%, Lipistz loss = 0, Train Unlabel Best ACC.= 49.8%, Train Max Epoch=35
+EarlyStopping counter: 2 out of 200
+Epoch [37][SemiTeacher][EpilepticSeizure] loss= 0.14745; Epoch Label ACC.= 88.25%, UnLabel ACC.= 49.41%, Lipistz loss = 0, Train Unlabel Best ACC.= 49.8%, Train Max Epoch=35
+EarlyStopping counter: 3 out of 200
+Epoch [38][SemiTeacher][EpilepticSeizure] loss= 0.14605; Epoch Label ACC.= 88.23%, UnLabel ACC.= 48.53%, Lipistz loss = 0, Train Unlabel Best ACC.= 49.8%, Train Max Epoch=35
+[Test-38] Val ACC:59.93%, Best Test ACC.: 58.68% in Epoch 38
+Validation loss decreased (59.201389 --> 59.933449).  Saving model ...
+Epoch [39][SemiTeacher][EpilepticSeizure] loss= 0.15709; Epoch Label ACC.= 90.66%, UnLabel ACC.= 49.46%, Lipistz loss = 0, Train Unlabel Best ACC.= 49.8%, Train Max Epoch=35
+[Test-39] Val ACC:60.51%, Best Test ACC.: 60.94% in Epoch 39
+Validation loss decreased (59.933449 --> 60.509259).  Saving model ...
+Epoch [40][SemiTeacher][EpilepticSeizure] loss= 0.15417; Epoch Label ACC.= 87.80%, UnLabel ACC.= 49.98%, Lipistz loss = 0, Train Unlabel Best ACC.= 50.0%, Train Max Epoch=39
+EarlyStopping counter: 1 out of 200
+Epoch [41][SemiTeacher][EpilepticSeizure] loss= 0.15251; Epoch Label ACC.= 89.09%, UnLabel ACC.= 49.11%, Lipistz loss = 0, Train Unlabel Best ACC.= 50.0%, Train Max Epoch=39
+EarlyStopping counter: 2 out of 200
+Epoch [42][SemiTeacher][EpilepticSeizure] loss= 0.15883; Epoch Label ACC.= 91.04%, UnLabel ACC.= 48.74%, Lipistz loss = 0, Train Unlabel Best ACC.= 50.0%, Train Max Epoch=39
+EarlyStopping counter: 3 out of 200
+Epoch [43][SemiTeacher][EpilepticSeizure] loss= 0.15800; Epoch Label ACC.= 90.93%, UnLabel ACC.= 49.38%, Lipistz loss = 0, Train Unlabel Best ACC.= 50.0%, Train Max Epoch=39
+EarlyStopping counter: 4 out of 200
+Epoch [44][SemiTeacher][EpilepticSeizure] loss= 0.16706; Epoch Label ACC.= 91.76%, UnLabel ACC.= 49.29%, Lipistz loss = 0, Train Unlabel Best ACC.= 50.0%, Train Max Epoch=39
+EarlyStopping counter: 5 out of 200
+Epoch [45][SemiTeacher][EpilepticSeizure] loss= 0.16849; Epoch Label ACC.= 90.83%, UnLabel ACC.= 49.43%, Lipistz loss = 0, Train Unlabel Best ACC.= 50.0%, Train Max Epoch=39
+EarlyStopping counter: 6 out of 200
+Epoch [46][SemiTeacher][EpilepticSeizure] loss= 0.16032; Epoch Label ACC.= 91.57%, UnLabel ACC.= 50.12%, Lipistz loss = 0, Train Unlabel Best ACC.= 50.1%, Train Max Epoch=45
+EarlyStopping counter: 7 out of 200
+Epoch [47][SemiTeacher][EpilepticSeizure] loss= 0.16335; Epoch Label ACC.= 92.37%, UnLabel ACC.= 48.83%, Lipistz loss = 0, Train Unlabel Best ACC.= 50.1%, Train Max Epoch=45
+EarlyStopping counter: 8 out of 200
+Epoch [48][SemiTeacher][EpilepticSeizure] loss= 0.15811; Epoch Label ACC.= 90.78%, UnLabel ACC.= 48.24%, Lipistz loss = 0, Train Unlabel Best ACC.= 50.1%, Train Max Epoch=45
+EarlyStopping counter: 9 out of 200
+Epoch [49][SemiTeacher][EpilepticSeizure] loss= 0.15752; Epoch Label ACC.= 90.98%, UnLabel ACC.= 50.05%, Lipistz loss = 0, Train Unlabel Best ACC.= 50.1%, Train Max Epoch=45
+EarlyStopping counter: 10 out of 200
+Epoch [50][SemiTeacher][EpilepticSeizure] loss= 0.15670; Epoch Label ACC.= 91.60%, UnLabel ACC.= 49.50%, Lipistz loss = 0, Train Unlabel Best ACC.= 50.1%, Train Max Epoch=45
+EarlyStopping counter: 11 out of 200
+Epoch [51][SemiTeacher][EpilepticSeizure] loss= 0.16781; Epoch Label ACC.= 92.59%, UnLabel ACC.= 49.63%, Lipistz loss = 0, Train Unlabel Best ACC.= 50.1%, Train Max Epoch=45
+EarlyStopping counter: 12 out of 200
+Epoch [52][SemiTeacher][EpilepticSeizure] loss= 0.16283; Epoch Label ACC.= 91.02%, UnLabel ACC.= 49.34%, Lipistz loss = 0, Train Unlabel Best ACC.= 50.1%, Train Max Epoch=45
+EarlyStopping counter: 13 out of 200
+Epoch [53][SemiTeacher][EpilepticSeizure] loss= 0.15425; Epoch Label ACC.= 90.72%, UnLabel ACC.= 49.52%, Lipistz loss = 0, Train Unlabel Best ACC.= 50.1%, Train Max Epoch=45
+EarlyStopping counter: 14 out of 200
+Epoch [54][SemiTeacher][EpilepticSeizure] loss= 0.15670; Epoch Label ACC.= 91.56%, UnLabel ACC.= 49.10%, Lipistz loss = 0, Train Unlabel Best ACC.= 50.1%, Train Max Epoch=45
+EarlyStopping counter: 15 out of 200
+Epoch [55][SemiTeacher][EpilepticSeizure] loss= 0.15151; Epoch Label ACC.= 91.79%, UnLabel ACC.= 49.56%, Lipistz loss = 0, Train Unlabel Best ACC.= 50.1%, Train Max Epoch=45
+EarlyStopping counter: 16 out of 200
+Epoch [56][SemiTeacher][EpilepticSeizure] loss= 0.15312; Epoch Label ACC.= 92.90%, UnLabel ACC.= 49.57%, Lipistz loss = 0, Train Unlabel Best ACC.= 50.1%, Train Max Epoch=45
+EarlyStopping counter: 17 out of 200
+Epoch [57][SemiTeacher][EpilepticSeizure] loss= 0.15638; Epoch Label ACC.= 92.40%, UnLabel ACC.= 49.89%, Lipistz loss = 0, Train Unlabel Best ACC.= 50.1%, Train Max Epoch=45
+EarlyStopping counter: 18 out of 200
+Epoch [58][SemiTeacher][EpilepticSeizure] loss= 0.15926; Epoch Label ACC.= 91.99%, UnLabel ACC.= 50.23%, Lipistz loss = 0, Train Unlabel Best ACC.= 50.2%, Train Max Epoch=57
+EarlyStopping counter: 19 out of 200
+Epoch [59][SemiTeacher][EpilepticSeizure] loss= 0.15879; Epoch Label ACC.= 92.09%, UnLabel ACC.= 50.35%, Lipistz loss = 0, Train Unlabel Best ACC.= 50.4%, Train Max Epoch=58
+EarlyStopping counter: 20 out of 200
+Epoch [60][SemiTeacher][EpilepticSeizure] loss= 0.15943; Epoch Label ACC.= 92.26%, UnLabel ACC.= 49.73%, Lipistz loss = 0, Train Unlabel Best ACC.= 50.4%, Train Max Epoch=58
+EarlyStopping counter: 21 out of 200
+Epoch [61][SemiTeacher][EpilepticSeizure] loss= 0.16065; Epoch Label ACC.= 92.34%, UnLabel ACC.= 49.95%, Lipistz loss = 0, Train Unlabel Best ACC.= 50.4%, Train Max Epoch=58
+EarlyStopping counter: 22 out of 200
+Epoch [62][SemiTeacher][EpilepticSeizure] loss= 0.15514; Epoch Label ACC.= 91.42%, UnLabel ACC.= 49.33%, Lipistz loss = 0, Train Unlabel Best ACC.= 50.4%, Train Max Epoch=58
+EarlyStopping counter: 23 out of 200
+Epoch [63][SemiTeacher][EpilepticSeizure] loss= 0.15600; Epoch Label ACC.= 92.89%, UnLabel ACC.= 50.16%, Lipistz loss = 0, Train Unlabel Best ACC.= 50.4%, Train Max Epoch=58
+EarlyStopping counter: 24 out of 200
+Epoch [64][SemiTeacher][EpilepticSeizure] loss= 0.16263; Epoch Label ACC.= 92.83%, UnLabel ACC.= 49.79%, Lipistz loss = 0, Train Unlabel Best ACC.= 50.4%, Train Max Epoch=58
+EarlyStopping counter: 25 out of 200
+Epoch [65][SemiTeacher][EpilepticSeizure] loss= 0.15834; Epoch Label ACC.= 93.57%, UnLabel ACC.= 50.51%, Lipistz loss = 0, Train Unlabel Best ACC.= 50.5%, Train Max Epoch=64
+EarlyStopping counter: 26 out of 200
+Epoch [66][SemiTeacher][EpilepticSeizure] loss= 0.15942; Epoch Label ACC.= 93.42%, UnLabel ACC.= 49.63%, Lipistz loss = 0, Train Unlabel Best ACC.= 50.5%, Train Max Epoch=64
+EarlyStopping counter: 27 out of 200
+Epoch [67][SemiTeacher][EpilepticSeizure] loss= 0.16005; Epoch Label ACC.= 92.96%, UnLabel ACC.= 50.10%, Lipistz loss = 0, Train Unlabel Best ACC.= 50.5%, Train Max Epoch=64
+EarlyStopping counter: 28 out of 200
+Epoch [68][SemiTeacher][EpilepticSeizure] loss= 0.15888; Epoch Label ACC.= 92.06%, UnLabel ACC.= 50.92%, Lipistz loss = 0, Train Unlabel Best ACC.= 50.9%, Train Max Epoch=67
+EarlyStopping counter: 29 out of 200
+Epoch [69][SemiTeacher][EpilepticSeizure] loss= 0.16097; Epoch Label ACC.= 92.81%, UnLabel ACC.= 49.50%, Lipistz loss = 0, Train Unlabel Best ACC.= 50.9%, Train Max Epoch=67
+EarlyStopping counter: 30 out of 200
+Epoch [70][SemiTeacher][EpilepticSeizure] loss= 0.16192; Epoch Label ACC.= 92.84%, UnLabel ACC.= 48.35%, Lipistz loss = 0, Train Unlabel Best ACC.= 50.9%, Train Max Epoch=67
+EarlyStopping counter: 31 out of 200
+Epoch [71][SemiTeacher][EpilepticSeizure] loss= 0.15670; Epoch Label ACC.= 91.73%, UnLabel ACC.= 49.34%, Lipistz loss = 0, Train Unlabel Best ACC.= 50.9%, Train Max Epoch=67
+EarlyStopping counter: 32 out of 200
+Epoch [72][SemiTeacher][EpilepticSeizure] loss= 0.15327; Epoch Label ACC.= 92.76%, UnLabel ACC.= 49.73%, Lipistz loss = 0, Train Unlabel Best ACC.= 50.9%, Train Max Epoch=67
+EarlyStopping counter: 33 out of 200
+Epoch [73][SemiTeacher][EpilepticSeizure] loss= 0.16018; Epoch Label ACC.= 92.49%, UnLabel ACC.= 50.45%, Lipistz loss = 0, Train Unlabel Best ACC.= 50.9%, Train Max Epoch=67
+EarlyStopping counter: 34 out of 200
+Epoch [74][SemiTeacher][EpilepticSeizure] loss= 0.16001; Epoch Label ACC.= 92.06%, UnLabel ACC.= 51.10%, Lipistz loss = 0, Train Unlabel Best ACC.= 51.1%, Train Max Epoch=73
+EarlyStopping counter: 35 out of 200
+Epoch [75][SemiTeacher][EpilepticSeizure] loss= 0.16192; Epoch Label ACC.= 93.07%, UnLabel ACC.= 48.61%, Lipistz loss = 0, Train Unlabel Best ACC.= 51.1%, Train Max Epoch=73
+EarlyStopping counter: 36 out of 200
+Epoch [76][SemiTeacher][EpilepticSeizure] loss= 0.16197; Epoch Label ACC.= 93.51%, UnLabel ACC.= 49.42%, Lipistz loss = 0, Train Unlabel Best ACC.= 51.1%, Train Max Epoch=73
+EarlyStopping counter: 37 out of 200
+Epoch [77][SemiTeacher][EpilepticSeizure] loss= 0.15913; Epoch Label ACC.= 93.05%, UnLabel ACC.= 50.50%, Lipistz loss = 0, Train Unlabel Best ACC.= 51.1%, Train Max Epoch=73
+EarlyStopping counter: 38 out of 200
+Epoch [78][SemiTeacher][EpilepticSeizure] loss= 0.15491; Epoch Label ACC.= 93.18%, UnLabel ACC.= 49.58%, Lipistz loss = 0, Train Unlabel Best ACC.= 51.1%, Train Max Epoch=73
+EarlyStopping counter: 39 out of 200
+Epoch [79][SemiTeacher][EpilepticSeizure] loss= 0.15664; Epoch Label ACC.= 93.09%, UnLabel ACC.= 50.40%, Lipistz loss = 0, Train Unlabel Best ACC.= 51.1%, Train Max Epoch=73
+[Test-79] Val ACC:60.65%, Best Test ACC.: 59.56% in Epoch 79
+Validation loss decreased (60.509259 --> 60.648148).  Saving model ...
+Epoch [80][SemiTeacher][EpilepticSeizure] loss= 0.15928; Epoch Label ACC.= 94.39%, UnLabel ACC.= 50.17%, Lipistz loss = 0, Train Unlabel Best ACC.= 51.1%, Train Max Epoch=73
+EarlyStopping counter: 1 out of 200
+Epoch [81][SemiTeacher][EpilepticSeizure] loss= 0.15873; Epoch Label ACC.= 93.18%, UnLabel ACC.= 49.08%, Lipistz loss = 0, Train Unlabel Best ACC.= 51.1%, Train Max Epoch=73
+EarlyStopping counter: 2 out of 200
+Epoch [82][SemiTeacher][EpilepticSeizure] loss= 0.15829; Epoch Label ACC.= 92.62%, UnLabel ACC.= 50.40%, Lipistz loss = 0, Train Unlabel Best ACC.= 51.1%, Train Max Epoch=73
+EarlyStopping counter: 3 out of 200
+Epoch [83][SemiTeacher][EpilepticSeizure] loss= 0.15345; Epoch Label ACC.= 92.45%, UnLabel ACC.= 49.12%, Lipistz loss = 0, Train Unlabel Best ACC.= 51.1%, Train Max Epoch=73
+EarlyStopping counter: 4 out of 200
+Epoch [84][SemiTeacher][EpilepticSeizure] loss= 0.15198; Epoch Label ACC.= 93.46%, UnLabel ACC.= 48.92%, Lipistz loss = 0, Train Unlabel Best ACC.= 51.1%, Train Max Epoch=73
+EarlyStopping counter: 5 out of 200
+Epoch [85][SemiTeacher][EpilepticSeizure] loss= 0.15336; Epoch Label ACC.= 93.11%, UnLabel ACC.= 50.12%, Lipistz loss = 0, Train Unlabel Best ACC.= 51.1%, Train Max Epoch=73
+EarlyStopping counter: 6 out of 200
+Epoch [86][SemiTeacher][EpilepticSeizure] loss= 0.15419; Epoch Label ACC.= 92.76%, UnLabel ACC.= 50.16%, Lipistz loss = 0, Train Unlabel Best ACC.= 51.1%, Train Max Epoch=73
+EarlyStopping counter: 7 out of 200
+Epoch [87][SemiTeacher][EpilepticSeizure] loss= 0.15865; Epoch Label ACC.= 93.95%, UnLabel ACC.= 49.83%, Lipistz loss = 0, Train Unlabel Best ACC.= 51.1%, Train Max Epoch=73
+EarlyStopping counter: 8 out of 200
+Epoch [88][SemiTeacher][EpilepticSeizure] loss= 0.15589; Epoch Label ACC.= 93.37%, UnLabel ACC.= 50.15%, Lipistz loss = 0, Train Unlabel Best ACC.= 51.1%, Train Max Epoch=73
+EarlyStopping counter: 9 out of 200
+Epoch [89][SemiTeacher][EpilepticSeizure] loss= 0.15494; Epoch Label ACC.= 93.09%, UnLabel ACC.= 49.63%, Lipistz loss = 0, Train Unlabel Best ACC.= 51.1%, Train Max Epoch=73
+EarlyStopping counter: 10 out of 200
+Epoch [90][SemiTeacher][EpilepticSeizure] loss= 0.15348; Epoch Label ACC.= 93.30%, UnLabel ACC.= 49.51%, Lipistz loss = 0, Train Unlabel Best ACC.= 51.1%, Train Max Epoch=73
+EarlyStopping counter: 11 out of 200
+Epoch [91][SemiTeacher][EpilepticSeizure] loss= 0.15575; Epoch Label ACC.= 93.74%, UnLabel ACC.= 50.07%, Lipistz loss = 0, Train Unlabel Best ACC.= 51.1%, Train Max Epoch=73
+EarlyStopping counter: 12 out of 200
+Epoch [92][SemiTeacher][EpilepticSeizure] loss= 0.16012; Epoch Label ACC.= 94.56%, UnLabel ACC.= 50.66%, Lipistz loss = 0, Train Unlabel Best ACC.= 51.1%, Train Max Epoch=73
+[Test-92] Val ACC:60.70%, Best Test ACC.: 59.64% in Epoch 92
+Validation loss decreased (60.648148 --> 60.697338).  Saving model ...
+Epoch [93][SemiTeacher][EpilepticSeizure] loss= 0.15698; Epoch Label ACC.= 93.12%, UnLabel ACC.= 50.39%, Lipistz loss = 0, Train Unlabel Best ACC.= 51.1%, Train Max Epoch=73
+EarlyStopping counter: 1 out of 200
+Epoch [94][SemiTeacher][EpilepticSeizure] loss= 0.15338; Epoch Label ACC.= 93.80%, UnLabel ACC.= 50.67%, Lipistz loss = 0, Train Unlabel Best ACC.= 51.1%, Train Max Epoch=73
+[Test-94] Val ACC:60.74%, Best Test ACC.: 58.61% in Epoch 94
+Validation loss decreased (60.697338 --> 60.740741).  Saving model ...
+Epoch [95][SemiTeacher][EpilepticSeizure] loss= 0.15663; Epoch Label ACC.= 94.30%, UnLabel ACC.= 51.40%, Lipistz loss = 0, Train Unlabel Best ACC.= 51.4%, Train Max Epoch=94
+EarlyStopping counter: 1 out of 200
+Epoch [96][SemiTeacher][EpilepticSeizure] loss= 0.15655; Epoch Label ACC.= 94.11%, UnLabel ACC.= 50.08%, Lipistz loss = 0, Train Unlabel Best ACC.= 51.4%, Train Max Epoch=94
+EarlyStopping counter: 2 out of 200
+Epoch [97][SemiTeacher][EpilepticSeizure] loss= 0.15524; Epoch Label ACC.= 93.32%, UnLabel ACC.= 50.61%, Lipistz loss = 0, Train Unlabel Best ACC.= 51.4%, Train Max Epoch=94
+EarlyStopping counter: 3 out of 200
+Epoch [98][SemiTeacher][EpilepticSeizure] loss= 0.15770; Epoch Label ACC.= 94.29%, UnLabel ACC.= 50.26%, Lipistz loss = 0, Train Unlabel Best ACC.= 51.4%, Train Max Epoch=94
+EarlyStopping counter: 4 out of 200
+Epoch [99][SemiTeacher][EpilepticSeizure] loss= 0.16182; Epoch Label ACC.= 93.62%, UnLabel ACC.= 50.58%, Lipistz loss = 0, Train Unlabel Best ACC.= 51.4%, Train Max Epoch=94
+EarlyStopping counter: 5 out of 200
+Epoch [100][SemiTeacher][EpilepticSeizure] loss= 0.15827; Epoch Label ACC.= 94.08%, UnLabel ACC.= 49.53%, Lipistz loss = 0, Train Unlabel Best ACC.= 51.4%, Train Max Epoch=94
+EarlyStopping counter: 6 out of 200
+Epoch [101][SemiTeacher][EpilepticSeizure] loss= 0.15130; Epoch Label ACC.= 93.50%, UnLabel ACC.= 48.75%, Lipistz loss = 0, Train Unlabel Best ACC.= 51.4%, Train Max Epoch=94
+EarlyStopping counter: 7 out of 200
+Epoch [102][SemiTeacher][EpilepticSeizure] loss= 0.15085; Epoch Label ACC.= 93.69%, UnLabel ACC.= 48.68%, Lipistz loss = 0, Train Unlabel Best ACC.= 51.4%, Train Max Epoch=94
+EarlyStopping counter: 8 out of 200
+Epoch [103][SemiTeacher][EpilepticSeizure] loss= 0.15656; Epoch Label ACC.= 94.07%, UnLabel ACC.= 50.47%, Lipistz loss = 0, Train Unlabel Best ACC.= 51.4%, Train Max Epoch=94
+EarlyStopping counter: 9 out of 200
+Epoch [104][SemiTeacher][EpilepticSeizure] loss= 0.15266; Epoch Label ACC.= 93.69%, UnLabel ACC.= 50.33%, Lipistz loss = 0, Train Unlabel Best ACC.= 51.4%, Train Max Epoch=94
+EarlyStopping counter: 10 out of 200
+Epoch [105][SemiTeacher][EpilepticSeizure] loss= 0.15671; Epoch Label ACC.= 93.94%, UnLabel ACC.= 49.31%, Lipistz loss = 0, Train Unlabel Best ACC.= 51.4%, Train Max Epoch=94
+EarlyStopping counter: 11 out of 200
+Epoch [106][SemiTeacher][EpilepticSeizure] loss= 0.15583; Epoch Label ACC.= 93.73%, UnLabel ACC.= 50.33%, Lipistz loss = 0, Train Unlabel Best ACC.= 51.4%, Train Max Epoch=94
+EarlyStopping counter: 12 out of 200
+Epoch [107][SemiTeacher][EpilepticSeizure] loss= 0.15610; Epoch Label ACC.= 94.43%, UnLabel ACC.= 49.70%, Lipistz loss = 0, Train Unlabel Best ACC.= 51.4%, Train Max Epoch=94
+EarlyStopping counter: 13 out of 200
+Epoch [108][SemiTeacher][EpilepticSeizure] loss= 0.15211; Epoch Label ACC.= 93.31%, UnLabel ACC.= 49.43%, Lipistz loss = 0, Train Unlabel Best ACC.= 51.4%, Train Max Epoch=94
+EarlyStopping counter: 14 out of 200
+Epoch [109][SemiTeacher][EpilepticSeizure] loss= 0.14944; Epoch Label ACC.= 93.46%, UnLabel ACC.= 49.33%, Lipistz loss = 0, Train Unlabel Best ACC.= 51.4%, Train Max Epoch=94
+EarlyStopping counter: 15 out of 200
+Epoch [110][SemiTeacher][EpilepticSeizure] loss= 0.14914; Epoch Label ACC.= 93.93%, UnLabel ACC.= 49.41%, Lipistz loss = 0, Train Unlabel Best ACC.= 51.4%, Train Max Epoch=94
+EarlyStopping counter: 16 out of 200
+Epoch [111][SemiTeacher][EpilepticSeizure] loss= 0.15754; Epoch Label ACC.= 94.03%, UnLabel ACC.= 50.22%, Lipistz loss = 0, Train Unlabel Best ACC.= 51.4%, Train Max Epoch=94
+EarlyStopping counter: 17 out of 200
+Epoch [112][SemiTeacher][EpilepticSeizure] loss= 0.15515; Epoch Label ACC.= 93.87%, UnLabel ACC.= 50.18%, Lipistz loss = 0, Train Unlabel Best ACC.= 51.4%, Train Max Epoch=94
+EarlyStopping counter: 18 out of 200
+Epoch [113][SemiTeacher][EpilepticSeizure] loss= 0.15047; Epoch Label ACC.= 93.28%, UnLabel ACC.= 50.73%, Lipistz loss = 0, Train Unlabel Best ACC.= 51.4%, Train Max Epoch=94
+EarlyStopping counter: 19 out of 200
+Epoch [114][SemiTeacher][EpilepticSeizure] loss= 0.15467; Epoch Label ACC.= 93.98%, UnLabel ACC.= 50.89%, Lipistz loss = 0, Train Unlabel Best ACC.= 51.4%, Train Max Epoch=94
+EarlyStopping counter: 20 out of 200
+Epoch [115][SemiTeacher][EpilepticSeizure] loss= 0.15636; Epoch Label ACC.= 94.24%, UnLabel ACC.= 50.35%, Lipistz loss = 0, Train Unlabel Best ACC.= 51.4%, Train Max Epoch=94
+EarlyStopping counter: 21 out of 200
+Epoch [116][SemiTeacher][EpilepticSeizure] loss= 0.15773; Epoch Label ACC.= 93.40%, UnLabel ACC.= 50.24%, Lipistz loss = 0, Train Unlabel Best ACC.= 51.4%, Train Max Epoch=94
+EarlyStopping counter: 22 out of 200
+Epoch [117][SemiTeacher][EpilepticSeizure] loss= 0.15312; Epoch Label ACC.= 93.27%, UnLabel ACC.= 49.56%, Lipistz loss = 0, Train Unlabel Best ACC.= 51.4%, Train Max Epoch=94
+EarlyStopping counter: 23 out of 200
+Epoch [118][SemiTeacher][EpilepticSeizure] loss= 0.15384; Epoch Label ACC.= 94.21%, UnLabel ACC.= 49.91%, Lipistz loss = 0, Train Unlabel Best ACC.= 51.4%, Train Max Epoch=94
+EarlyStopping counter: 24 out of 200
+Epoch [119][SemiTeacher][EpilepticSeizure] loss= 0.15249; Epoch Label ACC.= 93.64%, UnLabel ACC.= 51.26%, Lipistz loss = 0, Train Unlabel Best ACC.= 51.4%, Train Max Epoch=94
+EarlyStopping counter: 25 out of 200
+Epoch [120][SemiTeacher][EpilepticSeizure] loss= 0.15741; Epoch Label ACC.= 94.52%, UnLabel ACC.= 49.47%, Lipistz loss = 0, Train Unlabel Best ACC.= 51.4%, Train Max Epoch=94
+EarlyStopping counter: 26 out of 200
+Epoch [121][SemiTeacher][EpilepticSeizure] loss= 0.15657; Epoch Label ACC.= 93.59%, UnLabel ACC.= 50.09%, Lipistz loss = 0, Train Unlabel Best ACC.= 51.4%, Train Max Epoch=94
+EarlyStopping counter: 27 out of 200
+Epoch [122][SemiTeacher][EpilepticSeizure] loss= 0.15942; Epoch Label ACC.= 94.52%, UnLabel ACC.= 49.23%, Lipistz loss = 0, Train Unlabel Best ACC.= 51.4%, Train Max Epoch=94
+EarlyStopping counter: 28 out of 200
+Epoch [123][SemiTeacher][EpilepticSeizure] loss= 0.15560; Epoch Label ACC.= 94.97%, UnLabel ACC.= 49.54%, Lipistz loss = 0, Train Unlabel Best ACC.= 51.4%, Train Max Epoch=94
+EarlyStopping counter: 29 out of 200
+Epoch [124][SemiTeacher][EpilepticSeizure] loss= 0.15089; Epoch Label ACC.= 93.93%, UnLabel ACC.= 49.68%, Lipistz loss = 0, Train Unlabel Best ACC.= 51.4%, Train Max Epoch=94
+EarlyStopping counter: 30 out of 200
+Epoch [125][SemiTeacher][EpilepticSeizure] loss= 0.14875; Epoch Label ACC.= 93.69%, UnLabel ACC.= 50.15%, Lipistz loss = 0, Train Unlabel Best ACC.= 51.4%, Train Max Epoch=94
+EarlyStopping counter: 31 out of 200
+Epoch [126][SemiTeacher][EpilepticSeizure] loss= 0.14873; Epoch Label ACC.= 93.77%, UnLabel ACC.= 50.27%, Lipistz loss = 0, Train Unlabel Best ACC.= 51.4%, Train Max Epoch=94
+EarlyStopping counter: 32 out of 200
+Epoch [127][SemiTeacher][EpilepticSeizure] loss= 0.15167; Epoch Label ACC.= 93.90%, UnLabel ACC.= 50.06%, Lipistz loss = 0, Train Unlabel Best ACC.= 51.4%, Train Max Epoch=94
+EarlyStopping counter: 33 out of 200
+Epoch [128][SemiTeacher][EpilepticSeizure] loss= 0.15367; Epoch Label ACC.= 94.07%, UnLabel ACC.= 49.69%, Lipistz loss = 0, Train Unlabel Best ACC.= 51.4%, Train Max Epoch=94
+EarlyStopping counter: 34 out of 200
+Epoch [129][SemiTeacher][EpilepticSeizure] loss= 0.15500; Epoch Label ACC.= 94.49%, UnLabel ACC.= 49.54%, Lipistz loss = 0, Train Unlabel Best ACC.= 51.4%, Train Max Epoch=94
+EarlyStopping counter: 35 out of 200
+Epoch [130][SemiTeacher][EpilepticSeizure] loss= 0.15331; Epoch Label ACC.= 93.81%, UnLabel ACC.= 50.01%, Lipistz loss = 0, Train Unlabel Best ACC.= 51.4%, Train Max Epoch=94
+EarlyStopping counter: 36 out of 200
+Epoch [131][SemiTeacher][EpilepticSeizure] loss= 0.15429; Epoch Label ACC.= 93.59%, UnLabel ACC.= 50.15%, Lipistz loss = 0, Train Unlabel Best ACC.= 51.4%, Train Max Epoch=94
+EarlyStopping counter: 37 out of 200
+Epoch [132][SemiTeacher][EpilepticSeizure] loss= 0.15844; Epoch Label ACC.= 94.23%, UnLabel ACC.= 49.97%, Lipistz loss = 0, Train Unlabel Best ACC.= 51.4%, Train Max Epoch=94
+EarlyStopping counter: 38 out of 200
+Epoch [133][SemiTeacher][EpilepticSeizure] loss= 0.15491; Epoch Label ACC.= 94.14%, UnLabel ACC.= 48.93%, Lipistz loss = 0, Train Unlabel Best ACC.= 51.4%, Train Max Epoch=94
+EarlyStopping counter: 39 out of 200
+Epoch [134][SemiTeacher][EpilepticSeizure] loss= 0.15583; Epoch Label ACC.= 95.38%, UnLabel ACC.= 49.59%, Lipistz loss = 0, Train Unlabel Best ACC.= 51.4%, Train Max Epoch=94
+EarlyStopping counter: 40 out of 200
+Epoch [135][SemiTeacher][EpilepticSeizure] loss= 0.15643; Epoch Label ACC.= 94.02%, UnLabel ACC.= 49.60%, Lipistz loss = 0, Train Unlabel Best ACC.= 51.4%, Train Max Epoch=94
+EarlyStopping counter: 41 out of 200
+Epoch [136][SemiTeacher][EpilepticSeizure] loss= 0.15477; Epoch Label ACC.= 93.39%, UnLabel ACC.= 49.34%, Lipistz loss = 0, Train Unlabel Best ACC.= 51.4%, Train Max Epoch=94
+EarlyStopping counter: 42 out of 200
+Epoch [137][SemiTeacher][EpilepticSeizure] loss= 0.15433; Epoch Label ACC.= 93.94%, UnLabel ACC.= 49.95%, Lipistz loss = 0, Train Unlabel Best ACC.= 51.4%, Train Max Epoch=94
+EarlyStopping counter: 43 out of 200
+Epoch [138][SemiTeacher][EpilepticSeizure] loss= 0.15223; Epoch Label ACC.= 93.67%, UnLabel ACC.= 50.47%, Lipistz loss = 0, Train Unlabel Best ACC.= 51.4%, Train Max Epoch=94
+EarlyStopping counter: 44 out of 200
+Epoch [139][SemiTeacher][EpilepticSeizure] loss= 0.15514; Epoch Label ACC.= 94.26%, UnLabel ACC.= 50.33%, Lipistz loss = 0, Train Unlabel Best ACC.= 51.4%, Train Max Epoch=94
+EarlyStopping counter: 45 out of 200
+Epoch [140][SemiTeacher][EpilepticSeizure] loss= 0.15754; Epoch Label ACC.= 95.03%, UnLabel ACC.= 49.95%, Lipistz loss = 0, Train Unlabel Best ACC.= 51.4%, Train Max Epoch=94
+EarlyStopping counter: 46 out of 200
+Epoch [141][SemiTeacher][EpilepticSeizure] loss= 0.15391; Epoch Label ACC.= 93.70%, UnLabel ACC.= 49.92%, Lipistz loss = 0, Train Unlabel Best ACC.= 51.4%, Train Max Epoch=94
+EarlyStopping counter: 47 out of 200
+Epoch [142][SemiTeacher][EpilepticSeizure] loss= 0.15462; Epoch Label ACC.= 94.07%, UnLabel ACC.= 49.91%, Lipistz loss = 0, Train Unlabel Best ACC.= 51.4%, Train Max Epoch=94
+EarlyStopping counter: 48 out of 200
+Epoch [143][SemiTeacher][EpilepticSeizure] loss= 0.15721; Epoch Label ACC.= 94.67%, UnLabel ACC.= 50.84%, Lipistz loss = 0, Train Unlabel Best ACC.= 51.4%, Train Max Epoch=94
+EarlyStopping counter: 49 out of 200
+Epoch [144][SemiTeacher][EpilepticSeizure] loss= 0.15021; Epoch Label ACC.= 93.99%, UnLabel ACC.= 48.73%, Lipistz loss = 0, Train Unlabel Best ACC.= 51.4%, Train Max Epoch=94
+EarlyStopping counter: 50 out of 200
+Epoch [145][SemiTeacher][EpilepticSeizure] loss= 0.14997; Epoch Label ACC.= 93.62%, UnLabel ACC.= 50.06%, Lipistz loss = 0, Train Unlabel Best ACC.= 51.4%, Train Max Epoch=94
+EarlyStopping counter: 51 out of 200
+Epoch [146][SemiTeacher][EpilepticSeizure] loss= 0.15502; Epoch Label ACC.= 94.36%, UnLabel ACC.= 49.30%, Lipistz loss = 0, Train Unlabel Best ACC.= 51.4%, Train Max Epoch=94
+EarlyStopping counter: 52 out of 200
+Epoch [147][SemiTeacher][EpilepticSeizure] loss= 0.15502; Epoch Label ACC.= 94.32%, UnLabel ACC.= 49.34%, Lipistz loss = 0, Train Unlabel Best ACC.= 51.4%, Train Max Epoch=94
+EarlyStopping counter: 53 out of 200
+Epoch [148][SemiTeacher][EpilepticSeizure] loss= 0.15304; Epoch Label ACC.= 93.82%, UnLabel ACC.= 49.41%, Lipistz loss = 0, Train Unlabel Best ACC.= 51.4%, Train Max Epoch=94
+EarlyStopping counter: 54 out of 200
+Epoch [149][SemiTeacher][EpilepticSeizure] loss= 0.15306; Epoch Label ACC.= 95.45%, UnLabel ACC.= 50.04%, Lipistz loss = 0, Train Unlabel Best ACC.= 51.4%, Train Max Epoch=94
+EarlyStopping counter: 55 out of 200
+Epoch [150][SemiTeacher][EpilepticSeizure] loss= 0.15261; Epoch Label ACC.= 93.82%, UnLabel ACC.= 49.15%, Lipistz loss = 0, Train Unlabel Best ACC.= 51.4%, Train Max Epoch=94
+EarlyStopping counter: 56 out of 200
+Epoch [151][SemiTeacher][EpilepticSeizure] loss= 0.14892; Epoch Label ACC.= 93.97%, UnLabel ACC.= 48.78%, Lipistz loss = 0, Train Unlabel Best ACC.= 51.4%, Train Max Epoch=94
+EarlyStopping counter: 57 out of 200
+Epoch [152][SemiTeacher][EpilepticSeizure] loss= 0.15122; Epoch Label ACC.= 95.14%, UnLabel ACC.= 50.45%, Lipistz loss = 0, Train Unlabel Best ACC.= 51.4%, Train Max Epoch=94
+EarlyStopping counter: 58 out of 200
+Epoch [153][SemiTeacher][EpilepticSeizure] loss= 0.15100; Epoch Label ACC.= 93.70%, UnLabel ACC.= 48.98%, Lipistz loss = 0, Train Unlabel Best ACC.= 51.4%, Train Max Epoch=94
+EarlyStopping counter: 59 out of 200
+Epoch [154][SemiTeacher][EpilepticSeizure] loss= 0.15485; Epoch Label ACC.= 94.30%, UnLabel ACC.= 48.86%, Lipistz loss = 0, Train Unlabel Best ACC.= 51.4%, Train Max Epoch=94
+EarlyStopping counter: 60 out of 200
+Epoch [155][SemiTeacher][EpilepticSeizure] loss= 0.15216; Epoch Label ACC.= 94.06%, UnLabel ACC.= 49.21%, Lipistz loss = 0, Train Unlabel Best ACC.= 51.4%, Train Max Epoch=94
+EarlyStopping counter: 61 out of 200
+Epoch [156][SemiTeacher][EpilepticSeizure] loss= 0.15150; Epoch Label ACC.= 94.36%, UnLabel ACC.= 49.59%, Lipistz loss = 0, Train Unlabel Best ACC.= 51.4%, Train Max Epoch=94
+EarlyStopping counter: 62 out of 200
+Epoch [157][SemiTeacher][EpilepticSeizure] loss= 0.15310; Epoch Label ACC.= 94.60%, UnLabel ACC.= 49.53%, Lipistz loss = 0, Train Unlabel Best ACC.= 51.4%, Train Max Epoch=94
+EarlyStopping counter: 63 out of 200
+Epoch [158][SemiTeacher][EpilepticSeizure] loss= 0.15211; Epoch Label ACC.= 95.10%, UnLabel ACC.= 50.80%, Lipistz loss = 0, Train Unlabel Best ACC.= 51.4%, Train Max Epoch=94
+EarlyStopping counter: 64 out of 200
+Epoch [159][SemiTeacher][EpilepticSeizure] loss= 0.15254; Epoch Label ACC.= 94.88%, UnLabel ACC.= 49.08%, Lipistz loss = 0, Train Unlabel Best ACC.= 51.4%, Train Max Epoch=94
+EarlyStopping counter: 65 out of 200
+Epoch [160][SemiTeacher][EpilepticSeizure] loss= 0.14785; Epoch Label ACC.= 93.84%, UnLabel ACC.= 48.38%, Lipistz loss = 0, Train Unlabel Best ACC.= 51.4%, Train Max Epoch=94
+EarlyStopping counter: 66 out of 200
+Epoch [161][SemiTeacher][EpilepticSeizure] loss= 0.15022; Epoch Label ACC.= 94.70%, UnLabel ACC.= 48.20%, Lipistz loss = 0, Train Unlabel Best ACC.= 51.4%, Train Max Epoch=94
+EarlyStopping counter: 67 out of 200
+Epoch [162][SemiTeacher][EpilepticSeizure] loss= 0.14554; Epoch Label ACC.= 93.74%, UnLabel ACC.= 48.72%, Lipistz loss = 0, Train Unlabel Best ACC.= 51.4%, Train Max Epoch=94
+EarlyStopping counter: 68 out of 200
+Epoch [163][SemiTeacher][EpilepticSeizure] loss= 0.14896; Epoch Label ACC.= 94.21%, UnLabel ACC.= 48.56%, Lipistz loss = 0, Train Unlabel Best ACC.= 51.4%, Train Max Epoch=94
+EarlyStopping counter: 69 out of 200
+Epoch [164][SemiTeacher][EpilepticSeizure] loss= 0.14648; Epoch Label ACC.= 93.95%, UnLabel ACC.= 50.62%, Lipistz loss = 0, Train Unlabel Best ACC.= 51.4%, Train Max Epoch=94
+EarlyStopping counter: 70 out of 200
+Epoch [165][SemiTeacher][EpilepticSeizure] loss= 0.14968; Epoch Label ACC.= 95.18%, UnLabel ACC.= 49.13%, Lipistz loss = 0, Train Unlabel Best ACC.= 51.4%, Train Max Epoch=94
+EarlyStopping counter: 71 out of 200
+Epoch [166][SemiTeacher][EpilepticSeizure] loss= 0.15214; Epoch Label ACC.= 94.94%, UnLabel ACC.= 50.07%, Lipistz loss = 0, Train Unlabel Best ACC.= 51.4%, Train Max Epoch=94
+EarlyStopping counter: 72 out of 200
+Epoch [167][SemiTeacher][EpilepticSeizure] loss= 0.15201; Epoch Label ACC.= 94.48%, UnLabel ACC.= 49.36%, Lipistz loss = 0, Train Unlabel Best ACC.= 51.4%, Train Max Epoch=94
+EarlyStopping counter: 73 out of 200
+Epoch [168][SemiTeacher][EpilepticSeizure] loss= 0.14932; Epoch Label ACC.= 94.46%, UnLabel ACC.= 49.92%, Lipistz loss = 0, Train Unlabel Best ACC.= 51.4%, Train Max Epoch=94
+EarlyStopping counter: 74 out of 200
+Epoch [169][SemiTeacher][EpilepticSeizure] loss= 0.14666; Epoch Label ACC.= 94.99%, UnLabel ACC.= 50.65%, Lipistz loss = 0, Train Unlabel Best ACC.= 51.4%, Train Max Epoch=94
+EarlyStopping counter: 75 out of 200
+Epoch [170][SemiTeacher][EpilepticSeizure] loss= 0.14918; Epoch Label ACC.= 94.53%, UnLabel ACC.= 50.35%, Lipistz loss = 0, Train Unlabel Best ACC.= 51.4%, Train Max Epoch=94
+EarlyStopping counter: 76 out of 200
+Epoch [171][SemiTeacher][EpilepticSeizure] loss= 0.14882; Epoch Label ACC.= 94.58%, UnLabel ACC.= 49.02%, Lipistz loss = 0, Train Unlabel Best ACC.= 51.4%, Train Max Epoch=94
+EarlyStopping counter: 77 out of 200
+Epoch [172][SemiTeacher][EpilepticSeizure] loss= 0.14661; Epoch Label ACC.= 93.80%, UnLabel ACC.= 49.19%, Lipistz loss = 0, Train Unlabel Best ACC.= 51.4%, Train Max Epoch=94
+EarlyStopping counter: 78 out of 200
+Epoch [173][SemiTeacher][EpilepticSeizure] loss= 0.14558; Epoch Label ACC.= 93.86%, UnLabel ACC.= 49.26%, Lipistz loss = 0, Train Unlabel Best ACC.= 51.4%, Train Max Epoch=94
+EarlyStopping counter: 79 out of 200
+Epoch [174][SemiTeacher][EpilepticSeizure] loss= 0.14552; Epoch Label ACC.= 93.77%, UnLabel ACC.= 49.72%, Lipistz loss = 0, Train Unlabel Best ACC.= 51.4%, Train Max Epoch=94
+EarlyStopping counter: 80 out of 200
+Epoch [175][SemiTeacher][EpilepticSeizure] loss= 0.14568; Epoch Label ACC.= 93.60%, UnLabel ACC.= 50.73%, Lipistz loss = 0, Train Unlabel Best ACC.= 51.4%, Train Max Epoch=94
+EarlyStopping counter: 81 out of 200
+Epoch [176][SemiTeacher][EpilepticSeizure] loss= 0.14521; Epoch Label ACC.= 94.05%, UnLabel ACC.= 49.09%, Lipistz loss = 0, Train Unlabel Best ACC.= 51.4%, Train Max Epoch=94
+EarlyStopping counter: 82 out of 200
+Epoch [177][SemiTeacher][EpilepticSeizure] loss= 0.14205; Epoch Label ACC.= 94.96%, UnLabel ACC.= 48.82%, Lipistz loss = 0, Train Unlabel Best ACC.= 51.4%, Train Max Epoch=94
+EarlyStopping counter: 83 out of 200
+Epoch [178][SemiTeacher][EpilepticSeizure] loss= 0.14475; Epoch Label ACC.= 94.97%, UnLabel ACC.= 50.21%, Lipistz loss = 0, Train Unlabel Best ACC.= 51.4%, Train Max Epoch=94
+EarlyStopping counter: 84 out of 200
+Epoch [179][SemiTeacher][EpilepticSeizure] loss= 0.14269; Epoch Label ACC.= 94.45%, UnLabel ACC.= 50.02%, Lipistz loss = 0, Train Unlabel Best ACC.= 51.4%, Train Max Epoch=94
+EarlyStopping counter: 85 out of 200
+Epoch [180][SemiTeacher][EpilepticSeizure] loss= 0.14685; Epoch Label ACC.= 94.25%, UnLabel ACC.= 49.59%, Lipistz loss = 0, Train Unlabel Best ACC.= 51.4%, Train Max Epoch=94
+EarlyStopping counter: 86 out of 200
+Epoch [181][SemiTeacher][EpilepticSeizure] loss= 0.14767; Epoch Label ACC.= 93.93%, UnLabel ACC.= 48.72%, Lipistz loss = 0, Train Unlabel Best ACC.= 51.4%, Train Max Epoch=94
+EarlyStopping counter: 87 out of 200
+Epoch [182][SemiTeacher][EpilepticSeizure] loss= 0.14735; Epoch Label ACC.= 94.56%, UnLabel ACC.= 49.05%, Lipistz loss = 0, Train Unlabel Best ACC.= 51.4%, Train Max Epoch=94
+EarlyStopping counter: 88 out of 200
+Epoch [183][SemiTeacher][EpilepticSeizure] loss= 0.14340; Epoch Label ACC.= 94.20%, UnLabel ACC.= 49.64%, Lipistz loss = 0, Train Unlabel Best ACC.= 51.4%, Train Max Epoch=94
+EarlyStopping counter: 89 out of 200
+Epoch [184][SemiTeacher][EpilepticSeizure] loss= 0.14137; Epoch Label ACC.= 94.23%, UnLabel ACC.= 49.10%, Lipistz loss = 0, Train Unlabel Best ACC.= 51.4%, Train Max Epoch=94
+EarlyStopping counter: 90 out of 200
+Epoch [185][SemiTeacher][EpilepticSeizure] loss= 0.14787; Epoch Label ACC.= 93.92%, UnLabel ACC.= 50.54%, Lipistz loss = 0, Train Unlabel Best ACC.= 51.4%, Train Max Epoch=94
+EarlyStopping counter: 91 out of 200
+Epoch [186][SemiTeacher][EpilepticSeizure] loss= 0.14485; Epoch Label ACC.= 94.41%, UnLabel ACC.= 49.72%, Lipistz loss = 0, Train Unlabel Best ACC.= 51.4%, Train Max Epoch=94
+EarlyStopping counter: 92 out of 200
+Epoch [187][SemiTeacher][EpilepticSeizure] loss= 0.14953; Epoch Label ACC.= 93.57%, UnLabel ACC.= 50.36%, Lipistz loss = 0, Train Unlabel Best ACC.= 51.4%, Train Max Epoch=94
+EarlyStopping counter: 93 out of 200
+Epoch [188][SemiTeacher][EpilepticSeizure] loss= 0.14728; Epoch Label ACC.= 94.79%, UnLabel ACC.= 50.10%, Lipistz loss = 0, Train Unlabel Best ACC.= 51.4%, Train Max Epoch=94
+EarlyStopping counter: 94 out of 200
+Epoch [189][SemiTeacher][EpilepticSeizure] loss= 0.14858; Epoch Label ACC.= 93.87%, UnLabel ACC.= 50.18%, Lipistz loss = 0, Train Unlabel Best ACC.= 51.4%, Train Max Epoch=94
+EarlyStopping counter: 95 out of 200
+Epoch [190][SemiTeacher][EpilepticSeizure] loss= 0.14471; Epoch Label ACC.= 94.42%, UnLabel ACC.= 49.77%, Lipistz loss = 0, Train Unlabel Best ACC.= 51.4%, Train Max Epoch=94
+EarlyStopping counter: 96 out of 200
+Epoch [191][SemiTeacher][EpilepticSeizure] loss= 0.14723; Epoch Label ACC.= 94.05%, UnLabel ACC.= 50.05%, Lipistz loss = 0, Train Unlabel Best ACC.= 51.4%, Train Max Epoch=94
+EarlyStopping counter: 97 out of 200
+Epoch [192][SemiTeacher][EpilepticSeizure] loss= 0.14320; Epoch Label ACC.= 94.07%, UnLabel ACC.= 50.04%, Lipistz loss = 0, Train Unlabel Best ACC.= 51.4%, Train Max Epoch=94
+EarlyStopping counter: 98 out of 200
+Epoch [193][SemiTeacher][EpilepticSeizure] loss= 0.14571; Epoch Label ACC.= 94.42%, UnLabel ACC.= 49.00%, Lipistz loss = 0, Train Unlabel Best ACC.= 51.4%, Train Max Epoch=94
+EarlyStopping counter: 99 out of 200
+Epoch [194][SemiTeacher][EpilepticSeizure] loss= 0.14383; Epoch Label ACC.= 94.07%, UnLabel ACC.= 49.65%, Lipistz loss = 0, Train Unlabel Best ACC.= 51.4%, Train Max Epoch=94
+EarlyStopping counter: 100 out of 200
+Epoch [195][SemiTeacher][EpilepticSeizure] loss= 0.14512; Epoch Label ACC.= 94.62%, UnLabel ACC.= 48.97%, Lipistz loss = 0, Train Unlabel Best ACC.= 51.4%, Train Max Epoch=94
+EarlyStopping counter: 101 out of 200
+Epoch [196][SemiTeacher][EpilepticSeizure] loss= 0.14635; Epoch Label ACC.= 94.40%, UnLabel ACC.= 50.43%, Lipistz loss = 0, Train Unlabel Best ACC.= 51.4%, Train Max Epoch=94
+EarlyStopping counter: 102 out of 200
+Epoch [197][SemiTeacher][EpilepticSeizure] loss= 0.14785; Epoch Label ACC.= 94.73%, UnLabel ACC.= 49.90%, Lipistz loss = 0, Train Unlabel Best ACC.= 51.4%, Train Max Epoch=94
+EarlyStopping counter: 103 out of 200
+Epoch [198][SemiTeacher][EpilepticSeizure] loss= 0.14259; Epoch Label ACC.= 93.95%, UnLabel ACC.= 50.45%, Lipistz loss = 0, Train Unlabel Best ACC.= 51.4%, Train Max Epoch=94
+EarlyStopping counter: 104 out of 200
+Epoch [199][SemiTeacher][EpilepticSeizure] loss= 0.14051; Epoch Label ACC.= 93.22%, UnLabel ACC.= 49.80%, Lipistz loss = 0, Train Unlabel Best ACC.= 51.4%, Train Max Epoch=94
+EarlyStopping counter: 105 out of 200
+[INFO] save backbone at epoch 199!
+Epoch [200][SemiTeacher][EpilepticSeizure] loss= 0.14739; Epoch Label ACC.= 94.99%, UnLabel ACC.= 50.60%, Lipistz loss = 0, Train Unlabel Best ACC.= 51.4%, Train Max Epoch=94
+EarlyStopping counter: 106 out of 200
+Epoch [201][SemiTeacher][EpilepticSeizure] loss= 0.14393; Epoch Label ACC.= 94.97%, UnLabel ACC.= 50.01%, Lipistz loss = 0, Train Unlabel Best ACC.= 51.4%, Train Max Epoch=94
+EarlyStopping counter: 107 out of 200
+Epoch [202][SemiTeacher][EpilepticSeizure] loss= 0.14396; Epoch Label ACC.= 94.24%, UnLabel ACC.= 50.40%, Lipistz loss = 0, Train Unlabel Best ACC.= 51.4%, Train Max Epoch=94
+EarlyStopping counter: 108 out of 200
+Epoch [203][SemiTeacher][EpilepticSeizure] loss= 0.14402; Epoch Label ACC.= 94.41%, UnLabel ACC.= 50.05%, Lipistz loss = 0, Train Unlabel Best ACC.= 51.4%, Train Max Epoch=94
+EarlyStopping counter: 109 out of 200
+Epoch [204][SemiTeacher][EpilepticSeizure] loss= 0.14300; Epoch Label ACC.= 94.15%, UnLabel ACC.= 49.21%, Lipistz loss = 0, Train Unlabel Best ACC.= 51.4%, Train Max Epoch=94
+EarlyStopping counter: 110 out of 200
+Epoch [205][SemiTeacher][EpilepticSeizure] loss= 0.14335; Epoch Label ACC.= 94.76%, UnLabel ACC.= 50.72%, Lipistz loss = 0, Train Unlabel Best ACC.= 51.4%, Train Max Epoch=94
+EarlyStopping counter: 111 out of 200
+Epoch [206][SemiTeacher][EpilepticSeizure] loss= 0.14386; Epoch Label ACC.= 93.80%, UnLabel ACC.= 50.83%, Lipistz loss = 0, Train Unlabel Best ACC.= 51.4%, Train Max Epoch=94
+EarlyStopping counter: 112 out of 200
+Epoch [207][SemiTeacher][EpilepticSeizure] loss= 0.14516; Epoch Label ACC.= 94.79%, UnLabel ACC.= 50.83%, Lipistz loss = 0, Train Unlabel Best ACC.= 51.4%, Train Max Epoch=94
+EarlyStopping counter: 113 out of 200
+Epoch [208][SemiTeacher][EpilepticSeizure] loss= 0.14746; Epoch Label ACC.= 94.20%, UnLabel ACC.= 49.44%, Lipistz loss = 0, Train Unlabel Best ACC.= 51.4%, Train Max Epoch=94
+EarlyStopping counter: 114 out of 200
+Epoch [209][SemiTeacher][EpilepticSeizure] loss= 0.14719; Epoch Label ACC.= 93.98%, UnLabel ACC.= 51.14%, Lipistz loss = 0, Train Unlabel Best ACC.= 51.4%, Train Max Epoch=94
+EarlyStopping counter: 115 out of 200
+Epoch [210][SemiTeacher][EpilepticSeizure] loss= 0.14595; Epoch Label ACC.= 94.26%, UnLabel ACC.= 49.76%, Lipistz loss = 0, Train Unlabel Best ACC.= 51.4%, Train Max Epoch=94
+EarlyStopping counter: 116 out of 200
+Epoch [211][SemiTeacher][EpilepticSeizure] loss= 0.14305; Epoch Label ACC.= 94.02%, UnLabel ACC.= 51.20%, Lipistz loss = 0, Train Unlabel Best ACC.= 51.4%, Train Max Epoch=94
+EarlyStopping counter: 117 out of 200
+Epoch [212][SemiTeacher][EpilepticSeizure] loss= 0.14495; Epoch Label ACC.= 94.63%, UnLabel ACC.= 50.12%, Lipistz loss = 0, Train Unlabel Best ACC.= 51.4%, Train Max Epoch=94
+EarlyStopping counter: 118 out of 200
+Epoch [213][SemiTeacher][EpilepticSeizure] loss= 0.14446; Epoch Label ACC.= 92.81%, UnLabel ACC.= 50.52%, Lipistz loss = 0, Train Unlabel Best ACC.= 51.4%, Train Max Epoch=94
+EarlyStopping counter: 119 out of 200
+Epoch [214][SemiTeacher][EpilepticSeizure] loss= 0.14715; Epoch Label ACC.= 94.50%, UnLabel ACC.= 50.49%, Lipistz loss = 0, Train Unlabel Best ACC.= 51.4%, Train Max Epoch=94
+EarlyStopping counter: 120 out of 200
+Epoch [215][SemiTeacher][EpilepticSeizure] loss= 0.14943; Epoch Label ACC.= 94.97%, UnLabel ACC.= 50.29%, Lipistz loss = 0, Train Unlabel Best ACC.= 51.4%, Train Max Epoch=94
+EarlyStopping counter: 121 out of 200
+Epoch [216][SemiTeacher][EpilepticSeizure] loss= 0.14333; Epoch Label ACC.= 94.42%, UnLabel ACC.= 49.38%, Lipistz loss = 0, Train Unlabel Best ACC.= 51.4%, Train Max Epoch=94
+EarlyStopping counter: 122 out of 200
+Epoch [217][SemiTeacher][EpilepticSeizure] loss= 0.14277; Epoch Label ACC.= 94.79%, UnLabel ACC.= 49.55%, Lipistz loss = 0, Train Unlabel Best ACC.= 51.4%, Train Max Epoch=94
+EarlyStopping counter: 123 out of 200
+Epoch [218][SemiTeacher][EpilepticSeizure] loss= 0.14490; Epoch Label ACC.= 93.93%, UnLabel ACC.= 50.67%, Lipistz loss = 0, Train Unlabel Best ACC.= 51.4%, Train Max Epoch=94
+EarlyStopping counter: 124 out of 200
+Epoch [219][SemiTeacher][EpilepticSeizure] loss= 0.14725; Epoch Label ACC.= 94.41%, UnLabel ACC.= 49.78%, Lipistz loss = 0, Train Unlabel Best ACC.= 51.4%, Train Max Epoch=94
+EarlyStopping counter: 125 out of 200
+Epoch [220][SemiTeacher][EpilepticSeizure] loss= 0.14280; Epoch Label ACC.= 94.19%, UnLabel ACC.= 50.98%, Lipistz loss = 0, Train Unlabel Best ACC.= 51.4%, Train Max Epoch=94
+EarlyStopping counter: 126 out of 200
+Epoch [221][SemiTeacher][EpilepticSeizure] loss= 0.14377; Epoch Label ACC.= 94.05%, UnLabel ACC.= 50.44%, Lipistz loss = 0, Train Unlabel Best ACC.= 51.4%, Train Max Epoch=94
+EarlyStopping counter: 127 out of 200
+Epoch [222][SemiTeacher][EpilepticSeizure] loss= 0.14063; Epoch Label ACC.= 93.88%, UnLabel ACC.= 50.27%, Lipistz loss = 0, Train Unlabel Best ACC.= 51.4%, Train Max Epoch=94
+EarlyStopping counter: 128 out of 200
+Epoch [223][SemiTeacher][EpilepticSeizure] loss= 0.14123; Epoch Label ACC.= 94.52%, UnLabel ACC.= 51.20%, Lipistz loss = 0, Train Unlabel Best ACC.= 51.4%, Train Max Epoch=94
+EarlyStopping counter: 129 out of 200
+Epoch [224][SemiTeacher][EpilepticSeizure] loss= 0.14771; Epoch Label ACC.= 94.39%, UnLabel ACC.= 51.26%, Lipistz loss = 0, Train Unlabel Best ACC.= 51.4%, Train Max Epoch=94
+EarlyStopping counter: 130 out of 200
+Epoch [225][SemiTeacher][EpilepticSeizure] loss= 0.14859; Epoch Label ACC.= 94.93%, UnLabel ACC.= 50.48%, Lipistz loss = 0, Train Unlabel Best ACC.= 51.4%, Train Max Epoch=94
+EarlyStopping counter: 131 out of 200
+Epoch [226][SemiTeacher][EpilepticSeizure] loss= 0.14681; Epoch Label ACC.= 94.21%, UnLabel ACC.= 49.62%, Lipistz loss = 0, Train Unlabel Best ACC.= 51.4%, Train Max Epoch=94
+EarlyStopping counter: 132 out of 200
+Epoch [227][SemiTeacher][EpilepticSeizure] loss= 0.14742; Epoch Label ACC.= 94.50%, UnLabel ACC.= 51.62%, Lipistz loss = 0, Train Unlabel Best ACC.= 51.6%, Train Max Epoch=226
+EarlyStopping counter: 133 out of 200
+Epoch [228][SemiTeacher][EpilepticSeizure] loss= 0.14672; Epoch Label ACC.= 94.70%, UnLabel ACC.= 49.54%, Lipistz loss = 0, Train Unlabel Best ACC.= 51.6%, Train Max Epoch=226
+EarlyStopping counter: 134 out of 200
+Epoch [229][SemiTeacher][EpilepticSeizure] loss= 0.14765; Epoch Label ACC.= 94.06%, UnLabel ACC.= 50.04%, Lipistz loss = 0, Train Unlabel Best ACC.= 51.6%, Train Max Epoch=226
+EarlyStopping counter: 135 out of 200
+Epoch [230][SemiTeacher][EpilepticSeizure] loss= 0.14786; Epoch Label ACC.= 94.73%, UnLabel ACC.= 50.29%, Lipistz loss = 0, Train Unlabel Best ACC.= 51.6%, Train Max Epoch=226
+EarlyStopping counter: 136 out of 200
+Epoch [231][SemiTeacher][EpilepticSeizure] loss= 0.14466; Epoch Label ACC.= 94.26%, UnLabel ACC.= 50.04%, Lipistz loss = 0, Train Unlabel Best ACC.= 51.6%, Train Max Epoch=226
+EarlyStopping counter: 137 out of 200
+Epoch [232][SemiTeacher][EpilepticSeizure] loss= 0.14313; Epoch Label ACC.= 95.14%, UnLabel ACC.= 50.77%, Lipistz loss = 0, Train Unlabel Best ACC.= 51.6%, Train Max Epoch=226
+EarlyStopping counter: 138 out of 200
+Epoch [233][SemiTeacher][EpilepticSeizure] loss= 0.13839; Epoch Label ACC.= 94.15%, UnLabel ACC.= 48.97%, Lipistz loss = 0, Train Unlabel Best ACC.= 51.6%, Train Max Epoch=226
+EarlyStopping counter: 139 out of 200
+Epoch [234][SemiTeacher][EpilepticSeizure] loss= 0.14134; Epoch Label ACC.= 93.78%, UnLabel ACC.= 48.05%, Lipistz loss = 0, Train Unlabel Best ACC.= 51.6%, Train Max Epoch=226
+EarlyStopping counter: 140 out of 200
+Epoch [235][SemiTeacher][EpilepticSeizure] loss= 0.14307; Epoch Label ACC.= 94.43%, UnLabel ACC.= 48.75%, Lipistz loss = 0, Train Unlabel Best ACC.= 51.6%, Train Max Epoch=226
+EarlyStopping counter: 141 out of 200
+Epoch [236][SemiTeacher][EpilepticSeizure] loss= 0.14767; Epoch Label ACC.= 94.91%, UnLabel ACC.= 48.59%, Lipistz loss = 0, Train Unlabel Best ACC.= 51.6%, Train Max Epoch=226
+EarlyStopping counter: 142 out of 200
+Epoch [237][SemiTeacher][EpilepticSeizure] loss= 0.14495; Epoch Label ACC.= 94.59%, UnLabel ACC.= 49.34%, Lipistz loss = 0, Train Unlabel Best ACC.= 51.6%, Train Max Epoch=226
+EarlyStopping counter: 143 out of 200
+Epoch [238][SemiTeacher][EpilepticSeizure] loss= 0.14646; Epoch Label ACC.= 94.28%, UnLabel ACC.= 48.93%, Lipistz loss = 0, Train Unlabel Best ACC.= 51.6%, Train Max Epoch=226
+EarlyStopping counter: 144 out of 200
+Epoch [239][SemiTeacher][EpilepticSeizure] loss= 0.14568; Epoch Label ACC.= 94.24%, UnLabel ACC.= 49.70%, Lipistz loss = 0, Train Unlabel Best ACC.= 51.6%, Train Max Epoch=226
+EarlyStopping counter: 145 out of 200
+Epoch [240][SemiTeacher][EpilepticSeizure] loss= 0.14185; Epoch Label ACC.= 94.31%, UnLabel ACC.= 49.27%, Lipistz loss = 0, Train Unlabel Best ACC.= 51.6%, Train Max Epoch=226
+EarlyStopping counter: 146 out of 200
+Epoch [241][SemiTeacher][EpilepticSeizure] loss= 0.14487; Epoch Label ACC.= 95.11%, UnLabel ACC.= 49.52%, Lipistz loss = 0, Train Unlabel Best ACC.= 51.6%, Train Max Epoch=226
+EarlyStopping counter: 147 out of 200
+Epoch [242][SemiTeacher][EpilepticSeizure] loss= 0.14347; Epoch Label ACC.= 94.55%, UnLabel ACC.= 48.62%, Lipistz loss = 0, Train Unlabel Best ACC.= 51.6%, Train Max Epoch=226
+EarlyStopping counter: 148 out of 200
+Epoch [243][SemiTeacher][EpilepticSeizure] loss= 0.14589; Epoch Label ACC.= 94.01%, UnLabel ACC.= 48.83%, Lipistz loss = 0, Train Unlabel Best ACC.= 51.6%, Train Max Epoch=226
+EarlyStopping counter: 149 out of 200
+Epoch [244][SemiTeacher][EpilepticSeizure] loss= 0.14463; Epoch Label ACC.= 94.14%, UnLabel ACC.= 49.02%, Lipistz loss = 0, Train Unlabel Best ACC.= 51.6%, Train Max Epoch=226
+EarlyStopping counter: 150 out of 200
+Epoch [245][SemiTeacher][EpilepticSeizure] loss= 0.14002; Epoch Label ACC.= 93.81%, UnLabel ACC.= 48.59%, Lipistz loss = 0, Train Unlabel Best ACC.= 51.6%, Train Max Epoch=226
+EarlyStopping counter: 151 out of 200
+Epoch [246][SemiTeacher][EpilepticSeizure] loss= 0.14280; Epoch Label ACC.= 94.27%, UnLabel ACC.= 48.66%, Lipistz loss = 0, Train Unlabel Best ACC.= 51.6%, Train Max Epoch=226
+EarlyStopping counter: 152 out of 200
+Epoch [247][SemiTeacher][EpilepticSeizure] loss= 0.14636; Epoch Label ACC.= 94.07%, UnLabel ACC.= 48.95%, Lipistz loss = 0, Train Unlabel Best ACC.= 51.6%, Train Max Epoch=226
+EarlyStopping counter: 153 out of 200
+Epoch [248][SemiTeacher][EpilepticSeizure] loss= 0.14345; Epoch Label ACC.= 94.14%, UnLabel ACC.= 49.08%, Lipistz loss = 0, Train Unlabel Best ACC.= 51.6%, Train Max Epoch=226
+EarlyStopping counter: 154 out of 200
+Epoch [249][SemiTeacher][EpilepticSeizure] loss= 0.14728; Epoch Label ACC.= 94.67%, UnLabel ACC.= 50.40%, Lipistz loss = 0, Train Unlabel Best ACC.= 51.6%, Train Max Epoch=226
+EarlyStopping counter: 155 out of 200
+Epoch [250][SemiTeacher][EpilepticSeizure] loss= 0.14801; Epoch Label ACC.= 94.49%, UnLabel ACC.= 49.49%, Lipistz loss = 0, Train Unlabel Best ACC.= 51.6%, Train Max Epoch=226
+EarlyStopping counter: 156 out of 200
+Epoch [251][SemiTeacher][EpilepticSeizure] loss= 0.14798; Epoch Label ACC.= 94.57%, UnLabel ACC.= 49.84%, Lipistz loss = 0, Train Unlabel Best ACC.= 51.6%, Train Max Epoch=226
+EarlyStopping counter: 157 out of 200
+Epoch [252][SemiTeacher][EpilepticSeizure] loss= 0.14082; Epoch Label ACC.= 94.11%, UnLabel ACC.= 50.13%, Lipistz loss = 0, Train Unlabel Best ACC.= 51.6%, Train Max Epoch=226
+EarlyStopping counter: 158 out of 200
+Epoch [253][SemiTeacher][EpilepticSeizure] loss= 0.14075; Epoch Label ACC.= 94.45%, UnLabel ACC.= 50.39%, Lipistz loss = 0, Train Unlabel Best ACC.= 51.6%, Train Max Epoch=226
+EarlyStopping counter: 159 out of 200
+Epoch [254][SemiTeacher][EpilepticSeizure] loss= 0.14429; Epoch Label ACC.= 94.68%, UnLabel ACC.= 50.45%, Lipistz loss = 0, Train Unlabel Best ACC.= 51.6%, Train Max Epoch=226
+EarlyStopping counter: 160 out of 200
+Epoch [255][SemiTeacher][EpilepticSeizure] loss= 0.14556; Epoch Label ACC.= 94.70%, UnLabel ACC.= 50.32%, Lipistz loss = 0, Train Unlabel Best ACC.= 51.6%, Train Max Epoch=226
+EarlyStopping counter: 161 out of 200
+Epoch [256][SemiTeacher][EpilepticSeizure] loss= 0.14145; Epoch Label ACC.= 94.25%, UnLabel ACC.= 50.51%, Lipistz loss = 0, Train Unlabel Best ACC.= 51.6%, Train Max Epoch=226
+EarlyStopping counter: 162 out of 200
+Epoch [257][SemiTeacher][EpilepticSeizure] loss= 0.14098; Epoch Label ACC.= 93.92%, UnLabel ACC.= 49.65%, Lipistz loss = 0, Train Unlabel Best ACC.= 51.6%, Train Max Epoch=226
+EarlyStopping counter: 163 out of 200
+Epoch [258][SemiTeacher][EpilepticSeizure] loss= 0.14135; Epoch Label ACC.= 94.27%, UnLabel ACC.= 50.69%, Lipistz loss = 0, Train Unlabel Best ACC.= 51.6%, Train Max Epoch=226
+EarlyStopping counter: 164 out of 200
+Epoch [259][SemiTeacher][EpilepticSeizure] loss= 0.13677; Epoch Label ACC.= 94.32%, UnLabel ACC.= 50.50%, Lipistz loss = 0, Train Unlabel Best ACC.= 51.6%, Train Max Epoch=226
+EarlyStopping counter: 165 out of 200
+Epoch [260][SemiTeacher][EpilepticSeizure] loss= 0.14139; Epoch Label ACC.= 94.44%, UnLabel ACC.= 50.27%, Lipistz loss = 0, Train Unlabel Best ACC.= 51.6%, Train Max Epoch=226
+EarlyStopping counter: 166 out of 200
+Epoch [261][SemiTeacher][EpilepticSeizure] loss= 0.13700; Epoch Label ACC.= 94.04%, UnLabel ACC.= 49.66%, Lipistz loss = 0, Train Unlabel Best ACC.= 51.6%, Train Max Epoch=226
+EarlyStopping counter: 167 out of 200
+Epoch [262][SemiTeacher][EpilepticSeizure] loss= 0.13782; Epoch Label ACC.= 94.73%, UnLabel ACC.= 50.35%, Lipistz loss = 0, Train Unlabel Best ACC.= 51.6%, Train Max Epoch=226
+EarlyStopping counter: 168 out of 200
+Epoch [263][SemiTeacher][EpilepticSeizure] loss= 0.14009; Epoch Label ACC.= 94.72%, UnLabel ACC.= 50.93%, Lipistz loss = 0, Train Unlabel Best ACC.= 51.6%, Train Max Epoch=226
+EarlyStopping counter: 169 out of 200
+Epoch [264][SemiTeacher][EpilepticSeizure] loss= 0.14142; Epoch Label ACC.= 94.04%, UnLabel ACC.= 50.03%, Lipistz loss = 0, Train Unlabel Best ACC.= 51.6%, Train Max Epoch=226
+EarlyStopping counter: 170 out of 200
+Epoch [265][SemiTeacher][EpilepticSeizure] loss= 0.14143; Epoch Label ACC.= 94.28%, UnLabel ACC.= 49.39%, Lipistz loss = 0, Train Unlabel Best ACC.= 51.6%, Train Max Epoch=226
+EarlyStopping counter: 171 out of 200
+Epoch [266][SemiTeacher][EpilepticSeizure] loss= 0.14413; Epoch Label ACC.= 94.31%, UnLabel ACC.= 50.25%, Lipistz loss = 0, Train Unlabel Best ACC.= 51.6%, Train Max Epoch=226
+EarlyStopping counter: 172 out of 200
+Epoch [267][SemiTeacher][EpilepticSeizure] loss= 0.14358; Epoch Label ACC.= 94.52%, UnLabel ACC.= 49.37%, Lipistz loss = 0, Train Unlabel Best ACC.= 51.6%, Train Max Epoch=226
+EarlyStopping counter: 173 out of 200
+Epoch [268][SemiTeacher][EpilepticSeizure] loss= 0.14795; Epoch Label ACC.= 94.41%, UnLabel ACC.= 49.96%, Lipistz loss = 0, Train Unlabel Best ACC.= 51.6%, Train Max Epoch=226
+EarlyStopping counter: 174 out of 200
+Epoch [269][SemiTeacher][EpilepticSeizure] loss= 0.14613; Epoch Label ACC.= 93.93%, UnLabel ACC.= 50.01%, Lipistz loss = 0, Train Unlabel Best ACC.= 51.6%, Train Max Epoch=226
+EarlyStopping counter: 175 out of 200
+Epoch [270][SemiTeacher][EpilepticSeizure] loss= 0.14114; Epoch Label ACC.= 93.43%, UnLabel ACC.= 49.63%, Lipistz loss = 0, Train Unlabel Best ACC.= 51.6%, Train Max Epoch=226
+EarlyStopping counter: 176 out of 200
+Epoch [271][SemiTeacher][EpilepticSeizure] loss= 0.14792; Epoch Label ACC.= 94.81%, UnLabel ACC.= 49.86%, Lipistz loss = 0, Train Unlabel Best ACC.= 51.6%, Train Max Epoch=226
+EarlyStopping counter: 177 out of 200
+Epoch [272][SemiTeacher][EpilepticSeizure] loss= 0.14566; Epoch Label ACC.= 93.38%, UnLabel ACC.= 50.04%, Lipistz loss = 0, Train Unlabel Best ACC.= 51.6%, Train Max Epoch=226
+EarlyStopping counter: 178 out of 200
+Epoch [273][SemiTeacher][EpilepticSeizure] loss= 0.14711; Epoch Label ACC.= 94.31%, UnLabel ACC.= 49.10%, Lipistz loss = 0, Train Unlabel Best ACC.= 51.6%, Train Max Epoch=226
+EarlyStopping counter: 179 out of 200
+Epoch [274][SemiTeacher][EpilepticSeizure] loss= 0.14831; Epoch Label ACC.= 94.20%, UnLabel ACC.= 50.65%, Lipistz loss = 0, Train Unlabel Best ACC.= 51.6%, Train Max Epoch=226
+EarlyStopping counter: 180 out of 200
+Epoch [275][SemiTeacher][EpilepticSeizure] loss= 0.14566; Epoch Label ACC.= 94.83%, UnLabel ACC.= 49.29%, Lipistz loss = 0, Train Unlabel Best ACC.= 51.6%, Train Max Epoch=226
+EarlyStopping counter: 181 out of 200
+Epoch [276][SemiTeacher][EpilepticSeizure] loss= 0.14500; Epoch Label ACC.= 93.77%, UnLabel ACC.= 50.23%, Lipistz loss = 0, Train Unlabel Best ACC.= 51.6%, Train Max Epoch=226
+EarlyStopping counter: 182 out of 200
+Epoch [277][SemiTeacher][EpilepticSeizure] loss= 0.14877; Epoch Label ACC.= 93.96%, UnLabel ACC.= 50.83%, Lipistz loss = 0, Train Unlabel Best ACC.= 51.6%, Train Max Epoch=226
+EarlyStopping counter: 183 out of 200
+Epoch [278][SemiTeacher][EpilepticSeizure] loss= 0.14597; Epoch Label ACC.= 94.37%, UnLabel ACC.= 50.28%, Lipistz loss = 0, Train Unlabel Best ACC.= 51.6%, Train Max Epoch=226
+EarlyStopping counter: 184 out of 200
+Epoch [279][SemiTeacher][EpilepticSeizure] loss= 0.14495; Epoch Label ACC.= 94.10%, UnLabel ACC.= 50.62%, Lipistz loss = 0, Train Unlabel Best ACC.= 51.6%, Train Max Epoch=226
+EarlyStopping counter: 185 out of 200
+Epoch [280][SemiTeacher][EpilepticSeizure] loss= 0.14721; Epoch Label ACC.= 94.71%, UnLabel ACC.= 50.95%, Lipistz loss = 0, Train Unlabel Best ACC.= 51.6%, Train Max Epoch=226
+EarlyStopping counter: 186 out of 200
+Epoch [281][SemiTeacher][EpilepticSeizure] loss= 0.14377; Epoch Label ACC.= 93.83%, UnLabel ACC.= 51.77%, Lipistz loss = 0, Train Unlabel Best ACC.= 51.8%, Train Max Epoch=280
+EarlyStopping counter: 187 out of 200
+Epoch [282][SemiTeacher][EpilepticSeizure] loss= 0.14429; Epoch Label ACC.= 94.06%, UnLabel ACC.= 51.03%, Lipistz loss = 0, Train Unlabel Best ACC.= 51.8%, Train Max Epoch=280
+EarlyStopping counter: 188 out of 200
+Epoch [283][SemiTeacher][EpilepticSeizure] loss= 0.14267; Epoch Label ACC.= 93.52%, UnLabel ACC.= 49.77%, Lipistz loss = 0, Train Unlabel Best ACC.= 51.8%, Train Max Epoch=280
+EarlyStopping counter: 189 out of 200
+Epoch [284][SemiTeacher][EpilepticSeizure] loss= 0.14620; Epoch Label ACC.= 93.85%, UnLabel ACC.= 50.19%, Lipistz loss = 0, Train Unlabel Best ACC.= 51.8%, Train Max Epoch=280
+EarlyStopping counter: 190 out of 200
+Epoch [285][SemiTeacher][EpilepticSeizure] loss= 0.14508; Epoch Label ACC.= 94.07%, UnLabel ACC.= 49.62%, Lipistz loss = 0, Train Unlabel Best ACC.= 51.8%, Train Max Epoch=280
+EarlyStopping counter: 191 out of 200
+Epoch [286][SemiTeacher][EpilepticSeizure] loss= 0.14192; Epoch Label ACC.= 94.58%, UnLabel ACC.= 49.95%, Lipistz loss = 0, Train Unlabel Best ACC.= 51.8%, Train Max Epoch=280
+EarlyStopping counter: 192 out of 200
+Epoch [287][SemiTeacher][EpilepticSeizure] loss= 0.14001; Epoch Label ACC.= 94.99%, UnLabel ACC.= 51.33%, Lipistz loss = 0, Train Unlabel Best ACC.= 51.8%, Train Max Epoch=280
+EarlyStopping counter: 193 out of 200
+Epoch [288][SemiTeacher][EpilepticSeizure] loss= 0.14387; Epoch Label ACC.= 94.04%, UnLabel ACC.= 50.23%, Lipistz loss = 0, Train Unlabel Best ACC.= 51.8%, Train Max Epoch=280
+EarlyStopping counter: 194 out of 200
+Epoch [289][SemiTeacher][EpilepticSeizure] loss= 0.14188; Epoch Label ACC.= 94.53%, UnLabel ACC.= 51.61%, Lipistz loss = 0, Train Unlabel Best ACC.= 51.8%, Train Max Epoch=280
+EarlyStopping counter: 195 out of 200
+Epoch [290][SemiTeacher][EpilepticSeizure] loss= 0.14116; Epoch Label ACC.= 93.35%, UnLabel ACC.= 50.06%, Lipistz loss = 0, Train Unlabel Best ACC.= 51.8%, Train Max Epoch=280
+EarlyStopping counter: 196 out of 200
+Epoch [291][SemiTeacher][EpilepticSeizure] loss= 0.14675; Epoch Label ACC.= 94.55%, UnLabel ACC.= 50.04%, Lipistz loss = 0, Train Unlabel Best ACC.= 51.8%, Train Max Epoch=280
+EarlyStopping counter: 197 out of 200
+Epoch [292][SemiTeacher][EpilepticSeizure] loss= 0.13795; Epoch Label ACC.= 93.65%, UnLabel ACC.= 49.66%, Lipistz loss = 0, Train Unlabel Best ACC.= 51.8%, Train Max Epoch=280
+EarlyStopping counter: 198 out of 200
+Epoch [293][SemiTeacher][EpilepticSeizure] loss= 0.14317; Epoch Label ACC.= 94.88%, UnLabel ACC.= 49.97%, Lipistz loss = 0, Train Unlabel Best ACC.= 51.8%, Train Max Epoch=280
+EarlyStopping counter: 199 out of 200
+Epoch [294][SemiTeacher][EpilepticSeizure] loss= 0.14155; Epoch Label ACC.= 94.99%, UnLabel ACC.= 49.31%, Lipistz loss = 0, Train Unlabel Best ACC.= 51.8%, Train Max Epoch=280
+EarlyStopping counter: 200 out of 200
+Early stopping

@@ -57,3 +57,14 @@ Dataset  Acc_mean   Acc_std  Epoch_max
 Dataset  Acc_mean   Acc_std  Epoch_max
 CricketX 47.02 0.0 567
 CricketX 48.96 0.0 394
+2024-08-21-18:18:24
+Dataset  Acc_mean   Acc_std  Epoch_max
+2024-08-21-18:18:56
+Dataset  Acc_mean   Acc_std  Epoch_max
+CricketX 57.07 0.0 648
+2024-08-21-19:50:14
+Dataset  Acc_mean   Acc_std  Epoch_max
+CricketX 61.46 0.0 873
+2024-08-21-21:30:41
+Dataset  Acc_mean   Acc_std  Epoch_max
+CricketX 49.46 5.55 531

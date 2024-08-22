@@ -131,8 +131,7 @@ class Scaling:
         return data
 
     def forward(self, data):
-        # return scaling_s(data, sigma=self.sigma)
-        return scaling_t(data, sigma=self.sigma)
+        return scaling_s(data, sigma=self.sigma)
 
 
 class CutPF:

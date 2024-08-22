@@ -1,0 +1,19 @@
+2024-08-21-20:16:21
+Dataset  Train  Test   Dimension  Class  Seed  Acc_max  Epoch_max
+2024-08-21-20:27:38
+Dataset  Train  Test   Dimension  Class  Seed  Acc_max  Epoch_max
+InsectWingbeatSound  1320  440  256  11  1997  62.44  27
+2024-08-21-20:28:26
+Dataset  Train  Test   Dimension  Class  Seed  Acc_max  Epoch_max
+2024-08-21-20:50:15
+Dataset  Train  Test   Dimension  Class  Seed  Acc_max  Epoch_max
+2024-08-21-20:58:11
+Dataset  Train  Test   Dimension  Class  Seed  Acc_max  Epoch_max
+InsectWingbeatSound  1320  440  256  11  1997  61.8  32
+2024-08-21-21:27:33
+Dataset  Train  Test   Dimension  Class  Seed  Acc_max  Epoch_max
+InsectWingbeatSound  1320  440  256  11  1996  64.57  69
+InsectWingbeatSound  1320  440  256  11  2024  65.88  57
+InsectWingbeatSound  1320  440  256  11  2000  61.7  53
+2024-08-21-23:46:00
+Dataset  Train  Test   Dimension  Class  Seed  Acc_max  Epoch_max

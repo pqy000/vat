@@ -6,3 +6,5 @@ InsectWingbeatSound  1320  440  256  11  2024  66.54974583217076  80.0  142
 InsectWingbeatSound  1320  440  256  11  2024  67.1875  76.25  106
 InsectWingbeatSound  1320  440  256  11  2014  72.35331726074219  75.9375  70
 InsectWingbeatSound  1320  440  256  11  2014  69.96173531668526  81.68154907226562  332
+2024-08-23-12:07:41
+Dataset  Train  Test  Dimension  Class  Seed  Acc_label  Acc_unlabel  Epoch_max

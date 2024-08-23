@@ -3,3 +3,5 @@ Dataset  Train  Test   Dimension  Class  Seed  Acc_max  Epoch_max
 InsectWingbeatSound  1320  440  256  11  2000  67.51  69
 InsectWingbeatSound  1320  440  256  11  2024  66.87  142
 InsectWingbeatSound  1320  440  256  11  2014  71.16  332
+2024-08-23-12:07:41
+Dataset  Train  Test   Dimension  Class  Seed  Acc_max  Epoch_max

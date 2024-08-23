@@ -1,0 +1,48 @@
+wandb: Currently logged in as: pqy000 (pqythu). Use `wandb login --relogin` to force relogin
+2024-08-23 12:07:38.544687: I tensorflow/core/platform/cpu_feature_guard.cc:193] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX2 FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2024-08-23 12:07:39.410999: W tensorflow/compiler/xla/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libnvinfer.so.7'; dlerror: libnvinfer.so.7: cannot open shared object file: No such file or directory; LD_LIBRARY_PATH: /data/qingyi/miniconda3/envs/py3/lib/python3.7/site-packages/cv2/../../lib64:/opt/cudnn/lib64:/usr/local/cuda/lib64
+2024-08-23 12:07:39.411119: W tensorflow/compiler/xla/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libnvinfer_plugin.so.7'; dlerror: libnvinfer_plugin.so.7: cannot open shared object file: No such file or directory; LD_LIBRARY_PATH: /data/qingyi/miniconda3/envs/py3/lib/python3.7/site-packages/cv2/../../lib64:/opt/cudnn/lib64:/usr/local/cuda/lib64
+2024-08-23 12:07:39.414596: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Cannot dlopen some TensorRT libraries. If you would like to use Nvidia GPU with TensorRT, please make sure the missing libraries mentioned above are installed properly.
+wandb: wandb version 0.17.7 is available!  To upgrade, please run:
+wandb:  $ pip install wandb --upgrade
+wandb: Tracking run with wandb version 0.12.17
+wandb: Run data is saved locally in /home/qingyi/GPU20/SemiOur/wandb/run-20240823_120734-8idn141k
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run fast-snowflake-17
+wandb: ⭐️ View project at https://wandb.ai/pqythu/InsectWingbeatSound_semitime
+wandb: 🚀 View run at https://wandb.ai/pqythu/InsectWingbeatSound_semitime/runs/8idn141k
+[INFO] Running at: InsectWingbeatSound
+[INFO] InsectWingbeatSound
+[Stat] All class: {0: 200, 1: 200, 2: 200, 3: 200, 4: 200, 5: 200, 6: 200, 7: 200, 8: 200, 9: 200, 10: 200}
+[Stat] Train class: mean=120.0, std=0.0
+[Stat] Val class: mean=40.0, std=0.0
+[Stat] Test class: mean=40.0, std=0.0
+Train:(1320, 256, 1), Test:(440, 256, 1), Class:11
+rp_params: [3, 0]
+Traceback (most recent call last):
+  File "mainOurs.py", line 214, in <module>
+    acc_test, acc_unlabel, epoch_max = train_SemiMean(x_train, y_train, x_val, y_val, x_test, y_test, opt)
+  File "/home/qingyi/GPU20/SemiOur/optim/generalWay.py", line 102, in train_SemiMean
+    dropout=opt.dropout).cuda()
+  File "/home/qingyi/miniconda3/envs/py3/lib/python3.7/site-packages/torch/nn/modules/module.py", line 680, in cuda
+    return self._apply(lambda t: t.cuda(device))
+  File "/home/qingyi/miniconda3/envs/py3/lib/python3.7/site-packages/torch/nn/modules/module.py", line 570, in _apply
+    module._apply(fn)
+  File "/home/qingyi/miniconda3/envs/py3/lib/python3.7/site-packages/torch/nn/modules/module.py", line 570, in _apply
+    module._apply(fn)
+  File "/home/qingyi/miniconda3/envs/py3/lib/python3.7/site-packages/torch/nn/modules/module.py", line 570, in _apply
+    module._apply(fn)
+  [Previous line repeated 1 more time]
+  File "/home/qingyi/miniconda3/envs/py3/lib/python3.7/site-packages/torch/nn/modules/module.py", line 593, in _apply
+    param_applied = fn(param)
+  File "/home/qingyi/miniconda3/envs/py3/lib/python3.7/site-packages/torch/nn/modules/module.py", line 680, in <lambda>
+    return self._apply(lambda t: t.cuda(device))
+  File "/home/qingyi/miniconda3/envs/py3/lib/python3.7/site-packages/torch/cuda/__init__.py", line 214, in _lazy_init
+    torch._C._cuda_init()
+RuntimeError: No CUDA GPUs are available
+wandb: Waiting for W&B process to finish... (failed 1). Press Control-C to abort syncing.
+wandb: - 0.000 MB of 0.000 MB uploaded (0.000 MB deduped)wandb: \ 0.000 MB of 0.001 MB uploaded (0.000 MB deduped)wandb: | 0.001 MB of 0.001 MB uploaded (0.000 MB deduped)wandb: / 0.001 MB of 0.011 MB uploaded (0.000 MB deduped)wandb: - 0.001 MB of 0.013 MB uploaded (0.000 MB deduped)wandb: \ 0.001 MB of 0.013 MB uploaded (0.000 MB deduped)wandb: | 0.001 MB of 0.013 MB uploaded (0.000 MB deduped)wandb: / 0.001 MB of 0.013 MB uploaded (0.000 MB deduped)wandb: - 0.001 MB of 0.013 MB uploaded (0.000 MB deduped)wandb: \ 0.001 MB of 0.013 MB uploaded (0.000 MB deduped)wandb: | 0.001 MB of 0.013 MB uploaded (0.000 MB deduped)wandb: / 0.001 MB of 0.013 MB uploaded (0.000 MB deduped)wandb: - 0.001 MB of 0.013 MB uploaded (0.000 MB deduped)wandb: \ 0.001 MB of 0.013 MB uploaded (0.000 MB deduped)wandb: | 0.001 MB of 0.013 MB uploaded (0.000 MB deduped)wandb: / 0.001 MB of 0.013 MB uploaded (0.000 MB deduped)wandb: - 0.001 MB of 0.013 MB uploaded (0.000 MB deduped)wandb: \ 0.001 MB of 0.013 MB uploaded (0.000 MB deduped)wandb: | 0.001 MB of 0.013 MB uploaded (0.000 MB deduped)wandb: / 0.001 MB of 0.013 MB uploaded (0.000 MB deduped)wandb: - 0.001 MB of 0.013 MB uploaded (0.000 MB deduped)wandb: \ 0.001 MB of 0.013 MB uploaded (0.000 MB deduped)wandb: | 0.001 MB of 0.013 MB uploaded (0.000 MB deduped)wandb: / 0.001 MB of 0.013 MB uploaded (0.000 MB deduped)wandb: - 0.001 MB of 0.013 MB uploaded (0.000 MB deduped)wandb: \ 0.001 MB of 0.013 MB uploaded (0.000 MB deduped)wandb: | 0.001 MB of 0.013 MB uploaded (0.000 MB deduped)wandb: / 0.001 MB of 0.013 MB uploaded (0.000 MB deduped)wandb: - 0.001 MB of 0.013 MB uploaded (0.000 MB deduped)wandb: \ 0.001 MB of 0.013 MB uploaded (0.000 MB deduped)wandb: | 0.001 MB of 0.013 MB uploaded (0.000 MB deduped)wandb: / 0.001 MB of 0.013 MB uploaded (0.000 MB deduped)wandb: - 0.001 MB of 0.013 MB uploaded (0.000 MB deduped)wandb: \ 0.001 MB of 0.013 MB uploaded (0.000 MB deduped)wandb: | 0.001 MB of 0.013 MB uploaded (0.000 MB deduped)wandb: / 0.001 MB of 0.013 MB uploaded (0.000 MB deduped)wandb: - 0.001 MB of 0.013 MB uploaded (0.000 MB deduped)wandb: \ 0.001 MB of 0.013 MB uploaded (0.000 MB deduped)wandb: | 0.001 MB of 0.013 MB uploaded (0.000 MB deduped)wandb: / 0.001 MB of 0.013 MB uploaded (0.000 MB deduped)wandb: - 0.001 MB of 0.013 MB uploaded (0.000 MB deduped)wandb: \ 0.001 MB of 0.013 MB uploaded (0.000 MB deduped)wandb: | 0.001 MB of 0.013 MB uploaded (0.000 MB deduped)wandb: / 0.001 MB of 0.013 MB uploaded (0.000 MB deduped)wandb: - 0.001 MB of 0.013 MB uploaded (0.000 MB deduped)wandb: \ 0.001 MB of 0.013 MB uploaded (0.000 MB deduped)wandb: | 0.001 MB of 0.013 MB uploaded (0.000 MB deduped)wandb: / 0.001 MB of 0.013 MB uploaded (0.000 MB deduped)wandb: - 0.001 MB of 0.013 MB uploaded (0.000 MB deduped)wandb: \ 0.001 MB of 0.013 MB uploaded (0.000 MB deduped)wandb: | 0.001 MB of 0.013 MB uploaded (0.000 MB deduped)wandb: / 0.001 MB of 0.013 MB uploaded (0.000 MB deduped)wandb: - 0.001 MB of 0.013 MB uploaded (0.000 MB deduped)wandb: \ 0.001 MB of 0.013 MB uploaded (0.000 MB deduped)wandb: | 0.001 MB of 0.013 MB uploaded (0.000 MB deduped)wandb: / 0.001 MB of 0.013 MB uploaded (0.000 MB deduped)wandb: - 0.001 MB of 0.013 MB uploaded (0.000 MB deduped)wandb: \ 0.001 MB of 0.013 MB uploaded (0.000 MB deduped)wandb: | 0.001 MB of 0.013 MB uploaded (0.000 MB deduped)wandb: / 0.001 MB of 0.013 MB uploaded (0.000 MB deduped)wandb: - 0.001 MB of 0.013 MB uploaded (0.000 MB deduped)wandb: \ 0.001 MB of 0.013 MB uploaded (0.000 MB deduped)wandb: | 0.001 MB of 0.013 MB uploaded (0.000 MB deduped)wandb: / 0.001 MB of 0.013 MB uploaded (0.000 MB deduped)wandb: - 0.001 MB of 0.013 MB uploaded (0.000 MB deduped)wandb: \ 0.013 MB of 0.013 MB uploaded (0.000 MB deduped)wandb: | 0.013 MB of 0.013 MB uploaded (0.000 MB deduped)wandb: / 0.013 MB of 0.013 MB uploaded (0.000 MB deduped)wandb: - 0.013 MB of 0.013 MB uploaded (0.000 MB deduped)wandb: \ 0.013 MB of 0.013 MB uploaded (0.000 MB deduped)wandb: | 0.013 MB of 0.013 MB uploaded (0.000 MB deduped)wandb: / 0.013 MB of 0.013 MB uploaded (0.000 MB deduped)wandb: - 0.013 MB of 0.013 MB uploaded (0.000 MB deduped)wandb:                                                                                
+wandb: Synced fast-snowflake-17: https://wandb.ai/pqythu/InsectWingbeatSound_semitime/runs/8idn141k
+wandb: Synced 6 W&B file(s), 0 media file(s), 0 artifact file(s) and 0 other file(s)
+wandb: Find logs at: ./wandb/run-20240823_120734-8idn141k/logs

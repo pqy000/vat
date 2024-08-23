@@ -6113,3 +6113,1654 @@ EarlyStopping counter: 1 out of 200
 Epoch [217][SemiTeacher][CricketX] loss= 0.05219; Epoch Label ACC.= 75.30%, UnLabel ACC.= 58.79%, Lipistz loss = 0, Train Unlabel Best ACC.= 64.1%, Train Max Epoch=204
 EarlyStopping counter: 2 out of 200
 Epoch [218][SemiTeacher][CricketX] loss= 0.04898; Epoch Label ACC.= 75.80%, UnLabel ACC.= 57.30%, Lipistz loss = 0, Train Unlabel Best ACC.= 64.1%, Train Max Epoch=204
+EarlyStopping counter: 3 out of 200
+Epoch [219][SemiTeacher][CricketX] loss= 0.05054; Epoch Label ACC.= 80.85%, UnLabel ACC.= 58.28%, Lipistz loss = 0, Train Unlabel Best ACC.= 64.1%, Train Max Epoch=204
+EarlyStopping counter: 4 out of 200
+Epoch [220][SemiTeacher][CricketX] loss= 0.04993; Epoch Label ACC.= 81.80%, UnLabel ACC.= 59.77%, Lipistz loss = 0, Train Unlabel Best ACC.= 64.1%, Train Max Epoch=204
+EarlyStopping counter: 5 out of 200
+Epoch [221][SemiTeacher][CricketX] loss= 0.05320; Epoch Label ACC.= 80.10%, UnLabel ACC.= 59.26%, Lipistz loss = 0, Train Unlabel Best ACC.= 64.1%, Train Max Epoch=204
+EarlyStopping counter: 6 out of 200
+Epoch [222][SemiTeacher][CricketX] loss= 0.04806; Epoch Label ACC.= 84.19%, UnLabel ACC.= 62.93%, Lipistz loss = 0, Train Unlabel Best ACC.= 64.1%, Train Max Epoch=204
+EarlyStopping counter: 7 out of 200
+Epoch [223][SemiTeacher][CricketX] loss= 0.04905; Epoch Label ACC.= 79.88%, UnLabel ACC.= 58.09%, Lipistz loss = 0, Train Unlabel Best ACC.= 64.1%, Train Max Epoch=204
+EarlyStopping counter: 8 out of 200
+Epoch [224][SemiTeacher][CricketX] loss= 0.05285; Epoch Label ACC.= 81.57%, UnLabel ACC.= 60.74%, Lipistz loss = 0, Train Unlabel Best ACC.= 64.1%, Train Max Epoch=204
+EarlyStopping counter: 9 out of 200
+Epoch [225][SemiTeacher][CricketX] loss= 0.05223; Epoch Label ACC.= 78.05%, UnLabel ACC.= 55.70%, Lipistz loss = 0, Train Unlabel Best ACC.= 64.1%, Train Max Epoch=204
+EarlyStopping counter: 10 out of 200
+Epoch [226][SemiTeacher][CricketX] loss= 0.05265; Epoch Label ACC.= 80.23%, UnLabel ACC.= 60.35%, Lipistz loss = 0, Train Unlabel Best ACC.= 64.1%, Train Max Epoch=204
+EarlyStopping counter: 11 out of 200
+Epoch [227][SemiTeacher][CricketX] loss= 0.05365; Epoch Label ACC.= 81.46%, UnLabel ACC.= 59.22%, Lipistz loss = 0, Train Unlabel Best ACC.= 64.1%, Train Max Epoch=204
+EarlyStopping counter: 12 out of 200
+Epoch [228][SemiTeacher][CricketX] loss= 0.05356; Epoch Label ACC.= 82.40%, UnLabel ACC.= 61.95%, Lipistz loss = 0, Train Unlabel Best ACC.= 64.1%, Train Max Epoch=204
+EarlyStopping counter: 13 out of 200
+Epoch [229][SemiTeacher][CricketX] loss= 0.05101; Epoch Label ACC.= 77.25%, UnLabel ACC.= 57.27%, Lipistz loss = 0, Train Unlabel Best ACC.= 64.1%, Train Max Epoch=204
+EarlyStopping counter: 14 out of 200
+Epoch [230][SemiTeacher][CricketX] loss= 0.05270; Epoch Label ACC.= 79.68%, UnLabel ACC.= 57.27%, Lipistz loss = 0, Train Unlabel Best ACC.= 64.1%, Train Max Epoch=204
+EarlyStopping counter: 15 out of 200
+Epoch [231][SemiTeacher][CricketX] loss= 0.04862; Epoch Label ACC.= 83.77%, UnLabel ACC.= 60.51%, Lipistz loss = 0, Train Unlabel Best ACC.= 64.1%, Train Max Epoch=204
+EarlyStopping counter: 16 out of 200
+Epoch [232][SemiTeacher][CricketX] loss= 0.04832; Epoch Label ACC.= 77.58%, UnLabel ACC.= 57.30%, Lipistz loss = 0, Train Unlabel Best ACC.= 64.1%, Train Max Epoch=204
+EarlyStopping counter: 17 out of 200
+Epoch [233][SemiTeacher][CricketX] loss= 0.04825; Epoch Label ACC.= 78.09%, UnLabel ACC.= 60.04%, Lipistz loss = 0, Train Unlabel Best ACC.= 64.1%, Train Max Epoch=204
+EarlyStopping counter: 18 out of 200
+Epoch [234][SemiTeacher][CricketX] loss= 0.05013; Epoch Label ACC.= 81.27%, UnLabel ACC.= 58.01%, Lipistz loss = 0, Train Unlabel Best ACC.= 64.1%, Train Max Epoch=204
+EarlyStopping counter: 19 out of 200
+Epoch [235][SemiTeacher][CricketX] loss= 0.04860; Epoch Label ACC.= 80.98%, UnLabel ACC.= 59.73%, Lipistz loss = 0, Train Unlabel Best ACC.= 64.1%, Train Max Epoch=204
+EarlyStopping counter: 20 out of 200
+Epoch [236][SemiTeacher][CricketX] loss= 0.05149; Epoch Label ACC.= 79.42%, UnLabel ACC.= 66.91%, Lipistz loss = 0, Train Unlabel Best ACC.= 66.9%, Train Max Epoch=235
+EarlyStopping counter: 21 out of 200
+Epoch [237][SemiTeacher][CricketX] loss= 0.05591; Epoch Label ACC.= 84.27%, UnLabel ACC.= 58.63%, Lipistz loss = 0, Train Unlabel Best ACC.= 66.9%, Train Max Epoch=235
+EarlyStopping counter: 22 out of 200
+Epoch [238][SemiTeacher][CricketX] loss= 0.05175; Epoch Label ACC.= 79.63%, UnLabel ACC.= 64.06%, Lipistz loss = 0, Train Unlabel Best ACC.= 66.9%, Train Max Epoch=235
+EarlyStopping counter: 23 out of 200
+Epoch [239][SemiTeacher][CricketX] loss= 0.04808; Epoch Label ACC.= 83.79%, UnLabel ACC.= 60.82%, Lipistz loss = 0, Train Unlabel Best ACC.= 66.9%, Train Max Epoch=235
+EarlyStopping counter: 24 out of 200
+Epoch [240][SemiTeacher][CricketX] loss= 0.04948; Epoch Label ACC.= 81.19%, UnLabel ACC.= 63.48%, Lipistz loss = 0, Train Unlabel Best ACC.= 66.9%, Train Max Epoch=235
+EarlyStopping counter: 25 out of 200
+Epoch [241][SemiTeacher][CricketX] loss= 0.04747; Epoch Label ACC.= 78.10%, UnLabel ACC.= 58.91%, Lipistz loss = 0, Train Unlabel Best ACC.= 66.9%, Train Max Epoch=235
+EarlyStopping counter: 26 out of 200
+Epoch [242][SemiTeacher][CricketX] loss= 0.04691; Epoch Label ACC.= 78.53%, UnLabel ACC.= 59.53%, Lipistz loss = 0, Train Unlabel Best ACC.= 66.9%, Train Max Epoch=235
+EarlyStopping counter: 27 out of 200
+Epoch [243][SemiTeacher][CricketX] loss= 0.05222; Epoch Label ACC.= 78.42%, UnLabel ACC.= 63.83%, Lipistz loss = 0, Train Unlabel Best ACC.= 66.9%, Train Max Epoch=235
+EarlyStopping counter: 28 out of 200
+Epoch [244][SemiTeacher][CricketX] loss= 0.05034; Epoch Label ACC.= 83.41%, UnLabel ACC.= 64.26%, Lipistz loss = 0, Train Unlabel Best ACC.= 66.9%, Train Max Epoch=235
+EarlyStopping counter: 29 out of 200
+Epoch [245][SemiTeacher][CricketX] loss= 0.04909; Epoch Label ACC.= 81.52%, UnLabel ACC.= 59.38%, Lipistz loss = 0, Train Unlabel Best ACC.= 66.9%, Train Max Epoch=235
+EarlyStopping counter: 30 out of 200
+Epoch [246][SemiTeacher][CricketX] loss= 0.04858; Epoch Label ACC.= 81.70%, UnLabel ACC.= 62.42%, Lipistz loss = 0, Train Unlabel Best ACC.= 66.9%, Train Max Epoch=235
+EarlyStopping counter: 31 out of 200
+Epoch [247][SemiTeacher][CricketX] loss= 0.04710; Epoch Label ACC.= 80.90%, UnLabel ACC.= 57.46%, Lipistz loss = 0, Train Unlabel Best ACC.= 66.9%, Train Max Epoch=235
+EarlyStopping counter: 32 out of 200
+Epoch [248][SemiTeacher][CricketX] loss= 0.04847; Epoch Label ACC.= 83.39%, UnLabel ACC.= 59.34%, Lipistz loss = 0, Train Unlabel Best ACC.= 66.9%, Train Max Epoch=235
+EarlyStopping counter: 33 out of 200
+Epoch [249][SemiTeacher][CricketX] loss= 0.05059; Epoch Label ACC.= 81.90%, UnLabel ACC.= 61.52%, Lipistz loss = 0, Train Unlabel Best ACC.= 66.9%, Train Max Epoch=235
+EarlyStopping counter: 34 out of 200
+Epoch [250][SemiTeacher][CricketX] loss= 0.05167; Epoch Label ACC.= 78.62%, UnLabel ACC.= 62.70%, Lipistz loss = 0, Train Unlabel Best ACC.= 66.9%, Train Max Epoch=235
+EarlyStopping counter: 35 out of 200
+Epoch [251][SemiTeacher][CricketX] loss= 0.04847; Epoch Label ACC.= 83.07%, UnLabel ACC.= 60.39%, Lipistz loss = 0, Train Unlabel Best ACC.= 66.9%, Train Max Epoch=235
+EarlyStopping counter: 36 out of 200
+Epoch [252][SemiTeacher][CricketX] loss= 0.05046; Epoch Label ACC.= 76.67%, UnLabel ACC.= 56.05%, Lipistz loss = 0, Train Unlabel Best ACC.= 66.9%, Train Max Epoch=235
+EarlyStopping counter: 37 out of 200
+Epoch [253][SemiTeacher][CricketX] loss= 0.05078; Epoch Label ACC.= 80.74%, UnLabel ACC.= 58.55%, Lipistz loss = 0, Train Unlabel Best ACC.= 66.9%, Train Max Epoch=235
+EarlyStopping counter: 38 out of 200
+Epoch [254][SemiTeacher][CricketX] loss= 0.04990; Epoch Label ACC.= 79.79%, UnLabel ACC.= 61.21%, Lipistz loss = 0, Train Unlabel Best ACC.= 66.9%, Train Max Epoch=235
+EarlyStopping counter: 39 out of 200
+Epoch [255][SemiTeacher][CricketX] loss= 0.05120; Epoch Label ACC.= 77.19%, UnLabel ACC.= 59.73%, Lipistz loss = 0, Train Unlabel Best ACC.= 66.9%, Train Max Epoch=235
+EarlyStopping counter: 40 out of 200
+Epoch [256][SemiTeacher][CricketX] loss= 0.05125; Epoch Label ACC.= 83.28%, UnLabel ACC.= 60.20%, Lipistz loss = 0, Train Unlabel Best ACC.= 66.9%, Train Max Epoch=235
+EarlyStopping counter: 41 out of 200
+Epoch [257][SemiTeacher][CricketX] loss= 0.05323; Epoch Label ACC.= 76.99%, UnLabel ACC.= 59.02%, Lipistz loss = 0, Train Unlabel Best ACC.= 66.9%, Train Max Epoch=235
+EarlyStopping counter: 42 out of 200
+Epoch [258][SemiTeacher][CricketX] loss= 0.04983; Epoch Label ACC.= 81.05%, UnLabel ACC.= 62.42%, Lipistz loss = 0, Train Unlabel Best ACC.= 66.9%, Train Max Epoch=235
+EarlyStopping counter: 43 out of 200
+Epoch [259][SemiTeacher][CricketX] loss= 0.04989; Epoch Label ACC.= 87.40%, UnLabel ACC.= 59.06%, Lipistz loss = 0, Train Unlabel Best ACC.= 66.9%, Train Max Epoch=235
+EarlyStopping counter: 44 out of 200
+Epoch [260][SemiTeacher][CricketX] loss= 0.05372; Epoch Label ACC.= 81.49%, UnLabel ACC.= 61.25%, Lipistz loss = 0, Train Unlabel Best ACC.= 66.9%, Train Max Epoch=235
+EarlyStopping counter: 45 out of 200
+Epoch [261][SemiTeacher][CricketX] loss= 0.05388; Epoch Label ACC.= 79.36%, UnLabel ACC.= 60.08%, Lipistz loss = 0, Train Unlabel Best ACC.= 66.9%, Train Max Epoch=235
+EarlyStopping counter: 46 out of 200
+Epoch [262][SemiTeacher][CricketX] loss= 0.05127; Epoch Label ACC.= 81.23%, UnLabel ACC.= 58.98%, Lipistz loss = 0, Train Unlabel Best ACC.= 66.9%, Train Max Epoch=235
+EarlyStopping counter: 47 out of 200
+Epoch [263][SemiTeacher][CricketX] loss= 0.04931; Epoch Label ACC.= 78.46%, UnLabel ACC.= 61.64%, Lipistz loss = 0, Train Unlabel Best ACC.= 66.9%, Train Max Epoch=235
+EarlyStopping counter: 48 out of 200
+Epoch [264][SemiTeacher][CricketX] loss= 0.04764; Epoch Label ACC.= 79.70%, UnLabel ACC.= 61.76%, Lipistz loss = 0, Train Unlabel Best ACC.= 66.9%, Train Max Epoch=235
+EarlyStopping counter: 49 out of 200
+Epoch [265][SemiTeacher][CricketX] loss= 0.05032; Epoch Label ACC.= 83.23%, UnLabel ACC.= 62.66%, Lipistz loss = 0, Train Unlabel Best ACC.= 66.9%, Train Max Epoch=235
+EarlyStopping counter: 50 out of 200
+Epoch [266][SemiTeacher][CricketX] loss= 0.04519; Epoch Label ACC.= 84.35%, UnLabel ACC.= 61.09%, Lipistz loss = 0, Train Unlabel Best ACC.= 66.9%, Train Max Epoch=235
+EarlyStopping counter: 51 out of 200
+Epoch [267][SemiTeacher][CricketX] loss= 0.05107; Epoch Label ACC.= 84.60%, UnLabel ACC.= 59.49%, Lipistz loss = 0, Train Unlabel Best ACC.= 66.9%, Train Max Epoch=235
+EarlyStopping counter: 52 out of 200
+Epoch [268][SemiTeacher][CricketX] loss= 0.05164; Epoch Label ACC.= 80.45%, UnLabel ACC.= 61.56%, Lipistz loss = 0, Train Unlabel Best ACC.= 66.9%, Train Max Epoch=235
+EarlyStopping counter: 53 out of 200
+Epoch [269][SemiTeacher][CricketX] loss= 0.05327; Epoch Label ACC.= 78.41%, UnLabel ACC.= 63.59%, Lipistz loss = 0, Train Unlabel Best ACC.= 66.9%, Train Max Epoch=235
+EarlyStopping counter: 54 out of 200
+Epoch [270][SemiTeacher][CricketX] loss= 0.05381; Epoch Label ACC.= 84.65%, UnLabel ACC.= 61.45%, Lipistz loss = 0, Train Unlabel Best ACC.= 66.9%, Train Max Epoch=235
+EarlyStopping counter: 55 out of 200
+Epoch [271][SemiTeacher][CricketX] loss= 0.04650; Epoch Label ACC.= 84.58%, UnLabel ACC.= 59.45%, Lipistz loss = 0, Train Unlabel Best ACC.= 66.9%, Train Max Epoch=235
+EarlyStopping counter: 56 out of 200
+Epoch [272][SemiTeacher][CricketX] loss= 0.04965; Epoch Label ACC.= 82.12%, UnLabel ACC.= 59.06%, Lipistz loss = 0, Train Unlabel Best ACC.= 66.9%, Train Max Epoch=235
+EarlyStopping counter: 57 out of 200
+Epoch [273][SemiTeacher][CricketX] loss= 0.05022; Epoch Label ACC.= 80.97%, UnLabel ACC.= 60.90%, Lipistz loss = 0, Train Unlabel Best ACC.= 66.9%, Train Max Epoch=235
+EarlyStopping counter: 58 out of 200
+Epoch [274][SemiTeacher][CricketX] loss= 0.05287; Epoch Label ACC.= 80.10%, UnLabel ACC.= 63.52%, Lipistz loss = 0, Train Unlabel Best ACC.= 66.9%, Train Max Epoch=235
+EarlyStopping counter: 59 out of 200
+Epoch [275][SemiTeacher][CricketX] loss= 0.05046; Epoch Label ACC.= 80.28%, UnLabel ACC.= 66.17%, Lipistz loss = 0, Train Unlabel Best ACC.= 66.9%, Train Max Epoch=235
+EarlyStopping counter: 60 out of 200
+Epoch [276][SemiTeacher][CricketX] loss= 0.05205; Epoch Label ACC.= 76.16%, UnLabel ACC.= 60.35%, Lipistz loss = 0, Train Unlabel Best ACC.= 66.9%, Train Max Epoch=235
+EarlyStopping counter: 61 out of 200
+Epoch [277][SemiTeacher][CricketX] loss= 0.05139; Epoch Label ACC.= 82.53%, UnLabel ACC.= 61.64%, Lipistz loss = 0, Train Unlabel Best ACC.= 66.9%, Train Max Epoch=235
+EarlyStopping counter: 62 out of 200
+Epoch [278][SemiTeacher][CricketX] loss= 0.04706; Epoch Label ACC.= 89.66%, UnLabel ACC.= 58.87%, Lipistz loss = 0, Train Unlabel Best ACC.= 66.9%, Train Max Epoch=235
+EarlyStopping counter: 63 out of 200
+Epoch [279][SemiTeacher][CricketX] loss= 0.05208; Epoch Label ACC.= 77.13%, UnLabel ACC.= 58.63%, Lipistz loss = 0, Train Unlabel Best ACC.= 66.9%, Train Max Epoch=235
+EarlyStopping counter: 64 out of 200
+Epoch [280][SemiTeacher][CricketX] loss= 0.05219; Epoch Label ACC.= 81.33%, UnLabel ACC.= 61.17%, Lipistz loss = 0, Train Unlabel Best ACC.= 66.9%, Train Max Epoch=235
+EarlyStopping counter: 65 out of 200
+Epoch [281][SemiTeacher][CricketX] loss= 0.05158; Epoch Label ACC.= 81.23%, UnLabel ACC.= 61.21%, Lipistz loss = 0, Train Unlabel Best ACC.= 66.9%, Train Max Epoch=235
+EarlyStopping counter: 66 out of 200
+Epoch [282][SemiTeacher][CricketX] loss= 0.04850; Epoch Label ACC.= 82.24%, UnLabel ACC.= 63.52%, Lipistz loss = 0, Train Unlabel Best ACC.= 66.9%, Train Max Epoch=235
+EarlyStopping counter: 67 out of 200
+Epoch [283][SemiTeacher][CricketX] loss= 0.05042; Epoch Label ACC.= 83.41%, UnLabel ACC.= 58.87%, Lipistz loss = 0, Train Unlabel Best ACC.= 66.9%, Train Max Epoch=235
+EarlyStopping counter: 68 out of 200
+Epoch [284][SemiTeacher][CricketX] loss= 0.05215; Epoch Label ACC.= 81.24%, UnLabel ACC.= 61.68%, Lipistz loss = 0, Train Unlabel Best ACC.= 66.9%, Train Max Epoch=235
+EarlyStopping counter: 69 out of 200
+Epoch [285][SemiTeacher][CricketX] loss= 0.05041; Epoch Label ACC.= 82.84%, UnLabel ACC.= 57.34%, Lipistz loss = 0, Train Unlabel Best ACC.= 66.9%, Train Max Epoch=235
+EarlyStopping counter: 70 out of 200
+Epoch [286][SemiTeacher][CricketX] loss= 0.05247; Epoch Label ACC.= 82.07%, UnLabel ACC.= 66.60%, Lipistz loss = 0, Train Unlabel Best ACC.= 66.9%, Train Max Epoch=235
+EarlyStopping counter: 71 out of 200
+Epoch [287][SemiTeacher][CricketX] loss= 0.04986; Epoch Label ACC.= 82.60%, UnLabel ACC.= 62.70%, Lipistz loss = 0, Train Unlabel Best ACC.= 66.9%, Train Max Epoch=235
+EarlyStopping counter: 72 out of 200
+Epoch [288][SemiTeacher][CricketX] loss= 0.05127; Epoch Label ACC.= 79.74%, UnLabel ACC.= 58.12%, Lipistz loss = 0, Train Unlabel Best ACC.= 66.9%, Train Max Epoch=235
+EarlyStopping counter: 73 out of 200
+Epoch [289][SemiTeacher][CricketX] loss= 0.04870; Epoch Label ACC.= 77.48%, UnLabel ACC.= 61.60%, Lipistz loss = 0, Train Unlabel Best ACC.= 66.9%, Train Max Epoch=235
+EarlyStopping counter: 74 out of 200
+Epoch [290][SemiTeacher][CricketX] loss= 0.05236; Epoch Label ACC.= 82.19%, UnLabel ACC.= 63.98%, Lipistz loss = 0, Train Unlabel Best ACC.= 66.9%, Train Max Epoch=235
+EarlyStopping counter: 75 out of 200
+Epoch [291][SemiTeacher][CricketX] loss= 0.04984; Epoch Label ACC.= 82.56%, UnLabel ACC.= 64.96%, Lipistz loss = 0, Train Unlabel Best ACC.= 66.9%, Train Max Epoch=235
+EarlyStopping counter: 76 out of 200
+Epoch [292][SemiTeacher][CricketX] loss= 0.05236; Epoch Label ACC.= 81.03%, UnLabel ACC.= 59.88%, Lipistz loss = 0, Train Unlabel Best ACC.= 66.9%, Train Max Epoch=235
+EarlyStopping counter: 77 out of 200
+Epoch [293][SemiTeacher][CricketX] loss= 0.04868; Epoch Label ACC.= 86.11%, UnLabel ACC.= 60.59%, Lipistz loss = 0, Train Unlabel Best ACC.= 66.9%, Train Max Epoch=235
+EarlyStopping counter: 78 out of 200
+Epoch [294][SemiTeacher][CricketX] loss= 0.04785; Epoch Label ACC.= 81.28%, UnLabel ACC.= 61.64%, Lipistz loss = 0, Train Unlabel Best ACC.= 66.9%, Train Max Epoch=235
+EarlyStopping counter: 79 out of 200
+Epoch [295][SemiTeacher][CricketX] loss= 0.05280; Epoch Label ACC.= 79.11%, UnLabel ACC.= 60.27%, Lipistz loss = 0, Train Unlabel Best ACC.= 66.9%, Train Max Epoch=235
+EarlyStopping counter: 80 out of 200
+Epoch [296][SemiTeacher][CricketX] loss= 0.04826; Epoch Label ACC.= 85.15%, UnLabel ACC.= 61.76%, Lipistz loss = 0, Train Unlabel Best ACC.= 66.9%, Train Max Epoch=235
+EarlyStopping counter: 81 out of 200
+Epoch [297][SemiTeacher][CricketX] loss= 0.04831; Epoch Label ACC.= 84.92%, UnLabel ACC.= 59.96%, Lipistz loss = 0, Train Unlabel Best ACC.= 66.9%, Train Max Epoch=235
+EarlyStopping counter: 82 out of 200
+Epoch [298][SemiTeacher][CricketX] loss= 0.05093; Epoch Label ACC.= 83.25%, UnLabel ACC.= 58.55%, Lipistz loss = 0, Train Unlabel Best ACC.= 66.9%, Train Max Epoch=235
+EarlyStopping counter: 83 out of 200
+Epoch [299][SemiTeacher][CricketX] loss= 0.04980; Epoch Label ACC.= 83.74%, UnLabel ACC.= 57.42%, Lipistz loss = 0, Train Unlabel Best ACC.= 66.9%, Train Max Epoch=235
+EarlyStopping counter: 84 out of 200
+Epoch [300][SemiTeacher][CricketX] loss= 0.04956; Epoch Label ACC.= 81.23%, UnLabel ACC.= 62.58%, Lipistz loss = 0, Train Unlabel Best ACC.= 66.9%, Train Max Epoch=235
+EarlyStopping counter: 85 out of 200
+Epoch [301][SemiTeacher][CricketX] loss= 0.05154; Epoch Label ACC.= 86.31%, UnLabel ACC.= 62.77%, Lipistz loss = 0, Train Unlabel Best ACC.= 66.9%, Train Max Epoch=235
+[Test-301] Val ACC:62.57%, Best Test ACC.: 60.19% in Epoch 301
+Validation loss decreased (61.755953 --> 62.574407).  Saving model ...
+Epoch [302][SemiTeacher][CricketX] loss= 0.05669; Epoch Label ACC.= 81.24%, UnLabel ACC.= 60.35%, Lipistz loss = 0, Train Unlabel Best ACC.= 66.9%, Train Max Epoch=235
+EarlyStopping counter: 1 out of 200
+Epoch [303][SemiTeacher][CricketX] loss= 0.04734; Epoch Label ACC.= 80.61%, UnLabel ACC.= 59.53%, Lipistz loss = 0, Train Unlabel Best ACC.= 66.9%, Train Max Epoch=235
+EarlyStopping counter: 2 out of 200
+Epoch [304][SemiTeacher][CricketX] loss= 0.04980; Epoch Label ACC.= 78.67%, UnLabel ACC.= 58.63%, Lipistz loss = 0, Train Unlabel Best ACC.= 66.9%, Train Max Epoch=235
+EarlyStopping counter: 3 out of 200
+Epoch [305][SemiTeacher][CricketX] loss= 0.04692; Epoch Label ACC.= 84.34%, UnLabel ACC.= 59.38%, Lipistz loss = 0, Train Unlabel Best ACC.= 66.9%, Train Max Epoch=235
+[Test-305] Val ACC:62.72%, Best Test ACC.: 63.10% in Epoch 305
+Validation loss decreased (62.574407 --> 62.723216).  Saving model ...
+Epoch [306][SemiTeacher][CricketX] loss= 0.05356; Epoch Label ACC.= 83.07%, UnLabel ACC.= 63.01%, Lipistz loss = 0, Train Unlabel Best ACC.= 66.9%, Train Max Epoch=235
+EarlyStopping counter: 1 out of 200
+Epoch [307][SemiTeacher][CricketX] loss= 0.04899; Epoch Label ACC.= 81.34%, UnLabel ACC.= 61.21%, Lipistz loss = 0, Train Unlabel Best ACC.= 66.9%, Train Max Epoch=235
+EarlyStopping counter: 2 out of 200
+Epoch [308][SemiTeacher][CricketX] loss= 0.05031; Epoch Label ACC.= 85.86%, UnLabel ACC.= 60.43%, Lipistz loss = 0, Train Unlabel Best ACC.= 66.9%, Train Max Epoch=235
+EarlyStopping counter: 3 out of 200
+Epoch [309][SemiTeacher][CricketX] loss= 0.05401; Epoch Label ACC.= 85.02%, UnLabel ACC.= 61.48%, Lipistz loss = 0, Train Unlabel Best ACC.= 66.9%, Train Max Epoch=235
+EarlyStopping counter: 4 out of 200
+Epoch [310][SemiTeacher][CricketX] loss= 0.04967; Epoch Label ACC.= 83.33%, UnLabel ACC.= 60.78%, Lipistz loss = 0, Train Unlabel Best ACC.= 66.9%, Train Max Epoch=235
+EarlyStopping counter: 5 out of 200
+Epoch [311][SemiTeacher][CricketX] loss= 0.04765; Epoch Label ACC.= 83.23%, UnLabel ACC.= 59.02%, Lipistz loss = 0, Train Unlabel Best ACC.= 66.9%, Train Max Epoch=235
+EarlyStopping counter: 6 out of 200
+Epoch [312][SemiTeacher][CricketX] loss= 0.04928; Epoch Label ACC.= 83.36%, UnLabel ACC.= 61.68%, Lipistz loss = 0, Train Unlabel Best ACC.= 66.9%, Train Max Epoch=235
+EarlyStopping counter: 7 out of 200
+Epoch [313][SemiTeacher][CricketX] loss= 0.04702; Epoch Label ACC.= 82.09%, UnLabel ACC.= 64.18%, Lipistz loss = 0, Train Unlabel Best ACC.= 66.9%, Train Max Epoch=235
+EarlyStopping counter: 8 out of 200
+Epoch [314][SemiTeacher][CricketX] loss= 0.05050; Epoch Label ACC.= 78.93%, UnLabel ACC.= 60.90%, Lipistz loss = 0, Train Unlabel Best ACC.= 66.9%, Train Max Epoch=235
+EarlyStopping counter: 9 out of 200
+Epoch [315][SemiTeacher][CricketX] loss= 0.04695; Epoch Label ACC.= 80.04%, UnLabel ACC.= 63.59%, Lipistz loss = 0, Train Unlabel Best ACC.= 66.9%, Train Max Epoch=235
+EarlyStopping counter: 10 out of 200
+Epoch [316][SemiTeacher][CricketX] loss= 0.04764; Epoch Label ACC.= 81.73%, UnLabel ACC.= 61.99%, Lipistz loss = 0, Train Unlabel Best ACC.= 66.9%, Train Max Epoch=235
+EarlyStopping counter: 11 out of 200
+Epoch [317][SemiTeacher][CricketX] loss= 0.05024; Epoch Label ACC.= 83.23%, UnLabel ACC.= 61.25%, Lipistz loss = 0, Train Unlabel Best ACC.= 66.9%, Train Max Epoch=235
+EarlyStopping counter: 12 out of 200
+Epoch [318][SemiTeacher][CricketX] loss= 0.05351; Epoch Label ACC.= 81.26%, UnLabel ACC.= 61.37%, Lipistz loss = 0, Train Unlabel Best ACC.= 66.9%, Train Max Epoch=235
+EarlyStopping counter: 13 out of 200
+Epoch [319][SemiTeacher][CricketX] loss= 0.04609; Epoch Label ACC.= 82.86%, UnLabel ACC.= 58.71%, Lipistz loss = 0, Train Unlabel Best ACC.= 66.9%, Train Max Epoch=235
+EarlyStopping counter: 14 out of 200
+Epoch [320][SemiTeacher][CricketX] loss= 0.04955; Epoch Label ACC.= 80.01%, UnLabel ACC.= 62.38%, Lipistz loss = 0, Train Unlabel Best ACC.= 66.9%, Train Max Epoch=235
+EarlyStopping counter: 15 out of 200
+Epoch [321][SemiTeacher][CricketX] loss= 0.04696; Epoch Label ACC.= 85.34%, UnLabel ACC.= 60.08%, Lipistz loss = 0, Train Unlabel Best ACC.= 66.9%, Train Max Epoch=235
+EarlyStopping counter: 16 out of 200
+Epoch [322][SemiTeacher][CricketX] loss= 0.04955; Epoch Label ACC.= 84.32%, UnLabel ACC.= 63.40%, Lipistz loss = 0, Train Unlabel Best ACC.= 66.9%, Train Max Epoch=235
+EarlyStopping counter: 17 out of 200
+Epoch [323][SemiTeacher][CricketX] loss= 0.05075; Epoch Label ACC.= 78.98%, UnLabel ACC.= 63.67%, Lipistz loss = 0, Train Unlabel Best ACC.= 66.9%, Train Max Epoch=235
+EarlyStopping counter: 18 out of 200
+Epoch [324][SemiTeacher][CricketX] loss= 0.04663; Epoch Label ACC.= 83.54%, UnLabel ACC.= 60.39%, Lipistz loss = 0, Train Unlabel Best ACC.= 66.9%, Train Max Epoch=235
+EarlyStopping counter: 19 out of 200
+Epoch [325][SemiTeacher][CricketX] loss= 0.04884; Epoch Label ACC.= 78.05%, UnLabel ACC.= 62.77%, Lipistz loss = 0, Train Unlabel Best ACC.= 66.9%, Train Max Epoch=235
+EarlyStopping counter: 20 out of 200
+Epoch [326][SemiTeacher][CricketX] loss= 0.04926; Epoch Label ACC.= 81.58%, UnLabel ACC.= 64.73%, Lipistz loss = 0, Train Unlabel Best ACC.= 66.9%, Train Max Epoch=235
+EarlyStopping counter: 21 out of 200
+Epoch [327][SemiTeacher][CricketX] loss= 0.04689; Epoch Label ACC.= 79.93%, UnLabel ACC.= 64.30%, Lipistz loss = 0, Train Unlabel Best ACC.= 66.9%, Train Max Epoch=235
+EarlyStopping counter: 22 out of 200
+Epoch [328][SemiTeacher][CricketX] loss= 0.04647; Epoch Label ACC.= 81.42%, UnLabel ACC.= 60.98%, Lipistz loss = 0, Train Unlabel Best ACC.= 66.9%, Train Max Epoch=235
+EarlyStopping counter: 23 out of 200
+Epoch [329][SemiTeacher][CricketX] loss= 0.04710; Epoch Label ACC.= 82.35%, UnLabel ACC.= 61.95%, Lipistz loss = 0, Train Unlabel Best ACC.= 66.9%, Train Max Epoch=235
+EarlyStopping counter: 24 out of 200
+Epoch [330][SemiTeacher][CricketX] loss= 0.04970; Epoch Label ACC.= 77.50%, UnLabel ACC.= 65.98%, Lipistz loss = 0, Train Unlabel Best ACC.= 66.9%, Train Max Epoch=235
+EarlyStopping counter: 25 out of 200
+Epoch [331][SemiTeacher][CricketX] loss= 0.04760; Epoch Label ACC.= 85.17%, UnLabel ACC.= 63.16%, Lipistz loss = 0, Train Unlabel Best ACC.= 66.9%, Train Max Epoch=235
+EarlyStopping counter: 26 out of 200
+Epoch [332][SemiTeacher][CricketX] loss= 0.05128; Epoch Label ACC.= 83.02%, UnLabel ACC.= 63.98%, Lipistz loss = 0, Train Unlabel Best ACC.= 66.9%, Train Max Epoch=235
+EarlyStopping counter: 27 out of 200
+Epoch [333][SemiTeacher][CricketX] loss= 0.05014; Epoch Label ACC.= 86.57%, UnLabel ACC.= 59.30%, Lipistz loss = 0, Train Unlabel Best ACC.= 66.9%, Train Max Epoch=235
+EarlyStopping counter: 28 out of 200
+Epoch [334][SemiTeacher][CricketX] loss= 0.04889; Epoch Label ACC.= 84.99%, UnLabel ACC.= 62.77%, Lipistz loss = 0, Train Unlabel Best ACC.= 66.9%, Train Max Epoch=235
+EarlyStopping counter: 29 out of 200
+Epoch [335][SemiTeacher][CricketX] loss= 0.05075; Epoch Label ACC.= 85.23%, UnLabel ACC.= 60.59%, Lipistz loss = 0, Train Unlabel Best ACC.= 66.9%, Train Max Epoch=235
+EarlyStopping counter: 30 out of 200
+Epoch [336][SemiTeacher][CricketX] loss= 0.04713; Epoch Label ACC.= 86.14%, UnLabel ACC.= 63.59%, Lipistz loss = 0, Train Unlabel Best ACC.= 66.9%, Train Max Epoch=235
+EarlyStopping counter: 31 out of 200
+Epoch [337][SemiTeacher][CricketX] loss= 0.04891; Epoch Label ACC.= 83.99%, UnLabel ACC.= 61.84%, Lipistz loss = 0, Train Unlabel Best ACC.= 66.9%, Train Max Epoch=235
+EarlyStopping counter: 32 out of 200
+Epoch [338][SemiTeacher][CricketX] loss= 0.05013; Epoch Label ACC.= 83.59%, UnLabel ACC.= 62.54%, Lipistz loss = 0, Train Unlabel Best ACC.= 66.9%, Train Max Epoch=235
+EarlyStopping counter: 33 out of 200
+Epoch [339][SemiTeacher][CricketX] loss= 0.05307; Epoch Label ACC.= 80.79%, UnLabel ACC.= 64.80%, Lipistz loss = 0, Train Unlabel Best ACC.= 66.9%, Train Max Epoch=235
+EarlyStopping counter: 34 out of 200
+Epoch [340][SemiTeacher][CricketX] loss= 0.05033; Epoch Label ACC.= 83.49%, UnLabel ACC.= 64.18%, Lipistz loss = 0, Train Unlabel Best ACC.= 66.9%, Train Max Epoch=235
+EarlyStopping counter: 35 out of 200
+Epoch [341][SemiTeacher][CricketX] loss= 0.04616; Epoch Label ACC.= 84.13%, UnLabel ACC.= 61.13%, Lipistz loss = 0, Train Unlabel Best ACC.= 66.9%, Train Max Epoch=235
+EarlyStopping counter: 36 out of 200
+Epoch [342][SemiTeacher][CricketX] loss= 0.05117; Epoch Label ACC.= 82.68%, UnLabel ACC.= 65.16%, Lipistz loss = 0, Train Unlabel Best ACC.= 66.9%, Train Max Epoch=235
+EarlyStopping counter: 37 out of 200
+Epoch [343][SemiTeacher][CricketX] loss= 0.04611; Epoch Label ACC.= 80.14%, UnLabel ACC.= 64.65%, Lipistz loss = 0, Train Unlabel Best ACC.= 66.9%, Train Max Epoch=235
+EarlyStopping counter: 38 out of 200
+Epoch [344][SemiTeacher][CricketX] loss= 0.05153; Epoch Label ACC.= 81.55%, UnLabel ACC.= 61.33%, Lipistz loss = 0, Train Unlabel Best ACC.= 66.9%, Train Max Epoch=235
+EarlyStopping counter: 39 out of 200
+Epoch [345][SemiTeacher][CricketX] loss= 0.05339; Epoch Label ACC.= 81.82%, UnLabel ACC.= 62.62%, Lipistz loss = 0, Train Unlabel Best ACC.= 66.9%, Train Max Epoch=235
+EarlyStopping counter: 40 out of 200
+Epoch [346][SemiTeacher][CricketX] loss= 0.05091; Epoch Label ACC.= 82.35%, UnLabel ACC.= 62.27%, Lipistz loss = 0, Train Unlabel Best ACC.= 66.9%, Train Max Epoch=235
+EarlyStopping counter: 41 out of 200
+Epoch [347][SemiTeacher][CricketX] loss= 0.05024; Epoch Label ACC.= 85.43%, UnLabel ACC.= 66.91%, Lipistz loss = 0, Train Unlabel Best ACC.= 66.9%, Train Max Epoch=235
+EarlyStopping counter: 42 out of 200
+Epoch [348][SemiTeacher][CricketX] loss= 0.05261; Epoch Label ACC.= 82.02%, UnLabel ACC.= 61.64%, Lipistz loss = 0, Train Unlabel Best ACC.= 66.9%, Train Max Epoch=235
+EarlyStopping counter: 43 out of 200
+Epoch [349][SemiTeacher][CricketX] loss= 0.04556; Epoch Label ACC.= 81.24%, UnLabel ACC.= 64.22%, Lipistz loss = 0, Train Unlabel Best ACC.= 66.9%, Train Max Epoch=235
+EarlyStopping counter: 44 out of 200
+Epoch [350][SemiTeacher][CricketX] loss= 0.05323; Epoch Label ACC.= 80.89%, UnLabel ACC.= 63.59%, Lipistz loss = 0, Train Unlabel Best ACC.= 66.9%, Train Max Epoch=235
+EarlyStopping counter: 45 out of 200
+Epoch [351][SemiTeacher][CricketX] loss= 0.04867; Epoch Label ACC.= 85.20%, UnLabel ACC.= 59.80%, Lipistz loss = 0, Train Unlabel Best ACC.= 66.9%, Train Max Epoch=235
+EarlyStopping counter: 46 out of 200
+Epoch [352][SemiTeacher][CricketX] loss= 0.04791; Epoch Label ACC.= 84.34%, UnLabel ACC.= 62.38%, Lipistz loss = 0, Train Unlabel Best ACC.= 66.9%, Train Max Epoch=235
+EarlyStopping counter: 47 out of 200
+Epoch [353][SemiTeacher][CricketX] loss= 0.04717; Epoch Label ACC.= 82.42%, UnLabel ACC.= 59.26%, Lipistz loss = 0, Train Unlabel Best ACC.= 66.9%, Train Max Epoch=235
+EarlyStopping counter: 48 out of 200
+Epoch [354][SemiTeacher][CricketX] loss= 0.05011; Epoch Label ACC.= 84.79%, UnLabel ACC.= 62.54%, Lipistz loss = 0, Train Unlabel Best ACC.= 66.9%, Train Max Epoch=235
+EarlyStopping counter: 49 out of 200
+Epoch [355][SemiTeacher][CricketX] loss= 0.05209; Epoch Label ACC.= 85.77%, UnLabel ACC.= 60.23%, Lipistz loss = 0, Train Unlabel Best ACC.= 66.9%, Train Max Epoch=235
+EarlyStopping counter: 50 out of 200
+Epoch [356][SemiTeacher][CricketX] loss= 0.05031; Epoch Label ACC.= 83.65%, UnLabel ACC.= 63.91%, Lipistz loss = 0, Train Unlabel Best ACC.= 66.9%, Train Max Epoch=235
+EarlyStopping counter: 51 out of 200
+Epoch [357][SemiTeacher][CricketX] loss= 0.04900; Epoch Label ACC.= 87.84%, UnLabel ACC.= 63.36%, Lipistz loss = 0, Train Unlabel Best ACC.= 66.9%, Train Max Epoch=235
+EarlyStopping counter: 52 out of 200
+Epoch [358][SemiTeacher][CricketX] loss= 0.04718; Epoch Label ACC.= 78.22%, UnLabel ACC.= 62.15%, Lipistz loss = 0, Train Unlabel Best ACC.= 66.9%, Train Max Epoch=235
+EarlyStopping counter: 53 out of 200
+Epoch [359][SemiTeacher][CricketX] loss= 0.04451; Epoch Label ACC.= 84.48%, UnLabel ACC.= 61.48%, Lipistz loss = 0, Train Unlabel Best ACC.= 66.9%, Train Max Epoch=235
+EarlyStopping counter: 54 out of 200
+Epoch [360][SemiTeacher][CricketX] loss= 0.04889; Epoch Label ACC.= 84.63%, UnLabel ACC.= 62.34%, Lipistz loss = 0, Train Unlabel Best ACC.= 66.9%, Train Max Epoch=235
+EarlyStopping counter: 55 out of 200
+Epoch [361][SemiTeacher][CricketX] loss= 0.04530; Epoch Label ACC.= 79.71%, UnLabel ACC.= 60.00%, Lipistz loss = 0, Train Unlabel Best ACC.= 66.9%, Train Max Epoch=235
+EarlyStopping counter: 56 out of 200
+Epoch [362][SemiTeacher][CricketX] loss= 0.04844; Epoch Label ACC.= 82.66%, UnLabel ACC.= 61.17%, Lipistz loss = 0, Train Unlabel Best ACC.= 66.9%, Train Max Epoch=235
+EarlyStopping counter: 57 out of 200
+Epoch [363][SemiTeacher][CricketX] loss= 0.05020; Epoch Label ACC.= 85.23%, UnLabel ACC.= 59.02%, Lipistz loss = 0, Train Unlabel Best ACC.= 66.9%, Train Max Epoch=235
+EarlyStopping counter: 58 out of 200
+Epoch [364][SemiTeacher][CricketX] loss= 0.04816; Epoch Label ACC.= 83.59%, UnLabel ACC.= 63.36%, Lipistz loss = 0, Train Unlabel Best ACC.= 66.9%, Train Max Epoch=235
+EarlyStopping counter: 59 out of 200
+Epoch [365][SemiTeacher][CricketX] loss= 0.05166; Epoch Label ACC.= 82.11%, UnLabel ACC.= 62.97%, Lipistz loss = 0, Train Unlabel Best ACC.= 66.9%, Train Max Epoch=235
+EarlyStopping counter: 60 out of 200
+Epoch [366][SemiTeacher][CricketX] loss= 0.04843; Epoch Label ACC.= 82.89%, UnLabel ACC.= 60.74%, Lipistz loss = 0, Train Unlabel Best ACC.= 66.9%, Train Max Epoch=235
+EarlyStopping counter: 61 out of 200
+Epoch [367][SemiTeacher][CricketX] loss= 0.05230; Epoch Label ACC.= 82.58%, UnLabel ACC.= 61.60%, Lipistz loss = 0, Train Unlabel Best ACC.= 66.9%, Train Max Epoch=235
+EarlyStopping counter: 62 out of 200
+Epoch [368][SemiTeacher][CricketX] loss= 0.04873; Epoch Label ACC.= 85.83%, UnLabel ACC.= 63.05%, Lipistz loss = 0, Train Unlabel Best ACC.= 66.9%, Train Max Epoch=235
+EarlyStopping counter: 63 out of 200
+Epoch [369][SemiTeacher][CricketX] loss= 0.04527; Epoch Label ACC.= 82.48%, UnLabel ACC.= 65.00%, Lipistz loss = 0, Train Unlabel Best ACC.= 66.9%, Train Max Epoch=235
+EarlyStopping counter: 64 out of 200
+Epoch [370][SemiTeacher][CricketX] loss= 0.04689; Epoch Label ACC.= 84.39%, UnLabel ACC.= 62.58%, Lipistz loss = 0, Train Unlabel Best ACC.= 66.9%, Train Max Epoch=235
+EarlyStopping counter: 65 out of 200
+Epoch [371][SemiTeacher][CricketX] loss= 0.05031; Epoch Label ACC.= 80.20%, UnLabel ACC.= 61.17%, Lipistz loss = 0, Train Unlabel Best ACC.= 66.9%, Train Max Epoch=235
+EarlyStopping counter: 66 out of 200
+Epoch [372][SemiTeacher][CricketX] loss= 0.04849; Epoch Label ACC.= 83.31%, UnLabel ACC.= 63.48%, Lipistz loss = 0, Train Unlabel Best ACC.= 66.9%, Train Max Epoch=235
+EarlyStopping counter: 67 out of 200
+Epoch [373][SemiTeacher][CricketX] loss= 0.05159; Epoch Label ACC.= 85.10%, UnLabel ACC.= 64.57%, Lipistz loss = 0, Train Unlabel Best ACC.= 66.9%, Train Max Epoch=235
+EarlyStopping counter: 68 out of 200
+Epoch [374][SemiTeacher][CricketX] loss= 0.04981; Epoch Label ACC.= 83.07%, UnLabel ACC.= 65.43%, Lipistz loss = 0, Train Unlabel Best ACC.= 66.9%, Train Max Epoch=235
+EarlyStopping counter: 69 out of 200
+Epoch [375][SemiTeacher][CricketX] loss= 0.04566; Epoch Label ACC.= 86.29%, UnLabel ACC.= 59.80%, Lipistz loss = 0, Train Unlabel Best ACC.= 66.9%, Train Max Epoch=235
+EarlyStopping counter: 70 out of 200
+Epoch [376][SemiTeacher][CricketX] loss= 0.04745; Epoch Label ACC.= 82.04%, UnLabel ACC.= 64.53%, Lipistz loss = 0, Train Unlabel Best ACC.= 66.9%, Train Max Epoch=235
+EarlyStopping counter: 71 out of 200
+Epoch [377][SemiTeacher][CricketX] loss= 0.04850; Epoch Label ACC.= 78.70%, UnLabel ACC.= 60.94%, Lipistz loss = 0, Train Unlabel Best ACC.= 66.9%, Train Max Epoch=235
+EarlyStopping counter: 72 out of 200
+Epoch [378][SemiTeacher][CricketX] loss= 0.05030; Epoch Label ACC.= 81.80%, UnLabel ACC.= 62.93%, Lipistz loss = 0, Train Unlabel Best ACC.= 66.9%, Train Max Epoch=235
+EarlyStopping counter: 73 out of 200
+Epoch [379][SemiTeacher][CricketX] loss= 0.04963; Epoch Label ACC.= 79.39%, UnLabel ACC.= 62.93%, Lipistz loss = 0, Train Unlabel Best ACC.= 66.9%, Train Max Epoch=235
+EarlyStopping counter: 74 out of 200
+Epoch [380][SemiTeacher][CricketX] loss= 0.04998; Epoch Label ACC.= 86.01%, UnLabel ACC.= 65.00%, Lipistz loss = 0, Train Unlabel Best ACC.= 66.9%, Train Max Epoch=235
+EarlyStopping counter: 75 out of 200
+Epoch [381][SemiTeacher][CricketX] loss= 0.04766; Epoch Label ACC.= 83.13%, UnLabel ACC.= 66.72%, Lipistz loss = 0, Train Unlabel Best ACC.= 66.9%, Train Max Epoch=235
+EarlyStopping counter: 76 out of 200
+Epoch [382][SemiTeacher][CricketX] loss= 0.05252; Epoch Label ACC.= 84.48%, UnLabel ACC.= 61.88%, Lipistz loss = 0, Train Unlabel Best ACC.= 66.9%, Train Max Epoch=235
+EarlyStopping counter: 77 out of 200
+Epoch [383][SemiTeacher][CricketX] loss= 0.05013; Epoch Label ACC.= 81.80%, UnLabel ACC.= 61.99%, Lipistz loss = 0, Train Unlabel Best ACC.= 66.9%, Train Max Epoch=235
+EarlyStopping counter: 78 out of 200
+Epoch [384][SemiTeacher][CricketX] loss= 0.04981; Epoch Label ACC.= 81.86%, UnLabel ACC.= 64.45%, Lipistz loss = 0, Train Unlabel Best ACC.= 66.9%, Train Max Epoch=235
+EarlyStopping counter: 79 out of 200
+Epoch [385][SemiTeacher][CricketX] loss= 0.04714; Epoch Label ACC.= 83.17%, UnLabel ACC.= 61.33%, Lipistz loss = 0, Train Unlabel Best ACC.= 66.9%, Train Max Epoch=235
+EarlyStopping counter: 80 out of 200
+Epoch [386][SemiTeacher][CricketX] loss= 0.04982; Epoch Label ACC.= 88.47%, UnLabel ACC.= 61.99%, Lipistz loss = 0, Train Unlabel Best ACC.= 66.9%, Train Max Epoch=235
+EarlyStopping counter: 81 out of 200
+Epoch [387][SemiTeacher][CricketX] loss= 0.04923; Epoch Label ACC.= 82.45%, UnLabel ACC.= 64.77%, Lipistz loss = 0, Train Unlabel Best ACC.= 66.9%, Train Max Epoch=235
+EarlyStopping counter: 82 out of 200
+Epoch [388][SemiTeacher][CricketX] loss= 0.04720; Epoch Label ACC.= 85.09%, UnLabel ACC.= 64.53%, Lipistz loss = 0, Train Unlabel Best ACC.= 66.9%, Train Max Epoch=235
+EarlyStopping counter: 83 out of 200
+Epoch [389][SemiTeacher][CricketX] loss= 0.04728; Epoch Label ACC.= 82.82%, UnLabel ACC.= 64.77%, Lipistz loss = 0, Train Unlabel Best ACC.= 66.9%, Train Max Epoch=235
+EarlyStopping counter: 84 out of 200
+Epoch [390][SemiTeacher][CricketX] loss= 0.04958; Epoch Label ACC.= 85.25%, UnLabel ACC.= 63.91%, Lipistz loss = 0, Train Unlabel Best ACC.= 66.9%, Train Max Epoch=235
+EarlyStopping counter: 85 out of 200
+Epoch [391][SemiTeacher][CricketX] loss= 0.04984; Epoch Label ACC.= 83.20%, UnLabel ACC.= 60.82%, Lipistz loss = 0, Train Unlabel Best ACC.= 66.9%, Train Max Epoch=235
+EarlyStopping counter: 86 out of 200
+Epoch [392][SemiTeacher][CricketX] loss= 0.05060; Epoch Label ACC.= 84.60%, UnLabel ACC.= 60.39%, Lipistz loss = 0, Train Unlabel Best ACC.= 66.9%, Train Max Epoch=235
+EarlyStopping counter: 87 out of 200
+Epoch [393][SemiTeacher][CricketX] loss= 0.04542; Epoch Label ACC.= 84.43%, UnLabel ACC.= 64.73%, Lipistz loss = 0, Train Unlabel Best ACC.= 66.9%, Train Max Epoch=235
+EarlyStopping counter: 88 out of 200
+Epoch [394][SemiTeacher][CricketX] loss= 0.05124; Epoch Label ACC.= 88.70%, UnLabel ACC.= 63.63%, Lipistz loss = 0, Train Unlabel Best ACC.= 66.9%, Train Max Epoch=235
+EarlyStopping counter: 89 out of 200
+Epoch [395][SemiTeacher][CricketX] loss= 0.05264; Epoch Label ACC.= 83.05%, UnLabel ACC.= 60.62%, Lipistz loss = 0, Train Unlabel Best ACC.= 66.9%, Train Max Epoch=235
+EarlyStopping counter: 90 out of 200
+Epoch [396][SemiTeacher][CricketX] loss= 0.04799; Epoch Label ACC.= 86.75%, UnLabel ACC.= 62.34%, Lipistz loss = 0, Train Unlabel Best ACC.= 66.9%, Train Max Epoch=235
+EarlyStopping counter: 91 out of 200
+Epoch [397][SemiTeacher][CricketX] loss= 0.05288; Epoch Label ACC.= 82.71%, UnLabel ACC.= 65.04%, Lipistz loss = 0, Train Unlabel Best ACC.= 66.9%, Train Max Epoch=235
+EarlyStopping counter: 92 out of 200
+Epoch [398][SemiTeacher][CricketX] loss= 0.04846; Epoch Label ACC.= 81.23%, UnLabel ACC.= 65.12%, Lipistz loss = 0, Train Unlabel Best ACC.= 66.9%, Train Max Epoch=235
+EarlyStopping counter: 93 out of 200
+Epoch [399][SemiTeacher][CricketX] loss= 0.05113; Epoch Label ACC.= 87.24%, UnLabel ACC.= 61.37%, Lipistz loss = 0, Train Unlabel Best ACC.= 66.9%, Train Max Epoch=235
+EarlyStopping counter: 94 out of 200
+[INFO] save backbone at epoch 399!
+Epoch [400][SemiTeacher][CricketX] loss= 0.04762; Epoch Label ACC.= 81.80%, UnLabel ACC.= 62.50%, Lipistz loss = 0, Train Unlabel Best ACC.= 66.9%, Train Max Epoch=235
+EarlyStopping counter: 95 out of 200
+Epoch [401][SemiTeacher][CricketX] loss= 0.04818; Epoch Label ACC.= 82.56%, UnLabel ACC.= 62.93%, Lipistz loss = 0, Train Unlabel Best ACC.= 66.9%, Train Max Epoch=235
+EarlyStopping counter: 96 out of 200
+Epoch [402][SemiTeacher][CricketX] loss= 0.04902; Epoch Label ACC.= 82.81%, UnLabel ACC.= 64.73%, Lipistz loss = 0, Train Unlabel Best ACC.= 66.9%, Train Max Epoch=235
+EarlyStopping counter: 97 out of 200
+Epoch [403][SemiTeacher][CricketX] loss= 0.04833; Epoch Label ACC.= 82.97%, UnLabel ACC.= 60.70%, Lipistz loss = 0, Train Unlabel Best ACC.= 66.9%, Train Max Epoch=235
+EarlyStopping counter: 98 out of 200
+Epoch [404][SemiTeacher][CricketX] loss= 0.04831; Epoch Label ACC.= 85.43%, UnLabel ACC.= 63.98%, Lipistz loss = 0, Train Unlabel Best ACC.= 66.9%, Train Max Epoch=235
+EarlyStopping counter: 99 out of 200
+Epoch [405][SemiTeacher][CricketX] loss= 0.04737; Epoch Label ACC.= 85.86%, UnLabel ACC.= 63.12%, Lipistz loss = 0, Train Unlabel Best ACC.= 66.9%, Train Max Epoch=235
+EarlyStopping counter: 100 out of 200
+Epoch [406][SemiTeacher][CricketX] loss= 0.05198; Epoch Label ACC.= 84.97%, UnLabel ACC.= 63.71%, Lipistz loss = 0, Train Unlabel Best ACC.= 66.9%, Train Max Epoch=235
+EarlyStopping counter: 101 out of 200
+Epoch [407][SemiTeacher][CricketX] loss= 0.04636; Epoch Label ACC.= 85.64%, UnLabel ACC.= 64.02%, Lipistz loss = 0, Train Unlabel Best ACC.= 66.9%, Train Max Epoch=235
+EarlyStopping counter: 102 out of 200
+Epoch [408][SemiTeacher][CricketX] loss= 0.05009; Epoch Label ACC.= 85.67%, UnLabel ACC.= 63.09%, Lipistz loss = 0, Train Unlabel Best ACC.= 66.9%, Train Max Epoch=235
+EarlyStopping counter: 103 out of 200
+Epoch [409][SemiTeacher][CricketX] loss= 0.05089; Epoch Label ACC.= 85.67%, UnLabel ACC.= 59.88%, Lipistz loss = 0, Train Unlabel Best ACC.= 66.9%, Train Max Epoch=235
+EarlyStopping counter: 104 out of 200
+Epoch [410][SemiTeacher][CricketX] loss= 0.05161; Epoch Label ACC.= 85.17%, UnLabel ACC.= 63.40%, Lipistz loss = 0, Train Unlabel Best ACC.= 66.9%, Train Max Epoch=235
+EarlyStopping counter: 105 out of 200
+Epoch [411][SemiTeacher][CricketX] loss= 0.05312; Epoch Label ACC.= 82.42%, UnLabel ACC.= 60.12%, Lipistz loss = 0, Train Unlabel Best ACC.= 66.9%, Train Max Epoch=235
+EarlyStopping counter: 106 out of 200
+Epoch [412][SemiTeacher][CricketX] loss= 0.05122; Epoch Label ACC.= 86.08%, UnLabel ACC.= 62.50%, Lipistz loss = 0, Train Unlabel Best ACC.= 66.9%, Train Max Epoch=235
+EarlyStopping counter: 107 out of 200
+Epoch [413][SemiTeacher][CricketX] loss= 0.05520; Epoch Label ACC.= 84.12%, UnLabel ACC.= 63.63%, Lipistz loss = 0, Train Unlabel Best ACC.= 66.9%, Train Max Epoch=235
+EarlyStopping counter: 108 out of 200
+Epoch [414][SemiTeacher][CricketX] loss= 0.05012; Epoch Label ACC.= 83.52%, UnLabel ACC.= 64.57%, Lipistz loss = 0, Train Unlabel Best ACC.= 66.9%, Train Max Epoch=235
+EarlyStopping counter: 109 out of 200
+Epoch [415][SemiTeacher][CricketX] loss= 0.05015; Epoch Label ACC.= 85.56%, UnLabel ACC.= 64.41%, Lipistz loss = 0, Train Unlabel Best ACC.= 66.9%, Train Max Epoch=235
+EarlyStopping counter: 110 out of 200
+Epoch [416][SemiTeacher][CricketX] loss= 0.05220; Epoch Label ACC.= 83.67%, UnLabel ACC.= 62.46%, Lipistz loss = 0, Train Unlabel Best ACC.= 66.9%, Train Max Epoch=235
+EarlyStopping counter: 111 out of 200
+Epoch [417][SemiTeacher][CricketX] loss= 0.04923; Epoch Label ACC.= 82.54%, UnLabel ACC.= 66.29%, Lipistz loss = 0, Train Unlabel Best ACC.= 66.9%, Train Max Epoch=235
+EarlyStopping counter: 112 out of 200
+Epoch [418][SemiTeacher][CricketX] loss= 0.05052; Epoch Label ACC.= 83.38%, UnLabel ACC.= 65.51%, Lipistz loss = 0, Train Unlabel Best ACC.= 66.9%, Train Max Epoch=235
+EarlyStopping counter: 113 out of 200
+Epoch [419][SemiTeacher][CricketX] loss= 0.05077; Epoch Label ACC.= 82.15%, UnLabel ACC.= 64.18%, Lipistz loss = 0, Train Unlabel Best ACC.= 66.9%, Train Max Epoch=235
+EarlyStopping counter: 114 out of 200
+Epoch [420][SemiTeacher][CricketX] loss= 0.05139; Epoch Label ACC.= 83.70%, UnLabel ACC.= 60.55%, Lipistz loss = 0, Train Unlabel Best ACC.= 66.9%, Train Max Epoch=235
+EarlyStopping counter: 115 out of 200
+Epoch [421][SemiTeacher][CricketX] loss= 0.04776; Epoch Label ACC.= 84.73%, UnLabel ACC.= 60.59%, Lipistz loss = 0, Train Unlabel Best ACC.= 66.9%, Train Max Epoch=235
+EarlyStopping counter: 116 out of 200
+Epoch [422][SemiTeacher][CricketX] loss= 0.05016; Epoch Label ACC.= 85.51%, UnLabel ACC.= 63.75%, Lipistz loss = 0, Train Unlabel Best ACC.= 66.9%, Train Max Epoch=235
+EarlyStopping counter: 117 out of 200
+Epoch [423][SemiTeacher][CricketX] loss= 0.05028; Epoch Label ACC.= 86.63%, UnLabel ACC.= 61.76%, Lipistz loss = 0, Train Unlabel Best ACC.= 66.9%, Train Max Epoch=235
+EarlyStopping counter: 118 out of 200
+Epoch [424][SemiTeacher][CricketX] loss= 0.05313; Epoch Label ACC.= 87.73%, UnLabel ACC.= 63.36%, Lipistz loss = 0, Train Unlabel Best ACC.= 66.9%, Train Max Epoch=235
+EarlyStopping counter: 119 out of 200
+Epoch [425][SemiTeacher][CricketX] loss= 0.04646; Epoch Label ACC.= 85.67%, UnLabel ACC.= 61.68%, Lipistz loss = 0, Train Unlabel Best ACC.= 66.9%, Train Max Epoch=235
+EarlyStopping counter: 120 out of 200
+Epoch [426][SemiTeacher][CricketX] loss= 0.05128; Epoch Label ACC.= 83.25%, UnLabel ACC.= 61.37%, Lipistz loss = 0, Train Unlabel Best ACC.= 66.9%, Train Max Epoch=235
+EarlyStopping counter: 121 out of 200
+Epoch [427][SemiTeacher][CricketX] loss= 0.05071; Epoch Label ACC.= 83.46%, UnLabel ACC.= 63.52%, Lipistz loss = 0, Train Unlabel Best ACC.= 66.9%, Train Max Epoch=235
+EarlyStopping counter: 122 out of 200
+Epoch [428][SemiTeacher][CricketX] loss= 0.05210; Epoch Label ACC.= 86.49%, UnLabel ACC.= 64.22%, Lipistz loss = 0, Train Unlabel Best ACC.= 66.9%, Train Max Epoch=235
+EarlyStopping counter: 123 out of 200
+Epoch [429][SemiTeacher][CricketX] loss= 0.04865; Epoch Label ACC.= 79.49%, UnLabel ACC.= 64.92%, Lipistz loss = 0, Train Unlabel Best ACC.= 66.9%, Train Max Epoch=235
+EarlyStopping counter: 124 out of 200
+Epoch [430][SemiTeacher][CricketX] loss= 0.04785; Epoch Label ACC.= 80.53%, UnLabel ACC.= 62.62%, Lipistz loss = 0, Train Unlabel Best ACC.= 66.9%, Train Max Epoch=235
+EarlyStopping counter: 125 out of 200
+Epoch [431][SemiTeacher][CricketX] loss= 0.04670; Epoch Label ACC.= 84.47%, UnLabel ACC.= 60.90%, Lipistz loss = 0, Train Unlabel Best ACC.= 66.9%, Train Max Epoch=235
+EarlyStopping counter: 126 out of 200
+Epoch [432][SemiTeacher][CricketX] loss= 0.05094; Epoch Label ACC.= 82.94%, UnLabel ACC.= 65.55%, Lipistz loss = 0, Train Unlabel Best ACC.= 66.9%, Train Max Epoch=235
+EarlyStopping counter: 127 out of 200
+Epoch [433][SemiTeacher][CricketX] loss= 0.04528; Epoch Label ACC.= 82.06%, UnLabel ACC.= 65.04%, Lipistz loss = 0, Train Unlabel Best ACC.= 66.9%, Train Max Epoch=235
+EarlyStopping counter: 128 out of 200
+Epoch [434][SemiTeacher][CricketX] loss= 0.04820; Epoch Label ACC.= 82.87%, UnLabel ACC.= 62.89%, Lipistz loss = 0, Train Unlabel Best ACC.= 66.9%, Train Max Epoch=235
+EarlyStopping counter: 129 out of 200
+Epoch [435][SemiTeacher][CricketX] loss= 0.04734; Epoch Label ACC.= 83.33%, UnLabel ACC.= 63.24%, Lipistz loss = 0, Train Unlabel Best ACC.= 66.9%, Train Max Epoch=235
+EarlyStopping counter: 130 out of 200
+Epoch [436][SemiTeacher][CricketX] loss= 0.05004; Epoch Label ACC.= 84.81%, UnLabel ACC.= 63.52%, Lipistz loss = 0, Train Unlabel Best ACC.= 66.9%, Train Max Epoch=235
+EarlyStopping counter: 131 out of 200
+Epoch [437][SemiTeacher][CricketX] loss= 0.04807; Epoch Label ACC.= 83.94%, UnLabel ACC.= 65.31%, Lipistz loss = 0, Train Unlabel Best ACC.= 66.9%, Train Max Epoch=235
+EarlyStopping counter: 132 out of 200
+Epoch [438][SemiTeacher][CricketX] loss= 0.04533; Epoch Label ACC.= 81.49%, UnLabel ACC.= 65.70%, Lipistz loss = 0, Train Unlabel Best ACC.= 66.9%, Train Max Epoch=235
+EarlyStopping counter: 133 out of 200
+Epoch [439][SemiTeacher][CricketX] loss= 0.05268; Epoch Label ACC.= 85.66%, UnLabel ACC.= 60.90%, Lipistz loss = 0, Train Unlabel Best ACC.= 66.9%, Train Max Epoch=235
+EarlyStopping counter: 134 out of 200
+Epoch [440][SemiTeacher][CricketX] loss= 0.04852; Epoch Label ACC.= 88.80%, UnLabel ACC.= 60.82%, Lipistz loss = 0, Train Unlabel Best ACC.= 66.9%, Train Max Epoch=235
+EarlyStopping counter: 135 out of 200
+Epoch [441][SemiTeacher][CricketX] loss= 0.05102; Epoch Label ACC.= 82.93%, UnLabel ACC.= 61.52%, Lipistz loss = 0, Train Unlabel Best ACC.= 66.9%, Train Max Epoch=235
+EarlyStopping counter: 136 out of 200
+Epoch [442][SemiTeacher][CricketX] loss= 0.04695; Epoch Label ACC.= 87.27%, UnLabel ACC.= 64.88%, Lipistz loss = 0, Train Unlabel Best ACC.= 66.9%, Train Max Epoch=235
+EarlyStopping counter: 137 out of 200
+Epoch [443][SemiTeacher][CricketX] loss= 0.05084; Epoch Label ACC.= 82.61%, UnLabel ACC.= 65.55%, Lipistz loss = 0, Train Unlabel Best ACC.= 66.9%, Train Max Epoch=235
+EarlyStopping counter: 138 out of 200
+Epoch [444][SemiTeacher][CricketX] loss= 0.05126; Epoch Label ACC.= 88.60%, UnLabel ACC.= 63.83%, Lipistz loss = 0, Train Unlabel Best ACC.= 66.9%, Train Max Epoch=235
+EarlyStopping counter: 139 out of 200
+Epoch [445][SemiTeacher][CricketX] loss= 0.04675; Epoch Label ACC.= 83.18%, UnLabel ACC.= 66.80%, Lipistz loss = 0, Train Unlabel Best ACC.= 66.9%, Train Max Epoch=235
+EarlyStopping counter: 140 out of 200
+Epoch [446][SemiTeacher][CricketX] loss= 0.04829; Epoch Label ACC.= 81.97%, UnLabel ACC.= 62.50%, Lipistz loss = 0, Train Unlabel Best ACC.= 66.9%, Train Max Epoch=235
+EarlyStopping counter: 141 out of 200
+Epoch [447][SemiTeacher][CricketX] loss= 0.04489; Epoch Label ACC.= 84.17%, UnLabel ACC.= 63.55%, Lipistz loss = 0, Train Unlabel Best ACC.= 66.9%, Train Max Epoch=235
+EarlyStopping counter: 142 out of 200
+Epoch [448][SemiTeacher][CricketX] loss= 0.05158; Epoch Label ACC.= 86.08%, UnLabel ACC.= 64.77%, Lipistz loss = 0, Train Unlabel Best ACC.= 66.9%, Train Max Epoch=235
+EarlyStopping counter: 143 out of 200
+Epoch [449][SemiTeacher][CricketX] loss= 0.05030; Epoch Label ACC.= 87.01%, UnLabel ACC.= 63.01%, Lipistz loss = 0, Train Unlabel Best ACC.= 66.9%, Train Max Epoch=235
+EarlyStopping counter: 144 out of 200
+Epoch [450][SemiTeacher][CricketX] loss= 0.04600; Epoch Label ACC.= 85.44%, UnLabel ACC.= 65.00%, Lipistz loss = 0, Train Unlabel Best ACC.= 66.9%, Train Max Epoch=235
+EarlyStopping counter: 145 out of 200
+Epoch [451][SemiTeacher][CricketX] loss= 0.04941; Epoch Label ACC.= 84.09%, UnLabel ACC.= 60.27%, Lipistz loss = 0, Train Unlabel Best ACC.= 66.9%, Train Max Epoch=235
+EarlyStopping counter: 146 out of 200
+Epoch [452][SemiTeacher][CricketX] loss= 0.04758; Epoch Label ACC.= 89.53%, UnLabel ACC.= 65.08%, Lipistz loss = 0, Train Unlabel Best ACC.= 66.9%, Train Max Epoch=235
+EarlyStopping counter: 147 out of 200
+Epoch [453][SemiTeacher][CricketX] loss= 0.04816; Epoch Label ACC.= 81.93%, UnLabel ACC.= 64.02%, Lipistz loss = 0, Train Unlabel Best ACC.= 66.9%, Train Max Epoch=235
+EarlyStopping counter: 148 out of 200
+Epoch [454][SemiTeacher][CricketX] loss= 0.05061; Epoch Label ACC.= 80.54%, UnLabel ACC.= 60.04%, Lipistz loss = 0, Train Unlabel Best ACC.= 66.9%, Train Max Epoch=235
+EarlyStopping counter: 149 out of 200
+Epoch [455][SemiTeacher][CricketX] loss= 0.04801; Epoch Label ACC.= 87.04%, UnLabel ACC.= 65.43%, Lipistz loss = 0, Train Unlabel Best ACC.= 66.9%, Train Max Epoch=235
+EarlyStopping counter: 150 out of 200
+Epoch [456][SemiTeacher][CricketX] loss= 0.04447; Epoch Label ACC.= 82.37%, UnLabel ACC.= 62.50%, Lipistz loss = 0, Train Unlabel Best ACC.= 66.9%, Train Max Epoch=235
+EarlyStopping counter: 151 out of 200
+Epoch [457][SemiTeacher][CricketX] loss= 0.04947; Epoch Label ACC.= 82.81%, UnLabel ACC.= 65.35%, Lipistz loss = 0, Train Unlabel Best ACC.= 66.9%, Train Max Epoch=235
+EarlyStopping counter: 152 out of 200
+Epoch [458][SemiTeacher][CricketX] loss= 0.04829; Epoch Label ACC.= 84.89%, UnLabel ACC.= 60.35%, Lipistz loss = 0, Train Unlabel Best ACC.= 66.9%, Train Max Epoch=235
+EarlyStopping counter: 153 out of 200
+Epoch [459][SemiTeacher][CricketX] loss= 0.04764; Epoch Label ACC.= 83.55%, UnLabel ACC.= 62.93%, Lipistz loss = 0, Train Unlabel Best ACC.= 66.9%, Train Max Epoch=235
+EarlyStopping counter: 154 out of 200
+Epoch [460][SemiTeacher][CricketX] loss= 0.04681; Epoch Label ACC.= 86.21%, UnLabel ACC.= 66.17%, Lipistz loss = 0, Train Unlabel Best ACC.= 66.9%, Train Max Epoch=235
+EarlyStopping counter: 155 out of 200
+Epoch [461][SemiTeacher][CricketX] loss= 0.04692; Epoch Label ACC.= 85.87%, UnLabel ACC.= 64.80%, Lipistz loss = 0, Train Unlabel Best ACC.= 66.9%, Train Max Epoch=235
+EarlyStopping counter: 156 out of 200
+Epoch [462][SemiTeacher][CricketX] loss= 0.05078; Epoch Label ACC.= 84.48%, UnLabel ACC.= 65.31%, Lipistz loss = 0, Train Unlabel Best ACC.= 66.9%, Train Max Epoch=235
+EarlyStopping counter: 157 out of 200
+Epoch [463][SemiTeacher][CricketX] loss= 0.05248; Epoch Label ACC.= 89.42%, UnLabel ACC.= 67.30%, Lipistz loss = 0, Train Unlabel Best ACC.= 67.3%, Train Max Epoch=462
+EarlyStopping counter: 158 out of 200
+Epoch [464][SemiTeacher][CricketX] loss= 0.04780; Epoch Label ACC.= 79.73%, UnLabel ACC.= 66.41%, Lipistz loss = 0, Train Unlabel Best ACC.= 67.3%, Train Max Epoch=462
+EarlyStopping counter: 159 out of 200
+Epoch [465][SemiTeacher][CricketX] loss= 0.05039; Epoch Label ACC.= 83.93%, UnLabel ACC.= 59.73%, Lipistz loss = 0, Train Unlabel Best ACC.= 67.3%, Train Max Epoch=462
+EarlyStopping counter: 160 out of 200
+Epoch [466][SemiTeacher][CricketX] loss= 0.04673; Epoch Label ACC.= 87.94%, UnLabel ACC.= 61.80%, Lipistz loss = 0, Train Unlabel Best ACC.= 67.3%, Train Max Epoch=462
+EarlyStopping counter: 161 out of 200
+Epoch [467][SemiTeacher][CricketX] loss= 0.05038; Epoch Label ACC.= 85.07%, UnLabel ACC.= 63.63%, Lipistz loss = 0, Train Unlabel Best ACC.= 67.3%, Train Max Epoch=462
+EarlyStopping counter: 162 out of 200
+Epoch [468][SemiTeacher][CricketX] loss= 0.04730; Epoch Label ACC.= 83.08%, UnLabel ACC.= 63.55%, Lipistz loss = 0, Train Unlabel Best ACC.= 67.3%, Train Max Epoch=462
+EarlyStopping counter: 163 out of 200
+Epoch [469][SemiTeacher][CricketX] loss= 0.04560; Epoch Label ACC.= 83.82%, UnLabel ACC.= 63.83%, Lipistz loss = 0, Train Unlabel Best ACC.= 67.3%, Train Max Epoch=462
+EarlyStopping counter: 164 out of 200
+Epoch [470][SemiTeacher][CricketX] loss= 0.05075; Epoch Label ACC.= 87.32%, UnLabel ACC.= 62.54%, Lipistz loss = 0, Train Unlabel Best ACC.= 67.3%, Train Max Epoch=462
+EarlyStopping counter: 165 out of 200
+Epoch [471][SemiTeacher][CricketX] loss= 0.04905; Epoch Label ACC.= 83.83%, UnLabel ACC.= 66.60%, Lipistz loss = 0, Train Unlabel Best ACC.= 67.3%, Train Max Epoch=462
+EarlyStopping counter: 166 out of 200
+Epoch [472][SemiTeacher][CricketX] loss= 0.04796; Epoch Label ACC.= 83.80%, UnLabel ACC.= 64.73%, Lipistz loss = 0, Train Unlabel Best ACC.= 67.3%, Train Max Epoch=462
+EarlyStopping counter: 167 out of 200
+Epoch [473][SemiTeacher][CricketX] loss= 0.04946; Epoch Label ACC.= 87.07%, UnLabel ACC.= 62.30%, Lipistz loss = 0, Train Unlabel Best ACC.= 67.3%, Train Max Epoch=462
+EarlyStopping counter: 168 out of 200
+Epoch [474][SemiTeacher][CricketX] loss= 0.05127; Epoch Label ACC.= 86.11%, UnLabel ACC.= 66.68%, Lipistz loss = 0, Train Unlabel Best ACC.= 67.3%, Train Max Epoch=462
+EarlyStopping counter: 169 out of 200
+Epoch [475][SemiTeacher][CricketX] loss= 0.05211; Epoch Label ACC.= 83.39%, UnLabel ACC.= 67.30%, Lipistz loss = 0, Train Unlabel Best ACC.= 67.3%, Train Max Epoch=462
+EarlyStopping counter: 170 out of 200
+Epoch [476][SemiTeacher][CricketX] loss= 0.05219; Epoch Label ACC.= 82.79%, UnLabel ACC.= 65.43%, Lipistz loss = 0, Train Unlabel Best ACC.= 67.3%, Train Max Epoch=462
+EarlyStopping counter: 171 out of 200
+Epoch [477][SemiTeacher][CricketX] loss= 0.04571; Epoch Label ACC.= 83.91%, UnLabel ACC.= 65.31%, Lipistz loss = 0, Train Unlabel Best ACC.= 67.3%, Train Max Epoch=462
+EarlyStopping counter: 172 out of 200
+Epoch [478][SemiTeacher][CricketX] loss= 0.05083; Epoch Label ACC.= 83.44%, UnLabel ACC.= 65.43%, Lipistz loss = 0, Train Unlabel Best ACC.= 67.3%, Train Max Epoch=462
+EarlyStopping counter: 173 out of 200
+Epoch [479][SemiTeacher][CricketX] loss= 0.05231; Epoch Label ACC.= 85.28%, UnLabel ACC.= 63.79%, Lipistz loss = 0, Train Unlabel Best ACC.= 67.3%, Train Max Epoch=462
+EarlyStopping counter: 174 out of 200
+Epoch [480][SemiTeacher][CricketX] loss= 0.04869; Epoch Label ACC.= 87.85%, UnLabel ACC.= 63.55%, Lipistz loss = 0, Train Unlabel Best ACC.= 67.3%, Train Max Epoch=462
+EarlyStopping counter: 175 out of 200
+Epoch [481][SemiTeacher][CricketX] loss= 0.04785; Epoch Label ACC.= 85.38%, UnLabel ACC.= 63.59%, Lipistz loss = 0, Train Unlabel Best ACC.= 67.3%, Train Max Epoch=462
+EarlyStopping counter: 176 out of 200
+Epoch [482][SemiTeacher][CricketX] loss= 0.05086; Epoch Label ACC.= 83.69%, UnLabel ACC.= 66.25%, Lipistz loss = 0, Train Unlabel Best ACC.= 67.3%, Train Max Epoch=462
+EarlyStopping counter: 177 out of 200
+Epoch [483][SemiTeacher][CricketX] loss= 0.05101; Epoch Label ACC.= 85.58%, UnLabel ACC.= 66.17%, Lipistz loss = 0, Train Unlabel Best ACC.= 67.3%, Train Max Epoch=462
+EarlyStopping counter: 178 out of 200
+Epoch [484][SemiTeacher][CricketX] loss= 0.05039; Epoch Label ACC.= 83.11%, UnLabel ACC.= 62.15%, Lipistz loss = 0, Train Unlabel Best ACC.= 67.3%, Train Max Epoch=462
+EarlyStopping counter: 179 out of 200
+Epoch [485][SemiTeacher][CricketX] loss= 0.04801; Epoch Label ACC.= 82.27%, UnLabel ACC.= 63.87%, Lipistz loss = 0, Train Unlabel Best ACC.= 67.3%, Train Max Epoch=462
+EarlyStopping counter: 180 out of 200
+Epoch [486][SemiTeacher][CricketX] loss= 0.05251; Epoch Label ACC.= 84.03%, UnLabel ACC.= 65.74%, Lipistz loss = 0, Train Unlabel Best ACC.= 67.3%, Train Max Epoch=462
+EarlyStopping counter: 181 out of 200
+Epoch [487][SemiTeacher][CricketX] loss= 0.04772; Epoch Label ACC.= 86.18%, UnLabel ACC.= 65.23%, Lipistz loss = 0, Train Unlabel Best ACC.= 67.3%, Train Max Epoch=462
+EarlyStopping counter: 182 out of 200
+Epoch [488][SemiTeacher][CricketX] loss= 0.04820; Epoch Label ACC.= 85.36%, UnLabel ACC.= 65.59%, Lipistz loss = 0, Train Unlabel Best ACC.= 67.3%, Train Max Epoch=462
+EarlyStopping counter: 183 out of 200
+Epoch [489][SemiTeacher][CricketX] loss= 0.05218; Epoch Label ACC.= 84.74%, UnLabel ACC.= 64.69%, Lipistz loss = 0, Train Unlabel Best ACC.= 67.3%, Train Max Epoch=462
+EarlyStopping counter: 184 out of 200
+Epoch [490][SemiTeacher][CricketX] loss= 0.05105; Epoch Label ACC.= 84.96%, UnLabel ACC.= 62.70%, Lipistz loss = 0, Train Unlabel Best ACC.= 67.3%, Train Max Epoch=462
+EarlyStopping counter: 185 out of 200
+Epoch [491][SemiTeacher][CricketX] loss= 0.04913; Epoch Label ACC.= 83.11%, UnLabel ACC.= 62.34%, Lipistz loss = 0, Train Unlabel Best ACC.= 67.3%, Train Max Epoch=462
+EarlyStopping counter: 186 out of 200
+Epoch [492][SemiTeacher][CricketX] loss= 0.04743; Epoch Label ACC.= 88.47%, UnLabel ACC.= 66.80%, Lipistz loss = 0, Train Unlabel Best ACC.= 67.3%, Train Max Epoch=462
+EarlyStopping counter: 187 out of 200
+Epoch [493][SemiTeacher][CricketX] loss= 0.05062; Epoch Label ACC.= 84.52%, UnLabel ACC.= 63.79%, Lipistz loss = 0, Train Unlabel Best ACC.= 67.3%, Train Max Epoch=462
+EarlyStopping counter: 188 out of 200
+Epoch [494][SemiTeacher][CricketX] loss= 0.05441; Epoch Label ACC.= 84.57%, UnLabel ACC.= 64.14%, Lipistz loss = 0, Train Unlabel Best ACC.= 67.3%, Train Max Epoch=462
+EarlyStopping counter: 189 out of 200
+Epoch [495][SemiTeacher][CricketX] loss= 0.04928; Epoch Label ACC.= 88.07%, UnLabel ACC.= 63.36%, Lipistz loss = 0, Train Unlabel Best ACC.= 67.3%, Train Max Epoch=462
+EarlyStopping counter: 190 out of 200
+Epoch [496][SemiTeacher][CricketX] loss= 0.05228; Epoch Label ACC.= 85.64%, UnLabel ACC.= 65.59%, Lipistz loss = 0, Train Unlabel Best ACC.= 67.3%, Train Max Epoch=462
+EarlyStopping counter: 191 out of 200
+Epoch [497][SemiTeacher][CricketX] loss= 0.04898; Epoch Label ACC.= 89.25%, UnLabel ACC.= 63.55%, Lipistz loss = 0, Train Unlabel Best ACC.= 67.3%, Train Max Epoch=462
+EarlyStopping counter: 192 out of 200
+Epoch [498][SemiTeacher][CricketX] loss= 0.05023; Epoch Label ACC.= 83.55%, UnLabel ACC.= 65.98%, Lipistz loss = 0, Train Unlabel Best ACC.= 67.3%, Train Max Epoch=462
+EarlyStopping counter: 193 out of 200
+Epoch [499][SemiTeacher][CricketX] loss= 0.04547; Epoch Label ACC.= 86.72%, UnLabel ACC.= 66.37%, Lipistz loss = 0, Train Unlabel Best ACC.= 67.3%, Train Max Epoch=462
+EarlyStopping counter: 194 out of 200
+Epoch [500][SemiTeacher][CricketX] loss= 0.04921; Epoch Label ACC.= 84.71%, UnLabel ACC.= 66.84%, Lipistz loss = 0, Train Unlabel Best ACC.= 67.3%, Train Max Epoch=462
+EarlyStopping counter: 195 out of 200
+Epoch [501][SemiTeacher][CricketX] loss= 0.04910; Epoch Label ACC.= 89.58%, UnLabel ACC.= 66.37%, Lipistz loss = 0, Train Unlabel Best ACC.= 67.3%, Train Max Epoch=462
+EarlyStopping counter: 196 out of 200
+Epoch [502][SemiTeacher][CricketX] loss= 0.04883; Epoch Label ACC.= 83.49%, UnLabel ACC.= 64.22%, Lipistz loss = 0, Train Unlabel Best ACC.= 67.3%, Train Max Epoch=462
+EarlyStopping counter: 197 out of 200
+Epoch [503][SemiTeacher][CricketX] loss= 0.05411; Epoch Label ACC.= 85.33%, UnLabel ACC.= 65.74%, Lipistz loss = 0, Train Unlabel Best ACC.= 67.3%, Train Max Epoch=462
+EarlyStopping counter: 198 out of 200
+Epoch [504][SemiTeacher][CricketX] loss= 0.04666; Epoch Label ACC.= 85.49%, UnLabel ACC.= 64.53%, Lipistz loss = 0, Train Unlabel Best ACC.= 67.3%, Train Max Epoch=462
+EarlyStopping counter: 199 out of 200
+Epoch [505][SemiTeacher][CricketX] loss= 0.04552; Epoch Label ACC.= 83.39%, UnLabel ACC.= 64.61%, Lipistz loss = 0, Train Unlabel Best ACC.= 67.3%, Train Max Epoch=462
+EarlyStopping counter: 200 out of 200
+Early stopping
+[Test-0] Val ACC:8.11%, Best Test ACC.: 8.11% in Epoch 0
+Epoch [1][SemiTeacher][CricketX] loss= 0.00069; Epoch Label ACC.= 9.17%, UnLabel ACC.= 9.49%, Lipistz loss = 0, Train Unlabel Best ACC.= 9.5%, Train Max Epoch=0
+EarlyStopping counter: 1 out of 200
+Epoch [2][SemiTeacher][CricketX] loss= 0.00014; Epoch Label ACC.= 11.07%, UnLabel ACC.= 8.63%, Lipistz loss = 0, Train Unlabel Best ACC.= 9.5%, Train Max Epoch=0
+EarlyStopping counter: 2 out of 200
+Epoch [3][SemiTeacher][CricketX] loss= 0.00010; Epoch Label ACC.= 11.10%, UnLabel ACC.= 8.87%, Lipistz loss = 0, Train Unlabel Best ACC.= 9.5%, Train Max Epoch=0
+EarlyStopping counter: 3 out of 200
+Epoch [4][SemiTeacher][CricketX] loss= 0.00004; Epoch Label ACC.= 12.75%, UnLabel ACC.= 7.23%, Lipistz loss = 0, Train Unlabel Best ACC.= 9.5%, Train Max Epoch=0
+EarlyStopping counter: 4 out of 200
+Epoch [5][SemiTeacher][CricketX] loss= 0.00007; Epoch Label ACC.= 12.57%, UnLabel ACC.= 9.69%, Lipistz loss = 0, Train Unlabel Best ACC.= 9.7%, Train Max Epoch=4
+EarlyStopping counter: 5 out of 200
+Epoch [6][SemiTeacher][CricketX] loss= 0.00016; Epoch Label ACC.= 13.50%, UnLabel ACC.= 9.69%, Lipistz loss = 0, Train Unlabel Best ACC.= 9.7%, Train Max Epoch=4
+[Test-6] Val ACC:11.46%, Best Test ACC.: 13.17% in Epoch 6
+Validation loss decreased (inf --> 11.458333).  Saving model ...
+Epoch [7][SemiTeacher][CricketX] loss= 0.00072; Epoch Label ACC.= 16.69%, UnLabel ACC.= 11.80%, Lipistz loss = 0, Train Unlabel Best ACC.= 11.8%, Train Max Epoch=6
+[Test-7] Val ACC:21.73%, Best Test ACC.: 12.95% in Epoch 7
+Validation loss decreased (11.458333 --> 21.726191).  Saving model ...
+Epoch [8][SemiTeacher][CricketX] loss= 0.00207; Epoch Label ACC.= 15.79%, UnLabel ACC.= 16.17%, Lipistz loss = 0, Train Unlabel Best ACC.= 16.2%, Train Max Epoch=7
+[Test-8] Val ACC:23.29%, Best Test ACC.: 16.22% in Epoch 8
+Validation loss decreased (21.726191 --> 23.288691).  Saving model ...
+Epoch [9][SemiTeacher][CricketX] loss= 0.00372; Epoch Label ACC.= 21.60%, UnLabel ACC.= 16.56%, Lipistz loss = 0, Train Unlabel Best ACC.= 16.6%, Train Max Epoch=8
+[Test-9] Val ACC:24.40%, Best Test ACC.: 18.82% in Epoch 9
+Validation loss decreased (23.288691 --> 24.404762).  Saving model ...
+Epoch [10][SemiTeacher][CricketX] loss= 0.00434; Epoch Label ACC.= 23.67%, UnLabel ACC.= 19.41%, Lipistz loss = 0, Train Unlabel Best ACC.= 19.4%, Train Max Epoch=9
+EarlyStopping counter: 1 out of 200
+Epoch [11][SemiTeacher][CricketX] loss= 0.00469; Epoch Label ACC.= 26.05%, UnLabel ACC.= 20.74%, Lipistz loss = 0, Train Unlabel Best ACC.= 20.7%, Train Max Epoch=10
+[Test-11] Val ACC:26.26%, Best Test ACC.: 20.76% in Epoch 11
+Validation loss decreased (24.404762 --> 26.264881).  Saving model ...
+Epoch [12][SemiTeacher][CricketX] loss= 0.00422; Epoch Label ACC.= 29.26%, UnLabel ACC.= 20.82%, Lipistz loss = 0, Train Unlabel Best ACC.= 20.8%, Train Max Epoch=11
+EarlyStopping counter: 1 out of 200
+Epoch [13][SemiTeacher][CricketX] loss= 0.00510; Epoch Label ACC.= 30.10%, UnLabel ACC.= 21.45%, Lipistz loss = 0, Train Unlabel Best ACC.= 21.4%, Train Max Epoch=12
+[Test-13] Val ACC:27.98%, Best Test ACC.: 24.70% in Epoch 13
+Validation loss decreased (26.264881 --> 27.976191).  Saving model ...
+Epoch [14][SemiTeacher][CricketX] loss= 0.00541; Epoch Label ACC.= 29.24%, UnLabel ACC.= 22.93%, Lipistz loss = 0, Train Unlabel Best ACC.= 22.9%, Train Max Epoch=13
+EarlyStopping counter: 1 out of 200
+Epoch [15][SemiTeacher][CricketX] loss= 0.00790; Epoch Label ACC.= 26.73%, UnLabel ACC.= 21.21%, Lipistz loss = 0, Train Unlabel Best ACC.= 22.9%, Train Max Epoch=13
+EarlyStopping counter: 2 out of 200
+Epoch [16][SemiTeacher][CricketX] loss= 0.00903; Epoch Label ACC.= 35.00%, UnLabel ACC.= 25.43%, Lipistz loss = 0, Train Unlabel Best ACC.= 25.4%, Train Max Epoch=15
+EarlyStopping counter: 3 out of 200
+Epoch [17][SemiTeacher][CricketX] loss= 0.00762; Epoch Label ACC.= 34.17%, UnLabel ACC.= 25.08%, Lipistz loss = 0, Train Unlabel Best ACC.= 25.4%, Train Max Epoch=15
+[Test-17] Val ACC:30.43%, Best Test ACC.: 25.37% in Epoch 17
+Validation loss decreased (27.976191 --> 30.431548).  Saving model ...
+Epoch [18][SemiTeacher][CricketX] loss= 0.00997; Epoch Label ACC.= 38.75%, UnLabel ACC.= 25.51%, Lipistz loss = 0, Train Unlabel Best ACC.= 25.5%, Train Max Epoch=17
+EarlyStopping counter: 1 out of 200
+Epoch [19][SemiTeacher][CricketX] loss= 0.01188; Epoch Label ACC.= 36.10%, UnLabel ACC.= 29.53%, Lipistz loss = 0, Train Unlabel Best ACC.= 29.5%, Train Max Epoch=18
+[Test-19] Val ACC:33.18%, Best Test ACC.: 25.89% in Epoch 19
+Validation loss decreased (30.431548 --> 33.184524).  Saving model ...
+Epoch [20][SemiTeacher][CricketX] loss= 0.01153; Epoch Label ACC.= 41.27%, UnLabel ACC.= 27.97%, Lipistz loss = 0, Train Unlabel Best ACC.= 29.5%, Train Max Epoch=18
+EarlyStopping counter: 1 out of 200
+Epoch [21][SemiTeacher][CricketX] loss= 0.01294; Epoch Label ACC.= 40.04%, UnLabel ACC.= 28.98%, Lipistz loss = 0, Train Unlabel Best ACC.= 29.5%, Train Max Epoch=18
+[Test-21] Val ACC:34.75%, Best Test ACC.: 30.21% in Epoch 21
+Validation loss decreased (33.184524 --> 34.747024).  Saving model ...
+Epoch [22][SemiTeacher][CricketX] loss= 0.01111; Epoch Label ACC.= 39.30%, UnLabel ACC.= 31.95%, Lipistz loss = 0, Train Unlabel Best ACC.= 32.0%, Train Max Epoch=21
+[Test-22] Val ACC:41.29%, Best Test ACC.: 32.66% in Epoch 22
+Validation loss decreased (34.747024 --> 41.294643).  Saving model ...
+Epoch [23][SemiTeacher][CricketX] loss= 0.01266; Epoch Label ACC.= 46.01%, UnLabel ACC.= 38.12%, Lipistz loss = 0, Train Unlabel Best ACC.= 38.1%, Train Max Epoch=22
+EarlyStopping counter: 1 out of 200
+Epoch [24][SemiTeacher][CricketX] loss= 0.01212; Epoch Label ACC.= 40.91%, UnLabel ACC.= 32.70%, Lipistz loss = 0, Train Unlabel Best ACC.= 38.1%, Train Max Epoch=22
+EarlyStopping counter: 2 out of 200
+Epoch [25][SemiTeacher][CricketX] loss= 0.01408; Epoch Label ACC.= 50.68%, UnLabel ACC.= 32.23%, Lipistz loss = 0, Train Unlabel Best ACC.= 38.1%, Train Max Epoch=22
+EarlyStopping counter: 3 out of 200
+Epoch [26][SemiTeacher][CricketX] loss= 0.01626; Epoch Label ACC.= 48.55%, UnLabel ACC.= 28.32%, Lipistz loss = 0, Train Unlabel Best ACC.= 38.1%, Train Max Epoch=22
+EarlyStopping counter: 4 out of 200
+Epoch [27][SemiTeacher][CricketX] loss= 0.01539; Epoch Label ACC.= 47.91%, UnLabel ACC.= 33.52%, Lipistz loss = 0, Train Unlabel Best ACC.= 38.1%, Train Max Epoch=22
+EarlyStopping counter: 5 out of 200
+Epoch [28][SemiTeacher][CricketX] loss= 0.01737; Epoch Label ACC.= 49.63%, UnLabel ACC.= 37.07%, Lipistz loss = 0, Train Unlabel Best ACC.= 38.1%, Train Max Epoch=22
+EarlyStopping counter: 6 out of 200
+Epoch [29][SemiTeacher][CricketX] loss= 0.01963; Epoch Label ACC.= 52.49%, UnLabel ACC.= 31.64%, Lipistz loss = 0, Train Unlabel Best ACC.= 38.1%, Train Max Epoch=22
+EarlyStopping counter: 7 out of 200
+Epoch [30][SemiTeacher][CricketX] loss= 0.01880; Epoch Label ACC.= 49.48%, UnLabel ACC.= 36.09%, Lipistz loss = 0, Train Unlabel Best ACC.= 38.1%, Train Max Epoch=22
+EarlyStopping counter: 8 out of 200
+Epoch [31][SemiTeacher][CricketX] loss= 0.02135; Epoch Label ACC.= 49.33%, UnLabel ACC.= 35.55%, Lipistz loss = 0, Train Unlabel Best ACC.= 38.1%, Train Max Epoch=22
+EarlyStopping counter: 9 out of 200
+Epoch [32][SemiTeacher][CricketX] loss= 0.02256; Epoch Label ACC.= 51.76%, UnLabel ACC.= 34.22%, Lipistz loss = 0, Train Unlabel Best ACC.= 38.1%, Train Max Epoch=22
+EarlyStopping counter: 10 out of 200
+Epoch [33][SemiTeacher][CricketX] loss= 0.02294; Epoch Label ACC.= 44.29%, UnLabel ACC.= 37.89%, Lipistz loss = 0, Train Unlabel Best ACC.= 38.1%, Train Max Epoch=22
+EarlyStopping counter: 11 out of 200
+Epoch [34][SemiTeacher][CricketX] loss= 0.02212; Epoch Label ACC.= 51.06%, UnLabel ACC.= 36.95%, Lipistz loss = 0, Train Unlabel Best ACC.= 38.1%, Train Max Epoch=22
+EarlyStopping counter: 12 out of 200
+Epoch [35][SemiTeacher][CricketX] loss= 0.02561; Epoch Label ACC.= 52.52%, UnLabel ACC.= 39.41%, Lipistz loss = 0, Train Unlabel Best ACC.= 39.4%, Train Max Epoch=34
+EarlyStopping counter: 13 out of 200
+Epoch [36][SemiTeacher][CricketX] loss= 0.02274; Epoch Label ACC.= 55.70%, UnLabel ACC.= 38.01%, Lipistz loss = 0, Train Unlabel Best ACC.= 39.4%, Train Max Epoch=34
+[Test-36] Val ACC:43.08%, Best Test ACC.: 38.76% in Epoch 36
+Validation loss decreased (41.294643 --> 43.080357).  Saving model ...
+Epoch [37][SemiTeacher][CricketX] loss= 0.02597; Epoch Label ACC.= 48.94%, UnLabel ACC.= 38.67%, Lipistz loss = 0, Train Unlabel Best ACC.= 39.4%, Train Max Epoch=34
+EarlyStopping counter: 1 out of 200
+Epoch [38][SemiTeacher][CricketX] loss= 0.02579; Epoch Label ACC.= 57.80%, UnLabel ACC.= 43.12%, Lipistz loss = 0, Train Unlabel Best ACC.= 43.1%, Train Max Epoch=37
+[Test-38] Val ACC:43.60%, Best Test ACC.: 40.63% in Epoch 38
+Validation loss decreased (43.080357 --> 43.601191).  Saving model ...
+Epoch [39][SemiTeacher][CricketX] loss= 0.03044; Epoch Label ACC.= 52.38%, UnLabel ACC.= 40.04%, Lipistz loss = 0, Train Unlabel Best ACC.= 43.1%, Train Max Epoch=37
+EarlyStopping counter: 1 out of 200
+Epoch [40][SemiTeacher][CricketX] loss= 0.02823; Epoch Label ACC.= 61.27%, UnLabel ACC.= 40.78%, Lipistz loss = 0, Train Unlabel Best ACC.= 43.1%, Train Max Epoch=37
+EarlyStopping counter: 2 out of 200
+Epoch [41][SemiTeacher][CricketX] loss= 0.03156; Epoch Label ACC.= 59.69%, UnLabel ACC.= 42.77%, Lipistz loss = 0, Train Unlabel Best ACC.= 43.1%, Train Max Epoch=37
+[Test-41] Val ACC:43.90%, Best Test ACC.: 38.39% in Epoch 41
+Validation loss decreased (43.601191 --> 43.898810).  Saving model ...
+Epoch [42][SemiTeacher][CricketX] loss= 0.03214; Epoch Label ACC.= 59.31%, UnLabel ACC.= 43.87%, Lipistz loss = 0, Train Unlabel Best ACC.= 43.9%, Train Max Epoch=41
+EarlyStopping counter: 1 out of 200
+Epoch [43][SemiTeacher][CricketX] loss= 0.03317; Epoch Label ACC.= 61.17%, UnLabel ACC.= 42.62%, Lipistz loss = 0, Train Unlabel Best ACC.= 43.9%, Train Max Epoch=41
+EarlyStopping counter: 2 out of 200
+Epoch [44][SemiTeacher][CricketX] loss= 0.03192; Epoch Label ACC.= 58.66%, UnLabel ACC.= 45.39%, Lipistz loss = 0, Train Unlabel Best ACC.= 45.4%, Train Max Epoch=43
+EarlyStopping counter: 3 out of 200
+Epoch [45][SemiTeacher][CricketX] loss= 0.03287; Epoch Label ACC.= 62.78%, UnLabel ACC.= 46.05%, Lipistz loss = 0, Train Unlabel Best ACC.= 46.1%, Train Max Epoch=44
+EarlyStopping counter: 4 out of 200
+Epoch [46][SemiTeacher][CricketX] loss= 0.03277; Epoch Label ACC.= 59.04%, UnLabel ACC.= 42.42%, Lipistz loss = 0, Train Unlabel Best ACC.= 46.1%, Train Max Epoch=44
+EarlyStopping counter: 5 out of 200
+Epoch [47][SemiTeacher][CricketX] loss= 0.03421; Epoch Label ACC.= 61.44%, UnLabel ACC.= 45.00%, Lipistz loss = 0, Train Unlabel Best ACC.= 46.1%, Train Max Epoch=44
+EarlyStopping counter: 6 out of 200
+Epoch [48][SemiTeacher][CricketX] loss= 0.03309; Epoch Label ACC.= 64.31%, UnLabel ACC.= 43.12%, Lipistz loss = 0, Train Unlabel Best ACC.= 46.1%, Train Max Epoch=44
+[Test-48] Val ACC:46.28%, Best Test ACC.: 47.10% in Epoch 48
+Validation loss decreased (43.898810 --> 46.279762).  Saving model ...
+Epoch [49][SemiTeacher][CricketX] loss= 0.03353; Epoch Label ACC.= 60.38%, UnLabel ACC.= 44.69%, Lipistz loss = 0, Train Unlabel Best ACC.= 46.1%, Train Max Epoch=44
+EarlyStopping counter: 1 out of 200
+Epoch [50][SemiTeacher][CricketX] loss= 0.03370; Epoch Label ACC.= 60.08%, UnLabel ACC.= 47.58%, Lipistz loss = 0, Train Unlabel Best ACC.= 47.6%, Train Max Epoch=49
+EarlyStopping counter: 2 out of 200
+Epoch [51][SemiTeacher][CricketX] loss= 0.03177; Epoch Label ACC.= 62.32%, UnLabel ACC.= 40.94%, Lipistz loss = 0, Train Unlabel Best ACC.= 47.6%, Train Max Epoch=49
+EarlyStopping counter: 3 out of 200
+Epoch [52][SemiTeacher][CricketX] loss= 0.03465; Epoch Label ACC.= 65.44%, UnLabel ACC.= 42.89%, Lipistz loss = 0, Train Unlabel Best ACC.= 47.6%, Train Max Epoch=49
+EarlyStopping counter: 4 out of 200
+Epoch [53][SemiTeacher][CricketX] loss= 0.03242; Epoch Label ACC.= 64.59%, UnLabel ACC.= 51.21%, Lipistz loss = 0, Train Unlabel Best ACC.= 51.2%, Train Max Epoch=52
+EarlyStopping counter: 5 out of 200
+Epoch [54][SemiTeacher][CricketX] loss= 0.03646; Epoch Label ACC.= 64.80%, UnLabel ACC.= 50.23%, Lipistz loss = 0, Train Unlabel Best ACC.= 51.2%, Train Max Epoch=52
+EarlyStopping counter: 6 out of 200
+Epoch [55][SemiTeacher][CricketX] loss= 0.03650; Epoch Label ACC.= 66.97%, UnLabel ACC.= 47.81%, Lipistz loss = 0, Train Unlabel Best ACC.= 51.2%, Train Max Epoch=52
+EarlyStopping counter: 7 out of 200
+Epoch [56][SemiTeacher][CricketX] loss= 0.03761; Epoch Label ACC.= 65.53%, UnLabel ACC.= 44.96%, Lipistz loss = 0, Train Unlabel Best ACC.= 51.2%, Train Max Epoch=52
+EarlyStopping counter: 8 out of 200
+Epoch [57][SemiTeacher][CricketX] loss= 0.03741; Epoch Label ACC.= 72.11%, UnLabel ACC.= 45.62%, Lipistz loss = 0, Train Unlabel Best ACC.= 51.2%, Train Max Epoch=52
+EarlyStopping counter: 9 out of 200
+Epoch [58][SemiTeacher][CricketX] loss= 0.03780; Epoch Label ACC.= 66.38%, UnLabel ACC.= 45.27%, Lipistz loss = 0, Train Unlabel Best ACC.= 51.2%, Train Max Epoch=52
+EarlyStopping counter: 10 out of 200
+Epoch [59][SemiTeacher][CricketX] loss= 0.03774; Epoch Label ACC.= 71.65%, UnLabel ACC.= 44.77%, Lipistz loss = 0, Train Unlabel Best ACC.= 51.2%, Train Max Epoch=52
+EarlyStopping counter: 11 out of 200
+Epoch [60][SemiTeacher][CricketX] loss= 0.04259; Epoch Label ACC.= 67.00%, UnLabel ACC.= 47.81%, Lipistz loss = 0, Train Unlabel Best ACC.= 51.2%, Train Max Epoch=52
+[Test-60] Val ACC:49.11%, Best Test ACC.: 46.88% in Epoch 60
+Validation loss decreased (46.279762 --> 49.107143).  Saving model ...
+Epoch [61][SemiTeacher][CricketX] loss= 0.03887; Epoch Label ACC.= 65.45%, UnLabel ACC.= 45.08%, Lipistz loss = 0, Train Unlabel Best ACC.= 51.2%, Train Max Epoch=52
+EarlyStopping counter: 1 out of 200
+Epoch [62][SemiTeacher][CricketX] loss= 0.04070; Epoch Label ACC.= 60.17%, UnLabel ACC.= 48.09%, Lipistz loss = 0, Train Unlabel Best ACC.= 51.2%, Train Max Epoch=52
+EarlyStopping counter: 2 out of 200
+Epoch [63][SemiTeacher][CricketX] loss= 0.03954; Epoch Label ACC.= 65.42%, UnLabel ACC.= 48.12%, Lipistz loss = 0, Train Unlabel Best ACC.= 51.2%, Train Max Epoch=52
+EarlyStopping counter: 3 out of 200
+Epoch [64][SemiTeacher][CricketX] loss= 0.03722; Epoch Label ACC.= 64.57%, UnLabel ACC.= 48.55%, Lipistz loss = 0, Train Unlabel Best ACC.= 51.2%, Train Max Epoch=52
+EarlyStopping counter: 4 out of 200
+Epoch [65][SemiTeacher][CricketX] loss= 0.04119; Epoch Label ACC.= 66.97%, UnLabel ACC.= 44.45%, Lipistz loss = 0, Train Unlabel Best ACC.= 51.2%, Train Max Epoch=52
+EarlyStopping counter: 5 out of 200
+Epoch [66][SemiTeacher][CricketX] loss= 0.03916; Epoch Label ACC.= 65.50%, UnLabel ACC.= 47.38%, Lipistz loss = 0, Train Unlabel Best ACC.= 51.2%, Train Max Epoch=52
+EarlyStopping counter: 6 out of 200
+Epoch [67][SemiTeacher][CricketX] loss= 0.04490; Epoch Label ACC.= 66.57%, UnLabel ACC.= 47.73%, Lipistz loss = 0, Train Unlabel Best ACC.= 51.2%, Train Max Epoch=52
+EarlyStopping counter: 7 out of 200
+Epoch [68][SemiTeacher][CricketX] loss= 0.04380; Epoch Label ACC.= 72.68%, UnLabel ACC.= 48.32%, Lipistz loss = 0, Train Unlabel Best ACC.= 51.2%, Train Max Epoch=52
+EarlyStopping counter: 8 out of 200
+Epoch [69][SemiTeacher][CricketX] loss= 0.04296; Epoch Label ACC.= 66.54%, UnLabel ACC.= 47.62%, Lipistz loss = 0, Train Unlabel Best ACC.= 51.2%, Train Max Epoch=52
+EarlyStopping counter: 9 out of 200
+Epoch [70][SemiTeacher][CricketX] loss= 0.04007; Epoch Label ACC.= 65.20%, UnLabel ACC.= 44.22%, Lipistz loss = 0, Train Unlabel Best ACC.= 51.2%, Train Max Epoch=52
+EarlyStopping counter: 10 out of 200
+Epoch [71][SemiTeacher][CricketX] loss= 0.04320; Epoch Label ACC.= 65.95%, UnLabel ACC.= 49.10%, Lipistz loss = 0, Train Unlabel Best ACC.= 51.2%, Train Max Epoch=52
+EarlyStopping counter: 11 out of 200
+Epoch [72][SemiTeacher][CricketX] loss= 0.04692; Epoch Label ACC.= 66.04%, UnLabel ACC.= 49.14%, Lipistz loss = 0, Train Unlabel Best ACC.= 51.2%, Train Max Epoch=52
+EarlyStopping counter: 12 out of 200
+Epoch [73][SemiTeacher][CricketX] loss= 0.04400; Epoch Label ACC.= 70.17%, UnLabel ACC.= 47.77%, Lipistz loss = 0, Train Unlabel Best ACC.= 51.2%, Train Max Epoch=52
+[Test-73] Val ACC:49.11%, Best Test ACC.: 46.80% in Epoch 73
+EarlyStopping counter: 13 out of 200
+Epoch [74][SemiTeacher][CricketX] loss= 0.04303; Epoch Label ACC.= 63.71%, UnLabel ACC.= 50.82%, Lipistz loss = 0, Train Unlabel Best ACC.= 51.2%, Train Max Epoch=52
+[Test-74] Val ACC:52.68%, Best Test ACC.: 50.60% in Epoch 74
+Validation loss decreased (49.107143 --> 52.678572).  Saving model ...
+Epoch [75][SemiTeacher][CricketX] loss= 0.04275; Epoch Label ACC.= 72.42%, UnLabel ACC.= 44.73%, Lipistz loss = 0, Train Unlabel Best ACC.= 51.2%, Train Max Epoch=52
+EarlyStopping counter: 1 out of 200
+Epoch [76][SemiTeacher][CricketX] loss= 0.04377; Epoch Label ACC.= 68.58%, UnLabel ACC.= 53.24%, Lipistz loss = 0, Train Unlabel Best ACC.= 53.2%, Train Max Epoch=75
+EarlyStopping counter: 2 out of 200
+Epoch [77][SemiTeacher][CricketX] loss= 0.04239; Epoch Label ACC.= 71.61%, UnLabel ACC.= 49.84%, Lipistz loss = 0, Train Unlabel Best ACC.= 53.2%, Train Max Epoch=75
+EarlyStopping counter: 3 out of 200
+Epoch [78][SemiTeacher][CricketX] loss= 0.04673; Epoch Label ACC.= 67.03%, UnLabel ACC.= 50.59%, Lipistz loss = 0, Train Unlabel Best ACC.= 53.2%, Train Max Epoch=75
+EarlyStopping counter: 4 out of 200
+Epoch [79][SemiTeacher][CricketX] loss= 0.04283; Epoch Label ACC.= 67.28%, UnLabel ACC.= 46.09%, Lipistz loss = 0, Train Unlabel Best ACC.= 53.2%, Train Max Epoch=75
+EarlyStopping counter: 5 out of 200
+Epoch [80][SemiTeacher][CricketX] loss= 0.04383; Epoch Label ACC.= 67.50%, UnLabel ACC.= 45.27%, Lipistz loss = 0, Train Unlabel Best ACC.= 53.2%, Train Max Epoch=75
+EarlyStopping counter: 6 out of 200
+Epoch [81][SemiTeacher][CricketX] loss= 0.04165; Epoch Label ACC.= 65.57%, UnLabel ACC.= 50.39%, Lipistz loss = 0, Train Unlabel Best ACC.= 53.2%, Train Max Epoch=75
+EarlyStopping counter: 7 out of 200
+Epoch [82][SemiTeacher][CricketX] loss= 0.04349; Epoch Label ACC.= 67.39%, UnLabel ACC.= 50.08%, Lipistz loss = 0, Train Unlabel Best ACC.= 53.2%, Train Max Epoch=75
+EarlyStopping counter: 8 out of 200
+Epoch [83][SemiTeacher][CricketX] loss= 0.04045; Epoch Label ACC.= 69.29%, UnLabel ACC.= 48.16%, Lipistz loss = 0, Train Unlabel Best ACC.= 53.2%, Train Max Epoch=75
+EarlyStopping counter: 9 out of 200
+Epoch [84][SemiTeacher][CricketX] loss= 0.04403; Epoch Label ACC.= 67.54%, UnLabel ACC.= 49.45%, Lipistz loss = 0, Train Unlabel Best ACC.= 53.2%, Train Max Epoch=75
+EarlyStopping counter: 10 out of 200
+Epoch [85][SemiTeacher][CricketX] loss= 0.04331; Epoch Label ACC.= 72.86%, UnLabel ACC.= 48.91%, Lipistz loss = 0, Train Unlabel Best ACC.= 53.2%, Train Max Epoch=75
+EarlyStopping counter: 11 out of 200
+Epoch [86][SemiTeacher][CricketX] loss= 0.04407; Epoch Label ACC.= 73.17%, UnLabel ACC.= 49.73%, Lipistz loss = 0, Train Unlabel Best ACC.= 53.2%, Train Max Epoch=75
+EarlyStopping counter: 12 out of 200
+Epoch [87][SemiTeacher][CricketX] loss= 0.04199; Epoch Label ACC.= 66.82%, UnLabel ACC.= 51.95%, Lipistz loss = 0, Train Unlabel Best ACC.= 53.2%, Train Max Epoch=75
+EarlyStopping counter: 13 out of 200
+Epoch [88][SemiTeacher][CricketX] loss= 0.04351; Epoch Label ACC.= 68.14%, UnLabel ACC.= 49.18%, Lipistz loss = 0, Train Unlabel Best ACC.= 53.2%, Train Max Epoch=75
+EarlyStopping counter: 14 out of 200
+Epoch [89][SemiTeacher][CricketX] loss= 0.03972; Epoch Label ACC.= 67.63%, UnLabel ACC.= 52.15%, Lipistz loss = 0, Train Unlabel Best ACC.= 53.2%, Train Max Epoch=75
+EarlyStopping counter: 15 out of 200
+Epoch [90][SemiTeacher][CricketX] loss= 0.04417; Epoch Label ACC.= 71.41%, UnLabel ACC.= 49.34%, Lipistz loss = 0, Train Unlabel Best ACC.= 53.2%, Train Max Epoch=75
+EarlyStopping counter: 16 out of 200
+Epoch [91][SemiTeacher][CricketX] loss= 0.04052; Epoch Label ACC.= 69.49%, UnLabel ACC.= 47.93%, Lipistz loss = 0, Train Unlabel Best ACC.= 53.2%, Train Max Epoch=75
+EarlyStopping counter: 17 out of 200
+Epoch [92][SemiTeacher][CricketX] loss= 0.04135; Epoch Label ACC.= 76.12%, UnLabel ACC.= 50.20%, Lipistz loss = 0, Train Unlabel Best ACC.= 53.2%, Train Max Epoch=75
+EarlyStopping counter: 18 out of 200
+Epoch [93][SemiTeacher][CricketX] loss= 0.04408; Epoch Label ACC.= 68.98%, UnLabel ACC.= 51.56%, Lipistz loss = 0, Train Unlabel Best ACC.= 53.2%, Train Max Epoch=75
+EarlyStopping counter: 19 out of 200
+Epoch [94][SemiTeacher][CricketX] loss= 0.04117; Epoch Label ACC.= 68.74%, UnLabel ACC.= 48.16%, Lipistz loss = 0, Train Unlabel Best ACC.= 53.2%, Train Max Epoch=75
+EarlyStopping counter: 20 out of 200
+Epoch [95][SemiTeacher][CricketX] loss= 0.04161; Epoch Label ACC.= 70.45%, UnLabel ACC.= 50.20%, Lipistz loss = 0, Train Unlabel Best ACC.= 53.2%, Train Max Epoch=75
+EarlyStopping counter: 21 out of 200
+Epoch [96][SemiTeacher][CricketX] loss= 0.04536; Epoch Label ACC.= 68.79%, UnLabel ACC.= 48.59%, Lipistz loss = 0, Train Unlabel Best ACC.= 53.2%, Train Max Epoch=75
+EarlyStopping counter: 22 out of 200
+Epoch [97][SemiTeacher][CricketX] loss= 0.04370; Epoch Label ACC.= 71.47%, UnLabel ACC.= 51.84%, Lipistz loss = 0, Train Unlabel Best ACC.= 53.2%, Train Max Epoch=75
+EarlyStopping counter: 23 out of 200
+Epoch [98][SemiTeacher][CricketX] loss= 0.04727; Epoch Label ACC.= 72.63%, UnLabel ACC.= 50.86%, Lipistz loss = 0, Train Unlabel Best ACC.= 53.2%, Train Max Epoch=75
+EarlyStopping counter: 24 out of 200
+Epoch [99][SemiTeacher][CricketX] loss= 0.04466; Epoch Label ACC.= 72.71%, UnLabel ACC.= 52.58%, Lipistz loss = 0, Train Unlabel Best ACC.= 53.2%, Train Max Epoch=75
+EarlyStopping counter: 25 out of 200
+Epoch [100][SemiTeacher][CricketX] loss= 0.04522; Epoch Label ACC.= 73.30%, UnLabel ACC.= 51.48%, Lipistz loss = 0, Train Unlabel Best ACC.= 53.2%, Train Max Epoch=75
+EarlyStopping counter: 26 out of 200
+Epoch [101][SemiTeacher][CricketX] loss= 0.04352; Epoch Label ACC.= 70.37%, UnLabel ACC.= 51.56%, Lipistz loss = 0, Train Unlabel Best ACC.= 53.2%, Train Max Epoch=75
+EarlyStopping counter: 27 out of 200
+Epoch [102][SemiTeacher][CricketX] loss= 0.04482; Epoch Label ACC.= 73.75%, UnLabel ACC.= 50.12%, Lipistz loss = 0, Train Unlabel Best ACC.= 53.2%, Train Max Epoch=75
+EarlyStopping counter: 28 out of 200
+Epoch [103][SemiTeacher][CricketX] loss= 0.04797; Epoch Label ACC.= 66.26%, UnLabel ACC.= 57.30%, Lipistz loss = 0, Train Unlabel Best ACC.= 57.3%, Train Max Epoch=102
+EarlyStopping counter: 29 out of 200
+Epoch [104][SemiTeacher][CricketX] loss= 0.04535; Epoch Label ACC.= 70.34%, UnLabel ACC.= 50.78%, Lipistz loss = 0, Train Unlabel Best ACC.= 57.3%, Train Max Epoch=102
+EarlyStopping counter: 30 out of 200
+Epoch [105][SemiTeacher][CricketX] loss= 0.04254; Epoch Label ACC.= 75.15%, UnLabel ACC.= 51.64%, Lipistz loss = 0, Train Unlabel Best ACC.= 57.3%, Train Max Epoch=102
+EarlyStopping counter: 31 out of 200
+Epoch [106][SemiTeacher][CricketX] loss= 0.04504; Epoch Label ACC.= 73.97%, UnLabel ACC.= 53.79%, Lipistz loss = 0, Train Unlabel Best ACC.= 57.3%, Train Max Epoch=102
+EarlyStopping counter: 32 out of 200
+Epoch [107][SemiTeacher][CricketX] loss= 0.04526; Epoch Label ACC.= 72.55%, UnLabel ACC.= 53.01%, Lipistz loss = 0, Train Unlabel Best ACC.= 57.3%, Train Max Epoch=102
+EarlyStopping counter: 33 out of 200
+Epoch [108][SemiTeacher][CricketX] loss= 0.04600; Epoch Label ACC.= 73.14%, UnLabel ACC.= 49.22%, Lipistz loss = 0, Train Unlabel Best ACC.= 57.3%, Train Max Epoch=102
+EarlyStopping counter: 34 out of 200
+Epoch [109][SemiTeacher][CricketX] loss= 0.04764; Epoch Label ACC.= 75.01%, UnLabel ACC.= 52.23%, Lipistz loss = 0, Train Unlabel Best ACC.= 57.3%, Train Max Epoch=102
+EarlyStopping counter: 35 out of 200
+Epoch [110][SemiTeacher][CricketX] loss= 0.04376; Epoch Label ACC.= 69.96%, UnLabel ACC.= 54.14%, Lipistz loss = 0, Train Unlabel Best ACC.= 57.3%, Train Max Epoch=102
+EarlyStopping counter: 36 out of 200
+Epoch [111][SemiTeacher][CricketX] loss= 0.04672; Epoch Label ACC.= 71.57%, UnLabel ACC.= 51.80%, Lipistz loss = 0, Train Unlabel Best ACC.= 57.3%, Train Max Epoch=102
+EarlyStopping counter: 37 out of 200
+Epoch [112][SemiTeacher][CricketX] loss= 0.04461; Epoch Label ACC.= 74.98%, UnLabel ACC.= 53.52%, Lipistz loss = 0, Train Unlabel Best ACC.= 57.3%, Train Max Epoch=102
+EarlyStopping counter: 38 out of 200
+Epoch [113][SemiTeacher][CricketX] loss= 0.04544; Epoch Label ACC.= 76.37%, UnLabel ACC.= 53.28%, Lipistz loss = 0, Train Unlabel Best ACC.= 57.3%, Train Max Epoch=102
+EarlyStopping counter: 39 out of 200
+Epoch [114][SemiTeacher][CricketX] loss= 0.04940; Epoch Label ACC.= 79.02%, UnLabel ACC.= 53.52%, Lipistz loss = 0, Train Unlabel Best ACC.= 57.3%, Train Max Epoch=102
+EarlyStopping counter: 40 out of 200
+Epoch [115][SemiTeacher][CricketX] loss= 0.04696; Epoch Label ACC.= 76.70%, UnLabel ACC.= 52.77%, Lipistz loss = 0, Train Unlabel Best ACC.= 57.3%, Train Max Epoch=102
+EarlyStopping counter: 41 out of 200
+Epoch [116][SemiTeacher][CricketX] loss= 0.04630; Epoch Label ACC.= 70.63%, UnLabel ACC.= 49.22%, Lipistz loss = 0, Train Unlabel Best ACC.= 57.3%, Train Max Epoch=102
+EarlyStopping counter: 42 out of 200
+Epoch [117][SemiTeacher][CricketX] loss= 0.04680; Epoch Label ACC.= 73.09%, UnLabel ACC.= 54.61%, Lipistz loss = 0, Train Unlabel Best ACC.= 57.3%, Train Max Epoch=102
+EarlyStopping counter: 43 out of 200
+Epoch [118][SemiTeacher][CricketX] loss= 0.04839; Epoch Label ACC.= 71.57%, UnLabel ACC.= 56.17%, Lipistz loss = 0, Train Unlabel Best ACC.= 57.3%, Train Max Epoch=102
+EarlyStopping counter: 44 out of 200
+Epoch [119][SemiTeacher][CricketX] loss= 0.04743; Epoch Label ACC.= 73.07%, UnLabel ACC.= 50.59%, Lipistz loss = 0, Train Unlabel Best ACC.= 57.3%, Train Max Epoch=102
+EarlyStopping counter: 45 out of 200
+Epoch [120][SemiTeacher][CricketX] loss= 0.04683; Epoch Label ACC.= 75.24%, UnLabel ACC.= 53.59%, Lipistz loss = 0, Train Unlabel Best ACC.= 57.3%, Train Max Epoch=102
+EarlyStopping counter: 46 out of 200
+Epoch [121][SemiTeacher][CricketX] loss= 0.04986; Epoch Label ACC.= 74.73%, UnLabel ACC.= 49.80%, Lipistz loss = 0, Train Unlabel Best ACC.= 57.3%, Train Max Epoch=102
+EarlyStopping counter: 47 out of 200
+Epoch [122][SemiTeacher][CricketX] loss= 0.04518; Epoch Label ACC.= 71.51%, UnLabel ACC.= 54.26%, Lipistz loss = 0, Train Unlabel Best ACC.= 57.3%, Train Max Epoch=102
+EarlyStopping counter: 48 out of 200
+Epoch [123][SemiTeacher][CricketX] loss= 0.04617; Epoch Label ACC.= 75.19%, UnLabel ACC.= 58.95%, Lipistz loss = 0, Train Unlabel Best ACC.= 58.9%, Train Max Epoch=122
+EarlyStopping counter: 49 out of 200
+Epoch [124][SemiTeacher][CricketX] loss= 0.04275; Epoch Label ACC.= 76.21%, UnLabel ACC.= 53.87%, Lipistz loss = 0, Train Unlabel Best ACC.= 58.9%, Train Max Epoch=122
+EarlyStopping counter: 50 out of 200
+Epoch [125][SemiTeacher][CricketX] loss= 0.04685; Epoch Label ACC.= 76.44%, UnLabel ACC.= 53.09%, Lipistz loss = 0, Train Unlabel Best ACC.= 58.9%, Train Max Epoch=122
+EarlyStopping counter: 51 out of 200
+Epoch [126][SemiTeacher][CricketX] loss= 0.04833; Epoch Label ACC.= 72.58%, UnLabel ACC.= 53.52%, Lipistz loss = 0, Train Unlabel Best ACC.= 58.9%, Train Max Epoch=122
+EarlyStopping counter: 52 out of 200
+Epoch [127][SemiTeacher][CricketX] loss= 0.04636; Epoch Label ACC.= 73.28%, UnLabel ACC.= 52.23%, Lipistz loss = 0, Train Unlabel Best ACC.= 58.9%, Train Max Epoch=122
+EarlyStopping counter: 53 out of 200
+Epoch [128][SemiTeacher][CricketX] loss= 0.04763; Epoch Label ACC.= 78.21%, UnLabel ACC.= 57.46%, Lipistz loss = 0, Train Unlabel Best ACC.= 58.9%, Train Max Epoch=122
+EarlyStopping counter: 54 out of 200
+Epoch [129][SemiTeacher][CricketX] loss= 0.04730; Epoch Label ACC.= 74.21%, UnLabel ACC.= 53.75%, Lipistz loss = 0, Train Unlabel Best ACC.= 58.9%, Train Max Epoch=122
+EarlyStopping counter: 55 out of 200
+Epoch [130][SemiTeacher][CricketX] loss= 0.04804; Epoch Label ACC.= 69.50%, UnLabel ACC.= 55.86%, Lipistz loss = 0, Train Unlabel Best ACC.= 58.9%, Train Max Epoch=122
+[Test-130] Val ACC:54.02%, Best Test ACC.: 54.17% in Epoch 130
+Validation loss decreased (52.678572 --> 54.017858).  Saving model ...
+Epoch [131][SemiTeacher][CricketX] loss= 0.04968; Epoch Label ACC.= 77.37%, UnLabel ACC.= 55.23%, Lipistz loss = 0, Train Unlabel Best ACC.= 58.9%, Train Max Epoch=122
+EarlyStopping counter: 1 out of 200
+Epoch [132][SemiTeacher][CricketX] loss= 0.04698; Epoch Label ACC.= 77.91%, UnLabel ACC.= 51.68%, Lipistz loss = 0, Train Unlabel Best ACC.= 58.9%, Train Max Epoch=122
+[Test-132] Val ACC:56.62%, Best Test ACC.: 51.93% in Epoch 132
+Validation loss decreased (54.017858 --> 56.622025).  Saving model ...
+Epoch [133][SemiTeacher][CricketX] loss= 0.04724; Epoch Label ACC.= 74.81%, UnLabel ACC.= 58.12%, Lipistz loss = 0, Train Unlabel Best ACC.= 58.9%, Train Max Epoch=122
+EarlyStopping counter: 1 out of 200
+Epoch [134][SemiTeacher][CricketX] loss= 0.04656; Epoch Label ACC.= 71.67%, UnLabel ACC.= 55.90%, Lipistz loss = 0, Train Unlabel Best ACC.= 58.9%, Train Max Epoch=122
+EarlyStopping counter: 2 out of 200
+Epoch [135][SemiTeacher][CricketX] loss= 0.04509; Epoch Label ACC.= 74.13%, UnLabel ACC.= 53.59%, Lipistz loss = 0, Train Unlabel Best ACC.= 58.9%, Train Max Epoch=122
+EarlyStopping counter: 3 out of 200
+Epoch [136][SemiTeacher][CricketX] loss= 0.04611; Epoch Label ACC.= 71.91%, UnLabel ACC.= 53.09%, Lipistz loss = 0, Train Unlabel Best ACC.= 58.9%, Train Max Epoch=122
+EarlyStopping counter: 4 out of 200
+Epoch [137][SemiTeacher][CricketX] loss= 0.04737; Epoch Label ACC.= 73.84%, UnLabel ACC.= 51.29%, Lipistz loss = 0, Train Unlabel Best ACC.= 58.9%, Train Max Epoch=122
+EarlyStopping counter: 5 out of 200
+Epoch [138][SemiTeacher][CricketX] loss= 0.04752; Epoch Label ACC.= 72.09%, UnLabel ACC.= 55.66%, Lipistz loss = 0, Train Unlabel Best ACC.= 58.9%, Train Max Epoch=122
+EarlyStopping counter: 6 out of 200
+Epoch [139][SemiTeacher][CricketX] loss= 0.04920; Epoch Label ACC.= 69.65%, UnLabel ACC.= 57.70%, Lipistz loss = 0, Train Unlabel Best ACC.= 58.9%, Train Max Epoch=122
+EarlyStopping counter: 7 out of 200
+Epoch [140][SemiTeacher][CricketX] loss= 0.04327; Epoch Label ACC.= 72.91%, UnLabel ACC.= 54.65%, Lipistz loss = 0, Train Unlabel Best ACC.= 58.9%, Train Max Epoch=122
+EarlyStopping counter: 8 out of 200
+Epoch [141][SemiTeacher][CricketX] loss= 0.04554; Epoch Label ACC.= 70.17%, UnLabel ACC.= 55.98%, Lipistz loss = 0, Train Unlabel Best ACC.= 58.9%, Train Max Epoch=122
+EarlyStopping counter: 9 out of 200
+Epoch [142][SemiTeacher][CricketX] loss= 0.04396; Epoch Label ACC.= 73.80%, UnLabel ACC.= 54.84%, Lipistz loss = 0, Train Unlabel Best ACC.= 58.9%, Train Max Epoch=122
+EarlyStopping counter: 10 out of 200
+Epoch [143][SemiTeacher][CricketX] loss= 0.04241; Epoch Label ACC.= 76.64%, UnLabel ACC.= 55.23%, Lipistz loss = 0, Train Unlabel Best ACC.= 58.9%, Train Max Epoch=122
+EarlyStopping counter: 11 out of 200
+Epoch [144][SemiTeacher][CricketX] loss= 0.04479; Epoch Label ACC.= 76.56%, UnLabel ACC.= 53.79%, Lipistz loss = 0, Train Unlabel Best ACC.= 58.9%, Train Max Epoch=122
+EarlyStopping counter: 12 out of 200
+Epoch [145][SemiTeacher][CricketX] loss= 0.04516; Epoch Label ACC.= 73.85%, UnLabel ACC.= 56.41%, Lipistz loss = 0, Train Unlabel Best ACC.= 58.9%, Train Max Epoch=122
+EarlyStopping counter: 13 out of 200
+Epoch [146][SemiTeacher][CricketX] loss= 0.05152; Epoch Label ACC.= 74.44%, UnLabel ACC.= 56.64%, Lipistz loss = 0, Train Unlabel Best ACC.= 58.9%, Train Max Epoch=122
+EarlyStopping counter: 14 out of 200
+Epoch [147][SemiTeacher][CricketX] loss= 0.04686; Epoch Label ACC.= 75.97%, UnLabel ACC.= 52.77%, Lipistz loss = 0, Train Unlabel Best ACC.= 58.9%, Train Max Epoch=122
+EarlyStopping counter: 15 out of 200
+Epoch [148][SemiTeacher][CricketX] loss= 0.04421; Epoch Label ACC.= 73.84%, UnLabel ACC.= 52.23%, Lipistz loss = 0, Train Unlabel Best ACC.= 58.9%, Train Max Epoch=122
+EarlyStopping counter: 16 out of 200
+Epoch [149][SemiTeacher][CricketX] loss= 0.04465; Epoch Label ACC.= 74.96%, UnLabel ACC.= 54.18%, Lipistz loss = 0, Train Unlabel Best ACC.= 58.9%, Train Max Epoch=122
+EarlyStopping counter: 17 out of 200
+Epoch [150][SemiTeacher][CricketX] loss= 0.04968; Epoch Label ACC.= 74.23%, UnLabel ACC.= 57.73%, Lipistz loss = 0, Train Unlabel Best ACC.= 58.9%, Train Max Epoch=122
+EarlyStopping counter: 18 out of 200
+Epoch [151][SemiTeacher][CricketX] loss= 0.04457; Epoch Label ACC.= 68.36%, UnLabel ACC.= 55.66%, Lipistz loss = 0, Train Unlabel Best ACC.= 58.9%, Train Max Epoch=122
+EarlyStopping counter: 19 out of 200
+Epoch [152][SemiTeacher][CricketX] loss= 0.04288; Epoch Label ACC.= 74.67%, UnLabel ACC.= 54.38%, Lipistz loss = 0, Train Unlabel Best ACC.= 58.9%, Train Max Epoch=122
+EarlyStopping counter: 20 out of 200
+Epoch [153][SemiTeacher][CricketX] loss= 0.04247; Epoch Label ACC.= 77.30%, UnLabel ACC.= 54.92%, Lipistz loss = 0, Train Unlabel Best ACC.= 58.9%, Train Max Epoch=122
+EarlyStopping counter: 21 out of 200
+Epoch [154][SemiTeacher][CricketX] loss= 0.04663; Epoch Label ACC.= 77.14%, UnLabel ACC.= 51.09%, Lipistz loss = 0, Train Unlabel Best ACC.= 58.9%, Train Max Epoch=122
+EarlyStopping counter: 22 out of 200
+Epoch [155][SemiTeacher][CricketX] loss= 0.04668; Epoch Label ACC.= 76.93%, UnLabel ACC.= 53.01%, Lipistz loss = 0, Train Unlabel Best ACC.= 58.9%, Train Max Epoch=122
+EarlyStopping counter: 23 out of 200
+Epoch [156][SemiTeacher][CricketX] loss= 0.04754; Epoch Label ACC.= 79.96%, UnLabel ACC.= 54.10%, Lipistz loss = 0, Train Unlabel Best ACC.= 58.9%, Train Max Epoch=122
+EarlyStopping counter: 24 out of 200
+Epoch [157][SemiTeacher][CricketX] loss= 0.04837; Epoch Label ACC.= 73.72%, UnLabel ACC.= 57.54%, Lipistz loss = 0, Train Unlabel Best ACC.= 58.9%, Train Max Epoch=122
+EarlyStopping counter: 25 out of 200
+Epoch [158][SemiTeacher][CricketX] loss= 0.04807; Epoch Label ACC.= 80.01%, UnLabel ACC.= 56.13%, Lipistz loss = 0, Train Unlabel Best ACC.= 58.9%, Train Max Epoch=122
+EarlyStopping counter: 26 out of 200
+Epoch [159][SemiTeacher][CricketX] loss= 0.04671; Epoch Label ACC.= 79.57%, UnLabel ACC.= 55.74%, Lipistz loss = 0, Train Unlabel Best ACC.= 58.9%, Train Max Epoch=122
+EarlyStopping counter: 27 out of 200
+Epoch [160][SemiTeacher][CricketX] loss= 0.04623; Epoch Label ACC.= 78.18%, UnLabel ACC.= 57.62%, Lipistz loss = 0, Train Unlabel Best ACC.= 58.9%, Train Max Epoch=122
+EarlyStopping counter: 28 out of 200
+Epoch [161][SemiTeacher][CricketX] loss= 0.04840; Epoch Label ACC.= 75.58%, UnLabel ACC.= 57.11%, Lipistz loss = 0, Train Unlabel Best ACC.= 58.9%, Train Max Epoch=122
+EarlyStopping counter: 29 out of 200
+Epoch [162][SemiTeacher][CricketX] loss= 0.04855; Epoch Label ACC.= 77.69%, UnLabel ACC.= 54.34%, Lipistz loss = 0, Train Unlabel Best ACC.= 58.9%, Train Max Epoch=122
+EarlyStopping counter: 30 out of 200
+Epoch [163][SemiTeacher][CricketX] loss= 0.04848; Epoch Label ACC.= 74.76%, UnLabel ACC.= 54.10%, Lipistz loss = 0, Train Unlabel Best ACC.= 58.9%, Train Max Epoch=122
+EarlyStopping counter: 31 out of 200
+Epoch [164][SemiTeacher][CricketX] loss= 0.04687; Epoch Label ACC.= 76.62%, UnLabel ACC.= 53.24%, Lipistz loss = 0, Train Unlabel Best ACC.= 58.9%, Train Max Epoch=122
+EarlyStopping counter: 32 out of 200
+Epoch [165][SemiTeacher][CricketX] loss= 0.04814; Epoch Label ACC.= 72.44%, UnLabel ACC.= 56.33%, Lipistz loss = 0, Train Unlabel Best ACC.= 58.9%, Train Max Epoch=122
+EarlyStopping counter: 33 out of 200
+Epoch [166][SemiTeacher][CricketX] loss= 0.04843; Epoch Label ACC.= 82.02%, UnLabel ACC.= 54.30%, Lipistz loss = 0, Train Unlabel Best ACC.= 58.9%, Train Max Epoch=122
+EarlyStopping counter: 34 out of 200
+Epoch [167][SemiTeacher][CricketX] loss= 0.04929; Epoch Label ACC.= 76.75%, UnLabel ACC.= 57.89%, Lipistz loss = 0, Train Unlabel Best ACC.= 58.9%, Train Max Epoch=122
+EarlyStopping counter: 35 out of 200
+Epoch [168][SemiTeacher][CricketX] loss= 0.04802; Epoch Label ACC.= 73.90%, UnLabel ACC.= 56.52%, Lipistz loss = 0, Train Unlabel Best ACC.= 58.9%, Train Max Epoch=122
+EarlyStopping counter: 36 out of 200
+Epoch [169][SemiTeacher][CricketX] loss= 0.04690; Epoch Label ACC.= 72.14%, UnLabel ACC.= 56.60%, Lipistz loss = 0, Train Unlabel Best ACC.= 58.9%, Train Max Epoch=122
+EarlyStopping counter: 37 out of 200
+Epoch [170][SemiTeacher][CricketX] loss= 0.04580; Epoch Label ACC.= 77.64%, UnLabel ACC.= 53.16%, Lipistz loss = 0, Train Unlabel Best ACC.= 58.9%, Train Max Epoch=122
+EarlyStopping counter: 38 out of 200
+Epoch [171][SemiTeacher][CricketX] loss= 0.04924; Epoch Label ACC.= 79.32%, UnLabel ACC.= 55.62%, Lipistz loss = 0, Train Unlabel Best ACC.= 58.9%, Train Max Epoch=122
+EarlyStopping counter: 39 out of 200
+Epoch [172][SemiTeacher][CricketX] loss= 0.04477; Epoch Label ACC.= 79.57%, UnLabel ACC.= 54.45%, Lipistz loss = 0, Train Unlabel Best ACC.= 58.9%, Train Max Epoch=122
+EarlyStopping counter: 40 out of 200
+Epoch [173][SemiTeacher][CricketX] loss= 0.04834; Epoch Label ACC.= 80.67%, UnLabel ACC.= 56.80%, Lipistz loss = 0, Train Unlabel Best ACC.= 58.9%, Train Max Epoch=122
+EarlyStopping counter: 41 out of 200
+Epoch [174][SemiTeacher][CricketX] loss= 0.04435; Epoch Label ACC.= 74.67%, UnLabel ACC.= 55.04%, Lipistz loss = 0, Train Unlabel Best ACC.= 58.9%, Train Max Epoch=122
+EarlyStopping counter: 42 out of 200
+Epoch [175][SemiTeacher][CricketX] loss= 0.05006; Epoch Label ACC.= 77.20%, UnLabel ACC.= 54.61%, Lipistz loss = 0, Train Unlabel Best ACC.= 58.9%, Train Max Epoch=122
+EarlyStopping counter: 43 out of 200
+Epoch [176][SemiTeacher][CricketX] loss= 0.04285; Epoch Label ACC.= 80.45%, UnLabel ACC.= 56.17%, Lipistz loss = 0, Train Unlabel Best ACC.= 58.9%, Train Max Epoch=122
+EarlyStopping counter: 44 out of 200
+Epoch [177][SemiTeacher][CricketX] loss= 0.04680; Epoch Label ACC.= 74.03%, UnLabel ACC.= 55.90%, Lipistz loss = 0, Train Unlabel Best ACC.= 58.9%, Train Max Epoch=122
+EarlyStopping counter: 45 out of 200
+Epoch [178][SemiTeacher][CricketX] loss= 0.04570; Epoch Label ACC.= 79.01%, UnLabel ACC.= 56.25%, Lipistz loss = 0, Train Unlabel Best ACC.= 58.9%, Train Max Epoch=122
+EarlyStopping counter: 46 out of 200
+Epoch [179][SemiTeacher][CricketX] loss= 0.05033; Epoch Label ACC.= 76.55%, UnLabel ACC.= 54.69%, Lipistz loss = 0, Train Unlabel Best ACC.= 58.9%, Train Max Epoch=122
+EarlyStopping counter: 47 out of 200
+Epoch [180][SemiTeacher][CricketX] loss= 0.04696; Epoch Label ACC.= 74.81%, UnLabel ACC.= 54.41%, Lipistz loss = 0, Train Unlabel Best ACC.= 58.9%, Train Max Epoch=122
+EarlyStopping counter: 48 out of 200
+Epoch [181][SemiTeacher][CricketX] loss= 0.04780; Epoch Label ACC.= 77.95%, UnLabel ACC.= 55.59%, Lipistz loss = 0, Train Unlabel Best ACC.= 58.9%, Train Max Epoch=122
+EarlyStopping counter: 49 out of 200
+Epoch [182][SemiTeacher][CricketX] loss= 0.04613; Epoch Label ACC.= 73.27%, UnLabel ACC.= 56.45%, Lipistz loss = 0, Train Unlabel Best ACC.= 58.9%, Train Max Epoch=122
+EarlyStopping counter: 50 out of 200
+Epoch [183][SemiTeacher][CricketX] loss= 0.04313; Epoch Label ACC.= 74.62%, UnLabel ACC.= 57.07%, Lipistz loss = 0, Train Unlabel Best ACC.= 58.9%, Train Max Epoch=122
+EarlyStopping counter: 51 out of 200
+Epoch [184][SemiTeacher][CricketX] loss= 0.04595; Epoch Label ACC.= 83.44%, UnLabel ACC.= 60.47%, Lipistz loss = 0, Train Unlabel Best ACC.= 60.5%, Train Max Epoch=183
+EarlyStopping counter: 52 out of 200
+Epoch [185][SemiTeacher][CricketX] loss= 0.04840; Epoch Label ACC.= 78.15%, UnLabel ACC.= 55.43%, Lipistz loss = 0, Train Unlabel Best ACC.= 60.5%, Train Max Epoch=183
+EarlyStopping counter: 53 out of 200
+Epoch [186][SemiTeacher][CricketX] loss= 0.04838; Epoch Label ACC.= 76.85%, UnLabel ACC.= 58.55%, Lipistz loss = 0, Train Unlabel Best ACC.= 60.5%, Train Max Epoch=183
+EarlyStopping counter: 54 out of 200
+Epoch [187][SemiTeacher][CricketX] loss= 0.05005; Epoch Label ACC.= 75.74%, UnLabel ACC.= 57.27%, Lipistz loss = 0, Train Unlabel Best ACC.= 60.5%, Train Max Epoch=183
+EarlyStopping counter: 55 out of 200
+Epoch [188][SemiTeacher][CricketX] loss= 0.04770; Epoch Label ACC.= 77.30%, UnLabel ACC.= 57.62%, Lipistz loss = 0, Train Unlabel Best ACC.= 60.5%, Train Max Epoch=183
+EarlyStopping counter: 56 out of 200
+Epoch [189][SemiTeacher][CricketX] loss= 0.04972; Epoch Label ACC.= 77.04%, UnLabel ACC.= 58.71%, Lipistz loss = 0, Train Unlabel Best ACC.= 60.5%, Train Max Epoch=183
+EarlyStopping counter: 57 out of 200
+Epoch [190][SemiTeacher][CricketX] loss= 0.05036; Epoch Label ACC.= 74.57%, UnLabel ACC.= 59.34%, Lipistz loss = 0, Train Unlabel Best ACC.= 60.5%, Train Max Epoch=183
+EarlyStopping counter: 58 out of 200
+Epoch [191][SemiTeacher][CricketX] loss= 0.04864; Epoch Label ACC.= 80.95%, UnLabel ACC.= 54.26%, Lipistz loss = 0, Train Unlabel Best ACC.= 60.5%, Train Max Epoch=183
+EarlyStopping counter: 59 out of 200
+Epoch [192][SemiTeacher][CricketX] loss= 0.04872; Epoch Label ACC.= 76.83%, UnLabel ACC.= 57.23%, Lipistz loss = 0, Train Unlabel Best ACC.= 60.5%, Train Max Epoch=183
+EarlyStopping counter: 60 out of 200
+Epoch [193][SemiTeacher][CricketX] loss= 0.04822; Epoch Label ACC.= 80.07%, UnLabel ACC.= 56.45%, Lipistz loss = 0, Train Unlabel Best ACC.= 60.5%, Train Max Epoch=183
+[Test-193] Val ACC:57.81%, Best Test ACC.: 56.40% in Epoch 193
+Validation loss decreased (56.622025 --> 57.812501).  Saving model ...
+Epoch [194][SemiTeacher][CricketX] loss= 0.04955; Epoch Label ACC.= 77.25%, UnLabel ACC.= 60.27%, Lipistz loss = 0, Train Unlabel Best ACC.= 60.5%, Train Max Epoch=183
+[Test-194] Val ACC:58.18%, Best Test ACC.: 53.35% in Epoch 194
+Validation loss decreased (57.812501 --> 58.184525).  Saving model ...
+Epoch [195][SemiTeacher][CricketX] loss= 0.04762; Epoch Label ACC.= 77.48%, UnLabel ACC.= 59.92%, Lipistz loss = 0, Train Unlabel Best ACC.= 60.5%, Train Max Epoch=183
+EarlyStopping counter: 1 out of 200
+Epoch [196][SemiTeacher][CricketX] loss= 0.04778; Epoch Label ACC.= 79.57%, UnLabel ACC.= 59.80%, Lipistz loss = 0, Train Unlabel Best ACC.= 60.5%, Train Max Epoch=183
+[Test-196] Val ACC:59.38%, Best Test ACC.: 56.77% in Epoch 196
+Validation loss decreased (58.184525 --> 59.375001).  Saving model ...
+Epoch [197][SemiTeacher][CricketX] loss= 0.04962; Epoch Label ACC.= 74.73%, UnLabel ACC.= 58.83%, Lipistz loss = 0, Train Unlabel Best ACC.= 60.5%, Train Max Epoch=183
+EarlyStopping counter: 1 out of 200
+Epoch [198][SemiTeacher][CricketX] loss= 0.04441; Epoch Label ACC.= 80.12%, UnLabel ACC.= 57.38%, Lipistz loss = 0, Train Unlabel Best ACC.= 60.5%, Train Max Epoch=183
+EarlyStopping counter: 2 out of 200
+Epoch [199][SemiTeacher][CricketX] loss= 0.04626; Epoch Label ACC.= 81.33%, UnLabel ACC.= 60.90%, Lipistz loss = 0, Train Unlabel Best ACC.= 60.9%, Train Max Epoch=198
+EarlyStopping counter: 3 out of 200
+[INFO] save backbone at epoch 199!
+Epoch [200][SemiTeacher][CricketX] loss= 0.04859; Epoch Label ACC.= 76.64%, UnLabel ACC.= 56.91%, Lipistz loss = 0, Train Unlabel Best ACC.= 60.9%, Train Max Epoch=198
+EarlyStopping counter: 4 out of 200
+Epoch [201][SemiTeacher][CricketX] loss= 0.04909; Epoch Label ACC.= 78.65%, UnLabel ACC.= 54.73%, Lipistz loss = 0, Train Unlabel Best ACC.= 60.9%, Train Max Epoch=198
+EarlyStopping counter: 5 out of 200
+Epoch [202][SemiTeacher][CricketX] loss= 0.04737; Epoch Label ACC.= 79.29%, UnLabel ACC.= 59.84%, Lipistz loss = 0, Train Unlabel Best ACC.= 60.9%, Train Max Epoch=198
+EarlyStopping counter: 6 out of 200
+Epoch [203][SemiTeacher][CricketX] loss= 0.04968; Epoch Label ACC.= 79.14%, UnLabel ACC.= 56.76%, Lipistz loss = 0, Train Unlabel Best ACC.= 60.9%, Train Max Epoch=198
+EarlyStopping counter: 7 out of 200
+Epoch [204][SemiTeacher][CricketX] loss= 0.04740; Epoch Label ACC.= 82.40%, UnLabel ACC.= 61.29%, Lipistz loss = 0, Train Unlabel Best ACC.= 61.3%, Train Max Epoch=203
+EarlyStopping counter: 8 out of 200
+Epoch [205][SemiTeacher][CricketX] loss= 0.04694; Epoch Label ACC.= 74.83%, UnLabel ACC.= 60.31%, Lipistz loss = 0, Train Unlabel Best ACC.= 61.3%, Train Max Epoch=203
+EarlyStopping counter: 9 out of 200
+Epoch [206][SemiTeacher][CricketX] loss= 0.04764; Epoch Label ACC.= 78.48%, UnLabel ACC.= 58.24%, Lipistz loss = 0, Train Unlabel Best ACC.= 61.3%, Train Max Epoch=203
+EarlyStopping counter: 10 out of 200
+Epoch [207][SemiTeacher][CricketX] loss= 0.04604; Epoch Label ACC.= 75.25%, UnLabel ACC.= 57.97%, Lipistz loss = 0, Train Unlabel Best ACC.= 61.3%, Train Max Epoch=203
+EarlyStopping counter: 11 out of 200
+Epoch [208][SemiTeacher][CricketX] loss= 0.05201; Epoch Label ACC.= 79.61%, UnLabel ACC.= 56.48%, Lipistz loss = 0, Train Unlabel Best ACC.= 61.3%, Train Max Epoch=203
+EarlyStopping counter: 12 out of 200
+Epoch [209][SemiTeacher][CricketX] loss= 0.05212; Epoch Label ACC.= 79.42%, UnLabel ACC.= 57.70%, Lipistz loss = 0, Train Unlabel Best ACC.= 61.3%, Train Max Epoch=203
+EarlyStopping counter: 13 out of 200
+Epoch [210][SemiTeacher][CricketX] loss= 0.04446; Epoch Label ACC.= 76.75%, UnLabel ACC.= 55.74%, Lipistz loss = 0, Train Unlabel Best ACC.= 61.3%, Train Max Epoch=203
+EarlyStopping counter: 14 out of 200
+Epoch [211][SemiTeacher][CricketX] loss= 0.04715; Epoch Label ACC.= 80.35%, UnLabel ACC.= 58.32%, Lipistz loss = 0, Train Unlabel Best ACC.= 61.3%, Train Max Epoch=203
+EarlyStopping counter: 15 out of 200
+Epoch [212][SemiTeacher][CricketX] loss= 0.04507; Epoch Label ACC.= 80.72%, UnLabel ACC.= 58.83%, Lipistz loss = 0, Train Unlabel Best ACC.= 61.3%, Train Max Epoch=203
+EarlyStopping counter: 16 out of 200
+Epoch [213][SemiTeacher][CricketX] loss= 0.04386; Epoch Label ACC.= 78.26%, UnLabel ACC.= 59.45%, Lipistz loss = 0, Train Unlabel Best ACC.= 61.3%, Train Max Epoch=203
+EarlyStopping counter: 17 out of 200
+Epoch [214][SemiTeacher][CricketX] loss= 0.05413; Epoch Label ACC.= 75.64%, UnLabel ACC.= 54.18%, Lipistz loss = 0, Train Unlabel Best ACC.= 61.3%, Train Max Epoch=203
+EarlyStopping counter: 18 out of 200
+Epoch [215][SemiTeacher][CricketX] loss= 0.04622; Epoch Label ACC.= 80.09%, UnLabel ACC.= 60.62%, Lipistz loss = 0, Train Unlabel Best ACC.= 61.3%, Train Max Epoch=203
+EarlyStopping counter: 19 out of 200
+Epoch [216][SemiTeacher][CricketX] loss= 0.04795; Epoch Label ACC.= 82.34%, UnLabel ACC.= 60.62%, Lipistz loss = 0, Train Unlabel Best ACC.= 61.3%, Train Max Epoch=203
+EarlyStopping counter: 20 out of 200
+Epoch [217][SemiTeacher][CricketX] loss= 0.05250; Epoch Label ACC.= 78.39%, UnLabel ACC.= 60.78%, Lipistz loss = 0, Train Unlabel Best ACC.= 61.3%, Train Max Epoch=203
+EarlyStopping counter: 21 out of 200
+Epoch [218][SemiTeacher][CricketX] loss= 0.04922; Epoch Label ACC.= 77.61%, UnLabel ACC.= 57.97%, Lipistz loss = 0, Train Unlabel Best ACC.= 61.3%, Train Max Epoch=203
+EarlyStopping counter: 22 out of 200
+Epoch [219][SemiTeacher][CricketX] loss= 0.04514; Epoch Label ACC.= 77.69%, UnLabel ACC.= 57.62%, Lipistz loss = 0, Train Unlabel Best ACC.= 61.3%, Train Max Epoch=203
+EarlyStopping counter: 23 out of 200
+Epoch [220][SemiTeacher][CricketX] loss= 0.04859; Epoch Label ACC.= 76.02%, UnLabel ACC.= 58.09%, Lipistz loss = 0, Train Unlabel Best ACC.= 61.3%, Train Max Epoch=203
+EarlyStopping counter: 24 out of 200
+Epoch [221][SemiTeacher][CricketX] loss= 0.04818; Epoch Label ACC.= 74.96%, UnLabel ACC.= 60.98%, Lipistz loss = 0, Train Unlabel Best ACC.= 61.3%, Train Max Epoch=203
+EarlyStopping counter: 25 out of 200
+Epoch [222][SemiTeacher][CricketX] loss= 0.04837; Epoch Label ACC.= 79.16%, UnLabel ACC.= 57.89%, Lipistz loss = 0, Train Unlabel Best ACC.= 61.3%, Train Max Epoch=203
+EarlyStopping counter: 26 out of 200
+Epoch [223][SemiTeacher][CricketX] loss= 0.04758; Epoch Label ACC.= 80.58%, UnLabel ACC.= 56.64%, Lipistz loss = 0, Train Unlabel Best ACC.= 61.3%, Train Max Epoch=203
+EarlyStopping counter: 27 out of 200
+Epoch [224][SemiTeacher][CricketX] loss= 0.05187; Epoch Label ACC.= 77.37%, UnLabel ACC.= 56.60%, Lipistz loss = 0, Train Unlabel Best ACC.= 61.3%, Train Max Epoch=203
+EarlyStopping counter: 28 out of 200
+Epoch [225][SemiTeacher][CricketX] loss= 0.04702; Epoch Label ACC.= 79.31%, UnLabel ACC.= 54.30%, Lipistz loss = 0, Train Unlabel Best ACC.= 61.3%, Train Max Epoch=203
+EarlyStopping counter: 29 out of 200
+Epoch [226][SemiTeacher][CricketX] loss= 0.04977; Epoch Label ACC.= 81.80%, UnLabel ACC.= 58.52%, Lipistz loss = 0, Train Unlabel Best ACC.= 61.3%, Train Max Epoch=203
+EarlyStopping counter: 30 out of 200
+Epoch [227][SemiTeacher][CricketX] loss= 0.04460; Epoch Label ACC.= 80.74%, UnLabel ACC.= 59.65%, Lipistz loss = 0, Train Unlabel Best ACC.= 61.3%, Train Max Epoch=203
+EarlyStopping counter: 31 out of 200
+Epoch [228][SemiTeacher][CricketX] loss= 0.04977; Epoch Label ACC.= 79.76%, UnLabel ACC.= 57.38%, Lipistz loss = 0, Train Unlabel Best ACC.= 61.3%, Train Max Epoch=203
+EarlyStopping counter: 32 out of 200
+Epoch [229][SemiTeacher][CricketX] loss= 0.04661; Epoch Label ACC.= 76.52%, UnLabel ACC.= 63.59%, Lipistz loss = 0, Train Unlabel Best ACC.= 63.6%, Train Max Epoch=228
+EarlyStopping counter: 33 out of 200
+Epoch [230][SemiTeacher][CricketX] loss= 0.04571; Epoch Label ACC.= 82.32%, UnLabel ACC.= 58.87%, Lipistz loss = 0, Train Unlabel Best ACC.= 63.6%, Train Max Epoch=228
+EarlyStopping counter: 34 out of 200
+Epoch [231][SemiTeacher][CricketX] loss= 0.04984; Epoch Label ACC.= 77.01%, UnLabel ACC.= 61.05%, Lipistz loss = 0, Train Unlabel Best ACC.= 63.6%, Train Max Epoch=228
+EarlyStopping counter: 35 out of 200
+Epoch [232][SemiTeacher][CricketX] loss= 0.05255; Epoch Label ACC.= 82.51%, UnLabel ACC.= 56.25%, Lipistz loss = 0, Train Unlabel Best ACC.= 63.6%, Train Max Epoch=228
+EarlyStopping counter: 36 out of 200
+Epoch [233][SemiTeacher][CricketX] loss= 0.04810; Epoch Label ACC.= 78.26%, UnLabel ACC.= 58.24%, Lipistz loss = 0, Train Unlabel Best ACC.= 63.6%, Train Max Epoch=228
+EarlyStopping counter: 37 out of 200
+Epoch [234][SemiTeacher][CricketX] loss= 0.05243; Epoch Label ACC.= 78.12%, UnLabel ACC.= 61.02%, Lipistz loss = 0, Train Unlabel Best ACC.= 63.6%, Train Max Epoch=228
+EarlyStopping counter: 38 out of 200
+Epoch [235][SemiTeacher][CricketX] loss= 0.04876; Epoch Label ACC.= 81.91%, UnLabel ACC.= 62.07%, Lipistz loss = 0, Train Unlabel Best ACC.= 63.6%, Train Max Epoch=228
+[Test-235] Val ACC:62.28%, Best Test ACC.: 57.44% in Epoch 235
+Validation loss decreased (59.375001 --> 62.276787).  Saving model ...
+Epoch [236][SemiTeacher][CricketX] loss= 0.05144; Epoch Label ACC.= 75.30%, UnLabel ACC.= 58.71%, Lipistz loss = 0, Train Unlabel Best ACC.= 63.6%, Train Max Epoch=228
+EarlyStopping counter: 1 out of 200
+Epoch [237][SemiTeacher][CricketX] loss= 0.04888; Epoch Label ACC.= 79.39%, UnLabel ACC.= 63.55%, Lipistz loss = 0, Train Unlabel Best ACC.= 63.6%, Train Max Epoch=228
+EarlyStopping counter: 2 out of 200
+Epoch [238][SemiTeacher][CricketX] loss= 0.04605; Epoch Label ACC.= 77.81%, UnLabel ACC.= 60.66%, Lipistz loss = 0, Train Unlabel Best ACC.= 63.6%, Train Max Epoch=228
+EarlyStopping counter: 3 out of 200
+Epoch [239][SemiTeacher][CricketX] loss= 0.04402; Epoch Label ACC.= 80.67%, UnLabel ACC.= 56.80%, Lipistz loss = 0, Train Unlabel Best ACC.= 63.6%, Train Max Epoch=228
+EarlyStopping counter: 4 out of 200
+Epoch [240][SemiTeacher][CricketX] loss= 0.04447; Epoch Label ACC.= 79.89%, UnLabel ACC.= 58.09%, Lipistz loss = 0, Train Unlabel Best ACC.= 63.6%, Train Max Epoch=228
+EarlyStopping counter: 5 out of 200
+Epoch [241][SemiTeacher][CricketX] loss= 0.04699; Epoch Label ACC.= 81.81%, UnLabel ACC.= 58.28%, Lipistz loss = 0, Train Unlabel Best ACC.= 63.6%, Train Max Epoch=228
+EarlyStopping counter: 6 out of 200
+Epoch [242][SemiTeacher][CricketX] loss= 0.05133; Epoch Label ACC.= 79.96%, UnLabel ACC.= 57.46%, Lipistz loss = 0, Train Unlabel Best ACC.= 63.6%, Train Max Epoch=228
+EarlyStopping counter: 7 out of 200
+Epoch [243][SemiTeacher][CricketX] loss= 0.05047; Epoch Label ACC.= 84.91%, UnLabel ACC.= 59.84%, Lipistz loss = 0, Train Unlabel Best ACC.= 63.6%, Train Max Epoch=228
+EarlyStopping counter: 8 out of 200
+Epoch [244][SemiTeacher][CricketX] loss= 0.04606; Epoch Label ACC.= 82.29%, UnLabel ACC.= 59.88%, Lipistz loss = 0, Train Unlabel Best ACC.= 63.6%, Train Max Epoch=228
+EarlyStopping counter: 9 out of 200
+Epoch [245][SemiTeacher][CricketX] loss= 0.04895; Epoch Label ACC.= 85.87%, UnLabel ACC.= 60.51%, Lipistz loss = 0, Train Unlabel Best ACC.= 63.6%, Train Max Epoch=228
+EarlyStopping counter: 10 out of 200
+Epoch [246][SemiTeacher][CricketX] loss= 0.04759; Epoch Label ACC.= 78.87%, UnLabel ACC.= 57.23%, Lipistz loss = 0, Train Unlabel Best ACC.= 63.6%, Train Max Epoch=228
+EarlyStopping counter: 11 out of 200
+Epoch [247][SemiTeacher][CricketX] loss= 0.04649; Epoch Label ACC.= 86.06%, UnLabel ACC.= 57.97%, Lipistz loss = 0, Train Unlabel Best ACC.= 63.6%, Train Max Epoch=228
+EarlyStopping counter: 12 out of 200
+Epoch [248][SemiTeacher][CricketX] loss= 0.05005; Epoch Label ACC.= 82.66%, UnLabel ACC.= 59.57%, Lipistz loss = 0, Train Unlabel Best ACC.= 63.6%, Train Max Epoch=228
+EarlyStopping counter: 13 out of 200
+Epoch [249][SemiTeacher][CricketX] loss= 0.04890; Epoch Label ACC.= 81.97%, UnLabel ACC.= 60.98%, Lipistz loss = 0, Train Unlabel Best ACC.= 63.6%, Train Max Epoch=228
+EarlyStopping counter: 14 out of 200
+Epoch [250][SemiTeacher][CricketX] loss= 0.05729; Epoch Label ACC.= 82.15%, UnLabel ACC.= 60.27%, Lipistz loss = 0, Train Unlabel Best ACC.= 63.6%, Train Max Epoch=228
+EarlyStopping counter: 15 out of 200
+Epoch [251][SemiTeacher][CricketX] loss= 0.05138; Epoch Label ACC.= 82.55%, UnLabel ACC.= 59.61%, Lipistz loss = 0, Train Unlabel Best ACC.= 63.6%, Train Max Epoch=228
+EarlyStopping counter: 16 out of 200
+Epoch [252][SemiTeacher][CricketX] loss= 0.05130; Epoch Label ACC.= 79.69%, UnLabel ACC.= 58.28%, Lipistz loss = 0, Train Unlabel Best ACC.= 63.6%, Train Max Epoch=228
+EarlyStopping counter: 17 out of 200
+Epoch [253][SemiTeacher][CricketX] loss= 0.04758; Epoch Label ACC.= 85.87%, UnLabel ACC.= 58.95%, Lipistz loss = 0, Train Unlabel Best ACC.= 63.6%, Train Max Epoch=228
+EarlyStopping counter: 18 out of 200
+Epoch [254][SemiTeacher][CricketX] loss= 0.04780; Epoch Label ACC.= 82.66%, UnLabel ACC.= 61.45%, Lipistz loss = 0, Train Unlabel Best ACC.= 63.6%, Train Max Epoch=228
+EarlyStopping counter: 19 out of 200
+Epoch [255][SemiTeacher][CricketX] loss= 0.04822; Epoch Label ACC.= 85.18%, UnLabel ACC.= 57.85%, Lipistz loss = 0, Train Unlabel Best ACC.= 63.6%, Train Max Epoch=228
+EarlyStopping counter: 20 out of 200
+Epoch [256][SemiTeacher][CricketX] loss= 0.04754; Epoch Label ACC.= 78.02%, UnLabel ACC.= 59.26%, Lipistz loss = 0, Train Unlabel Best ACC.= 63.6%, Train Max Epoch=228
+EarlyStopping counter: 21 out of 200
+Epoch [257][SemiTeacher][CricketX] loss= 0.04856; Epoch Label ACC.= 82.60%, UnLabel ACC.= 62.46%, Lipistz loss = 0, Train Unlabel Best ACC.= 63.6%, Train Max Epoch=228
+EarlyStopping counter: 22 out of 200
+Epoch [258][SemiTeacher][CricketX] loss= 0.04940; Epoch Label ACC.= 76.38%, UnLabel ACC.= 59.49%, Lipistz loss = 0, Train Unlabel Best ACC.= 63.6%, Train Max Epoch=228
+EarlyStopping counter: 23 out of 200
+Epoch [259][SemiTeacher][CricketX] loss= 0.05160; Epoch Label ACC.= 82.12%, UnLabel ACC.= 59.65%, Lipistz loss = 0, Train Unlabel Best ACC.= 63.6%, Train Max Epoch=228
+EarlyStopping counter: 24 out of 200
+Epoch [260][SemiTeacher][CricketX] loss= 0.04847; Epoch Label ACC.= 77.84%, UnLabel ACC.= 61.41%, Lipistz loss = 0, Train Unlabel Best ACC.= 63.6%, Train Max Epoch=228
+EarlyStopping counter: 25 out of 200
+Epoch [261][SemiTeacher][CricketX] loss= 0.04498; Epoch Label ACC.= 81.86%, UnLabel ACC.= 58.48%, Lipistz loss = 0, Train Unlabel Best ACC.= 63.6%, Train Max Epoch=228
+EarlyStopping counter: 26 out of 200
+Epoch [262][SemiTeacher][CricketX] loss= 0.04426; Epoch Label ACC.= 82.79%, UnLabel ACC.= 57.81%, Lipistz loss = 0, Train Unlabel Best ACC.= 63.6%, Train Max Epoch=228
+EarlyStopping counter: 27 out of 200
+Epoch [263][SemiTeacher][CricketX] loss= 0.05112; Epoch Label ACC.= 79.71%, UnLabel ACC.= 61.76%, Lipistz loss = 0, Train Unlabel Best ACC.= 63.6%, Train Max Epoch=228
+EarlyStopping counter: 28 out of 200
+Epoch [264][SemiTeacher][CricketX] loss= 0.05450; Epoch Label ACC.= 82.05%, UnLabel ACC.= 59.88%, Lipistz loss = 0, Train Unlabel Best ACC.= 63.6%, Train Max Epoch=228
+EarlyStopping counter: 29 out of 200
+Epoch [265][SemiTeacher][CricketX] loss= 0.05195; Epoch Label ACC.= 86.13%, UnLabel ACC.= 57.85%, Lipistz loss = 0, Train Unlabel Best ACC.= 63.6%, Train Max Epoch=228
+EarlyStopping counter: 30 out of 200
+Epoch [266][SemiTeacher][CricketX] loss= 0.04914; Epoch Label ACC.= 81.52%, UnLabel ACC.= 62.19%, Lipistz loss = 0, Train Unlabel Best ACC.= 63.6%, Train Max Epoch=228
+EarlyStopping counter: 31 out of 200
+Epoch [267][SemiTeacher][CricketX] loss= 0.04727; Epoch Label ACC.= 79.91%, UnLabel ACC.= 60.31%, Lipistz loss = 0, Train Unlabel Best ACC.= 63.6%, Train Max Epoch=228
+EarlyStopping counter: 32 out of 200
+Epoch [268][SemiTeacher][CricketX] loss= 0.04809; Epoch Label ACC.= 82.66%, UnLabel ACC.= 62.42%, Lipistz loss = 0, Train Unlabel Best ACC.= 63.6%, Train Max Epoch=228
+EarlyStopping counter: 33 out of 200
+Epoch [269][SemiTeacher][CricketX] loss= 0.04830; Epoch Label ACC.= 83.10%, UnLabel ACC.= 59.34%, Lipistz loss = 0, Train Unlabel Best ACC.= 63.6%, Train Max Epoch=228
+EarlyStopping counter: 34 out of 200
+Epoch [270][SemiTeacher][CricketX] loss= 0.04658; Epoch Label ACC.= 81.10%, UnLabel ACC.= 59.65%, Lipistz loss = 0, Train Unlabel Best ACC.= 63.6%, Train Max Epoch=228
+EarlyStopping counter: 35 out of 200
+Epoch [271][SemiTeacher][CricketX] loss= 0.04711; Epoch Label ACC.= 73.12%, UnLabel ACC.= 59.80%, Lipistz loss = 0, Train Unlabel Best ACC.= 63.6%, Train Max Epoch=228
+EarlyStopping counter: 36 out of 200
+Epoch [272][SemiTeacher][CricketX] loss= 0.04487; Epoch Label ACC.= 80.71%, UnLabel ACC.= 63.98%, Lipistz loss = 0, Train Unlabel Best ACC.= 64.0%, Train Max Epoch=271
+EarlyStopping counter: 37 out of 200
+Epoch [273][SemiTeacher][CricketX] loss= 0.04460; Epoch Label ACC.= 81.29%, UnLabel ACC.= 63.48%, Lipistz loss = 0, Train Unlabel Best ACC.= 64.0%, Train Max Epoch=271
+EarlyStopping counter: 38 out of 200
+Epoch [274][SemiTeacher][CricketX] loss= 0.04606; Epoch Label ACC.= 83.30%, UnLabel ACC.= 57.97%, Lipistz loss = 0, Train Unlabel Best ACC.= 64.0%, Train Max Epoch=271
+EarlyStopping counter: 39 out of 200
+Epoch [275][SemiTeacher][CricketX] loss= 0.05075; Epoch Label ACC.= 78.30%, UnLabel ACC.= 61.21%, Lipistz loss = 0, Train Unlabel Best ACC.= 64.0%, Train Max Epoch=271
+EarlyStopping counter: 40 out of 200
+Epoch [276][SemiTeacher][CricketX] loss= 0.04787; Epoch Label ACC.= 84.11%, UnLabel ACC.= 58.36%, Lipistz loss = 0, Train Unlabel Best ACC.= 64.0%, Train Max Epoch=271
+EarlyStopping counter: 41 out of 200
+Epoch [277][SemiTeacher][CricketX] loss= 0.04702; Epoch Label ACC.= 77.92%, UnLabel ACC.= 59.18%, Lipistz loss = 0, Train Unlabel Best ACC.= 64.0%, Train Max Epoch=271
+EarlyStopping counter: 42 out of 200
+Epoch [278][SemiTeacher][CricketX] loss= 0.05067; Epoch Label ACC.= 82.38%, UnLabel ACC.= 60.27%, Lipistz loss = 0, Train Unlabel Best ACC.= 64.0%, Train Max Epoch=271
+EarlyStopping counter: 43 out of 200
+Epoch [279][SemiTeacher][CricketX] loss= 0.05075; Epoch Label ACC.= 84.87%, UnLabel ACC.= 58.16%, Lipistz loss = 0, Train Unlabel Best ACC.= 64.0%, Train Max Epoch=271
+EarlyStopping counter: 44 out of 200
+Epoch [280][SemiTeacher][CricketX] loss= 0.04973; Epoch Label ACC.= 85.17%, UnLabel ACC.= 62.46%, Lipistz loss = 0, Train Unlabel Best ACC.= 64.0%, Train Max Epoch=271
+EarlyStopping counter: 45 out of 200
+Epoch [281][SemiTeacher][CricketX] loss= 0.04783; Epoch Label ACC.= 81.23%, UnLabel ACC.= 55.47%, Lipistz loss = 0, Train Unlabel Best ACC.= 64.0%, Train Max Epoch=271
+EarlyStopping counter: 46 out of 200
+Epoch [282][SemiTeacher][CricketX] loss= 0.04432; Epoch Label ACC.= 83.99%, UnLabel ACC.= 58.67%, Lipistz loss = 0, Train Unlabel Best ACC.= 64.0%, Train Max Epoch=271
+EarlyStopping counter: 47 out of 200
+Epoch [283][SemiTeacher][CricketX] loss= 0.04881; Epoch Label ACC.= 81.65%, UnLabel ACC.= 62.70%, Lipistz loss = 0, Train Unlabel Best ACC.= 64.0%, Train Max Epoch=271
+EarlyStopping counter: 48 out of 200
+Epoch [284][SemiTeacher][CricketX] loss= 0.04826; Epoch Label ACC.= 80.51%, UnLabel ACC.= 65.35%, Lipistz loss = 0, Train Unlabel Best ACC.= 65.4%, Train Max Epoch=283
+EarlyStopping counter: 49 out of 200
+Epoch [285][SemiTeacher][CricketX] loss= 0.04746; Epoch Label ACC.= 81.06%, UnLabel ACC.= 61.17%, Lipistz loss = 0, Train Unlabel Best ACC.= 65.4%, Train Max Epoch=283
+EarlyStopping counter: 50 out of 200
+Epoch [286][SemiTeacher][CricketX] loss= 0.05140; Epoch Label ACC.= 77.50%, UnLabel ACC.= 59.02%, Lipistz loss = 0, Train Unlabel Best ACC.= 65.4%, Train Max Epoch=283
+EarlyStopping counter: 51 out of 200
+Epoch [287][SemiTeacher][CricketX] loss= 0.05168; Epoch Label ACC.= 80.51%, UnLabel ACC.= 58.32%, Lipistz loss = 0, Train Unlabel Best ACC.= 65.4%, Train Max Epoch=283
+EarlyStopping counter: 52 out of 200
+Epoch [288][SemiTeacher][CricketX] loss= 0.04940; Epoch Label ACC.= 83.85%, UnLabel ACC.= 59.92%, Lipistz loss = 0, Train Unlabel Best ACC.= 65.4%, Train Max Epoch=283
+EarlyStopping counter: 53 out of 200
+Epoch [289][SemiTeacher][CricketX] loss= 0.04968; Epoch Label ACC.= 82.87%, UnLabel ACC.= 62.62%, Lipistz loss = 0, Train Unlabel Best ACC.= 65.4%, Train Max Epoch=283
+EarlyStopping counter: 54 out of 200
+Epoch [290][SemiTeacher][CricketX] loss= 0.04704; Epoch Label ACC.= 84.24%, UnLabel ACC.= 59.65%, Lipistz loss = 0, Train Unlabel Best ACC.= 65.4%, Train Max Epoch=283
+EarlyStopping counter: 55 out of 200
+Epoch [291][SemiTeacher][CricketX] loss= 0.05071; Epoch Label ACC.= 78.72%, UnLabel ACC.= 61.45%, Lipistz loss = 0, Train Unlabel Best ACC.= 65.4%, Train Max Epoch=283
+EarlyStopping counter: 56 out of 200
+Epoch [292][SemiTeacher][CricketX] loss= 0.05171; Epoch Label ACC.= 84.52%, UnLabel ACC.= 61.21%, Lipistz loss = 0, Train Unlabel Best ACC.= 65.4%, Train Max Epoch=283
+EarlyStopping counter: 57 out of 200
+Epoch [293][SemiTeacher][CricketX] loss= 0.04782; Epoch Label ACC.= 81.62%, UnLabel ACC.= 61.05%, Lipistz loss = 0, Train Unlabel Best ACC.= 65.4%, Train Max Epoch=283
+EarlyStopping counter: 58 out of 200
+Epoch [294][SemiTeacher][CricketX] loss= 0.05090; Epoch Label ACC.= 81.31%, UnLabel ACC.= 59.30%, Lipistz loss = 0, Train Unlabel Best ACC.= 65.4%, Train Max Epoch=283
+EarlyStopping counter: 59 out of 200
+Epoch [295][SemiTeacher][CricketX] loss= 0.04976; Epoch Label ACC.= 81.88%, UnLabel ACC.= 64.10%, Lipistz loss = 0, Train Unlabel Best ACC.= 65.4%, Train Max Epoch=283
+EarlyStopping counter: 60 out of 200
+Epoch [296][SemiTeacher][CricketX] loss= 0.04854; Epoch Label ACC.= 80.36%, UnLabel ACC.= 63.59%, Lipistz loss = 0, Train Unlabel Best ACC.= 65.4%, Train Max Epoch=283
+EarlyStopping counter: 61 out of 200
+Epoch [297][SemiTeacher][CricketX] loss= 0.04948; Epoch Label ACC.= 82.48%, UnLabel ACC.= 59.41%, Lipistz loss = 0, Train Unlabel Best ACC.= 65.4%, Train Max Epoch=283
+EarlyStopping counter: 62 out of 200
+Epoch [298][SemiTeacher][CricketX] loss= 0.05127; Epoch Label ACC.= 83.44%, UnLabel ACC.= 61.84%, Lipistz loss = 0, Train Unlabel Best ACC.= 65.4%, Train Max Epoch=283
+EarlyStopping counter: 63 out of 200
+Epoch [299][SemiTeacher][CricketX] loss= 0.04967; Epoch Label ACC.= 80.01%, UnLabel ACC.= 60.78%, Lipistz loss = 0, Train Unlabel Best ACC.= 65.4%, Train Max Epoch=283
+EarlyStopping counter: 64 out of 200
+Epoch [300][SemiTeacher][CricketX] loss= 0.04976; Epoch Label ACC.= 83.96%, UnLabel ACC.= 59.18%, Lipistz loss = 0, Train Unlabel Best ACC.= 65.4%, Train Max Epoch=283
+EarlyStopping counter: 65 out of 200
+Epoch [301][SemiTeacher][CricketX] loss= 0.04864; Epoch Label ACC.= 80.97%, UnLabel ACC.= 64.65%, Lipistz loss = 0, Train Unlabel Best ACC.= 65.4%, Train Max Epoch=283
+EarlyStopping counter: 66 out of 200
+Epoch [302][SemiTeacher][CricketX] loss= 0.04982; Epoch Label ACC.= 83.72%, UnLabel ACC.= 58.91%, Lipistz loss = 0, Train Unlabel Best ACC.= 65.4%, Train Max Epoch=283
+EarlyStopping counter: 67 out of 200
+Epoch [303][SemiTeacher][CricketX] loss= 0.04635; Epoch Label ACC.= 82.04%, UnLabel ACC.= 62.03%, Lipistz loss = 0, Train Unlabel Best ACC.= 65.4%, Train Max Epoch=283
+EarlyStopping counter: 68 out of 200
+Epoch [304][SemiTeacher][CricketX] loss= 0.04948; Epoch Label ACC.= 81.16%, UnLabel ACC.= 57.11%, Lipistz loss = 0, Train Unlabel Best ACC.= 65.4%, Train Max Epoch=283
+[Test-304] Val ACC:63.47%, Best Test ACC.: 61.24% in Epoch 304
+Validation loss decreased (62.276787 --> 63.467262).  Saving model ...
+Epoch [305][SemiTeacher][CricketX] loss= 0.04950; Epoch Label ACC.= 79.06%, UnLabel ACC.= 59.06%, Lipistz loss = 0, Train Unlabel Best ACC.= 65.4%, Train Max Epoch=283
+EarlyStopping counter: 1 out of 200
+Epoch [306][SemiTeacher][CricketX] loss= 0.05141; Epoch Label ACC.= 80.19%, UnLabel ACC.= 63.16%, Lipistz loss = 0, Train Unlabel Best ACC.= 65.4%, Train Max Epoch=283
+EarlyStopping counter: 2 out of 200
+Epoch [307][SemiTeacher][CricketX] loss= 0.04675; Epoch Label ACC.= 79.57%, UnLabel ACC.= 60.78%, Lipistz loss = 0, Train Unlabel Best ACC.= 65.4%, Train Max Epoch=283
+EarlyStopping counter: 3 out of 200
+Epoch [308][SemiTeacher][CricketX] loss= 0.04731; Epoch Label ACC.= 80.62%, UnLabel ACC.= 59.45%, Lipistz loss = 0, Train Unlabel Best ACC.= 65.4%, Train Max Epoch=283
+EarlyStopping counter: 4 out of 200
+Epoch [309][SemiTeacher][CricketX] loss= 0.04868; Epoch Label ACC.= 81.99%, UnLabel ACC.= 65.43%, Lipistz loss = 0, Train Unlabel Best ACC.= 65.4%, Train Max Epoch=308
+EarlyStopping counter: 5 out of 200
+Epoch [310][SemiTeacher][CricketX] loss= 0.04574; Epoch Label ACC.= 86.03%, UnLabel ACC.= 63.59%, Lipistz loss = 0, Train Unlabel Best ACC.= 65.4%, Train Max Epoch=308
+EarlyStopping counter: 6 out of 200
+Epoch [311][SemiTeacher][CricketX] loss= 0.04432; Epoch Label ACC.= 85.82%, UnLabel ACC.= 60.62%, Lipistz loss = 0, Train Unlabel Best ACC.= 65.4%, Train Max Epoch=308
+EarlyStopping counter: 7 out of 200
+Epoch [312][SemiTeacher][CricketX] loss= 0.05097; Epoch Label ACC.= 80.71%, UnLabel ACC.= 63.01%, Lipistz loss = 0, Train Unlabel Best ACC.= 65.4%, Train Max Epoch=308
+EarlyStopping counter: 8 out of 200
+Epoch [313][SemiTeacher][CricketX] loss= 0.04574; Epoch Label ACC.= 81.36%, UnLabel ACC.= 61.52%, Lipistz loss = 0, Train Unlabel Best ACC.= 65.4%, Train Max Epoch=308
+EarlyStopping counter: 9 out of 200
+Epoch [314][SemiTeacher][CricketX] loss= 0.04897; Epoch Label ACC.= 82.59%, UnLabel ACC.= 55.82%, Lipistz loss = 0, Train Unlabel Best ACC.= 65.4%, Train Max Epoch=308
+EarlyStopping counter: 10 out of 200
+Epoch [315][SemiTeacher][CricketX] loss= 0.04554; Epoch Label ACC.= 80.24%, UnLabel ACC.= 61.29%, Lipistz loss = 0, Train Unlabel Best ACC.= 65.4%, Train Max Epoch=308
+EarlyStopping counter: 11 out of 200
+Epoch [316][SemiTeacher][CricketX] loss= 0.04143; Epoch Label ACC.= 82.49%, UnLabel ACC.= 57.89%, Lipistz loss = 0, Train Unlabel Best ACC.= 65.4%, Train Max Epoch=308
+EarlyStopping counter: 12 out of 200
+Epoch [317][SemiTeacher][CricketX] loss= 0.04591; Epoch Label ACC.= 85.20%, UnLabel ACC.= 60.39%, Lipistz loss = 0, Train Unlabel Best ACC.= 65.4%, Train Max Epoch=308
+EarlyStopping counter: 13 out of 200
+Epoch [318][SemiTeacher][CricketX] loss= 0.04608; Epoch Label ACC.= 82.72%, UnLabel ACC.= 61.64%, Lipistz loss = 0, Train Unlabel Best ACC.= 65.4%, Train Max Epoch=308
+EarlyStopping counter: 14 out of 200
+Epoch [319][SemiTeacher][CricketX] loss= 0.04727; Epoch Label ACC.= 83.18%, UnLabel ACC.= 58.09%, Lipistz loss = 0, Train Unlabel Best ACC.= 65.4%, Train Max Epoch=308
+EarlyStopping counter: 15 out of 200
+Epoch [320][SemiTeacher][CricketX] loss= 0.05046; Epoch Label ACC.= 85.72%, UnLabel ACC.= 57.89%, Lipistz loss = 0, Train Unlabel Best ACC.= 65.4%, Train Max Epoch=308
+EarlyStopping counter: 16 out of 200
+Epoch [321][SemiTeacher][CricketX] loss= 0.04874; Epoch Label ACC.= 86.96%, UnLabel ACC.= 63.83%, Lipistz loss = 0, Train Unlabel Best ACC.= 65.4%, Train Max Epoch=308
+EarlyStopping counter: 17 out of 200
+Epoch [322][SemiTeacher][CricketX] loss= 0.05117; Epoch Label ACC.= 86.32%, UnLabel ACC.= 60.27%, Lipistz loss = 0, Train Unlabel Best ACC.= 65.4%, Train Max Epoch=308
+EarlyStopping counter: 18 out of 200
+Epoch [323][SemiTeacher][CricketX] loss= 0.04387; Epoch Label ACC.= 80.64%, UnLabel ACC.= 63.01%, Lipistz loss = 0, Train Unlabel Best ACC.= 65.4%, Train Max Epoch=308
+EarlyStopping counter: 19 out of 200
+Epoch [324][SemiTeacher][CricketX] loss= 0.05034; Epoch Label ACC.= 82.64%, UnLabel ACC.= 56.21%, Lipistz loss = 0, Train Unlabel Best ACC.= 65.4%, Train Max Epoch=308
+EarlyStopping counter: 20 out of 200
+Epoch [325][SemiTeacher][CricketX] loss= 0.04908; Epoch Label ACC.= 78.73%, UnLabel ACC.= 63.48%, Lipistz loss = 0, Train Unlabel Best ACC.= 65.4%, Train Max Epoch=308
+EarlyStopping counter: 21 out of 200
+Epoch [326][SemiTeacher][CricketX] loss= 0.04343; Epoch Label ACC.= 83.15%, UnLabel ACC.= 62.89%, Lipistz loss = 0, Train Unlabel Best ACC.= 65.4%, Train Max Epoch=308
+EarlyStopping counter: 22 out of 200
+Epoch [327][SemiTeacher][CricketX] loss= 0.04850; Epoch Label ACC.= 82.58%, UnLabel ACC.= 59.26%, Lipistz loss = 0, Train Unlabel Best ACC.= 65.4%, Train Max Epoch=308
+EarlyStopping counter: 23 out of 200
+Epoch [328][SemiTeacher][CricketX] loss= 0.04375; Epoch Label ACC.= 80.48%, UnLabel ACC.= 61.76%, Lipistz loss = 0, Train Unlabel Best ACC.= 65.4%, Train Max Epoch=308
+EarlyStopping counter: 24 out of 200
+Epoch [329][SemiTeacher][CricketX] loss= 0.04443; Epoch Label ACC.= 81.53%, UnLabel ACC.= 60.39%, Lipistz loss = 0, Train Unlabel Best ACC.= 65.4%, Train Max Epoch=308
+EarlyStopping counter: 25 out of 200
+Epoch [330][SemiTeacher][CricketX] loss= 0.04613; Epoch Label ACC.= 82.38%, UnLabel ACC.= 58.71%, Lipistz loss = 0, Train Unlabel Best ACC.= 65.4%, Train Max Epoch=308
+EarlyStopping counter: 26 out of 200
+Epoch [331][SemiTeacher][CricketX] loss= 0.05190; Epoch Label ACC.= 83.52%, UnLabel ACC.= 60.47%, Lipistz loss = 0, Train Unlabel Best ACC.= 65.4%, Train Max Epoch=308
+EarlyStopping counter: 27 out of 200
+Epoch [332][SemiTeacher][CricketX] loss= 0.04473; Epoch Label ACC.= 77.09%, UnLabel ACC.= 61.68%, Lipistz loss = 0, Train Unlabel Best ACC.= 65.4%, Train Max Epoch=308
+EarlyStopping counter: 28 out of 200
+Epoch [333][SemiTeacher][CricketX] loss= 0.04756; Epoch Label ACC.= 81.86%, UnLabel ACC.= 57.89%, Lipistz loss = 0, Train Unlabel Best ACC.= 65.4%, Train Max Epoch=308
+EarlyStopping counter: 29 out of 200
+Epoch [334][SemiTeacher][CricketX] loss= 0.04809; Epoch Label ACC.= 80.50%, UnLabel ACC.= 59.77%, Lipistz loss = 0, Train Unlabel Best ACC.= 65.4%, Train Max Epoch=308
+EarlyStopping counter: 30 out of 200
+Epoch [335][SemiTeacher][CricketX] loss= 0.05074; Epoch Label ACC.= 87.22%, UnLabel ACC.= 59.53%, Lipistz loss = 0, Train Unlabel Best ACC.= 65.4%, Train Max Epoch=308
+EarlyStopping counter: 31 out of 200
+Epoch [336][SemiTeacher][CricketX] loss= 0.04811; Epoch Label ACC.= 80.62%, UnLabel ACC.= 60.59%, Lipistz loss = 0, Train Unlabel Best ACC.= 65.4%, Train Max Epoch=308
+EarlyStopping counter: 32 out of 200
+Epoch [337][SemiTeacher][CricketX] loss= 0.04807; Epoch Label ACC.= 83.20%, UnLabel ACC.= 64.06%, Lipistz loss = 0, Train Unlabel Best ACC.= 65.4%, Train Max Epoch=308
+EarlyStopping counter: 33 out of 200
+Epoch [338][SemiTeacher][CricketX] loss= 0.04546; Epoch Label ACC.= 81.08%, UnLabel ACC.= 64.77%, Lipistz loss = 0, Train Unlabel Best ACC.= 65.4%, Train Max Epoch=308
+EarlyStopping counter: 34 out of 200
+Epoch [339][SemiTeacher][CricketX] loss= 0.04662; Epoch Label ACC.= 82.71%, UnLabel ACC.= 59.34%, Lipistz loss = 0, Train Unlabel Best ACC.= 65.4%, Train Max Epoch=308
+EarlyStopping counter: 35 out of 200
+Epoch [340][SemiTeacher][CricketX] loss= 0.04621; Epoch Label ACC.= 79.84%, UnLabel ACC.= 61.56%, Lipistz loss = 0, Train Unlabel Best ACC.= 65.4%, Train Max Epoch=308
+EarlyStopping counter: 36 out of 200
+Epoch [341][SemiTeacher][CricketX] loss= 0.04657; Epoch Label ACC.= 80.22%, UnLabel ACC.= 64.02%, Lipistz loss = 0, Train Unlabel Best ACC.= 65.4%, Train Max Epoch=308
+EarlyStopping counter: 37 out of 200
+Epoch [342][SemiTeacher][CricketX] loss= 0.04861; Epoch Label ACC.= 81.65%, UnLabel ACC.= 60.31%, Lipistz loss = 0, Train Unlabel Best ACC.= 65.4%, Train Max Epoch=308
+EarlyStopping counter: 38 out of 200
+Epoch [343][SemiTeacher][CricketX] loss= 0.04635; Epoch Label ACC.= 83.28%, UnLabel ACC.= 63.48%, Lipistz loss = 0, Train Unlabel Best ACC.= 65.4%, Train Max Epoch=308
+EarlyStopping counter: 39 out of 200
+Epoch [344][SemiTeacher][CricketX] loss= 0.04826; Epoch Label ACC.= 81.24%, UnLabel ACC.= 60.98%, Lipistz loss = 0, Train Unlabel Best ACC.= 65.4%, Train Max Epoch=308
+EarlyStopping counter: 40 out of 200
+Epoch [345][SemiTeacher][CricketX] loss= 0.04755; Epoch Label ACC.= 80.61%, UnLabel ACC.= 60.94%, Lipistz loss = 0, Train Unlabel Best ACC.= 65.4%, Train Max Epoch=308
+EarlyStopping counter: 41 out of 200
+Epoch [346][SemiTeacher][CricketX] loss= 0.04492; Epoch Label ACC.= 86.03%, UnLabel ACC.= 61.05%, Lipistz loss = 0, Train Unlabel Best ACC.= 65.4%, Train Max Epoch=308
+EarlyStopping counter: 42 out of 200
+Epoch [347][SemiTeacher][CricketX] loss= 0.05031; Epoch Label ACC.= 81.26%, UnLabel ACC.= 62.19%, Lipistz loss = 0, Train Unlabel Best ACC.= 65.4%, Train Max Epoch=308
+EarlyStopping counter: 43 out of 200
+Epoch [348][SemiTeacher][CricketX] loss= 0.04995; Epoch Label ACC.= 78.07%, UnLabel ACC.= 61.05%, Lipistz loss = 0, Train Unlabel Best ACC.= 65.4%, Train Max Epoch=308
+EarlyStopping counter: 44 out of 200
+Epoch [349][SemiTeacher][CricketX] loss= 0.05351; Epoch Label ACC.= 82.69%, UnLabel ACC.= 56.99%, Lipistz loss = 0, Train Unlabel Best ACC.= 65.4%, Train Max Epoch=308
+EarlyStopping counter: 45 out of 200
+Epoch [350][SemiTeacher][CricketX] loss= 0.04423; Epoch Label ACC.= 81.19%, UnLabel ACC.= 63.48%, Lipistz loss = 0, Train Unlabel Best ACC.= 65.4%, Train Max Epoch=308
+EarlyStopping counter: 46 out of 200
+Epoch [351][SemiTeacher][CricketX] loss= 0.05015; Epoch Label ACC.= 82.02%, UnLabel ACC.= 63.79%, Lipistz loss = 0, Train Unlabel Best ACC.= 65.4%, Train Max Epoch=308
+EarlyStopping counter: 47 out of 200
+Epoch [352][SemiTeacher][CricketX] loss= 0.05350; Epoch Label ACC.= 86.52%, UnLabel ACC.= 64.41%, Lipistz loss = 0, Train Unlabel Best ACC.= 65.4%, Train Max Epoch=308
+EarlyStopping counter: 48 out of 200
+Epoch [353][SemiTeacher][CricketX] loss= 0.04561; Epoch Label ACC.= 82.50%, UnLabel ACC.= 61.91%, Lipistz loss = 0, Train Unlabel Best ACC.= 65.4%, Train Max Epoch=308
+EarlyStopping counter: 49 out of 200
+Epoch [354][SemiTeacher][CricketX] loss= 0.04673; Epoch Label ACC.= 80.48%, UnLabel ACC.= 58.98%, Lipistz loss = 0, Train Unlabel Best ACC.= 65.4%, Train Max Epoch=308
+EarlyStopping counter: 50 out of 200
+Epoch [355][SemiTeacher][CricketX] loss= 0.04606; Epoch Label ACC.= 80.53%, UnLabel ACC.= 59.26%, Lipistz loss = 0, Train Unlabel Best ACC.= 65.4%, Train Max Epoch=308
+EarlyStopping counter: 51 out of 200
+Epoch [356][SemiTeacher][CricketX] loss= 0.04659; Epoch Label ACC.= 80.48%, UnLabel ACC.= 65.59%, Lipistz loss = 0, Train Unlabel Best ACC.= 65.6%, Train Max Epoch=355
+EarlyStopping counter: 52 out of 200
+Epoch [357][SemiTeacher][CricketX] loss= 0.04918; Epoch Label ACC.= 84.22%, UnLabel ACC.= 61.29%, Lipistz loss = 0, Train Unlabel Best ACC.= 65.6%, Train Max Epoch=355
+EarlyStopping counter: 53 out of 200
+Epoch [358][SemiTeacher][CricketX] loss= 0.04635; Epoch Label ACC.= 81.75%, UnLabel ACC.= 64.26%, Lipistz loss = 0, Train Unlabel Best ACC.= 65.6%, Train Max Epoch=355
+EarlyStopping counter: 54 out of 200
+Epoch [359][SemiTeacher][CricketX] loss= 0.04790; Epoch Label ACC.= 82.02%, UnLabel ACC.= 57.62%, Lipistz loss = 0, Train Unlabel Best ACC.= 65.6%, Train Max Epoch=355
+EarlyStopping counter: 55 out of 200
+Epoch [360][SemiTeacher][CricketX] loss= 0.04661; Epoch Label ACC.= 82.45%, UnLabel ACC.= 60.94%, Lipistz loss = 0, Train Unlabel Best ACC.= 65.6%, Train Max Epoch=355
+EarlyStopping counter: 56 out of 200
+Epoch [361][SemiTeacher][CricketX] loss= 0.04442; Epoch Label ACC.= 86.40%, UnLabel ACC.= 60.94%, Lipistz loss = 0, Train Unlabel Best ACC.= 65.6%, Train Max Epoch=355
+EarlyStopping counter: 57 out of 200
+Epoch [362][SemiTeacher][CricketX] loss= 0.04682; Epoch Label ACC.= 83.02%, UnLabel ACC.= 62.11%, Lipistz loss = 0, Train Unlabel Best ACC.= 65.6%, Train Max Epoch=355
+EarlyStopping counter: 58 out of 200
+Epoch [363][SemiTeacher][CricketX] loss= 0.05220; Epoch Label ACC.= 84.76%, UnLabel ACC.= 57.15%, Lipistz loss = 0, Train Unlabel Best ACC.= 65.6%, Train Max Epoch=355
+EarlyStopping counter: 59 out of 200
+Epoch [364][SemiTeacher][CricketX] loss= 0.05018; Epoch Label ACC.= 83.74%, UnLabel ACC.= 61.45%, Lipistz loss = 0, Train Unlabel Best ACC.= 65.6%, Train Max Epoch=355
+EarlyStopping counter: 60 out of 200
+Epoch [365][SemiTeacher][CricketX] loss= 0.04716; Epoch Label ACC.= 85.22%, UnLabel ACC.= 61.84%, Lipistz loss = 0, Train Unlabel Best ACC.= 65.6%, Train Max Epoch=355
+EarlyStopping counter: 61 out of 200
+Epoch [366][SemiTeacher][CricketX] loss= 0.04730; Epoch Label ACC.= 85.31%, UnLabel ACC.= 63.36%, Lipistz loss = 0, Train Unlabel Best ACC.= 65.6%, Train Max Epoch=355
+EarlyStopping counter: 62 out of 200
+Epoch [367][SemiTeacher][CricketX] loss= 0.04797; Epoch Label ACC.= 82.30%, UnLabel ACC.= 62.03%, Lipistz loss = 0, Train Unlabel Best ACC.= 65.6%, Train Max Epoch=355
+EarlyStopping counter: 63 out of 200
+Epoch [368][SemiTeacher][CricketX] loss= 0.04625; Epoch Label ACC.= 82.79%, UnLabel ACC.= 60.70%, Lipistz loss = 0, Train Unlabel Best ACC.= 65.6%, Train Max Epoch=355
+EarlyStopping counter: 64 out of 200
+Epoch [369][SemiTeacher][CricketX] loss= 0.04714; Epoch Label ACC.= 84.43%, UnLabel ACC.= 62.62%, Lipistz loss = 0, Train Unlabel Best ACC.= 65.6%, Train Max Epoch=355
+EarlyStopping counter: 65 out of 200
+Epoch [370][SemiTeacher][CricketX] loss= 0.04927; Epoch Label ACC.= 80.90%, UnLabel ACC.= 59.96%, Lipistz loss = 0, Train Unlabel Best ACC.= 65.6%, Train Max Epoch=355
+EarlyStopping counter: 66 out of 200
+Epoch [371][SemiTeacher][CricketX] loss= 0.05238; Epoch Label ACC.= 85.04%, UnLabel ACC.= 61.09%, Lipistz loss = 0, Train Unlabel Best ACC.= 65.6%, Train Max Epoch=355
+EarlyStopping counter: 67 out of 200
+Epoch [372][SemiTeacher][CricketX] loss= 0.04866; Epoch Label ACC.= 85.28%, UnLabel ACC.= 62.46%, Lipistz loss = 0, Train Unlabel Best ACC.= 65.6%, Train Max Epoch=355
+EarlyStopping counter: 68 out of 200
+Epoch [373][SemiTeacher][CricketX] loss= 0.04503; Epoch Label ACC.= 84.17%, UnLabel ACC.= 60.00%, Lipistz loss = 0, Train Unlabel Best ACC.= 65.6%, Train Max Epoch=355
+EarlyStopping counter: 69 out of 200
+Epoch [374][SemiTeacher][CricketX] loss= 0.04934; Epoch Label ACC.= 80.74%, UnLabel ACC.= 62.23%, Lipistz loss = 0, Train Unlabel Best ACC.= 65.6%, Train Max Epoch=355
+EarlyStopping counter: 70 out of 200
+Epoch [375][SemiTeacher][CricketX] loss= 0.05183; Epoch Label ACC.= 83.65%, UnLabel ACC.= 62.97%, Lipistz loss = 0, Train Unlabel Best ACC.= 65.6%, Train Max Epoch=355
+EarlyStopping counter: 71 out of 200
+Epoch [376][SemiTeacher][CricketX] loss= 0.04837; Epoch Label ACC.= 82.64%, UnLabel ACC.= 59.53%, Lipistz loss = 0, Train Unlabel Best ACC.= 65.6%, Train Max Epoch=355
+EarlyStopping counter: 72 out of 200
+Epoch [377][SemiTeacher][CricketX] loss= 0.05098; Epoch Label ACC.= 87.11%, UnLabel ACC.= 60.70%, Lipistz loss = 0, Train Unlabel Best ACC.= 65.6%, Train Max Epoch=355
+EarlyStopping counter: 73 out of 200
+Epoch [378][SemiTeacher][CricketX] loss= 0.04991; Epoch Label ACC.= 86.86%, UnLabel ACC.= 61.41%, Lipistz loss = 0, Train Unlabel Best ACC.= 65.6%, Train Max Epoch=355
+EarlyStopping counter: 74 out of 200
+Epoch [379][SemiTeacher][CricketX] loss= 0.04748; Epoch Label ACC.= 83.54%, UnLabel ACC.= 62.58%, Lipistz loss = 0, Train Unlabel Best ACC.= 65.6%, Train Max Epoch=355
+EarlyStopping counter: 75 out of 200
+Epoch [380][SemiTeacher][CricketX] loss= 0.04985; Epoch Label ACC.= 83.70%, UnLabel ACC.= 63.55%, Lipistz loss = 0, Train Unlabel Best ACC.= 65.6%, Train Max Epoch=355
+EarlyStopping counter: 76 out of 200
+Epoch [381][SemiTeacher][CricketX] loss= 0.04573; Epoch Label ACC.= 84.45%, UnLabel ACC.= 65.23%, Lipistz loss = 0, Train Unlabel Best ACC.= 65.6%, Train Max Epoch=355
+EarlyStopping counter: 77 out of 200
+Epoch [382][SemiTeacher][CricketX] loss= 0.04673; Epoch Label ACC.= 84.42%, UnLabel ACC.= 60.39%, Lipistz loss = 0, Train Unlabel Best ACC.= 65.6%, Train Max Epoch=355
+EarlyStopping counter: 78 out of 200
+Epoch [383][SemiTeacher][CricketX] loss= 0.04930; Epoch Label ACC.= 85.82%, UnLabel ACC.= 61.76%, Lipistz loss = 0, Train Unlabel Best ACC.= 65.6%, Train Max Epoch=355
+EarlyStopping counter: 79 out of 200
+Epoch [384][SemiTeacher][CricketX] loss= 0.04603; Epoch Label ACC.= 84.11%, UnLabel ACC.= 62.11%, Lipistz loss = 0, Train Unlabel Best ACC.= 65.6%, Train Max Epoch=355
+EarlyStopping counter: 80 out of 200
+Epoch [385][SemiTeacher][CricketX] loss= 0.04547; Epoch Label ACC.= 83.74%, UnLabel ACC.= 62.11%, Lipistz loss = 0, Train Unlabel Best ACC.= 65.6%, Train Max Epoch=355
+EarlyStopping counter: 81 out of 200
+Epoch [386][SemiTeacher][CricketX] loss= 0.04839; Epoch Label ACC.= 84.06%, UnLabel ACC.= 59.53%, Lipistz loss = 0, Train Unlabel Best ACC.= 65.6%, Train Max Epoch=355
+EarlyStopping counter: 82 out of 200
+Epoch [387][SemiTeacher][CricketX] loss= 0.04729; Epoch Label ACC.= 84.14%, UnLabel ACC.= 62.46%, Lipistz loss = 0, Train Unlabel Best ACC.= 65.6%, Train Max Epoch=355
+EarlyStopping counter: 83 out of 200
+Epoch [388][SemiTeacher][CricketX] loss= 0.05103; Epoch Label ACC.= 85.83%, UnLabel ACC.= 62.30%, Lipistz loss = 0, Train Unlabel Best ACC.= 65.6%, Train Max Epoch=355
+EarlyStopping counter: 84 out of 200
+Epoch [389][SemiTeacher][CricketX] loss= 0.04897; Epoch Label ACC.= 87.87%, UnLabel ACC.= 62.81%, Lipistz loss = 0, Train Unlabel Best ACC.= 65.6%, Train Max Epoch=355
+EarlyStopping counter: 85 out of 200
+Epoch [390][SemiTeacher][CricketX] loss= 0.04461; Epoch Label ACC.= 87.64%, UnLabel ACC.= 62.97%, Lipistz loss = 0, Train Unlabel Best ACC.= 65.6%, Train Max Epoch=355
+EarlyStopping counter: 86 out of 200
+Epoch [391][SemiTeacher][CricketX] loss= 0.05068; Epoch Label ACC.= 82.81%, UnLabel ACC.= 60.62%, Lipistz loss = 0, Train Unlabel Best ACC.= 65.6%, Train Max Epoch=355
+EarlyStopping counter: 87 out of 200
+Epoch [392][SemiTeacher][CricketX] loss= 0.04678; Epoch Label ACC.= 83.41%, UnLabel ACC.= 60.04%, Lipistz loss = 0, Train Unlabel Best ACC.= 65.6%, Train Max Epoch=355
+EarlyStopping counter: 88 out of 200
+Epoch [393][SemiTeacher][CricketX] loss= 0.04930; Epoch Label ACC.= 86.23%, UnLabel ACC.= 60.70%, Lipistz loss = 0, Train Unlabel Best ACC.= 65.6%, Train Max Epoch=355
+EarlyStopping counter: 89 out of 200
+Epoch [394][SemiTeacher][CricketX] loss= 0.04332; Epoch Label ACC.= 83.13%, UnLabel ACC.= 62.62%, Lipistz loss = 0, Train Unlabel Best ACC.= 65.6%, Train Max Epoch=355
+EarlyStopping counter: 90 out of 200
+Epoch [395][SemiTeacher][CricketX] loss= 0.04771; Epoch Label ACC.= 82.46%, UnLabel ACC.= 64.80%, Lipistz loss = 0, Train Unlabel Best ACC.= 65.6%, Train Max Epoch=355
+EarlyStopping counter: 91 out of 200
+Epoch [396][SemiTeacher][CricketX] loss= 0.04910; Epoch Label ACC.= 84.74%, UnLabel ACC.= 61.52%, Lipistz loss = 0, Train Unlabel Best ACC.= 65.6%, Train Max Epoch=355
+EarlyStopping counter: 92 out of 200
+Epoch [397][SemiTeacher][CricketX] loss= 0.05092; Epoch Label ACC.= 85.98%, UnLabel ACC.= 59.92%, Lipistz loss = 0, Train Unlabel Best ACC.= 65.6%, Train Max Epoch=355
+EarlyStopping counter: 93 out of 200
+Epoch [398][SemiTeacher][CricketX] loss= 0.04936; Epoch Label ACC.= 82.43%, UnLabel ACC.= 59.41%, Lipistz loss = 0, Train Unlabel Best ACC.= 65.6%, Train Max Epoch=355
+EarlyStopping counter: 94 out of 200
+Epoch [399][SemiTeacher][CricketX] loss= 0.04594; Epoch Label ACC.= 84.66%, UnLabel ACC.= 64.18%, Lipistz loss = 0, Train Unlabel Best ACC.= 65.6%, Train Max Epoch=355
+EarlyStopping counter: 95 out of 200
+[INFO] save backbone at epoch 399!
+Epoch [400][SemiTeacher][CricketX] loss= 0.04360; Epoch Label ACC.= 86.84%, UnLabel ACC.= 61.95%, Lipistz loss = 0, Train Unlabel Best ACC.= 65.6%, Train Max Epoch=355
+EarlyStopping counter: 96 out of 200
+Epoch [401][SemiTeacher][CricketX] loss= 0.04554; Epoch Label ACC.= 83.03%, UnLabel ACC.= 61.60%, Lipistz loss = 0, Train Unlabel Best ACC.= 65.6%, Train Max Epoch=355
+EarlyStopping counter: 97 out of 200
+Epoch [402][SemiTeacher][CricketX] loss= 0.04641; Epoch Label ACC.= 86.62%, UnLabel ACC.= 61.68%, Lipistz loss = 0, Train Unlabel Best ACC.= 65.6%, Train Max Epoch=355
+EarlyStopping counter: 98 out of 200
+Epoch [403][SemiTeacher][CricketX] loss= 0.04823; Epoch Label ACC.= 84.37%, UnLabel ACC.= 60.00%, Lipistz loss = 0, Train Unlabel Best ACC.= 65.6%, Train Max Epoch=355
+EarlyStopping counter: 99 out of 200
+Epoch [404][SemiTeacher][CricketX] loss= 0.04424; Epoch Label ACC.= 83.85%, UnLabel ACC.= 60.62%, Lipistz loss = 0, Train Unlabel Best ACC.= 65.6%, Train Max Epoch=355
+EarlyStopping counter: 100 out of 200
+Epoch [405][SemiTeacher][CricketX] loss= 0.04716; Epoch Label ACC.= 83.51%, UnLabel ACC.= 61.84%, Lipistz loss = 0, Train Unlabel Best ACC.= 65.6%, Train Max Epoch=355
+EarlyStopping counter: 101 out of 200
+Epoch [406][SemiTeacher][CricketX] loss= 0.04639; Epoch Label ACC.= 81.99%, UnLabel ACC.= 66.41%, Lipistz loss = 0, Train Unlabel Best ACC.= 66.4%, Train Max Epoch=405
+EarlyStopping counter: 102 out of 200
+Epoch [407][SemiTeacher][CricketX] loss= 0.04627; Epoch Label ACC.= 84.35%, UnLabel ACC.= 65.66%, Lipistz loss = 0, Train Unlabel Best ACC.= 66.4%, Train Max Epoch=405
+EarlyStopping counter: 103 out of 200
+Epoch [408][SemiTeacher][CricketX] loss= 0.05086; Epoch Label ACC.= 85.30%, UnLabel ACC.= 61.76%, Lipistz loss = 0, Train Unlabel Best ACC.= 66.4%, Train Max Epoch=405
+EarlyStopping counter: 104 out of 200
+Epoch [409][SemiTeacher][CricketX] loss= 0.04943; Epoch Label ACC.= 85.00%, UnLabel ACC.= 64.65%, Lipistz loss = 0, Train Unlabel Best ACC.= 66.4%, Train Max Epoch=405
+EarlyStopping counter: 105 out of 200
+Epoch [410][SemiTeacher][CricketX] loss= 0.04824; Epoch Label ACC.= 83.44%, UnLabel ACC.= 64.10%, Lipistz loss = 0, Train Unlabel Best ACC.= 66.4%, Train Max Epoch=405
+EarlyStopping counter: 106 out of 200
+Epoch [411][SemiTeacher][CricketX] loss= 0.05049; Epoch Label ACC.= 82.95%, UnLabel ACC.= 58.16%, Lipistz loss = 0, Train Unlabel Best ACC.= 66.4%, Train Max Epoch=405
+EarlyStopping counter: 107 out of 200
+Epoch [412][SemiTeacher][CricketX] loss= 0.04757; Epoch Label ACC.= 84.06%, UnLabel ACC.= 62.15%, Lipistz loss = 0, Train Unlabel Best ACC.= 66.4%, Train Max Epoch=405
+EarlyStopping counter: 108 out of 200
+Epoch [413][SemiTeacher][CricketX] loss= 0.04472; Epoch Label ACC.= 84.84%, UnLabel ACC.= 63.40%, Lipistz loss = 0, Train Unlabel Best ACC.= 66.4%, Train Max Epoch=405
+EarlyStopping counter: 109 out of 200
+Epoch [414][SemiTeacher][CricketX] loss= 0.04630; Epoch Label ACC.= 85.66%, UnLabel ACC.= 64.30%, Lipistz loss = 0, Train Unlabel Best ACC.= 66.4%, Train Max Epoch=405
+EarlyStopping counter: 110 out of 200
+Epoch [415][SemiTeacher][CricketX] loss= 0.05164; Epoch Label ACC.= 85.48%, UnLabel ACC.= 65.00%, Lipistz loss = 0, Train Unlabel Best ACC.= 66.4%, Train Max Epoch=405
+EarlyStopping counter: 111 out of 200
+Epoch [416][SemiTeacher][CricketX] loss= 0.04701; Epoch Label ACC.= 81.91%, UnLabel ACC.= 60.78%, Lipistz loss = 0, Train Unlabel Best ACC.= 66.4%, Train Max Epoch=405
+EarlyStopping counter: 112 out of 200
+Epoch [417][SemiTeacher][CricketX] loss= 0.04428; Epoch Label ACC.= 88.29%, UnLabel ACC.= 62.70%, Lipistz loss = 0, Train Unlabel Best ACC.= 66.4%, Train Max Epoch=405
+EarlyStopping counter: 113 out of 200
+Epoch [418][SemiTeacher][CricketX] loss= 0.05019; Epoch Label ACC.= 78.30%, UnLabel ACC.= 58.87%, Lipistz loss = 0, Train Unlabel Best ACC.= 66.4%, Train Max Epoch=405
+EarlyStopping counter: 114 out of 200
+Epoch [419][SemiTeacher][CricketX] loss= 0.04555; Epoch Label ACC.= 82.84%, UnLabel ACC.= 62.54%, Lipistz loss = 0, Train Unlabel Best ACC.= 66.4%, Train Max Epoch=405
+EarlyStopping counter: 115 out of 200
+Epoch [420][SemiTeacher][CricketX] loss= 0.04806; Epoch Label ACC.= 82.79%, UnLabel ACC.= 61.91%, Lipistz loss = 0, Train Unlabel Best ACC.= 66.4%, Train Max Epoch=405
+EarlyStopping counter: 116 out of 200
+Epoch [421][SemiTeacher][CricketX] loss= 0.04668; Epoch Label ACC.= 84.61%, UnLabel ACC.= 63.71%, Lipistz loss = 0, Train Unlabel Best ACC.= 66.4%, Train Max Epoch=405
+EarlyStopping counter: 117 out of 200
+Epoch [422][SemiTeacher][CricketX] loss= 0.04954; Epoch Label ACC.= 85.41%, UnLabel ACC.= 66.80%, Lipistz loss = 0, Train Unlabel Best ACC.= 66.8%, Train Max Epoch=421
+EarlyStopping counter: 118 out of 200
+Epoch [423][SemiTeacher][CricketX] loss= 0.04809; Epoch Label ACC.= 85.33%, UnLabel ACC.= 63.05%, Lipistz loss = 0, Train Unlabel Best ACC.= 66.8%, Train Max Epoch=421
+EarlyStopping counter: 119 out of 200
+Epoch [424][SemiTeacher][CricketX] loss= 0.04993; Epoch Label ACC.= 84.08%, UnLabel ACC.= 63.36%, Lipistz loss = 0, Train Unlabel Best ACC.= 66.8%, Train Max Epoch=421
+EarlyStopping counter: 120 out of 200
+Epoch [425][SemiTeacher][CricketX] loss= 0.04982; Epoch Label ACC.= 84.04%, UnLabel ACC.= 62.89%, Lipistz loss = 0, Train Unlabel Best ACC.= 66.8%, Train Max Epoch=421
+EarlyStopping counter: 121 out of 200
+Epoch [426][SemiTeacher][CricketX] loss= 0.04620; Epoch Label ACC.= 81.67%, UnLabel ACC.= 64.06%, Lipistz loss = 0, Train Unlabel Best ACC.= 66.8%, Train Max Epoch=421
+EarlyStopping counter: 122 out of 200
+Epoch [427][SemiTeacher][CricketX] loss= 0.04481; Epoch Label ACC.= 83.69%, UnLabel ACC.= 65.00%, Lipistz loss = 0, Train Unlabel Best ACC.= 66.8%, Train Max Epoch=421
+EarlyStopping counter: 123 out of 200
+Epoch [428][SemiTeacher][CricketX] loss= 0.04984; Epoch Label ACC.= 85.62%, UnLabel ACC.= 67.77%, Lipistz loss = 0, Train Unlabel Best ACC.= 67.8%, Train Max Epoch=427
+EarlyStopping counter: 124 out of 200
+Epoch [429][SemiTeacher][CricketX] loss= 0.04608; Epoch Label ACC.= 88.13%, UnLabel ACC.= 63.16%, Lipistz loss = 0, Train Unlabel Best ACC.= 67.8%, Train Max Epoch=427
+EarlyStopping counter: 125 out of 200
+Epoch [430][SemiTeacher][CricketX] loss= 0.04855; Epoch Label ACC.= 86.03%, UnLabel ACC.= 64.65%, Lipistz loss = 0, Train Unlabel Best ACC.= 67.8%, Train Max Epoch=427
+EarlyStopping counter: 126 out of 200
+Epoch [431][SemiTeacher][CricketX] loss= 0.04514; Epoch Label ACC.= 85.64%, UnLabel ACC.= 62.62%, Lipistz loss = 0, Train Unlabel Best ACC.= 67.8%, Train Max Epoch=427
+EarlyStopping counter: 127 out of 200
+Epoch [432][SemiTeacher][CricketX] loss= 0.04603; Epoch Label ACC.= 85.25%, UnLabel ACC.= 63.52%, Lipistz loss = 0, Train Unlabel Best ACC.= 67.8%, Train Max Epoch=427
+EarlyStopping counter: 128 out of 200
+Epoch [433][SemiTeacher][CricketX] loss= 0.04358; Epoch Label ACC.= 87.35%, UnLabel ACC.= 61.76%, Lipistz loss = 0, Train Unlabel Best ACC.= 67.8%, Train Max Epoch=427
+EarlyStopping counter: 129 out of 200
+Epoch [434][SemiTeacher][CricketX] loss= 0.04550; Epoch Label ACC.= 87.35%, UnLabel ACC.= 64.41%, Lipistz loss = 0, Train Unlabel Best ACC.= 67.8%, Train Max Epoch=427
+EarlyStopping counter: 130 out of 200
+Epoch [435][SemiTeacher][CricketX] loss= 0.04596; Epoch Label ACC.= 83.74%, UnLabel ACC.= 63.40%, Lipistz loss = 0, Train Unlabel Best ACC.= 67.8%, Train Max Epoch=427
+EarlyStopping counter: 131 out of 200
+Epoch [436][SemiTeacher][CricketX] loss= 0.04694; Epoch Label ACC.= 86.68%, UnLabel ACC.= 64.10%, Lipistz loss = 0, Train Unlabel Best ACC.= 67.8%, Train Max Epoch=427
+EarlyStopping counter: 132 out of 200
+Epoch [437][SemiTeacher][CricketX] loss= 0.05028; Epoch Label ACC.= 82.79%, UnLabel ACC.= 64.41%, Lipistz loss = 0, Train Unlabel Best ACC.= 67.8%, Train Max Epoch=427
+EarlyStopping counter: 133 out of 200
+Epoch [438][SemiTeacher][CricketX] loss= 0.04658; Epoch Label ACC.= 83.83%, UnLabel ACC.= 62.77%, Lipistz loss = 0, Train Unlabel Best ACC.= 67.8%, Train Max Epoch=427
+EarlyStopping counter: 134 out of 200
+Epoch [439][SemiTeacher][CricketX] loss= 0.04984; Epoch Label ACC.= 84.66%, UnLabel ACC.= 61.99%, Lipistz loss = 0, Train Unlabel Best ACC.= 67.8%, Train Max Epoch=427
+EarlyStopping counter: 135 out of 200
+Epoch [440][SemiTeacher][CricketX] loss= 0.04529; Epoch Label ACC.= 83.35%, UnLabel ACC.= 63.20%, Lipistz loss = 0, Train Unlabel Best ACC.= 67.8%, Train Max Epoch=427
+EarlyStopping counter: 136 out of 200
+Epoch [441][SemiTeacher][CricketX] loss= 0.05353; Epoch Label ACC.= 86.19%, UnLabel ACC.= 65.98%, Lipistz loss = 0, Train Unlabel Best ACC.= 67.8%, Train Max Epoch=427
+EarlyStopping counter: 137 out of 200
+Epoch [442][SemiTeacher][CricketX] loss= 0.04656; Epoch Label ACC.= 80.89%, UnLabel ACC.= 64.14%, Lipistz loss = 0, Train Unlabel Best ACC.= 67.8%, Train Max Epoch=427
+EarlyStopping counter: 138 out of 200
+Epoch [443][SemiTeacher][CricketX] loss= 0.04674; Epoch Label ACC.= 87.51%, UnLabel ACC.= 65.39%, Lipistz loss = 0, Train Unlabel Best ACC.= 67.8%, Train Max Epoch=427
+EarlyStopping counter: 139 out of 200
+Epoch [444][SemiTeacher][CricketX] loss= 0.04595; Epoch Label ACC.= 88.37%, UnLabel ACC.= 64.57%, Lipistz loss = 0, Train Unlabel Best ACC.= 67.8%, Train Max Epoch=427
+EarlyStopping counter: 140 out of 200
+Epoch [445][SemiTeacher][CricketX] loss= 0.04789; Epoch Label ACC.= 83.74%, UnLabel ACC.= 63.05%, Lipistz loss = 0, Train Unlabel Best ACC.= 67.8%, Train Max Epoch=427
+EarlyStopping counter: 141 out of 200
+Epoch [446][SemiTeacher][CricketX] loss= 0.04721; Epoch Label ACC.= 90.39%, UnLabel ACC.= 61.76%, Lipistz loss = 0, Train Unlabel Best ACC.= 67.8%, Train Max Epoch=427
+EarlyStopping counter: 142 out of 200
+Epoch [447][SemiTeacher][CricketX] loss= 0.04334; Epoch Label ACC.= 85.66%, UnLabel ACC.= 66.21%, Lipistz loss = 0, Train Unlabel Best ACC.= 67.8%, Train Max Epoch=427
+EarlyStopping counter: 143 out of 200
+Epoch [448][SemiTeacher][CricketX] loss= 0.04436; Epoch Label ACC.= 88.28%, UnLabel ACC.= 64.96%, Lipistz loss = 0, Train Unlabel Best ACC.= 67.8%, Train Max Epoch=427
+EarlyStopping counter: 144 out of 200
+Epoch [449][SemiTeacher][CricketX] loss= 0.05008; Epoch Label ACC.= 82.79%, UnLabel ACC.= 63.83%, Lipistz loss = 0, Train Unlabel Best ACC.= 67.8%, Train Max Epoch=427
+EarlyStopping counter: 145 out of 200
+Epoch [450][SemiTeacher][CricketX] loss= 0.04323; Epoch Label ACC.= 86.98%, UnLabel ACC.= 64.84%, Lipistz loss = 0, Train Unlabel Best ACC.= 67.8%, Train Max Epoch=427
+EarlyStopping counter: 146 out of 200
+Epoch [451][SemiTeacher][CricketX] loss= 0.04992; Epoch Label ACC.= 84.86%, UnLabel ACC.= 65.31%, Lipistz loss = 0, Train Unlabel Best ACC.= 67.8%, Train Max Epoch=427
+EarlyStopping counter: 147 out of 200
+Epoch [452][SemiTeacher][CricketX] loss= 0.04609; Epoch Label ACC.= 83.94%, UnLabel ACC.= 66.37%, Lipistz loss = 0, Train Unlabel Best ACC.= 67.8%, Train Max Epoch=427
+EarlyStopping counter: 148 out of 200
+Epoch [453][SemiTeacher][CricketX] loss= 0.04962; Epoch Label ACC.= 81.26%, UnLabel ACC.= 63.20%, Lipistz loss = 0, Train Unlabel Best ACC.= 67.8%, Train Max Epoch=427
+EarlyStopping counter: 149 out of 200
+Epoch [454][SemiTeacher][CricketX] loss= 0.04631; Epoch Label ACC.= 80.28%, UnLabel ACC.= 65.23%, Lipistz loss = 0, Train Unlabel Best ACC.= 67.8%, Train Max Epoch=427
+EarlyStopping counter: 150 out of 200
+Epoch [455][SemiTeacher][CricketX] loss= 0.04862; Epoch Label ACC.= 83.65%, UnLabel ACC.= 61.68%, Lipistz loss = 0, Train Unlabel Best ACC.= 67.8%, Train Max Epoch=427
+EarlyStopping counter: 151 out of 200
+Epoch [456][SemiTeacher][CricketX] loss= 0.04854; Epoch Label ACC.= 88.11%, UnLabel ACC.= 63.59%, Lipistz loss = 0, Train Unlabel Best ACC.= 67.8%, Train Max Epoch=427
+EarlyStopping counter: 152 out of 200
+Epoch [457][SemiTeacher][CricketX] loss= 0.04489; Epoch Label ACC.= 90.05%, UnLabel ACC.= 61.99%, Lipistz loss = 0, Train Unlabel Best ACC.= 67.8%, Train Max Epoch=427
+EarlyStopping counter: 153 out of 200
+Epoch [458][SemiTeacher][CricketX] loss= 0.04357; Epoch Label ACC.= 91.61%, UnLabel ACC.= 66.33%, Lipistz loss = 0, Train Unlabel Best ACC.= 67.8%, Train Max Epoch=427
+EarlyStopping counter: 154 out of 200
+Epoch [459][SemiTeacher][CricketX] loss= 0.04813; Epoch Label ACC.= 87.79%, UnLabel ACC.= 61.68%, Lipistz loss = 0, Train Unlabel Best ACC.= 67.8%, Train Max Epoch=427
+EarlyStopping counter: 155 out of 200
+Epoch [460][SemiTeacher][CricketX] loss= 0.04601; Epoch Label ACC.= 79.71%, UnLabel ACC.= 61.17%, Lipistz loss = 0, Train Unlabel Best ACC.= 67.8%, Train Max Epoch=427
+EarlyStopping counter: 156 out of 200
+Epoch [461][SemiTeacher][CricketX] loss= 0.04800; Epoch Label ACC.= 88.39%, UnLabel ACC.= 60.94%, Lipistz loss = 0, Train Unlabel Best ACC.= 67.8%, Train Max Epoch=427
+EarlyStopping counter: 157 out of 200
+Epoch [462][SemiTeacher][CricketX] loss= 0.04984; Epoch Label ACC.= 83.08%, UnLabel ACC.= 68.09%, Lipistz loss = 0, Train Unlabel Best ACC.= 68.1%, Train Max Epoch=461
+EarlyStopping counter: 158 out of 200
+Epoch [463][SemiTeacher][CricketX] loss= 0.05181; Epoch Label ACC.= 85.49%, UnLabel ACC.= 64.61%, Lipistz loss = 0, Train Unlabel Best ACC.= 68.1%, Train Max Epoch=461
+EarlyStopping counter: 159 out of 200
+Epoch [464][SemiTeacher][CricketX] loss= 0.04595; Epoch Label ACC.= 82.32%, UnLabel ACC.= 64.30%, Lipistz loss = 0, Train Unlabel Best ACC.= 68.1%, Train Max Epoch=461
+EarlyStopping counter: 160 out of 200
+Epoch [465][SemiTeacher][CricketX] loss= 0.04808; Epoch Label ACC.= 85.67%, UnLabel ACC.= 63.63%, Lipistz loss = 0, Train Unlabel Best ACC.= 68.1%, Train Max Epoch=461
+EarlyStopping counter: 161 out of 200
+Epoch [466][SemiTeacher][CricketX] loss= 0.04844; Epoch Label ACC.= 83.41%, UnLabel ACC.= 63.79%, Lipistz loss = 0, Train Unlabel Best ACC.= 68.1%, Train Max Epoch=461
+EarlyStopping counter: 162 out of 200
+Epoch [467][SemiTeacher][CricketX] loss= 0.04670; Epoch Label ACC.= 83.42%, UnLabel ACC.= 65.70%, Lipistz loss = 0, Train Unlabel Best ACC.= 68.1%, Train Max Epoch=461
+EarlyStopping counter: 163 out of 200
+Epoch [468][SemiTeacher][CricketX] loss= 0.04295; Epoch Label ACC.= 81.93%, UnLabel ACC.= 68.09%, Lipistz loss = 0, Train Unlabel Best ACC.= 68.1%, Train Max Epoch=461
+EarlyStopping counter: 164 out of 200
+Epoch [469][SemiTeacher][CricketX] loss= 0.04537; Epoch Label ACC.= 86.62%, UnLabel ACC.= 63.98%, Lipistz loss = 0, Train Unlabel Best ACC.= 68.1%, Train Max Epoch=461
+EarlyStopping counter: 165 out of 200
+Epoch [470][SemiTeacher][CricketX] loss= 0.04143; Epoch Label ACC.= 87.02%, UnLabel ACC.= 63.59%, Lipistz loss = 0, Train Unlabel Best ACC.= 68.1%, Train Max Epoch=461
+EarlyStopping counter: 166 out of 200
+Epoch [471][SemiTeacher][CricketX] loss= 0.04805; Epoch Label ACC.= 84.34%, UnLabel ACC.= 65.98%, Lipistz loss = 0, Train Unlabel Best ACC.= 68.1%, Train Max Epoch=461
+EarlyStopping counter: 167 out of 200
+Epoch [472][SemiTeacher][CricketX] loss= 0.05178; Epoch Label ACC.= 85.28%, UnLabel ACC.= 65.00%, Lipistz loss = 0, Train Unlabel Best ACC.= 68.1%, Train Max Epoch=461
+EarlyStopping counter: 168 out of 200
+Epoch [473][SemiTeacher][CricketX] loss= 0.04468; Epoch Label ACC.= 83.82%, UnLabel ACC.= 62.58%, Lipistz loss = 0, Train Unlabel Best ACC.= 68.1%, Train Max Epoch=461
+EarlyStopping counter: 169 out of 200
+Epoch [474][SemiTeacher][CricketX] loss= 0.04437; Epoch Label ACC.= 87.77%, UnLabel ACC.= 59.92%, Lipistz loss = 0, Train Unlabel Best ACC.= 68.1%, Train Max Epoch=461
+EarlyStopping counter: 170 out of 200
+Epoch [475][SemiTeacher][CricketX] loss= 0.04478; Epoch Label ACC.= 85.44%, UnLabel ACC.= 62.50%, Lipistz loss = 0, Train Unlabel Best ACC.= 68.1%, Train Max Epoch=461
+EarlyStopping counter: 171 out of 200
+Epoch [476][SemiTeacher][CricketX] loss= 0.04823; Epoch Label ACC.= 84.73%, UnLabel ACC.= 63.63%, Lipistz loss = 0, Train Unlabel Best ACC.= 68.1%, Train Max Epoch=461
+EarlyStopping counter: 172 out of 200
+Epoch [477][SemiTeacher][CricketX] loss= 0.04864; Epoch Label ACC.= 81.18%, UnLabel ACC.= 65.59%, Lipistz loss = 0, Train Unlabel Best ACC.= 68.1%, Train Max Epoch=461
+EarlyStopping counter: 173 out of 200
+Epoch [478][SemiTeacher][CricketX] loss= 0.04823; Epoch Label ACC.= 86.16%, UnLabel ACC.= 63.91%, Lipistz loss = 0, Train Unlabel Best ACC.= 68.1%, Train Max Epoch=461
+EarlyStopping counter: 174 out of 200
+Epoch [479][SemiTeacher][CricketX] loss= 0.04821; Epoch Label ACC.= 86.45%, UnLabel ACC.= 63.48%, Lipistz loss = 0, Train Unlabel Best ACC.= 68.1%, Train Max Epoch=461
+EarlyStopping counter: 175 out of 200
+Epoch [480][SemiTeacher][CricketX] loss= 0.04704; Epoch Label ACC.= 85.18%, UnLabel ACC.= 63.01%, Lipistz loss = 0, Train Unlabel Best ACC.= 68.1%, Train Max Epoch=461
+EarlyStopping counter: 176 out of 200
+Epoch [481][SemiTeacher][CricketX] loss= 0.04783; Epoch Label ACC.= 85.38%, UnLabel ACC.= 64.30%, Lipistz loss = 0, Train Unlabel Best ACC.= 68.1%, Train Max Epoch=461
+EarlyStopping counter: 177 out of 200
+Epoch [482][SemiTeacher][CricketX] loss= 0.04674; Epoch Label ACC.= 82.37%, UnLabel ACC.= 61.37%, Lipistz loss = 0, Train Unlabel Best ACC.= 68.1%, Train Max Epoch=461
+EarlyStopping counter: 178 out of 200
+Epoch [483][SemiTeacher][CricketX] loss= 0.04139; Epoch Label ACC.= 84.32%, UnLabel ACC.= 67.30%, Lipistz loss = 0, Train Unlabel Best ACC.= 68.1%, Train Max Epoch=461
+EarlyStopping counter: 179 out of 200
+Epoch [484][SemiTeacher][CricketX] loss= 0.04501; Epoch Label ACC.= 85.77%, UnLabel ACC.= 65.35%, Lipistz loss = 0, Train Unlabel Best ACC.= 68.1%, Train Max Epoch=461
+EarlyStopping counter: 180 out of 200
+Epoch [485][SemiTeacher][CricketX] loss= 0.05027; Epoch Label ACC.= 88.45%, UnLabel ACC.= 60.20%, Lipistz loss = 0, Train Unlabel Best ACC.= 68.1%, Train Max Epoch=461
+EarlyStopping counter: 181 out of 200
+Epoch [486][SemiTeacher][CricketX] loss= 0.04780; Epoch Label ACC.= 84.52%, UnLabel ACC.= 67.19%, Lipistz loss = 0, Train Unlabel Best ACC.= 68.1%, Train Max Epoch=461
+EarlyStopping counter: 182 out of 200
+Epoch [487][SemiTeacher][CricketX] loss= 0.05025; Epoch Label ACC.= 86.79%, UnLabel ACC.= 62.77%, Lipistz loss = 0, Train Unlabel Best ACC.= 68.1%, Train Max Epoch=461
+EarlyStopping counter: 183 out of 200
+Epoch [488][SemiTeacher][CricketX] loss= 0.04925; Epoch Label ACC.= 84.32%, UnLabel ACC.= 60.51%, Lipistz loss = 0, Train Unlabel Best ACC.= 68.1%, Train Max Epoch=461
+EarlyStopping counter: 184 out of 200
+Epoch [489][SemiTeacher][CricketX] loss= 0.04430; Epoch Label ACC.= 85.32%, UnLabel ACC.= 64.57%, Lipistz loss = 0, Train Unlabel Best ACC.= 68.1%, Train Max Epoch=461
+EarlyStopping counter: 185 out of 200
+Epoch [490][SemiTeacher][CricketX] loss= 0.05271; Epoch Label ACC.= 88.88%, UnLabel ACC.= 63.48%, Lipistz loss = 0, Train Unlabel Best ACC.= 68.1%, Train Max Epoch=461
+EarlyStopping counter: 186 out of 200
+Epoch [491][SemiTeacher][CricketX] loss= 0.04274; Epoch Label ACC.= 83.54%, UnLabel ACC.= 60.86%, Lipistz loss = 0, Train Unlabel Best ACC.= 68.1%, Train Max Epoch=461
+EarlyStopping counter: 187 out of 200
+Epoch [492][SemiTeacher][CricketX] loss= 0.05039; Epoch Label ACC.= 85.05%, UnLabel ACC.= 65.43%, Lipistz loss = 0, Train Unlabel Best ACC.= 68.1%, Train Max Epoch=461
+EarlyStopping counter: 188 out of 200
+Epoch [493][SemiTeacher][CricketX] loss= 0.04738; Epoch Label ACC.= 85.87%, UnLabel ACC.= 62.93%, Lipistz loss = 0, Train Unlabel Best ACC.= 68.1%, Train Max Epoch=461
+EarlyStopping counter: 189 out of 200
+Epoch [494][SemiTeacher][CricketX] loss= 0.04518; Epoch Label ACC.= 87.30%, UnLabel ACC.= 62.89%, Lipistz loss = 0, Train Unlabel Best ACC.= 68.1%, Train Max Epoch=461
+EarlyStopping counter: 190 out of 200
+Epoch [495][SemiTeacher][CricketX] loss= 0.04602; Epoch Label ACC.= 83.13%, UnLabel ACC.= 62.62%, Lipistz loss = 0, Train Unlabel Best ACC.= 68.1%, Train Max Epoch=461
+EarlyStopping counter: 191 out of 200
+Epoch [496][SemiTeacher][CricketX] loss= 0.04985; Epoch Label ACC.= 85.72%, UnLabel ACC.= 62.03%, Lipistz loss = 0, Train Unlabel Best ACC.= 68.1%, Train Max Epoch=461
+EarlyStopping counter: 192 out of 200
+Epoch [497][SemiTeacher][CricketX] loss= 0.04896; Epoch Label ACC.= 84.38%, UnLabel ACC.= 63.52%, Lipistz loss = 0, Train Unlabel Best ACC.= 68.1%, Train Max Epoch=461
+EarlyStopping counter: 193 out of 200
+Epoch [498][SemiTeacher][CricketX] loss= 0.04648; Epoch Label ACC.= 87.92%, UnLabel ACC.= 65.59%, Lipistz loss = 0, Train Unlabel Best ACC.= 68.1%, Train Max Epoch=461
+EarlyStopping counter: 194 out of 200
+Epoch [499][SemiTeacher][CricketX] loss= 0.04880; Epoch Label ACC.= 87.35%, UnLabel ACC.= 59.61%, Lipistz loss = 0, Train Unlabel Best ACC.= 68.1%, Train Max Epoch=461
+EarlyStopping counter: 195 out of 200
+Epoch [500][SemiTeacher][CricketX] loss= 0.04756; Epoch Label ACC.= 81.96%, UnLabel ACC.= 65.27%, Lipistz loss = 0, Train Unlabel Best ACC.= 68.1%, Train Max Epoch=461
+EarlyStopping counter: 196 out of 200
+Epoch [501][SemiTeacher][CricketX] loss= 0.04645; Epoch Label ACC.= 85.14%, UnLabel ACC.= 64.49%, Lipistz loss = 0, Train Unlabel Best ACC.= 68.1%, Train Max Epoch=461
+EarlyStopping counter: 197 out of 200
+Epoch [502][SemiTeacher][CricketX] loss= 0.04838; Epoch Label ACC.= 83.83%, UnLabel ACC.= 62.38%, Lipistz loss = 0, Train Unlabel Best ACC.= 68.1%, Train Max Epoch=461
+EarlyStopping counter: 198 out of 200
+Epoch [503][SemiTeacher][CricketX] loss= 0.04782; Epoch Label ACC.= 84.17%, UnLabel ACC.= 66.13%, Lipistz loss = 0, Train Unlabel Best ACC.= 68.1%, Train Max Epoch=461
+EarlyStopping counter: 199 out of 200
+Epoch [504][SemiTeacher][CricketX] loss= 0.04550; Epoch Label ACC.= 86.40%, UnLabel ACC.= 66.99%, Lipistz loss = 0, Train Unlabel Best ACC.= 68.1%, Train Max Epoch=461
+EarlyStopping counter: 200 out of 200
+Early stopping
+wandb: Waiting for W&B process to finish... (success).
+wandb: - 0.001 MB of 0.001 MB uploaded (0.000 MB deduped)wandb: \ 0.001 MB of 0.001 MB uploaded (0.000 MB deduped)wandb: | 0.001 MB of 0.001 MB uploaded (0.000 MB deduped)wandb: / 0.001 MB of 0.422 MB uploaded (0.000 MB deduped)wandb: - 0.001 MB of 0.424 MB uploaded (0.000 MB deduped)wandb: \ 0.001 MB of 0.424 MB uploaded (0.000 MB deduped)wandb: | 0.001 MB of 0.424 MB uploaded (0.000 MB deduped)wandb: / 0.001 MB of 0.424 MB uploaded (0.000 MB deduped)wandb: - 0.001 MB of 0.424 MB uploaded (0.000 MB deduped)wandb: \ 0.001 MB of 0.424 MB uploaded (0.000 MB deduped)wandb: | 0.001 MB of 0.424 MB uploaded (0.000 MB deduped)wandb: / 0.001 MB of 0.424 MB uploaded (0.000 MB deduped)wandb: - 0.001 MB of 0.424 MB uploaded (0.000 MB deduped)wandb: \ 0.001 MB of 0.424 MB uploaded (0.000 MB deduped)wandb: | 0.001 MB of 0.424 MB uploaded (0.000 MB deduped)wandb: / 0.001 MB of 0.424 MB uploaded (0.000 MB deduped)wandb: - 0.001 MB of 0.424 MB uploaded (0.000 MB deduped)wandb: \ 0.089 MB of 0.424 MB uploaded (0.000 MB deduped)wandb: | 0.318 MB of 0.424 MB uploaded (0.000 MB deduped)wandb: / 0.424 MB of 0.424 MB uploaded (0.000 MB deduped)wandb: - 0.424 MB of 0.424 MB uploaded (0.000 MB deduped)wandb: \ 0.424 MB of 0.424 MB uploaded (0.000 MB deduped)wandb: | 0.424 MB of 0.424 MB uploaded (0.000 MB deduped)wandb: / 0.424 MB of 0.424 MB uploaded (0.000 MB deduped)wandb: - 0.424 MB of 0.424 MB uploaded (0.000 MB deduped)wandb: \ 0.424 MB of 0.424 MB uploaded (0.000 MB deduped)wandb: | 0.424 MB of 0.424 MB uploaded (0.000 MB deduped)wandb: / 0.424 MB of 0.424 MB uploaded (0.000 MB deduped)wandb: - 0.424 MB of 0.424 MB uploaded (0.000 MB deduped)wandb: \ 0.424 MB of 0.424 MB uploaded (0.000 MB deduped)wandb: | 0.424 MB of 0.424 MB uploaded (0.000 MB deduped)wandb: / 0.424 MB of 0.424 MB uploaded (0.000 MB deduped)wandb:                                                                                
+wandb: 
+wandb: Run history:
+wandb:    acc_epoch_label ▄▆▇████▆▇▇█▇▆▇▇█▇▇█████▆▇▇██▇▃▇▇▇▇▁▆▇▇██
+wandb:  acc_epoch_unlabel ▄▆▆▇▇██▆▇▇▇▇▅▇▇▇██████▇▆▆▇▇▇▇▃▆▇▇▇▁▆▇▇▇▇
+wandb:          acc_label ▅▇▇▇▇█▇▆▆▇▇▇▆▇▇▇▇▇█▇██▇▇▇▇▇▇▇▃▇▇▇▇▁▇▇▇▇█
+wandb:           acc_mean ▁
+wandb:            acc_std ▁
+wandb:        acc_unlabel ▄▅▅▇▆█▆▇▆▅▅▆▅▇▄▃▆▆▆▅▇██▄▆▅▆▆▇▁▄▆▆▄▁▆▅▆▇▅
+wandb:      best_test_acc ▂▂▅▆▆▇▃▄▅▆▆▇▁▁▂▃▅▆▇▇█▁▂▄▅▅▆▇▇▂▂▂▄▆▇▂▃▅▆▇
+wandb:           lds_loss ▃▅▅▃▄▃▄▂▆▅█▄▆▅▄█▅▆▄▄▇▃▄▄▄▆▆▃▃▂▆▅▄█▁▇▅▇▆▄
+wandb: loss_epoch_unlabel ▄▇█▇▇▇▇▆▇██▇▅▇█▇▇▇▇▇▇▇▇▇█▇▇▇█▂▇▇██▁▇▇▇▇█
+wandb:         loss_label ▅▃▂▁▂▁▂▃▃▂▁▂▃▂▂▂▁▁▁▁▁▁▁▃▂▂▂▂▂▆▃▂▂▁█▃▂▂▂▁
+wandb:       loss_unlabel ▃▆█▅▅▅▅▆▄▅▆▅▄▅▄▇▆▆▇▅▇▇▅▅▅▇▇▇▄▂▆▅▆█▁▅▆▆▆▆
+wandb:               reg1 ▁▂▂▁▅▁▁▄▁▂▁▁▁▁▁▂▁▂▁▂▃▂▁▁▁▂▂▂▁▁▃▁▃▁█▁▁▆▁▃
+wandb:               reg2 ▃▅▅▆▁▅▂▅▃▃▄▄▂▃▄▄▅▆▆▆▃▅▂▅▄▇▆▄▆▄█▅▄▄▅▄▃▅▃▄
+wandb: 
+wandb: Run summary:
+wandb:    acc_epoch_label 86.40427
+wandb:  acc_epoch_unlabel 66.99219
+wandb:          acc_label 93.75
+wandb:           acc_mean 63.88
+wandb:            acc_std 3.3
+wandb:        acc_unlabel 65.0
+wandb:      best_test_acc 61.23512
+wandb:           lds_loss 0.00901
+wandb: loss_epoch_unlabel 0.0455
+wandb:         loss_label 0.25282
+wandb:       loss_unlabel 0.06693
+wandb:               reg1 4.59114
+wandb:               reg2 4.93441
+wandb: 
+wandb: Synced true-elevator-46: https://wandb.ai/pqythu/CricketX_semitime/runs/3ctma3oq
+wandb: Synced 6 W&B file(s), 0 media file(s), 0 artifact file(s) and 0 other file(s)
+wandb: Find logs at: ./wandb/run-20240823_120725-3ctma3oq/logs

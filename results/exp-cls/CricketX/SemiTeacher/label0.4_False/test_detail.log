@@ -21,3 +21,4 @@ CricketX  468  156  300  12  2000  69.27  345
 Dataset  Train  Test   Dimension  Class  Seed  Acc_max  Epoch_max
 CricketX  468  156  300  12  2000  60.97  397
 CricketX  468  156  300  12  2024  68.49  989
+CricketX  468  156  300  12  2014  62.17  305

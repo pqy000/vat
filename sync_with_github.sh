@@ -8,7 +8,7 @@ git pull $REMOTE $BRANCH
 if [ $? -ne 0 ]; then
     echo "Pull failed due to conflicts. Reverting local changes and trying again."
 
-    git reset --hard HEAD~1
+    git reset --hard HEAD@{1}
 
     git pull $REMOTE $BRANCH
 

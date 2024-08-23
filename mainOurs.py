@@ -128,8 +128,8 @@ if __name__ == "__main__":
     Seeds = [2000, 2024, 2014]
     Runs = range(0, 2, 1)
 
-    aug1 = ['jitter','cutout']
-    aug2 = ['G0']
+    aug1 = ['jitter','cutout','magnitude_warp']
+    aug2 = ['G0', 'time_warp']
     if opt.model_name == 'SemiTime':
         model_paras = 'label{}_{}'.format(opt.label_ratio, opt.alpha)
     if opt.model_name == "SemiTeacher":

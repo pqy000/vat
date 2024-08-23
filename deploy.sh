@@ -30,11 +30,16 @@ fi
 
 echo "Creating symbolic link for miniconda3..."
 ln -s /data/qingyi/miniconda3 /home/qingyi/
+
+export WANDB_API_KEY="78aa9312108a04888f4d78df9a5871282832b0ba"
+wandb login --relogin $WANDB_API_KEY
+
 ENDSSH
 
 # 克隆 Git 仓库并切换分支
 git clone git@github.com:pqy000/vat.git
 cd vat
 git checkout version1
+ln -s /data/qingyi/semitime/datasets/datasets/ ./
 
 echo "Operations completed successfully."

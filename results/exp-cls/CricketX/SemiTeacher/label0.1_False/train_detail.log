@@ -2,3 +2,8 @@
 Dataset  Train  Test  Dimension  Class  Seed  Acc_label  Acc_unlabel  Epoch_max
 2023-10-31-08:50:55
 Dataset  Train  Test  Dimension  Class  Seed  Acc_label  Acc_unlabel  Epoch_max
+2024-08-22-21:36:27
+Dataset  Train  Test  Dimension  Class  Seed  Acc_label  Acc_unlabel  Epoch_max
+CricketX  468  156  300  12  2000  35.6398811340332  37.96875  457
+CricketX  468  156  300  12  2000  42.18750127156576  38.046875  819
+CricketX  468  156  300  12  2000  40.84821446736654  35.3515625  722

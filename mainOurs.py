@@ -38,7 +38,7 @@ def parse_option():
     parser.add_argument('--learning_rate', type=float, default=2e-3, help='learning rate')
     parser.add_argument('--weight_rampup', type=int, default=30, help='weight rampup')
     # model dataset
-    parser.add_argument('--dataset_name', type=str, default='EpilepticSeizure', help='dataset')
+    parser.add_argument('--dataset_name', type=str, default='CricketX', help='dataset')
     parser.add_argument('--nb_class', type=int, default=3, help='class number')
 
     # ucr_path = '../datasets/UCRArchive_2018'
@@ -125,7 +125,7 @@ if __name__ == "__main__":
     opt.wb = wandb.init(project=opt.dataset_name+"_semitime", config=opt, mode="online", group=str(opt.label_ratio))
     exp = 'exp-cls'
 
-    Seeds = [2000]
+    Seeds = [2000, 2024, 2014]
     Runs = range(0, 2, 1)
 
     aug1 = ['jitter','cutout']

@@ -6,8 +6,9 @@
 #    echo "Example: $0 InsectWingbeatSound '3 4 5' '0.4 0.2 0.1'"
 #    bash run.sh XJTU '3 4 5' '0.4 0.2 0.1'
 #    bash run.sh MFPT '1 2' '0.2 0.1'
-#    bash run.sh EpilepticSeizure '3 4' '0.2 0.4'
-#    bash run.sh UWaveGestureLibraryAll '3 4 5' '0.1 0.2 0.4'
+#    bash run.sh EpilepticSeizure '3' '0.4'
+# bash run.sh CricketX '1 2' '0.2 0.4'
+# bash run.sh InsectWingbeatSound '3 4 5 6' '0.1 0.2 0.4 1.0'
 #    exit 1
 #fi
 

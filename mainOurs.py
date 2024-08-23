@@ -54,7 +54,7 @@ def parse_option():
     parser.add_argument('--ema_decay', type=float, default=0.99, help='weight')
     parser.add_argument('--model_select', type=str, default='TCN', help='Training model type')
     parser.add_argument('--nhid', type=int, default=128, help='feature_size')
-    parser.add_argument('--levels', type=int, default=10, help='feature_size')
+    parser.add_argument('--levels', type=int, default=8, help='feature_size')
     parser.add_argument('--ksize', type=int, default=3, help='kernel size')
     parser.add_argument('--dropout', type=float, default=0.05, help='dropout applied to layers (default: 0.05)')
     parser.add_argument('--lip', type=bool, default=True, help='Whether to limit the lipisitz constant')

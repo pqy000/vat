@@ -150,6 +150,7 @@ if __name__ == "__main__":
     if not os.path.exists(log_dir):
         os.makedirs(log_dir)
 
+    '''
     file2print_detail_train = open("{}/train_detail.log".format(log_dir), 'a+')
     print(datetime.now().strftime("%Y-%m-%d-%H:%M:%S"), file=file2print_detail_train)
     print("Dataset  Train  Test  Dimension  Class  Seed  Acc_label  Acc_unlabel  Epoch_max",
@@ -165,6 +166,7 @@ if __name__ == "__main__":
     print(datetime.now().strftime("%Y-%m-%d-%H:%M:%S"), file=file2print_detail)
     print("Dataset  Train  Test   Dimension  Class  Seed  Acc_max  Epoch_max", file=file2print_detail)
     file2print_detail.flush()
+    '''
 
     ACCs = {}
 
@@ -222,9 +224,8 @@ if __name__ == "__main__":
                 acc_test, acc_unlabel, epoch_max = trainTapNet(x_train, y_train, x_val, y_val, x_test, y_test, opt)
 
             print("{}  {}  {}  {}  {}  {}  {}  {}  {}".format(opt.dataset_name, x_train.shape[0], x_test.shape[0],
-                x_train.shape[1], opt.nb_class, seed, acc_test, acc_unlabel, epoch_max),
-                file=file2print_detail_train)
-            file2print_detail_train.flush()
+                x_train.shape[1], opt.nb_class, seed, acc_test, acc_unlabel, epoch_max))
+            # file2print_detail_train.flush()
 
             ACCs_run[run] = acc_test
             MAX_EPOCHs_run[run] = epoch_max
@@ -235,15 +236,14 @@ if __name__ == "__main__":
 
         print("{}  {}  {}  {}  {}  {}  {}  {}".format(
             opt.dataset_name, x_train.shape[0], x_test.shape[0], x_train.shape[1], opt.nb_class,
-            seed, ACCs_seed[seed], MAX_EPOCHs_seed[seed]),
-            file=file2print_detail)
+            seed, ACCs_seed[seed], MAX_EPOCHs_seed[seed]))
 
-        file2print_detail.flush()
+        # file2print_detail.flush()
 
     ACCs_seed_mean = round(np.mean(list(ACCs_seed.values())), 2)
     ACCs_seed_std = round(np.std(list(ACCs_seed.values())), 2)
     MAX_EPOCHs_seed_max = np.max(list(MAX_EPOCHs_seed.values()))
     opt.wb.log({"acc_mean" : ACCs_seed_mean, "acc_std"  : ACCs_seed_std})
     print("{} {} {} {}".format(opt.dataset_name, ACCs_seed_mean,
-                               ACCs_seed_std, MAX_EPOCHs_seed_max), file=file2print)
-    file2print.flush()
+                               ACCs_seed_std, MAX_EPOCHs_seed_max))
+    # file2print.flush()

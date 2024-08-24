@@ -2,7 +2,6 @@
 
 import argparse
 import os
-os.environ["CUDA_VISIBLE_DEVICES"] = "1"
 import torch
 from optim.pretrain import *
 from optim.generalWay import *

@@ -2,7 +2,7 @@ import numpy as np
 import torch
 
 def load_multi_ts(dataset_path, dataset_name):
-    path = dataset_path + "/raw/" + dataset_name + "/"
+    path = dataset_path + dataset_name + "/"
     print("[INFO] {}".format(dataset_name))
     x_train = np.load(path + 'X_train.npy')
     y_train = np.load(path + 'y_train.npy')

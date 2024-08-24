@@ -1,0 +1,290 @@
+[INFO] Running at: MFPT
+[Stat] All class: {0: 572, 1: 143, 2: 143, 3: 143, 4: 143, 5: 143, 6: 143, 7: 143, 8: 143, 9: 143, 10: 143, 11: 143, 12: 143, 13: 143, 14: 143}
+[Stat] Train class: mean=103.2, std=64.35650705251177
+[Stat] Val class: mean=34.666666666666664, std=21.202725191719008
+[Stat] Test class: mean=33.733333333333334, std=21.452169017503934
+Train:(1548, 1024, 1), Test:(506, 1024, 1), Class:15
+rp_params: [3, 0]
+[Test-0] Val ACC:19.79%, Best Test ACC.: 22.27% in Epoch 0
+Epoch [1][SemiTeacher][MFPT] loss= 0.00728; Epoch Label ACC.= 8.98%, UnLabel ACC.= 7.98%, Lipistz loss = 0, Train Unlabel Best ACC.= 8.0%, Train Max Epoch=0
+EarlyStopping counter: 1 out of 200
+Epoch [2][SemiTeacher][MFPT] loss= 0.00472; Epoch Label ACC.= 17.02%, UnLabel ACC.= 17.44%, Lipistz loss = 0, Train Unlabel Best ACC.= 17.4%, Train Max Epoch=1
+[Test-2] Val ACC:19.79%, Best Test ACC.: 22.27% in Epoch 2
+EarlyStopping counter: 2 out of 200
+Epoch [3][SemiTeacher][MFPT] loss= 0.00276; Epoch Label ACC.= 18.83%, UnLabel ACC.= 19.19%, Lipistz loss = 0, Train Unlabel Best ACC.= 19.2%, Train Max Epoch=2
+[Test-3] Val ACC:19.79%, Best Test ACC.: 22.27% in Epoch 3
+EarlyStopping counter: 3 out of 200
+Epoch [4][SemiTeacher][MFPT] loss= 0.00246; Epoch Label ACC.= 20.00%, UnLabel ACC.= 20.00%, Lipistz loss = 0, Train Unlabel Best ACC.= 20.0%, Train Max Epoch=3
+[Test-4] Val ACC:19.79%, Best Test ACC.: 22.27% in Epoch 4
+EarlyStopping counter: 4 out of 200
+Epoch [5][SemiTeacher][MFPT] loss= 0.00173; Epoch Label ACC.= 20.85%, UnLabel ACC.= 20.98%, Lipistz loss = 0, Train Unlabel Best ACC.= 21.0%, Train Max Epoch=4
+[Test-5] Val ACC:19.79%, Best Test ACC.: 22.27% in Epoch 5
+EarlyStopping counter: 5 out of 200
+Epoch [6][SemiTeacher][MFPT] loss= 0.00119; Epoch Label ACC.= 21.85%, UnLabel ACC.= 21.35%, Lipistz loss = 0, Train Unlabel Best ACC.= 21.4%, Train Max Epoch=5
+[Test-6] Val ACC:19.79%, Best Test ACC.: 22.27% in Epoch 6
+EarlyStopping counter: 6 out of 200
+Epoch [7][SemiTeacher][MFPT] loss= 0.00114; Epoch Label ACC.= 21.79%, UnLabel ACC.= 22.27%, Lipistz loss = 0, Train Unlabel Best ACC.= 22.3%, Train Max Epoch=6
+[Test-7] Val ACC:19.79%, Best Test ACC.: 22.27% in Epoch 7
+EarlyStopping counter: 7 out of 200
+Epoch [8][SemiTeacher][MFPT] loss= 0.00062; Epoch Label ACC.= 21.31%, UnLabel ACC.= 22.19%, Lipistz loss = 0, Train Unlabel Best ACC.= 22.3%, Train Max Epoch=6
+[Test-8] Val ACC:19.79%, Best Test ACC.: 22.27% in Epoch 8
+EarlyStopping counter: 8 out of 200
+Epoch [9][SemiTeacher][MFPT] loss= 0.00052; Epoch Label ACC.= 22.73%, UnLabel ACC.= 21.71%, Lipistz loss = 0, Train Unlabel Best ACC.= 22.3%, Train Max Epoch=6
+[Test-9] Val ACC:19.79%, Best Test ACC.: 22.27% in Epoch 9
+EarlyStopping counter: 9 out of 200
+Epoch [10][SemiTeacher][MFPT] loss= 0.00062; Epoch Label ACC.= 22.25%, UnLabel ACC.= 22.06%, Lipistz loss = 0, Train Unlabel Best ACC.= 22.3%, Train Max Epoch=6
+[Test-10] Val ACC:19.79%, Best Test ACC.: 22.27% in Epoch 10
+EarlyStopping counter: 10 out of 200
+Epoch [11][SemiTeacher][MFPT] loss= 0.00048; Epoch Label ACC.= 22.52%, UnLabel ACC.= 22.92%, Lipistz loss = 0, Train Unlabel Best ACC.= 22.9%, Train Max Epoch=10
+[Test-11] Val ACC:19.79%, Best Test ACC.: 22.27% in Epoch 11
+EarlyStopping counter: 11 out of 200
+Epoch [12][SemiTeacher][MFPT] loss= 0.00057; Epoch Label ACC.= 22.04%, UnLabel ACC.= 22.85%, Lipistz loss = 0, Train Unlabel Best ACC.= 22.9%, Train Max Epoch=10
+[Test-12] Val ACC:19.79%, Best Test ACC.: 22.27% in Epoch 12
+EarlyStopping counter: 12 out of 200
+Epoch [13][SemiTeacher][MFPT] loss= 0.00039; Epoch Label ACC.= 22.04%, UnLabel ACC.= 23.12%, Lipistz loss = 0, Train Unlabel Best ACC.= 23.1%, Train Max Epoch=12
+[Test-13] Val ACC:19.79%, Best Test ACC.: 22.27% in Epoch 13
+EarlyStopping counter: 13 out of 200
+Epoch [14][SemiTeacher][MFPT] loss= 0.00033; Epoch Label ACC.= 22.52%, UnLabel ACC.= 22.31%, Lipistz loss = 0, Train Unlabel Best ACC.= 23.1%, Train Max Epoch=12
+[Test-14] Val ACC:19.79%, Best Test ACC.: 22.27% in Epoch 14
+EarlyStopping counter: 14 out of 200
+Epoch [15][SemiTeacher][MFPT] loss= 0.00031; Epoch Label ACC.= 22.12%, UnLabel ACC.= 22.79%, Lipistz loss = 0, Train Unlabel Best ACC.= 23.1%, Train Max Epoch=12
+[Test-15] Val ACC:19.79%, Best Test ACC.: 22.27% in Epoch 15
+EarlyStopping counter: 15 out of 200
+Epoch [16][SemiTeacher][MFPT] loss= 0.00030; Epoch Label ACC.= 22.58%, UnLabel ACC.= 21.77%, Lipistz loss = 0, Train Unlabel Best ACC.= 23.1%, Train Max Epoch=12
+[Test-16] Val ACC:19.79%, Best Test ACC.: 22.27% in Epoch 16
+EarlyStopping counter: 16 out of 200
+Epoch [17][SemiTeacher][MFPT] loss= 0.00033; Epoch Label ACC.= 22.31%, UnLabel ACC.= 22.58%, Lipistz loss = 0, Train Unlabel Best ACC.= 23.1%, Train Max Epoch=12
+[Test-17] Val ACC:19.79%, Best Test ACC.: 22.27% in Epoch 17
+EarlyStopping counter: 17 out of 200
+Epoch [18][SemiTeacher][MFPT] loss= 0.00031; Epoch Label ACC.= 22.31%, UnLabel ACC.= 21.77%, Lipistz loss = 0, Train Unlabel Best ACC.= 23.1%, Train Max Epoch=12
+[Test-18] Val ACC:19.79%, Best Test ACC.: 22.27% in Epoch 18
+EarlyStopping counter: 18 out of 200
+Epoch [19][SemiTeacher][MFPT] loss= 0.00019; Epoch Label ACC.= 22.58%, UnLabel ACC.= 21.77%, Lipistz loss = 0, Train Unlabel Best ACC.= 23.1%, Train Max Epoch=12
+[Test-19] Val ACC:19.79%, Best Test ACC.: 22.27% in Epoch 19
+EarlyStopping counter: 19 out of 200
+Epoch [20][SemiTeacher][MFPT] loss= 0.00018; Epoch Label ACC.= 22.58%, UnLabel ACC.= 22.85%, Lipistz loss = 0, Train Unlabel Best ACC.= 23.1%, Train Max Epoch=12
+[Test-20] Val ACC:19.79%, Best Test ACC.: 22.27% in Epoch 20
+EarlyStopping counter: 20 out of 200
+Epoch [21][SemiTeacher][MFPT] loss= 0.00021; Epoch Label ACC.= 22.31%, UnLabel ACC.= 22.31%, Lipistz loss = 0, Train Unlabel Best ACC.= 23.1%, Train Max Epoch=12
+[Test-21] Val ACC:19.79%, Best Test ACC.: 22.27% in Epoch 21
+EarlyStopping counter: 21 out of 200
+Epoch [22][SemiTeacher][MFPT] loss= 0.00017; Epoch Label ACC.= 21.77%, UnLabel ACC.= 23.12%, Lipistz loss = 0, Train Unlabel Best ACC.= 23.1%, Train Max Epoch=12
+[Test-22] Val ACC:19.79%, Best Test ACC.: 22.27% in Epoch 22
+EarlyStopping counter: 22 out of 200
+Epoch [23][SemiTeacher][MFPT] loss= 0.00015; Epoch Label ACC.= 23.12%, UnLabel ACC.= 22.85%, Lipistz loss = 0, Train Unlabel Best ACC.= 23.1%, Train Max Epoch=12
+[Test-23] Val ACC:19.79%, Best Test ACC.: 22.27% in Epoch 23
+EarlyStopping counter: 23 out of 200
+Epoch [24][SemiTeacher][MFPT] loss= 0.00026; Epoch Label ACC.= 22.31%, UnLabel ACC.= 22.04%, Lipistz loss = 0, Train Unlabel Best ACC.= 23.1%, Train Max Epoch=12
+[Test-24] Val ACC:19.79%, Best Test ACC.: 22.27% in Epoch 24
+EarlyStopping counter: 24 out of 200
+Epoch [25][SemiTeacher][MFPT] loss= 0.00024; Epoch Label ACC.= 21.50%, UnLabel ACC.= 22.31%, Lipistz loss = 0, Train Unlabel Best ACC.= 23.1%, Train Max Epoch=12
+[Test-25] Val ACC:19.79%, Best Test ACC.: 22.27% in Epoch 25
+EarlyStopping counter: 25 out of 200
+Epoch [26][SemiTeacher][MFPT] loss= 0.00019; Epoch Label ACC.= 21.77%, UnLabel ACC.= 22.85%, Lipistz loss = 0, Train Unlabel Best ACC.= 23.1%, Train Max Epoch=12
+[Test-26] Val ACC:19.79%, Best Test ACC.: 22.27% in Epoch 26
+EarlyStopping counter: 26 out of 200
+Epoch [27][SemiTeacher][MFPT] loss= 0.00022; Epoch Label ACC.= 22.04%, UnLabel ACC.= 22.31%, Lipistz loss = 0, Train Unlabel Best ACC.= 23.1%, Train Max Epoch=12
+[Test-27] Val ACC:19.79%, Best Test ACC.: 22.27% in Epoch 27
+EarlyStopping counter: 27 out of 200
+Epoch [28][SemiTeacher][MFPT] loss= 0.00015; Epoch Label ACC.= 22.31%, UnLabel ACC.= 22.31%, Lipistz loss = 0, Train Unlabel Best ACC.= 23.1%, Train Max Epoch=12
+[Test-28] Val ACC:19.79%, Best Test ACC.: 22.27% in Epoch 28
+EarlyStopping counter: 28 out of 200
+Epoch [29][SemiTeacher][MFPT] loss= 0.00020; Epoch Label ACC.= 21.77%, UnLabel ACC.= 22.58%, Lipistz loss = 0, Train Unlabel Best ACC.= 23.1%, Train Max Epoch=12
+[Test-29] Val ACC:19.79%, Best Test ACC.: 22.27% in Epoch 29
+EarlyStopping counter: 29 out of 200
+Epoch [30][SemiTeacher][MFPT] loss= 0.00011; Epoch Label ACC.= 21.77%, UnLabel ACC.= 21.77%, Lipistz loss = 0, Train Unlabel Best ACC.= 23.1%, Train Max Epoch=12
+[Test-30] Val ACC:19.79%, Best Test ACC.: 22.27% in Epoch 30
+EarlyStopping counter: 30 out of 200
+Epoch [31][SemiTeacher][MFPT] loss= 0.00019; Epoch Label ACC.= 22.04%, UnLabel ACC.= 21.77%, Lipistz loss = 0, Train Unlabel Best ACC.= 23.1%, Train Max Epoch=12
+[Test-31] Val ACC:19.79%, Best Test ACC.: 22.27% in Epoch 31
+EarlyStopping counter: 31 out of 200
+Epoch [32][SemiTeacher][MFPT] loss= 0.00021; Epoch Label ACC.= 22.58%, UnLabel ACC.= 22.85%, Lipistz loss = 0, Train Unlabel Best ACC.= 23.1%, Train Max Epoch=12
+[Test-32] Val ACC:19.79%, Best Test ACC.: 22.27% in Epoch 32
+EarlyStopping counter: 32 out of 200
+Epoch [33][SemiTeacher][MFPT] loss= 0.00016; Epoch Label ACC.= 22.31%, UnLabel ACC.= 22.85%, Lipistz loss = 0, Train Unlabel Best ACC.= 23.1%, Train Max Epoch=12
+[Test-33] Val ACC:19.79%, Best Test ACC.: 22.27% in Epoch 33
+EarlyStopping counter: 33 out of 200
+Epoch [34][SemiTeacher][MFPT] loss= 0.00008; Epoch Label ACC.= 22.31%, UnLabel ACC.= 22.04%, Lipistz loss = 0, Train Unlabel Best ACC.= 23.1%, Train Max Epoch=12
+[Test-34] Val ACC:19.79%, Best Test ACC.: 22.27% in Epoch 34
+EarlyStopping counter: 34 out of 200
+Epoch [35][SemiTeacher][MFPT] loss= 0.00011; Epoch Label ACC.= 22.04%, UnLabel ACC.= 22.31%, Lipistz loss = 0, Train Unlabel Best ACC.= 23.1%, Train Max Epoch=12
+[Test-35] Val ACC:19.79%, Best Test ACC.: 22.27% in Epoch 35
+EarlyStopping counter: 35 out of 200
+Epoch [36][SemiTeacher][MFPT] loss= 0.00014; Epoch Label ACC.= 21.77%, UnLabel ACC.= 22.04%, Lipistz loss = 0, Train Unlabel Best ACC.= 23.1%, Train Max Epoch=12
+[Test-36] Val ACC:19.79%, Best Test ACC.: 22.27% in Epoch 36
+EarlyStopping counter: 36 out of 200
+Epoch [37][SemiTeacher][MFPT] loss= 0.00015; Epoch Label ACC.= 22.31%, UnLabel ACC.= 22.31%, Lipistz loss = 0, Train Unlabel Best ACC.= 23.1%, Train Max Epoch=12
+[Test-37] Val ACC:19.79%, Best Test ACC.: 22.27% in Epoch 37
+EarlyStopping counter: 37 out of 200
+Epoch [38][SemiTeacher][MFPT] loss= 0.00008; Epoch Label ACC.= 22.04%, UnLabel ACC.= 21.50%, Lipistz loss = 0, Train Unlabel Best ACC.= 23.1%, Train Max Epoch=12
+[Test-38] Val ACC:19.79%, Best Test ACC.: 22.27% in Epoch 38
+EarlyStopping counter: 38 out of 200
+Epoch [39][SemiTeacher][MFPT] loss= 0.00011; Epoch Label ACC.= 22.58%, UnLabel ACC.= 22.04%, Lipistz loss = 0, Train Unlabel Best ACC.= 23.1%, Train Max Epoch=12
+[Test-39] Val ACC:19.79%, Best Test ACC.: 22.27% in Epoch 39
+EarlyStopping counter: 39 out of 200
+Epoch [40][SemiTeacher][MFPT] loss= 0.00013; Epoch Label ACC.= 22.58%, UnLabel ACC.= 22.31%, Lipistz loss = 0, Train Unlabel Best ACC.= 23.1%, Train Max Epoch=12
+[Test-40] Val ACC:19.79%, Best Test ACC.: 22.27% in Epoch 40
+EarlyStopping counter: 40 out of 200
+Epoch [41][SemiTeacher][MFPT] loss= 0.00015; Epoch Label ACC.= 22.04%, UnLabel ACC.= 22.04%, Lipistz loss = 0, Train Unlabel Best ACC.= 23.1%, Train Max Epoch=12
+[Test-41] Val ACC:19.79%, Best Test ACC.: 22.27% in Epoch 41
+EarlyStopping counter: 41 out of 200
+Epoch [42][SemiTeacher][MFPT] loss= 0.00023; Epoch Label ACC.= 22.04%, UnLabel ACC.= 22.04%, Lipistz loss = 0, Train Unlabel Best ACC.= 23.1%, Train Max Epoch=12
+[Test-42] Val ACC:19.79%, Best Test ACC.: 22.27% in Epoch 42
+EarlyStopping counter: 42 out of 200
+Epoch [43][SemiTeacher][MFPT] loss= 0.00013; Epoch Label ACC.= 22.04%, UnLabel ACC.= 22.04%, Lipistz loss = 0, Train Unlabel Best ACC.= 23.1%, Train Max Epoch=12
+[Test-43] Val ACC:19.79%, Best Test ACC.: 22.27% in Epoch 43
+EarlyStopping counter: 43 out of 200
+Epoch [44][SemiTeacher][MFPT] loss= 0.00017; Epoch Label ACC.= 22.58%, UnLabel ACC.= 22.58%, Lipistz loss = 0, Train Unlabel Best ACC.= 23.1%, Train Max Epoch=12
+[Test-44] Val ACC:19.79%, Best Test ACC.: 22.27% in Epoch 44
+EarlyStopping counter: 44 out of 200
+Epoch [45][SemiTeacher][MFPT] loss= 0.00012; Epoch Label ACC.= 21.77%, UnLabel ACC.= 22.31%, Lipistz loss = 0, Train Unlabel Best ACC.= 23.1%, Train Max Epoch=12
+[Test-45] Val ACC:19.79%, Best Test ACC.: 22.27% in Epoch 45
+EarlyStopping counter: 45 out of 200
+Epoch [46][SemiTeacher][MFPT] loss= 0.00015; Epoch Label ACC.= 22.04%, UnLabel ACC.= 22.31%, Lipistz loss = 0, Train Unlabel Best ACC.= 23.1%, Train Max Epoch=12
+[Test-46] Val ACC:19.79%, Best Test ACC.: 22.27% in Epoch 46
+EarlyStopping counter: 46 out of 200
+Epoch [47][SemiTeacher][MFPT] loss= 0.00014; Epoch Label ACC.= 22.31%, UnLabel ACC.= 21.77%, Lipistz loss = 0, Train Unlabel Best ACC.= 23.1%, Train Max Epoch=12
+[Test-47] Val ACC:19.79%, Best Test ACC.: 22.27% in Epoch 47
+EarlyStopping counter: 47 out of 200
+Epoch [48][SemiTeacher][MFPT] loss= 0.00017; Epoch Label ACC.= 22.31%, UnLabel ACC.= 22.31%, Lipistz loss = 0, Train Unlabel Best ACC.= 23.1%, Train Max Epoch=12
+[Test-48] Val ACC:19.79%, Best Test ACC.: 22.27% in Epoch 48
+EarlyStopping counter: 48 out of 200
+Epoch [49][SemiTeacher][MFPT] loss= 0.00017; Epoch Label ACC.= 21.50%, UnLabel ACC.= 22.31%, Lipistz loss = 0, Train Unlabel Best ACC.= 23.1%, Train Max Epoch=12
+[Test-49] Val ACC:19.79%, Best Test ACC.: 22.27% in Epoch 49
+EarlyStopping counter: 49 out of 200
+Epoch [50][SemiTeacher][MFPT] loss= 0.00024; Epoch Label ACC.= 21.77%, UnLabel ACC.= 21.77%, Lipistz loss = 0, Train Unlabel Best ACC.= 23.1%, Train Max Epoch=12
+[Test-50] Val ACC:19.79%, Best Test ACC.: 22.27% in Epoch 50
+EarlyStopping counter: 50 out of 200
+Epoch [51][SemiTeacher][MFPT] loss= 0.00014; Epoch Label ACC.= 22.04%, UnLabel ACC.= 22.85%, Lipistz loss = 0, Train Unlabel Best ACC.= 23.1%, Train Max Epoch=12
+[Test-51] Val ACC:19.79%, Best Test ACC.: 22.27% in Epoch 51
+EarlyStopping counter: 51 out of 200
+Epoch [52][SemiTeacher][MFPT] loss= 0.00014; Epoch Label ACC.= 21.77%, UnLabel ACC.= 22.31%, Lipistz loss = 0, Train Unlabel Best ACC.= 23.1%, Train Max Epoch=12
+[Test-52] Val ACC:19.79%, Best Test ACC.: 22.27% in Epoch 52
+EarlyStopping counter: 52 out of 200
+Epoch [53][SemiTeacher][MFPT] loss= 0.00011; Epoch Label ACC.= 22.31%, UnLabel ACC.= 22.58%, Lipistz loss = 0, Train Unlabel Best ACC.= 23.1%, Train Max Epoch=12
+[Test-53] Val ACC:19.79%, Best Test ACC.: 22.27% in Epoch 53
+EarlyStopping counter: 53 out of 200
+Epoch [54][SemiTeacher][MFPT] loss= 0.00013; Epoch Label ACC.= 22.04%, UnLabel ACC.= 22.04%, Lipistz loss = 0, Train Unlabel Best ACC.= 23.1%, Train Max Epoch=12
+[Test-54] Val ACC:19.79%, Best Test ACC.: 22.27% in Epoch 54
+EarlyStopping counter: 54 out of 200
+Epoch [55][SemiTeacher][MFPT] loss= 0.00011; Epoch Label ACC.= 22.04%, UnLabel ACC.= 22.04%, Lipistz loss = 0, Train Unlabel Best ACC.= 23.1%, Train Max Epoch=12
+[Test-55] Val ACC:19.79%, Best Test ACC.: 22.27% in Epoch 55
+EarlyStopping counter: 55 out of 200
+Epoch [56][SemiTeacher][MFPT] loss= 0.00013; Epoch Label ACC.= 22.04%, UnLabel ACC.= 21.77%, Lipistz loss = 0, Train Unlabel Best ACC.= 23.1%, Train Max Epoch=12
+[Test-56] Val ACC:19.79%, Best Test ACC.: 22.27% in Epoch 56
+EarlyStopping counter: 56 out of 200
+Epoch [57][SemiTeacher][MFPT] loss= 0.00017; Epoch Label ACC.= 21.77%, UnLabel ACC.= 22.31%, Lipistz loss = 0, Train Unlabel Best ACC.= 23.1%, Train Max Epoch=12
+[Test-57] Val ACC:19.79%, Best Test ACC.: 22.27% in Epoch 57
+EarlyStopping counter: 57 out of 200
+Epoch [58][SemiTeacher][MFPT] loss= 0.00027; Epoch Label ACC.= 21.77%, UnLabel ACC.= 22.31%, Lipistz loss = 0, Train Unlabel Best ACC.= 23.1%, Train Max Epoch=12
+[Test-58] Val ACC:19.79%, Best Test ACC.: 22.27% in Epoch 58
+EarlyStopping counter: 58 out of 200
+Epoch [59][SemiTeacher][MFPT] loss= 0.00017; Epoch Label ACC.= 22.04%, UnLabel ACC.= 22.58%, Lipistz loss = 0, Train Unlabel Best ACC.= 23.1%, Train Max Epoch=12
+[Test-59] Val ACC:19.79%, Best Test ACC.: 22.27% in Epoch 59
+EarlyStopping counter: 59 out of 200
+Epoch [60][SemiTeacher][MFPT] loss= 0.00012; Epoch Label ACC.= 22.58%, UnLabel ACC.= 22.04%, Lipistz loss = 0, Train Unlabel Best ACC.= 23.1%, Train Max Epoch=12
+[Test-60] Val ACC:19.79%, Best Test ACC.: 22.27% in Epoch 60
+EarlyStopping counter: 60 out of 200
+Epoch [61][SemiTeacher][MFPT] loss= 0.00010; Epoch Label ACC.= 22.04%, UnLabel ACC.= 21.77%, Lipistz loss = 0, Train Unlabel Best ACC.= 23.1%, Train Max Epoch=12
+[Test-61] Val ACC:19.79%, Best Test ACC.: 22.27% in Epoch 61
+EarlyStopping counter: 61 out of 200
+Epoch [62][SemiTeacher][MFPT] loss= 0.00009; Epoch Label ACC.= 23.12%, UnLabel ACC.= 22.58%, Lipistz loss = 0, Train Unlabel Best ACC.= 23.1%, Train Max Epoch=12
+[Test-62] Val ACC:19.79%, Best Test ACC.: 22.27% in Epoch 62
+EarlyStopping counter: 62 out of 200
+Epoch [63][SemiTeacher][MFPT] loss= 0.00015; Epoch Label ACC.= 21.77%, UnLabel ACC.= 22.04%, Lipistz loss = 0, Train Unlabel Best ACC.= 23.1%, Train Max Epoch=12
+[Test-63] Val ACC:19.79%, Best Test ACC.: 22.27% in Epoch 63
+EarlyStopping counter: 63 out of 200
+Epoch [64][SemiTeacher][MFPT] loss= 0.00015; Epoch Label ACC.= 22.04%, UnLabel ACC.= 22.04%, Lipistz loss = 0, Train Unlabel Best ACC.= 23.1%, Train Max Epoch=12
+[Test-64] Val ACC:19.79%, Best Test ACC.: 22.27% in Epoch 64
+EarlyStopping counter: 64 out of 200
+Epoch [65][SemiTeacher][MFPT] loss= 0.00009; Epoch Label ACC.= 22.04%, UnLabel ACC.= 22.58%, Lipistz loss = 0, Train Unlabel Best ACC.= 23.1%, Train Max Epoch=12
+[Test-65] Val ACC:19.79%, Best Test ACC.: 22.27% in Epoch 65
+EarlyStopping counter: 65 out of 200
+Epoch [66][SemiTeacher][MFPT] loss= 0.00013; Epoch Label ACC.= 21.77%, UnLabel ACC.= 22.31%, Lipistz loss = 0, Train Unlabel Best ACC.= 23.1%, Train Max Epoch=12
+[Test-66] Val ACC:19.79%, Best Test ACC.: 22.27% in Epoch 66
+EarlyStopping counter: 66 out of 200
+Epoch [67][SemiTeacher][MFPT] loss= 0.00019; Epoch Label ACC.= 21.50%, UnLabel ACC.= 21.50%, Lipistz loss = 0, Train Unlabel Best ACC.= 23.1%, Train Max Epoch=12
+[Test-67] Val ACC:19.79%, Best Test ACC.: 22.27% in Epoch 67
+EarlyStopping counter: 67 out of 200
+Epoch [68][SemiTeacher][MFPT] loss= 0.00014; Epoch Label ACC.= 21.77%, UnLabel ACC.= 21.77%, Lipistz loss = 0, Train Unlabel Best ACC.= 23.1%, Train Max Epoch=12
+[Test-68] Val ACC:19.79%, Best Test ACC.: 22.27% in Epoch 68
+EarlyStopping counter: 68 out of 200
+Epoch [69][SemiTeacher][MFPT] loss= 0.00013; Epoch Label ACC.= 22.85%, UnLabel ACC.= 22.31%, Lipistz loss = 0, Train Unlabel Best ACC.= 23.1%, Train Max Epoch=12
+[Test-69] Val ACC:19.79%, Best Test ACC.: 22.27% in Epoch 69
+EarlyStopping counter: 69 out of 200
+Epoch [70][SemiTeacher][MFPT] loss= 0.00013; Epoch Label ACC.= 22.85%, UnLabel ACC.= 22.31%, Lipistz loss = 0, Train Unlabel Best ACC.= 23.1%, Train Max Epoch=12
+[Test-70] Val ACC:19.79%, Best Test ACC.: 22.27% in Epoch 70
+EarlyStopping counter: 70 out of 200
+Epoch [71][SemiTeacher][MFPT] loss= 0.00014; Epoch Label ACC.= 22.31%, UnLabel ACC.= 22.04%, Lipistz loss = 0, Train Unlabel Best ACC.= 23.1%, Train Max Epoch=12
+[Test-71] Val ACC:19.79%, Best Test ACC.: 22.27% in Epoch 71
+EarlyStopping counter: 71 out of 200
+Epoch [72][SemiTeacher][MFPT] loss= 0.00016; Epoch Label ACC.= 21.77%, UnLabel ACC.= 22.85%, Lipistz loss = 0, Train Unlabel Best ACC.= 23.1%, Train Max Epoch=12
+[Test-72] Val ACC:19.79%, Best Test ACC.: 22.27% in Epoch 72
+EarlyStopping counter: 72 out of 200
+Epoch [73][SemiTeacher][MFPT] loss= 0.00019; Epoch Label ACC.= 22.31%, UnLabel ACC.= 21.50%, Lipistz loss = 0, Train Unlabel Best ACC.= 23.1%, Train Max Epoch=12
+[Test-73] Val ACC:19.79%, Best Test ACC.: 22.27% in Epoch 73
+EarlyStopping counter: 73 out of 200
+Epoch [74][SemiTeacher][MFPT] loss= 0.00017; Epoch Label ACC.= 22.58%, UnLabel ACC.= 22.04%, Lipistz loss = 0, Train Unlabel Best ACC.= 23.1%, Train Max Epoch=12
+[Test-74] Val ACC:19.79%, Best Test ACC.: 22.27% in Epoch 74
+EarlyStopping counter: 74 out of 200
+Epoch [75][SemiTeacher][MFPT] loss= 0.00010; Epoch Label ACC.= 21.77%, UnLabel ACC.= 21.50%, Lipistz loss = 0, Train Unlabel Best ACC.= 23.1%, Train Max Epoch=12
+[Test-75] Val ACC:19.79%, Best Test ACC.: 22.27% in Epoch 75
+EarlyStopping counter: 75 out of 200
+Epoch [76][SemiTeacher][MFPT] loss= 0.00014; Epoch Label ACC.= 21.77%, UnLabel ACC.= 21.77%, Lipistz loss = 0, Train Unlabel Best ACC.= 23.1%, Train Max Epoch=12
+[Test-76] Val ACC:19.79%, Best Test ACC.: 22.27% in Epoch 76
+EarlyStopping counter: 76 out of 200
+Epoch [77][SemiTeacher][MFPT] loss= 0.00012; Epoch Label ACC.= 22.31%, UnLabel ACC.= 22.04%, Lipistz loss = 0, Train Unlabel Best ACC.= 23.1%, Train Max Epoch=12
+[Test-77] Val ACC:19.79%, Best Test ACC.: 22.27% in Epoch 77
+EarlyStopping counter: 77 out of 200
+Epoch [78][SemiTeacher][MFPT] loss= 0.00011; Epoch Label ACC.= 22.85%, UnLabel ACC.= 22.04%, Lipistz loss = 0, Train Unlabel Best ACC.= 23.1%, Train Max Epoch=12
+[Test-78] Val ACC:19.79%, Best Test ACC.: 22.27% in Epoch 78
+EarlyStopping counter: 78 out of 200
+Epoch [79][SemiTeacher][MFPT] loss= 0.00009; Epoch Label ACC.= 22.31%, UnLabel ACC.= 22.04%, Lipistz loss = 0, Train Unlabel Best ACC.= 23.1%, Train Max Epoch=12
+[Test-79] Val ACC:19.79%, Best Test ACC.: 22.27% in Epoch 79
+EarlyStopping counter: 79 out of 200
+Epoch [80][SemiTeacher][MFPT] loss= 0.00013; Epoch Label ACC.= 22.58%, UnLabel ACC.= 22.04%, Lipistz loss = 0, Train Unlabel Best ACC.= 23.1%, Train Max Epoch=12
+[Test-80] Val ACC:19.79%, Best Test ACC.: 22.27% in Epoch 80
+EarlyStopping counter: 80 out of 200
+Epoch [81][SemiTeacher][MFPT] loss= 0.00018; Epoch Label ACC.= 22.85%, UnLabel ACC.= 22.04%, Lipistz loss = 0, Train Unlabel Best ACC.= 23.1%, Train Max Epoch=12
+[Test-81] Val ACC:19.79%, Best Test ACC.: 22.27% in Epoch 81
+EarlyStopping counter: 81 out of 200
+Epoch [82][SemiTeacher][MFPT] loss= 0.00035; Epoch Label ACC.= 22.31%, UnLabel ACC.= 22.58%, Lipistz loss = 0, Train Unlabel Best ACC.= 23.1%, Train Max Epoch=12
+[Test-82] Val ACC:19.79%, Best Test ACC.: 22.27% in Epoch 82
+EarlyStopping counter: 82 out of 200
+Epoch [83][SemiTeacher][MFPT] loss= 0.00016; Epoch Label ACC.= 21.50%, UnLabel ACC.= 22.85%, Lipistz loss = 0, Train Unlabel Best ACC.= 23.1%, Train Max Epoch=12
+[Test-83] Val ACC:19.79%, Best Test ACC.: 22.27% in Epoch 83
+EarlyStopping counter: 83 out of 200
+Epoch [84][SemiTeacher][MFPT] loss= 0.00022; Epoch Label ACC.= 21.77%, UnLabel ACC.= 22.31%, Lipistz loss = 0, Train Unlabel Best ACC.= 23.1%, Train Max Epoch=12
+[Test-84] Val ACC:19.79%, Best Test ACC.: 22.27% in Epoch 84
+EarlyStopping counter: 84 out of 200
+Epoch [85][SemiTeacher][MFPT] loss= 0.00010; Epoch Label ACC.= 22.31%, UnLabel ACC.= 22.58%, Lipistz loss = 0, Train Unlabel Best ACC.= 23.1%, Train Max Epoch=12
+[Test-85] Val ACC:19.79%, Best Test ACC.: 22.27% in Epoch 85
+EarlyStopping counter: 85 out of 200
+Epoch [86][SemiTeacher][MFPT] loss= 0.00018; Epoch Label ACC.= 22.31%, UnLabel ACC.= 22.31%, Lipistz loss = 0, Train Unlabel Best ACC.= 23.1%, Train Max Epoch=12
+[Test-86] Val ACC:19.79%, Best Test ACC.: 22.27% in Epoch 86
+EarlyStopping counter: 86 out of 200
+Epoch [87][SemiTeacher][MFPT] loss= 0.00010; Epoch Label ACC.= 21.77%, UnLabel ACC.= 22.31%, Lipistz loss = 0, Train Unlabel Best ACC.= 23.1%, Train Max Epoch=12
+[Test-87] Val ACC:19.79%, Best Test ACC.: 22.27% in Epoch 87
+EarlyStopping counter: 87 out of 200
+Epoch [88][SemiTeacher][MFPT] loss= 0.00007; Epoch Label ACC.= 23.12%, UnLabel ACC.= 21.77%, Lipistz loss = 0, Train Unlabel Best ACC.= 23.1%, Train Max Epoch=12
+[Test-88] Val ACC:19.79%, Best Test ACC.: 22.27% in Epoch 88
+EarlyStopping counter: 88 out of 200
+Epoch [89][SemiTeacher][MFPT] loss= 0.00009; Epoch Label ACC.= 22.31%, UnLabel ACC.= 22.31%, Lipistz loss = 0, Train Unlabel Best ACC.= 23.1%, Train Max Epoch=12
+[Test-89] Val ACC:19.79%, Best Test ACC.: 22.27% in Epoch 89
+EarlyStopping counter: 89 out of 200
+Epoch [90][SemiTeacher][MFPT] loss= 0.00011; Epoch Label ACC.= 22.04%, UnLabel ACC.= 22.85%, Lipistz loss = 0, Train Unlabel Best ACC.= 23.1%, Train Max Epoch=12
+[Test-90] Val ACC:19.79%, Best Test ACC.: 22.27% in Epoch 90
+EarlyStopping counter: 90 out of 200
+Epoch [91][SemiTeacher][MFPT] loss= 0.00016; Epoch Label ACC.= 22.58%, UnLabel ACC.= 22.31%, Lipistz loss = 0, Train Unlabel Best ACC.= 23.1%, Train Max Epoch=12
+[Test-91] Val ACC:19.79%, Best Test ACC.: 22.27% in Epoch 91
+EarlyStopping counter: 91 out of 200
+Epoch [92][SemiTeacher][MFPT] loss= 0.00020; Epoch Label ACC.= 22.04%, UnLabel ACC.= 22.04%, Lipistz loss = 0, Train Unlabel Best ACC.= 23.1%, Train Max Epoch=12
+[Test-92] Val ACC:19.79%, Best Test ACC.: 22.27% in Epoch 92
+EarlyStopping counter: 92 out of 200
+Epoch [93][SemiTeacher][MFPT] loss= 0.00014; Epoch Label ACC.= 21.77%, UnLabel ACC.= 21.77%, Lipistz loss = 0, Train Unlabel Best ACC.= 23.1%, Train Max Epoch=12
+[Test-93] Val ACC:19.79%, Best Test ACC.: 22.27% in Epoch 93
+EarlyStopping counter: 93 out of 200
+Epoch [94][SemiTeacher][MFPT] loss= 0.00015; Epoch Label ACC.= 22.04%, UnLabel ACC.= 22.31%, Lipistz loss = 0, Train Unlabel Best ACC.= 23.1%, Train Max Epoch=12
+[Test-94] Val ACC:19.79%, Best Test ACC.: 22.27% in Epoch 94
+EarlyStopping counter: 94 out of 200
+Epoch [95][SemiTeacher][MFPT] loss= 0.00014; Epoch Label ACC.= 22.85%, UnLabel ACC.= 22.04%, Lipistz loss = 0, Train Unlabel Best ACC.= 23.1%, Train Max Epoch=12

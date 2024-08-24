@@ -2,3 +2,4 @@
 Dataset  Train  Test   Dimension  Class  Seed  Acc_max  Epoch_max
 UWaveGestureLibraryAll  2688  894  945  8  2000  98.21  368
 UWaveGestureLibraryAll  2688  894  945  8  2024  98.1  490
+UWaveGestureLibraryAll  2688  894  945  8  2014  98.16  465

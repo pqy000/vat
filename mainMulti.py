@@ -122,7 +122,7 @@ if __name__ == "__main__":
     opt.kernels = [int(l) for l in opt.kernels.split(",")]
     opt.filters = [int(l) for l in opt.filters.split(",")]
     opt.rp_params = [float(l) for l in opt.rp_params.split(",")]
-    opt.wb = wandb.init(project=opt.dataset_name+"_semitime", config=opt, mode="online", group=str(opt.label_ratio))
+    opt.wb = wandb.init(project=opt.dataset_name+"_semitime", config=opt, mode="disabled", group=str(opt.label_ratio))
     exp = 'exp-cls'
 
     Seeds = [2000, 2024, 2014]

@@ -5908,3 +5908,57 @@ EarlyStopping counter: 190 out of 200
 Epoch [501][SemiTeacher][UWaveGestureLibraryAll] loss= 0.01275; Epoch Label ACC.= 98.40%, UnLabel ACC.= 97.66%, Lipistz loss = 0, Train Unlabel Best ACC.= 98.7%, Train Max Epoch=434
 EarlyStopping counter: 191 out of 200
 Epoch [502][SemiTeacher][UWaveGestureLibraryAll] loss= 0.01356; Epoch Label ACC.= 98.25%, UnLabel ACC.= 98.21%, Lipistz loss = 0, Train Unlabel Best ACC.= 98.7%, Train Max Epoch=434
+EarlyStopping counter: 192 out of 200
+Epoch [503][SemiTeacher][UWaveGestureLibraryAll] loss= 0.01247; Epoch Label ACC.= 97.99%, UnLabel ACC.= 98.36%, Lipistz loss = 0, Train Unlabel Best ACC.= 98.7%, Train Max Epoch=434
+EarlyStopping counter: 193 out of 200
+Epoch [504][SemiTeacher][UWaveGestureLibraryAll] loss= 0.01342; Epoch Label ACC.= 97.99%, UnLabel ACC.= 98.29%, Lipistz loss = 0, Train Unlabel Best ACC.= 98.7%, Train Max Epoch=434
+EarlyStopping counter: 194 out of 200
+Epoch [505][SemiTeacher][UWaveGestureLibraryAll] loss= 0.01337; Epoch Label ACC.= 98.18%, UnLabel ACC.= 98.36%, Lipistz loss = 0, Train Unlabel Best ACC.= 98.7%, Train Max Epoch=434
+EarlyStopping counter: 195 out of 200
+Epoch [506][SemiTeacher][UWaveGestureLibraryAll] loss= 0.01356; Epoch Label ACC.= 98.40%, UnLabel ACC.= 98.03%, Lipistz loss = 0, Train Unlabel Best ACC.= 98.7%, Train Max Epoch=434
+EarlyStopping counter: 196 out of 200
+Epoch [507][SemiTeacher][UWaveGestureLibraryAll] loss= 0.01336; Epoch Label ACC.= 98.10%, UnLabel ACC.= 98.21%, Lipistz loss = 0, Train Unlabel Best ACC.= 98.7%, Train Max Epoch=434
+EarlyStopping counter: 197 out of 200
+Epoch [508][SemiTeacher][UWaveGestureLibraryAll] loss= 0.01357; Epoch Label ACC.= 98.03%, UnLabel ACC.= 98.18%, Lipistz loss = 0, Train Unlabel Best ACC.= 98.7%, Train Max Epoch=434
+EarlyStopping counter: 198 out of 200
+Epoch [509][SemiTeacher][UWaveGestureLibraryAll] loss= 0.01446; Epoch Label ACC.= 97.99%, UnLabel ACC.= 98.25%, Lipistz loss = 0, Train Unlabel Best ACC.= 98.7%, Train Max Epoch=434
+EarlyStopping counter: 199 out of 200
+Epoch [510][SemiTeacher][UWaveGestureLibraryAll] loss= 0.01270; Epoch Label ACC.= 98.10%, UnLabel ACC.= 97.95%, Lipistz loss = 0, Train Unlabel Best ACC.= 98.7%, Train Max Epoch=434
+EarlyStopping counter: 200 out of 200
+Early stopping
+wandb: Waiting for W&B process to finish... (success).
+wandb: - 0.001 MB of 0.001 MB uploaded (0.000 MB deduped)wandb: \ 0.001 MB of 0.001 MB uploaded (0.000 MB deduped)wandb: | 0.001 MB of 0.001 MB uploaded (0.000 MB deduped)wandb: / 0.001 MB of 0.513 MB uploaded (0.000 MB deduped)wandb: - 0.001 MB of 0.513 MB uploaded (0.000 MB deduped)wandb: \ 0.001 MB of 0.513 MB uploaded (0.000 MB deduped)wandb: | 0.001 MB of 0.513 MB uploaded (0.000 MB deduped)wandb: / 0.001 MB of 0.513 MB uploaded (0.000 MB deduped)wandb: - 0.001 MB of 0.513 MB uploaded (0.000 MB deduped)wandb: \ 0.001 MB of 0.513 MB uploaded (0.000 MB deduped)wandb: | 0.001 MB of 0.513 MB uploaded (0.000 MB deduped)wandb: / 0.001 MB of 0.513 MB uploaded (0.000 MB deduped)wandb: - 0.001 MB of 0.513 MB uploaded (0.000 MB deduped)wandb: \ 0.001 MB of 0.513 MB uploaded (0.000 MB deduped)wandb: | 0.001 MB of 0.513 MB uploaded (0.000 MB deduped)wandb: / 0.001 MB of 0.513 MB uploaded (0.000 MB deduped)wandb: - 0.001 MB of 0.513 MB uploaded (0.000 MB deduped)wandb: \ 0.001 MB of 0.513 MB uploaded (0.000 MB deduped)wandb: | 0.001 MB of 0.513 MB uploaded (0.000 MB deduped)wandb: / 0.001 MB of 0.513 MB uploaded (0.000 MB deduped)wandb: - 0.001 MB of 0.513 MB uploaded (0.000 MB deduped)wandb: \ 0.001 MB of 0.513 MB uploaded (0.000 MB deduped)wandb: | 0.001 MB of 0.513 MB uploaded (0.000 MB deduped)wandb: / 0.001 MB of 0.513 MB uploaded (0.000 MB deduped)wandb: - 0.001 MB of 0.513 MB uploaded (0.000 MB deduped)wandb: \ 0.001 MB of 0.513 MB uploaded (0.000 MB deduped)wandb: | 0.001 MB of 0.513 MB uploaded (0.000 MB deduped)wandb: / 0.001 MB of 0.513 MB uploaded (0.000 MB deduped)wandb: - 0.001 MB of 0.513 MB uploaded (0.000 MB deduped)wandb: \ 0.001 MB of 0.513 MB uploaded (0.000 MB deduped)wandb: | 0.001 MB of 0.513 MB uploaded (0.000 MB deduped)wandb: / 0.001 MB of 0.513 MB uploaded (0.000 MB deduped)wandb: - 0.001 MB of 0.513 MB uploaded (0.000 MB deduped)wandb: \ 0.001 MB of 0.513 MB uploaded (0.000 MB deduped)wandb: | 0.001 MB of 0.513 MB uploaded (0.000 MB deduped)wandb: / 0.001 MB of 0.513 MB uploaded (0.000 MB deduped)wandb: - 0.001 MB of 0.513 MB uploaded (0.000 MB deduped)wandb: \ 0.001 MB of 0.513 MB uploaded (0.000 MB deduped)wandb: | 0.001 MB of 0.513 MB uploaded (0.000 MB deduped)wandb: / 0.001 MB of 0.513 MB uploaded (0.000 MB deduped)wandb: - 0.001 MB of 0.513 MB uploaded (0.000 MB deduped)wandb: \ 0.001 MB of 0.513 MB uploaded (0.000 MB deduped)wandb: | 0.001 MB of 0.513 MB uploaded (0.000 MB deduped)wandb: / 0.001 MB of 0.513 MB uploaded (0.000 MB deduped)wandb: - 0.001 MB of 0.513 MB uploaded (0.000 MB deduped)wandb: \ 0.001 MB of 0.513 MB uploaded (0.000 MB deduped)wandb: | 0.001 MB of 0.513 MB uploaded (0.000 MB deduped)wandb: / 0.001 MB of 0.513 MB uploaded (0.000 MB deduped)wandb: - 0.001 MB of 0.513 MB uploaded (0.000 MB deduped)wandb: \ 0.001 MB of 0.513 MB uploaded (0.000 MB deduped)wandb: | 0.001 MB of 0.513 MB uploaded (0.000 MB deduped)wandb: / 0.001 MB of 0.513 MB uploaded (0.000 MB deduped)wandb: - 0.001 MB of 0.513 MB uploaded (0.000 MB deduped)wandb: \ 0.001 MB of 0.513 MB uploaded (0.000 MB deduped)wandb: | 0.001 MB of 0.513 MB uploaded (0.000 MB deduped)wandb: / 0.001 MB of 0.513 MB uploaded (0.000 MB deduped)wandb: - 0.001 MB of 0.513 MB uploaded (0.000 MB deduped)wandb: \ 0.001 MB of 0.513 MB uploaded (0.000 MB deduped)wandb: | 0.001 MB of 0.513 MB uploaded (0.000 MB deduped)wandb: / 0.001 MB of 0.513 MB uploaded (0.000 MB deduped)wandb: - 0.001 MB of 0.513 MB uploaded (0.000 MB deduped)wandb: \ 0.001 MB of 0.513 MB uploaded (0.000 MB deduped)wandb: | 0.001 MB of 0.513 MB uploaded (0.000 MB deduped)wandb: / 0.004 MB of 0.513 MB uploaded (0.000 MB deduped)wandb: - 0.176 MB of 0.513 MB uploaded (0.000 MB deduped)wandb: \ 0.504 MB of 0.513 MB uploaded (0.000 MB deduped)wandb: | 0.507 MB of 0.513 MB uploaded (0.000 MB deduped)wandb: / 0.507 MB of 0.513 MB uploaded (0.000 MB deduped)wandb: - 0.507 MB of 0.513 MB uploaded (0.000 MB deduped)wandb: \ 0.507 MB of 0.513 MB uploaded (0.000 MB deduped)wandb: | 0.507 MB of 0.513 MB uploaded (0.000 MB deduped)wandb: / 0.507 MB of 0.513 MB uploaded (0.000 MB deduped)wandb: - 0.507 MB of 0.513 MB uploaded (0.000 MB deduped)wandb: \ 0.507 MB of 0.513 MB uploaded (0.000 MB deduped)wandb: | 0.507 MB of 0.513 MB uploaded (0.000 MB deduped)wandb: / 0.507 MB of 0.513 MB uploaded (0.000 MB deduped)wandb: - 0.513 MB of 0.513 MB uploaded (0.000 MB deduped)wandb: \ 0.513 MB of 0.513 MB uploaded (0.000 MB deduped)wandb: | 0.513 MB of 0.513 MB uploaded (0.000 MB deduped)wandb: / 0.513 MB of 0.513 MB uploaded (0.000 MB deduped)wandb: - 0.513 MB of 0.513 MB uploaded (0.000 MB deduped)wandb: \ 0.513 MB of 0.513 MB uploaded (0.000 MB deduped)wandb: | 0.513 MB of 0.513 MB uploaded (0.000 MB deduped)wandb: / 0.513 MB of 0.513 MB uploaded (0.000 MB deduped)wandb:                                                                                
+wandb: 
+wandb: Run history:
+wandb:    acc_epoch_label ▇█████▆█████████████▇███████▁████▇██████
+wandb:  acc_epoch_unlabel ▇█████▆█████████████▇███████▁████▇██████
+wandb:          acc_label ▇▆▆██▇▇▇▇▇▇▇▇▆▇▇▇▇▇▇▅▇▇▇▇▇▇▇▁▇▇▇▇▆▇█▇█▇█
+wandb:           acc_mean ▁
+wandb:            acc_std ▁
+wandb:        acc_unlabel ▅▆▇█▇███████▇▅▇▇▇█▇█▆▇▇▆▇█▇█▁█▇▇▇▅▇▇█▇█▇
+wandb:      best_test_acc ▆▇█████▆███▆▇██████▅▇█████▁▇████▅▇▇█████
+wandb:           lds_loss ▃▄▅▄▆▂▂▅▃▃▅▆▃▃▂▁▂▄▁▂▂▄▅▄▃▅▂▂█▃▃▂▂▃█▃▁▁▃▂
+wandb: loss_epoch_unlabel ▆▄▄▄▃▃█▆▅▄▃▃▃▄▄▄▃▃▃▂▆▄▃▃▃▃▂▂▁▅▅▄▄▆▅▄▄▃▃▃
+wandb:         loss_label ▃▃▃▁▁▁▁▂▂▁▁▂▂▃▂▁▂▂▂▁▄▂▂▁▂▁▁▁█▂▁▁▂▄▂▁▁▁▁▁
+wandb:       loss_unlabel ▇▃▄▁▄▂▁█▇▅▃▃▃▆▄▂▃▃▃▁▆▄▃▂▂▂▁▁█▆▄▃▃▆▂▄▄▂▂▂
+wandb:               reg1 ▃▆▇▁▃▂▁▂▃▅▁▁▅▄▁▂▄▂▁▂▁▂▂▂▂▁▁▃▄▂▂▂▁▅█▅▁▂▂▆
+wandb:               reg2 ▅▃▆▄▇▄▄▆▂█▄▅█▅▄█▆▇▃▄▃█▆▄▃▁▄█▄▁▂▄▄▄▇▆▁▄▃▆
+wandb: 
+wandb: Run summary:
+wandb:    acc_epoch_label 98.10268
+wandb:  acc_epoch_unlabel 97.95387
+wandb:          acc_label 93.75
+wandb:           acc_mean 98.16
+wandb:            acc_std 0.04
+wandb:        acc_unlabel 100.0
+wandb:      best_test_acc 98.21429
+wandb:           lds_loss 0.00033
+wandb: loss_epoch_unlabel 0.0127
+wandb:         loss_label 0.09891
+wandb:       loss_unlabel 0.01869
+wandb:               reg1 8.03709
+wandb:               reg2 7.38279
+wandb: 
+wandb: Synced fanciful-pond-17: https://wandb.ai/pqythu/UWaveGestureLibraryAll_semitime/runs/2n86evzv
+wandb: Synced 6 W&B file(s), 0 media file(s), 0 artifact file(s) and 0 other file(s)
+wandb: Find logs at: ./wandb/run-20240823_183810-2n86evzv/logs

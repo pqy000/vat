@@ -1,10 +1,2 @@
 2023-10-31-08:39:59
 Dataset  Train  Test  Dimension  Class  Seed  Acc_label  Acc_unlabel  Epoch_max
-2024-08-23-12:07:41
-Dataset  Train  Test  Dimension  Class  Seed  Acc_label  Acc_unlabel  Epoch_max
-InsectWingbeatSound  1320  440  256  11  2000  55.29336765834263  49.73214340209961  57
-InsectWingbeatSound  1320  440  256  11  2000  58.09949057442801  50.9226188659668  24
-InsectWingbeatSound  1320  440  256  11  2024  59.40688868931362  52.91666793823242  28
-InsectWingbeatSound  1320  440  256  11  2024  56.823980058942524  54.136905670166016  172
-InsectWingbeatSound  1320  440  256  11  2014  60.84183720179966  53.79464340209961  66
-InsectWingbeatSound  1320  440  256  11  2014  62.43622480119978  51.02678680419922  74

@@ -21,7 +21,7 @@ def parse_option():
     parser = argparse.ArgumentParser('argument for training')
     parser.add_argument('--save_freq', type=int, default=200,
                         help='save frequency')
-    parser.add_argument('--batch_size', type=int, default=128, help='batch_size')
+    parser.add_argument('--batch_size', type=int, default=64, help='batch_size')
     parser.add_argument('--K', type=int, default=4, help='Number of augmentation for each sample')
     parser.add_argument('--alpha', type=float, default=0.5, help='Past-future split point')
     parser.add_argument('--lr', type=float, default=0.01)
@@ -38,7 +38,7 @@ def parse_option():
     parser.add_argument('--learning_rate', type=float, default=0.01, help='learning rate')
     parser.add_argument('--weight_rampup', type=int, default=30, help='weight rampup')
     # model dataset
-    parser.add_argument('--dataset_name', type=str, default='Heartbeat', help='dataset')
+    parser.add_argument('--dataset_name', type=str, default='MFPT', help='dataset')
     parser.add_argument('--nb_class', type=int, default=3, help='class number')
 
     # ucr_path = '../datasets/UCRArchive_2018'
@@ -122,7 +122,8 @@ if __name__ == "__main__":
     opt.kernels = [int(l) for l in opt.kernels.split(",")]
     opt.filters = [int(l) for l in opt.filters.split(",")]
     opt.rp_params = [float(l) for l in opt.rp_params.split(",")]
-    opt.wb = wandb.init(project=opt.dataset_name+"_semitime", config=opt, mode="online", group=str(opt.label_ratio))
+    opt.wb = wandb.init(project=opt.dataset_name+"_semitime", name=str(opt.nhid) + "_" + str(opt.levels),
+                        config=opt, mode="online", group=str(opt.label_ratio))
     exp = 'exp-cls'
 
     Seeds = [2000, 2024, 2014]
@@ -151,7 +152,8 @@ if __name__ == "__main__":
 
     file2print_detail_train = open("{}/train_detail.log".format(log_dir), 'a+')
     print(datetime.now().strftime("%Y-%m-%d-%H:%M:%S"), file=file2print_detail_train)
-    print("Dataset  Train  Test  Dimension  Class  Seed  Acc_label  Acc_unlabel  Epoch_max",file=file2print_detail_train)
+    print("Dataset  Train  Test  Dimension  Class  Seed  Acc_label  Acc_unlabel  Epoch_max",
+          file=file2print_detail_train)
     file2print_detail_train.flush()
 
     file2print = open("{}/test.log".format(log_dir), 'a+')

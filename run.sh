@@ -10,8 +10,8 @@
 #    bash run.sh UWaveGestureLibraryAll '3 4 5' '0.1 0.2 0.4'
 #    bash run.sh CricketX '1' '1.0'
 # bash run.sh InsectWingbeatSound '1' '1.0'
-# bash run.sh EpilepticSeizure '2' '1.0'
-# bash run.sh UWaveGestureLibraryAll '6' '1.0'
+# bash run.sh EpilepticSeizure '0 1 2' '0.1 0.2 0.4'
+# bash run.sh MFPT '3 4 5' '0.1 0.2 0.4'
 #    exit 1
 #fi
 

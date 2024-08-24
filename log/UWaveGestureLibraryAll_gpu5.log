@@ -5758,3 +5758,78 @@ EarlyStopping counter: 116 out of 200
 Epoch [427][SemiTeacher][UWaveGestureLibraryAll] loss= 0.01477; Epoch Label ACC.= 97.62%, UnLabel ACC.= 97.99%, Lipistz loss = 0, Train Unlabel Best ACC.= 98.6%, Train Max Epoch=411
 EarlyStopping counter: 117 out of 200
 Epoch [428][SemiTeacher][UWaveGestureLibraryAll] loss= 0.01506; Epoch Label ACC.= 97.95%, UnLabel ACC.= 97.66%, Lipistz loss = 0, Train Unlabel Best ACC.= 98.6%, Train Max Epoch=411
+EarlyStopping counter: 118 out of 200
+Epoch [429][SemiTeacher][UWaveGestureLibraryAll] loss= 0.01549; Epoch Label ACC.= 98.07%, UnLabel ACC.= 97.77%, Lipistz loss = 0, Train Unlabel Best ACC.= 98.6%, Train Max Epoch=411
+EarlyStopping counter: 119 out of 200
+Epoch [430][SemiTeacher][UWaveGestureLibraryAll] loss= 0.01477; Epoch Label ACC.= 98.59%, UnLabel ACC.= 97.62%, Lipistz loss = 0, Train Unlabel Best ACC.= 98.6%, Train Max Epoch=411
+EarlyStopping counter: 120 out of 200
+Epoch [431][SemiTeacher][UWaveGestureLibraryAll] loss= 0.01250; Epoch Label ACC.= 98.03%, UnLabel ACC.= 97.88%, Lipistz loss = 0, Train Unlabel Best ACC.= 98.6%, Train Max Epoch=411
+EarlyStopping counter: 121 out of 200
+Epoch [432][SemiTeacher][UWaveGestureLibraryAll] loss= 0.01298; Epoch Label ACC.= 98.14%, UnLabel ACC.= 98.44%, Lipistz loss = 0, Train Unlabel Best ACC.= 98.6%, Train Max Epoch=411
+EarlyStopping counter: 122 out of 200
+Epoch [433][SemiTeacher][UWaveGestureLibraryAll] loss= 0.01478; Epoch Label ACC.= 98.03%, UnLabel ACC.= 98.33%, Lipistz loss = 0, Train Unlabel Best ACC.= 98.6%, Train Max Epoch=411
+EarlyStopping counter: 123 out of 200
+Epoch [434][SemiTeacher][UWaveGestureLibraryAll] loss= 0.01342; Epoch Label ACC.= 98.10%, UnLabel ACC.= 98.29%, Lipistz loss = 0, Train Unlabel Best ACC.= 98.6%, Train Max Epoch=411
+EarlyStopping counter: 124 out of 200
+Epoch [435][SemiTeacher][UWaveGestureLibraryAll] loss= 0.01276; Epoch Label ACC.= 98.07%, UnLabel ACC.= 98.66%, Lipistz loss = 0, Train Unlabel Best ACC.= 98.7%, Train Max Epoch=434
+EarlyStopping counter: 125 out of 200
+Epoch [436][SemiTeacher][UWaveGestureLibraryAll] loss= 0.01254; Epoch Label ACC.= 98.36%, UnLabel ACC.= 98.21%, Lipistz loss = 0, Train Unlabel Best ACC.= 98.7%, Train Max Epoch=434
+EarlyStopping counter: 126 out of 200
+Epoch [437][SemiTeacher][UWaveGestureLibraryAll] loss= 0.01237; Epoch Label ACC.= 98.07%, UnLabel ACC.= 97.73%, Lipistz loss = 0, Train Unlabel Best ACC.= 98.7%, Train Max Epoch=434
+EarlyStopping counter: 127 out of 200
+Epoch [438][SemiTeacher][UWaveGestureLibraryAll] loss= 0.01230; Epoch Label ACC.= 98.03%, UnLabel ACC.= 97.81%, Lipistz loss = 0, Train Unlabel Best ACC.= 98.7%, Train Max Epoch=434
+EarlyStopping counter: 128 out of 200
+Epoch [439][SemiTeacher][UWaveGestureLibraryAll] loss= 0.01632; Epoch Label ACC.= 97.40%, UnLabel ACC.= 98.21%, Lipistz loss = 0, Train Unlabel Best ACC.= 98.7%, Train Max Epoch=434
+EarlyStopping counter: 129 out of 200
+Epoch [440][SemiTeacher][UWaveGestureLibraryAll] loss= 0.01598; Epoch Label ACC.= 97.73%, UnLabel ACC.= 97.88%, Lipistz loss = 0, Train Unlabel Best ACC.= 98.7%, Train Max Epoch=434
+EarlyStopping counter: 130 out of 200
+Epoch [441][SemiTeacher][UWaveGestureLibraryAll] loss= 0.01515; Epoch Label ACC.= 97.99%, UnLabel ACC.= 98.07%, Lipistz loss = 0, Train Unlabel Best ACC.= 98.7%, Train Max Epoch=434
+EarlyStopping counter: 131 out of 200
+Epoch [442][SemiTeacher][UWaveGestureLibraryAll] loss= 0.01487; Epoch Label ACC.= 97.99%, UnLabel ACC.= 98.40%, Lipistz loss = 0, Train Unlabel Best ACC.= 98.7%, Train Max Epoch=434
+EarlyStopping counter: 132 out of 200
+Epoch [443][SemiTeacher][UWaveGestureLibraryAll] loss= 0.01372; Epoch Label ACC.= 97.81%, UnLabel ACC.= 97.77%, Lipistz loss = 0, Train Unlabel Best ACC.= 98.7%, Train Max Epoch=434
+EarlyStopping counter: 133 out of 200
+Epoch [444][SemiTeacher][UWaveGestureLibraryAll] loss= 0.01436; Epoch Label ACC.= 97.32%, UnLabel ACC.= 97.92%, Lipistz loss = 0, Train Unlabel Best ACC.= 98.7%, Train Max Epoch=434
+EarlyStopping counter: 134 out of 200
+Epoch [445][SemiTeacher][UWaveGestureLibraryAll] loss= 0.01602; Epoch Label ACC.= 97.88%, UnLabel ACC.= 98.59%, Lipistz loss = 0, Train Unlabel Best ACC.= 98.7%, Train Max Epoch=434
+EarlyStopping counter: 135 out of 200
+Epoch [446][SemiTeacher][UWaveGestureLibraryAll] loss= 0.01426; Epoch Label ACC.= 97.99%, UnLabel ACC.= 98.03%, Lipistz loss = 0, Train Unlabel Best ACC.= 98.7%, Train Max Epoch=434
+EarlyStopping counter: 136 out of 200
+Epoch [447][SemiTeacher][UWaveGestureLibraryAll] loss= 0.01151; Epoch Label ACC.= 97.92%, UnLabel ACC.= 97.95%, Lipistz loss = 0, Train Unlabel Best ACC.= 98.7%, Train Max Epoch=434
+EarlyStopping counter: 137 out of 200
+Epoch [448][SemiTeacher][UWaveGestureLibraryAll] loss= 0.01421; Epoch Label ACC.= 97.99%, UnLabel ACC.= 97.84%, Lipistz loss = 0, Train Unlabel Best ACC.= 98.7%, Train Max Epoch=434
+EarlyStopping counter: 138 out of 200
+Epoch [449][SemiTeacher][UWaveGestureLibraryAll] loss= 0.01456; Epoch Label ACC.= 98.36%, UnLabel ACC.= 97.92%, Lipistz loss = 0, Train Unlabel Best ACC.= 98.7%, Train Max Epoch=434
+EarlyStopping counter: 139 out of 200
+Epoch [450][SemiTeacher][UWaveGestureLibraryAll] loss= 0.01199; Epoch Label ACC.= 97.92%, UnLabel ACC.= 97.81%, Lipistz loss = 0, Train Unlabel Best ACC.= 98.7%, Train Max Epoch=434
+[Test-450] Val ACC:98.44%, Best Test ACC.: 97.77% in Epoch 450
+EarlyStopping counter: 140 out of 200
+Epoch [451][SemiTeacher][UWaveGestureLibraryAll] loss= 0.01256; Epoch Label ACC.= 97.73%, UnLabel ACC.= 98.51%, Lipistz loss = 0, Train Unlabel Best ACC.= 98.7%, Train Max Epoch=434
+EarlyStopping counter: 141 out of 200
+Epoch [452][SemiTeacher][UWaveGestureLibraryAll] loss= 0.01296; Epoch Label ACC.= 98.25%, UnLabel ACC.= 98.21%, Lipistz loss = 0, Train Unlabel Best ACC.= 98.7%, Train Max Epoch=434
+EarlyStopping counter: 142 out of 200
+Epoch [453][SemiTeacher][UWaveGestureLibraryAll] loss= 0.01515; Epoch Label ACC.= 97.88%, UnLabel ACC.= 98.25%, Lipistz loss = 0, Train Unlabel Best ACC.= 98.7%, Train Max Epoch=434
+EarlyStopping counter: 143 out of 200
+Epoch [454][SemiTeacher][UWaveGestureLibraryAll] loss= 0.01380; Epoch Label ACC.= 97.62%, UnLabel ACC.= 98.25%, Lipistz loss = 0, Train Unlabel Best ACC.= 98.7%, Train Max Epoch=434
+EarlyStopping counter: 144 out of 200
+Epoch [455][SemiTeacher][UWaveGestureLibraryAll] loss= 0.01357; Epoch Label ACC.= 98.07%, UnLabel ACC.= 98.14%, Lipistz loss = 0, Train Unlabel Best ACC.= 98.7%, Train Max Epoch=434
+EarlyStopping counter: 145 out of 200
+Epoch [456][SemiTeacher][UWaveGestureLibraryAll] loss= 0.01387; Epoch Label ACC.= 98.36%, UnLabel ACC.= 98.14%, Lipistz loss = 0, Train Unlabel Best ACC.= 98.7%, Train Max Epoch=434
+EarlyStopping counter: 146 out of 200
+Epoch [457][SemiTeacher][UWaveGestureLibraryAll] loss= 0.01415; Epoch Label ACC.= 98.47%, UnLabel ACC.= 97.99%, Lipistz loss = 0, Train Unlabel Best ACC.= 98.7%, Train Max Epoch=434
+EarlyStopping counter: 147 out of 200
+Epoch [458][SemiTeacher][UWaveGestureLibraryAll] loss= 0.01427; Epoch Label ACC.= 97.77%, UnLabel ACC.= 98.33%, Lipistz loss = 0, Train Unlabel Best ACC.= 98.7%, Train Max Epoch=434
+EarlyStopping counter: 148 out of 200
+Epoch [459][SemiTeacher][UWaveGestureLibraryAll] loss= 0.01470; Epoch Label ACC.= 97.66%, UnLabel ACC.= 98.21%, Lipistz loss = 0, Train Unlabel Best ACC.= 98.7%, Train Max Epoch=434
+EarlyStopping counter: 149 out of 200
+Epoch [460][SemiTeacher][UWaveGestureLibraryAll] loss= 0.01460; Epoch Label ACC.= 98.07%, UnLabel ACC.= 98.25%, Lipistz loss = 0, Train Unlabel Best ACC.= 98.7%, Train Max Epoch=434
+EarlyStopping counter: 150 out of 200
+Epoch [461][SemiTeacher][UWaveGestureLibraryAll] loss= 0.01434; Epoch Label ACC.= 98.70%, UnLabel ACC.= 97.81%, Lipistz loss = 0, Train Unlabel Best ACC.= 98.7%, Train Max Epoch=434
+EarlyStopping counter: 151 out of 200
+Epoch [462][SemiTeacher][UWaveGestureLibraryAll] loss= 0.01376; Epoch Label ACC.= 98.29%, UnLabel ACC.= 98.40%, Lipistz loss = 0, Train Unlabel Best ACC.= 98.7%, Train Max Epoch=434
+EarlyStopping counter: 152 out of 200
+Epoch [463][SemiTeacher][UWaveGestureLibraryAll] loss= 0.01429; Epoch Label ACC.= 98.21%, UnLabel ACC.= 97.88%, Lipistz loss = 0, Train Unlabel Best ACC.= 98.7%, Train Max Epoch=434
+EarlyStopping counter: 153 out of 200
+Epoch [464][SemiTeacher][UWaveGestureLibraryAll] loss= 0.01403; Epoch Label ACC.= 98.36%, UnLabel ACC.= 98.40%, Lipistz loss = 0, Train Unlabel Best ACC.= 98.7%, Train Max Epoch=434
+EarlyStopping counter: 154 out of 200
+Epoch [465][SemiTeacher][UWaveGestureLibraryAll] loss= 0.01455; Epoch Label ACC.= 98.10%, UnLabel ACC.= 98.25%, Lipistz loss = 0, Train Unlabel Best ACC.= 98.7%, Train Max Epoch=434

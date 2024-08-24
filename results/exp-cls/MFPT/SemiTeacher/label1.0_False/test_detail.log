@@ -1,0 +1,5 @@
+2024-08-23-21:56:43
+Dataset  Train  Test   Dimension  Class  Seed  Acc_max  Epoch_max
+MFPT  1548  506  1024  15  2000  22.27  200
+MFPT  1548  506  1024  15  2024  22.27  200
+MFPT  1548  506  1024  15  2014  22.27  200

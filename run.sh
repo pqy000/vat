@@ -19,7 +19,6 @@
 DATASET_NAME=$1
 GPU_LIST=($2)  # 将GPU列表转换为数组
 LABEL_RATIO_LIST=($3)  # 将label_ratio列表转换为数组
-LEVELS=$4
 
 # 检查 GPU 数量与 label_ratio 数量是否匹配
 if [ "${#GPU_LIST[@]}" -ne "${#LABEL_RATIO_LIST[@]}" ]; then
@@ -38,7 +37,7 @@ for i in "${!GPU_LIST[@]}"; do
   LABEL_RATIO=${LABEL_RATIO_LIST[$i]}
   LOG_FILE="log/${DATASET_NAME}_gpu${GPU}.log"
 
-  nohup python mainOurs.py --dataset_name=${DATASET_NAME} --levels=${LEVELS} --gpu=${GPU} --label_ratio=${LABEL_RATIO} > ${LOG_FILE} 2>&1 &
+  nohup python mainOurs.py --dataset_name=${DATASET_NAME} --gpu=${GPU} --label_ratio=${LABEL_RATIO} > ${LOG_FILE} 2>&1 &
 
   echo "Started process on GPU ${GPU} with label ratio ${LABEL_RATIO}. Check ${LOG_FILE} for output."
 done

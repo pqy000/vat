@@ -15,3 +15,4 @@ Dataset  Acc_mean   Acc_std  Epoch_max
 UWaveGestureLibraryAll 96.6 0.0 423
 2024-08-23-18:38:21
 Dataset  Acc_mean   Acc_std  Epoch_max
+UWaveGestureLibraryAll 96.89 0.07 371

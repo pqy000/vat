@@ -21,7 +21,7 @@ def parse_option():
     parser = argparse.ArgumentParser('argument for training')
     parser.add_argument('--save_freq', type=int, default=200,
                         help='save frequency')
-    parser.add_argument('--batch_size', type=int, default=64, help='batch_size')
+    parser.add_argument('--batch_size', type=int, default=128, help='batch_size')
     parser.add_argument('--K', type=int, default=4, help='Number of augmentation for each sample')
     parser.add_argument('--alpha', type=float, default=0.5, help='Past-future split point')
     parser.add_argument('--lr', type=float, default=0.01)
@@ -35,10 +35,10 @@ def parse_option():
     parser.add_argument('--class_type', type=str, default='3C', help='Classification type')
     parser.add_argument('--gpu', type=str, default='0', help='gpu id')
 
-    parser.add_argument('--learning_rate', type=float, default=2e-3, help='learning rate')
+    parser.add_argument('--learning_rate', type=float, default=0.01, help='learning rate')
     parser.add_argument('--weight_rampup', type=int, default=30, help='weight rampup')
     # model dataset
-    parser.add_argument('--dataset_name', type=str, default='CricketX', help='dataset')
+    parser.add_argument('--dataset_name', type=str, default='Heartbeat', help='dataset')
     parser.add_argument('--nb_class', type=int, default=3, help='class number')
 
     # ucr_path = '../datasets/UCRArchive_2018'
@@ -53,7 +53,7 @@ def parse_option():
     parser.add_argument('--usp_weight', type=float, default=1, help='usp weight')
     parser.add_argument('--ema_decay', type=float, default=0.99, help='weight')
     parser.add_argument('--model_select', type=str, default='TCN', help='Training model type')
-    parser.add_argument('--nhid', type=int, default=128, help='feature_size')
+    parser.add_argument('--nhid', type=int, default=256, help='feature_size')
     parser.add_argument('--levels', type=int, default=8, help='feature_size')
     parser.add_argument('--ksize', type=int, default=3, help='kernel size')
     parser.add_argument('--dropout', type=float, default=0.05, help='dropout applied to layers (default: 0.05)')

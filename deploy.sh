@@ -38,3 +38,4 @@ git checkout version1
 ln -s /data/qingyi/semitime/datasets/datasets/ ./
 
 echo "Operations completed successfully."
+scp -r /home/qingyi/mini

@@ -2,7 +2,7 @@
 
 REMOTE="origin"
 BRANCH="version1"
-LOG_DIR="/data/qingyi/log"
+LOG_DIR="/data/qingyi/log/"
 
 mkdir -p $LOG_DIR
 
@@ -10,7 +10,8 @@ function move_conflicted_files {
     git diff --name-only --diff-filter=U | while read file; do
         if [ -f "$file" ]; then
             echo "Moving conflicted file $file to $LOG_DIR"
-            mv "$file" "$LOG_DIR/"
+            cp -rf "$file" "$LOG_DIR"
+            rm "$file"
         fi
     done
 }

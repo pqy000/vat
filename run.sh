@@ -19,6 +19,7 @@
 DATASET_NAME=$1
 GPU_LIST=($2)  # 将GPU列表转换为数组
 LABEL_RATIO_LIST=($3)  # 将label_ratio列表转换为数组
+METHOD=$4
 
 # 检查 GPU 数量与 label_ratio 数量是否匹配
 if [ "${#GPU_LIST[@]}" -ne "${#LABEL_RATIO_LIST[@]}" ]; then
@@ -26,18 +27,16 @@ if [ "${#GPU_LIST[@]}" -ne "${#LABEL_RATIO_LIST[@]}" ]; then
     exit 1
 fi
 
-# 检查是否存在log目录，如果不存在则创建
 if [ ! -d "log" ]; then
   mkdir log
 fi
 
-# 启动实验
 for i in "${!GPU_LIST[@]}"; do
   GPU=${GPU_LIST[$i]}
   LABEL_RATIO=${LABEL_RATIO_LIST[$i]}
   LOG_FILE="log/${DATASET_NAME}_gpu${GPU}.log"
 
-  nohup python mainOurs.py --dataset_name=${DATASET_NAME} --gpu=${GPU} --label_ratio=${LABEL_RATIO} > ${LOG_FILE} 2>&1 &
+  nohup python mainOurs.py --dataset_name=${DATASET_NAME} --gpu=${GPU} --label_ratio=${LABEL_RATIO} --model_name ${METHOD} > ${LOG_FILE} 2>&1 &
 
   echo "Started process on GPU ${GPU} with label ratio ${LABEL_RATIO}. Check ${LOG_FILE} for output."
 done

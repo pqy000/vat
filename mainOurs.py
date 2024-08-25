@@ -21,7 +21,7 @@ def parse_option():
     parser = argparse.ArgumentParser('argument for training')
     parser.add_argument('--save_freq', type=int, default=200,
                         help='save frequency')
-    parser.add_argument('--batch_size', type=int, default=16, help='batch_size')
+    parser.add_argument('--batch_size', type=int, default=64, help='batch_size')
     parser.add_argument('--K', type=int, default=4, help='Number of augmentation for each sample')
     parser.add_argument('--alpha', type=float, default=0.5, help='Past-future split point')
     parser.add_argument('--lr', type=float, default=0.01)
@@ -47,7 +47,7 @@ def parse_option():
                         help='Data path for checkpoint.')
     # method
     parser.add_argument('--backbone', type=str, default='SimConv4')
-    parser.add_argument('--model_name', type=str, default='PI',
+    parser.add_argument('--model_name', type=str, default='SemiTime',
                         choices=['SupCE', 'SemiTime','SemiTeacher', 'PI', 'MTL', 'TapNet'], help='choose method')
     parser.add_argument('--label_ratio', type=float, default=0.4, help='label ratio')
     parser.add_argument('--usp_weight', type=float, default=1, help='usp weight')
@@ -148,22 +148,7 @@ if __name__ == "__main__":
 
     if not os.path.exists(log_dir):
         os.makedirs(log_dir)
-    '''
-    file2print_detail_train = open("{}/train_detail.log".format(log_dir), 'a+')
-    print(datetime.now().strftime("%Y-%m-%d-%H:%M:%S"), file=file2print_detail_train)
-    print("Dataset  Train  Test  Dimension  Class  Seed  Acc_label  Acc_unlabel  Epoch_max",file=file2print_detail_train)
-    file2print_detail_train.flush()
 
-    file2print = open("{}/test.log".format(log_dir), 'a+')
-    print(datetime.now().strftime("%Y-%m-%d-%H:%M:%S"), file=file2print)
-    print("Dataset  Acc_mean   Acc_std  Epoch_max", file=file2print)
-    file2print.flush()
-
-    file2print_detail = open("{}/test_detail.log".format(log_dir), 'a+')
-    print(datetime.now().strftime("%Y-%m-%d-%H:%M:%S"), file=file2print_detail)
-    print("Dataset  Train  Test   Dimension  Class  Seed  Acc_max  Epoch_max", file=file2print_detail)
-    file2print_detail.flush()
-    '''
     ACCs = {}
 
     MAX_EPOCHs_seed = {}
@@ -180,7 +165,9 @@ if __name__ == "__main__":
 
         print('[INFO] Running at:', opt.dataset_name)
 
-        if opt.dataset_name == "CricketX" or opt.dataset_name == "UWaveGestureLibraryAll" or opt.dataset_name == "InsectWingbeatSound" or  opt.dataset_name == "EpilepticSeizure" or opt.dataset_name == "MFPT" or opt.dataset_name == "XJTU":
+        if opt.dataset_name == "CricketX" or opt.dataset_name == "UWaveGestureLibraryAll" \
+                or opt.dataset_name == "InsectWingbeatSound" or  opt.dataset_name == "EpilepticSeizure" \
+                or opt.dataset_name == "MFPT" or opt.dataset_name == "XJTU":
             x_train, y_train, x_val, y_val, x_test, y_test, opt.nb_class, _ = load_ucr2018(opt.ucr_path, opt.dataset_name)
         elif opt.dataset_name == "Heartbeat" or opt.dataset_name == "NATOPS" \
                 or opt.dataset_name == "SelfRegulationSCP2":
@@ -223,7 +210,6 @@ if __name__ == "__main__":
 
             ACCs_run[run] = acc_test
             MAX_EPOCHs_run[run] = epoch_max
-            # opt.wb.log({'acc_test': acc_test, 'acc_unlabel': acc_unlabel})
 
         ACCs_seed[seed] = round(np.mean(list(ACCs_run.values())), 2)
         MAX_EPOCHs_seed[seed] = np.max(list(MAX_EPOCHs_run.values()))

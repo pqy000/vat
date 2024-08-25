@@ -178,6 +178,8 @@ class Model_SemiTime(torch.nn.Module):
 
             print('[Test-{}] Val ACC:{:.2f}%, Best Test ACC.: {:.2f}% in Epoch {}'.format(
                 epoch, val_acc, test_acc, best_epoch))
+            opt.wb.log({"val_acc": val_acc, "test_acc": test_acc})
+
             early_stopping(val_acc, self.backbone)
             if early_stopping.early_stop:
                 print("Early stopping")
@@ -191,11 +193,12 @@ class Model_SemiTime(torch.nn.Module):
                   'Max ACC.= {:.1f}%, Max Epoch={}' \
                   .format(epoch + 1, opt.model_name, opt.dataset_name,
                           loss_epoch, acc_epoch, acc_epoch_cls, acc_max, epoch_max))
+            opt.wb.log({"loss_epoch": loss_epoch, "acc_epoch": acc_epoch, "acc_epoch_cls": acc_epoch_cls})
 
-        interpretloader = test_loader
-        quaInterpret(interpretloader, trainer.model, opt)
-        createMasks(opt)
-        getMaskedAccuracy(interpretloader, trainer.model, opt)
-        getAccuracyMetrics(trainer.model, opt)
+        # interpretloader = test_loader
+        # quaInterpret(interpretloader, trainer.model, opt)
+        # createMasks(opt)
+        # getMaskedAccuracy(interpretloader, trainer.model, opt)
+        # getAccuracyMetrics(trainer.model, opt)
 
         return test_acc, acc_epoch_cls, best_epoch

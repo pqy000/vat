@@ -160,6 +160,7 @@ def trainTapNet(x_train, y_train, x_val, y_val, x_test, y_test, opt):
 
                     print('[Test-{}] Val ACC:{:.2f}%, Best Test ACC.: {:.2f}% in Epoch {}'
                           .format(epoch, val_acc, test_acc, val_best_epoch))
+                    opt.wb.log({"best_test_acc": test_acc})
 
             early_stopping(val_acc, mtnet)
             if(early_stopping.early_stop):
@@ -173,13 +174,12 @@ def trainTapNet(x_train, y_train, x_val, y_val, x_test, y_test, opt):
                   'Train Unlabel Best ACC.= {:.1f}%, Train Max Epoch={}' \
                   .format(epoch + 1, opt.model_name, opt.dataset_name, loss_epoch_unlabel,
                           acc_epoch_label, acc_epoch_unlabel, train_best_acc, train_max_epoch))
-
-    interpretloader = test_loader
-    quaInterpret(interpretloader, mtnet, opt)
-    createMasks(opt)
-    getMaskedAccuracy(interpretloader, mtnet, opt)
-    getAccuracyMetrics(mtnet, opt)
-
+            opt.wb.log({'loss': loss_epoch_unlabel, 'acc_label': acc_epoch_label, 'acc_unlabel': acc_epoch_unlabel})
+    # interpretloader = test_loader
+    # quaInterpret(interpretloader, mtnet, opt)
+    # createMasks(opt)
+    # getMaskedAccuracy(interpretloader, mtnet, opt)
+    # getAccuracyMetrics(mtnet, opt)
     return test_acc, acc_unlabel, val_best_epoch
 
 def exp_rampup(rampup_length):

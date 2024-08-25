@@ -337,7 +337,7 @@ def supervised_train(x_train, y_train, x_val, y_val, x_test, y_test, opt):
             correct = prediction.eq(target.view_as(prediction)).sum()
             accuracy = (100.0 * correct / len(target))
             acc_trains.append(accuracy.item())
-
+            opt.wb.log({"train_loss": loss, "train_accuracy": accuracy})
         print('[Train-{}][{}][{}] loss: {:.5f}; \t Acc: {:.2f}%' \
               .format(epoch + 1, opt.model_name, opt.dataset_name, loss.item(), sum(acc_trains) / len(acc_trains)))
 
@@ -376,8 +376,8 @@ def supervised_train(x_train, y_train, x_val, y_val, x_test, y_test, opt):
 
                 test_acc = sum(acc_tests) / len(acc_tests)
 
-        print('[Test-{}] Val ACC:{:.2f}%, Best Test ACC.: {:.2f}% in Epoch {}'.format(
-            epoch, val_acc, test_acc, best_epoch))
+        print('[Test-{}] Val ACC:{:.2f}%, Best Test ACC.: {:.2f}% in Epoch {}'.format(epoch, val_acc, test_acc, best_epoch))
+        opt.wb.log({"test_accuracy": test_acc})
         early_stopping(val_acc, backbone_lineval)
         if early_stopping.early_stop:
             print("Early stopping")

@@ -3,7 +3,7 @@
 DATASETS=$1
 shift
 # bash new_deploy.sh "Heartbeat NATOPS SelfRegulationSCP2" g19
-TARGET_PATH="/data/qingyi/semitime/datasets/"
+TARGET_PATH=""
 
 for NODE in "$@"
 do

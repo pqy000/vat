@@ -13,6 +13,7 @@ from model.TCNmodel import TCN, MTNet
 from itertools import cycle
 import torch.nn as nn
 from optim.generalWay import *
+from model.model_backbone import SimConv4
 
 def trainPI(x_train, y_train, x_val, y_val, x_test, y_test, opt):
     K = opt.K
@@ -75,36 +76,47 @@ def trainPI(x_train, y_train, x_val, y_val, x_test, y_test, opt):
     early_stopping = EarlyStopping(patience, verbose=True,
                                    checkpoint_pth='{}/backbone_best.tar'.format(opt.ckpt_dir))
 
-    mtnet = MTNet(in_channels=x_train.shape[2], nb_classes=opt.nb_class).cuda()
-    optimizer = torch.optim.Adam(mtnet.parameters(), lr=opt.learning_rate)
+    backbone_lineval = SimConv4().cuda()
+    linear_layer = torch.nn.Linear(opt.feature_size, opt.nb_class).cuda()
+    # mtnet = MTNet(in_channels=x_train.shape[2], nb_classes=opt.nb_class).cuda()
+    # optimizer = torch.optim.Adam(mtnet.parameters(), lr=opt.learning_rate)
+    optimizer = torch.optim.Adam([{'params': backbone_lineval.parameters()},
+                  {'params': linear_layer.parameters()}], lr=opt.learning_rate)
+
     train_max_epoch, train_best_acc, val_best_acc = 0, 0, 0
 
     for epoch in range(tot_epochs):
-        mtnet.train()
+        # mtnet.train()
+        backbone_lineval.train()
+        linear_layer.train()
         acc_label, acc_unlabel, loss_label, loss_unlabel, alp = list(), list(),list(), list(), list()
         for i, (data_labeled, data_unlabel) in enumerate(zip(cycle(train_loader_label), train_loader)):
             x, targets = data_labeled
             aug1, aug2, targetAug = data_unlabel
             x, targets, aug1, aug2, targetAug = x.cuda(), targets.cuda(), \
                                                 aug1.float().cuda(), aug2.float().cuda(), targetAug.cuda()
-            outputs = mtnet(x)
-            outputs1 = mtnet(aug1)
-            outputs2 = mtnet(aug2)
+            # output = mtnet(x)
+            # output1 = mtnet(aug1)
+            # outputs2 = mtnet(aug2)
+            output = backbone_lineval(data)
+            output = linear_layer(output)
+            output1 = linear_layer(backbone_lineval(aug1))
+            output2 = linear_layer(backbone_lineval(aug2))
 
-            loss = criterion_classification(outputs, targets)
-            pi_loss = criterion_forecasting(outputs1, outputs2)
+            loss = criterion_classification(output, targets)
+            pi_loss = criterion_forecasting(output1, output2)
 
             loss_mtl = loss + rampup(epoch) * opt.usp_weight  * pi_loss
             optimizer.zero_grad()
             loss_mtl.backward()
             optimizer.step()
 
-            prediction = outputs.argmax(-1)
+            prediction = output.argmax(-1)
             correct = prediction.eq(targets.view_as(prediction)).sum()
             loss_label.append(loss.item())
             acc_label.append(100.0 * correct / len(targets))
 
-            prediction = outputs1.argmax(-1)
+            prediction = output1.argmax(-1)
             correct = prediction.eq(targetAug).sum()
             loss_unlabel.append(pi_loss.item())
             acc_unlabel.append(100.0 * correct / len(targetAug))
@@ -118,12 +130,13 @@ def trainPI(x_train, y_train, x_val, y_val, x_test, y_test, opt):
             train_max_epoch = epoch
 
         acc_vals, acc_tests = list(), list()
-        mtnet.eval()
+        backbone_lineval.eval()
+        linear_layer.eval()
 
         with torch.no_grad():
             for i, (x, target) in enumerate(val_loader):
                 x, target = x.cuda(), target.cuda()
-                output = mtnet(x)
+                output = linear_layer(backbone_lineval(x))
                 # estimate the accuracy
                 prediction = output.argmax(-1)
                 correct = prediction.eq(target.view_as(prediction)).sum()
@@ -136,7 +149,8 @@ def trainPI(x_train, y_train, x_val, y_val, x_test, y_test, opt):
                     val_best_epoch = epoch
                     for i, (x, target) in enumerate(test_loader):
                         x, target = x.cuda(), target.cuda()
-                        output = mtnet(x)
+                        # output = mtnet(x)
+                        linear_layer(backbone_lineval(x))
                         prediction = output.argmax(-1)
                         correct = prediction.eq(target.view_as(prediction)).sum()
                         accuracy = (100.0 * correct / len(target))
@@ -145,22 +159,26 @@ def trainPI(x_train, y_train, x_val, y_val, x_test, y_test, opt):
 
                     print('[Test-{}] Val ACC:{:.2f}%, Best Test ACC.: {:.2f}% in Epoch {}'
                           .format(epoch, val_acc, test_acc, val_best_epoch))
+                    opt.wb.log({'best_test_acc' : test_acc})
 
-            early_stopping(val_acc, mtnet)
+            # early_stopping(val_acc, mtnet)
+            early_stopping(val_acc, backbone_lineval)
             if(early_stopping.early_stop):
                 print("Early stopping")
                 break
 
             if (epoch + 1) % opt.save_freq == 0:
                 print("[INFO] save backbone at epoch {}!".format(epoch))
-                torch.save(mtnet.state_dict(), '{}/backbone_{}.tar'.format(opt.ckpt_dir, epoch))
+                torch.save(backbone_lineval.state_dict(), '{}/backbone_last.tar'.format(opt.ckpt_dir))
+
             print('Epoch [{}][{}][{}] loss= {:.5f}; Epoch Label ACC.= {:.2f}%, UnLabel ACC.= {:.2f}%, '
                   'Train Unlabel Best ACC.= {:.1f}%, Train Max Epoch={}' \
-                  .format(epoch + 1, opt.model_name, opt.dataset_name, loss_epoch_unlabel,
-                          acc_epoch_label, acc_epoch_unlabel, train_best_acc, train_max_epoch))
+                  .format(epoch + 1, opt.model_name, opt.dataset_name, loss_epoch_unlabel, acc_epoch_label,
+                          acc_epoch_unlabel, train_best_acc, train_max_epoch))
+            opt.wb.log({'loss_epoch_unlabel': loss_epoch_unlabel, 'acc_epoch_unlabel': acc_epoch_unlabel})
 
     # def interpret(test_loader, model, opt):
-    interpret(test_loader, mtnet, opt)
+    # interpret(test_loader, mtnet, opt)
     # interpretloader = test_loader
     # quaInterpret(interpretloader, mtnet, opt)
     # createMasks(opt)

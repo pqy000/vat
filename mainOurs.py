@@ -21,7 +21,7 @@ def parse_option():
     parser = argparse.ArgumentParser('argument for training')
     parser.add_argument('--save_freq', type=int, default=200,
                         help='save frequency')
-    parser.add_argument('--batch_size', type=int, default=64, help='batch_size')
+    parser.add_argument('--batch_size', type=int, default=16, help='batch_size')
     parser.add_argument('--K', type=int, default=4, help='Number of augmentation for each sample')
     parser.add_argument('--alpha', type=float, default=0.5, help='Past-future split point')
     parser.add_argument('--lr', type=float, default=0.01)
@@ -47,7 +47,7 @@ def parse_option():
                         help='Data path for checkpoint.')
     # method
     parser.add_argument('--backbone', type=str, default='SimConv4')
-    parser.add_argument('--model_name', type=str, default='SemiTeacher',
+    parser.add_argument('--model_name', type=str, default='SupCE',
                         choices=['SupCE', 'SemiTime','SemiTeacher', 'PI', 'MTL', 'TapNet'], help='choose method')
     parser.add_argument('--label_ratio', type=float, default=0.4, help='label ratio')
     parser.add_argument('--usp_weight', type=float, default=1, help='usp weight')
@@ -83,7 +83,7 @@ def parse_option():
                              'sub-dimension for each random projection')
     parser.add_argument('--use_metric', action='store_true', default=False,
                         help='whether to use the metric learning for class representation. Default:False')
-    parser.add_argument('--metric_param', type=float, default=0.01,
+    parser.add_argument('--metric_param', type=float, default=2e-3,
                         help='Metric parameter for prototype distances between classes. Default:0.000001')
     parser.add_argument('--filters', type=str, default="256,256,128",
                         help='filters used for convolutional network. Default:256,256,128')
@@ -122,7 +122,7 @@ if __name__ == "__main__":
     opt.kernels = [int(l) for l in opt.kernels.split(",")]
     opt.filters = [int(l) for l in opt.filters.split(",")]
     opt.rp_params = [float(l) for l in opt.rp_params.split(",")]
-    opt.wb = wandb.init(project=opt.dataset_name+"_semitime", config=opt, mode="online", group=str(opt.label_ratio))
+    opt.wb = wandb.init(project=opt.dataset_name+"_"+opt.model_name, config=opt, mode="online", group=str(opt.label_ratio))
     exp = 'exp-cls'
 
     Seeds = [2000, 2024, 2014]

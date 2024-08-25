@@ -7,13 +7,13 @@ import torch.nn.functional as F
 
 
 class SimConv4(torch.nn.Module):
-    def __init__(self, feature_size=64):
+    def __init__(self, feature_size=64, input_dim=1):
         super(SimConv4, self).__init__()
         self.feature_size = feature_size
         self.name = "conv4"
 
         self.layer1 = torch.nn.Sequential(
-            nn.Conv1d(1, 8, 4, 2, 1, bias=False),
+            nn.Conv1d(input_dim, 8, 4, 2, 1, bias=False),
             torch.nn.BatchNorm1d(8),
           torch.nn.ReLU()
         )

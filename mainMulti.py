@@ -21,13 +21,13 @@ def parse_option():
     parser = argparse.ArgumentParser('argument for training')
     parser.add_argument('--save_freq', type=int, default=200,
                         help='save frequency')
-    parser.add_argument('--batch_size', type=int, default=4, help='batch_size')
+    parser.add_argument('--batch_size', type=int, default=64, help='batch_size')
     parser.add_argument('--K', type=int, default=4, help='Number of augmentation for each sample')
     parser.add_argument('--alpha', type=float, default=0.5, help='Past-future split point')
     parser.add_argument('--lr', type=float, default=0.01)
     parser.add_argument('--feature_size', type=int, default=64,
                         help='feature_size')
-    parser.add_argument('--num_workers', type=int, default=0, help='num of workers to use')
+    parser.add_argument('--num_workers', type=int, default=4, help='num of workers to use')
     parser.add_argument('--epochs', type=int, default=1000, help='number of training epochs')
     parser.add_argument('--patience', type=int, default=200, help='training patience')
     parser.add_argument('--aug_type', type=str, default='none', help='Augmentation type')
@@ -47,7 +47,7 @@ def parse_option():
                         help='Data path for checkpoint.')
     # method
     parser.add_argument('--backbone', type=str, default='SimConv4')
-    parser.add_argument('--model_name', type=str, default='SemiTeacher',
+    parser.add_argument('--model_name', type=str, default='SupCE',
                         choices=['SupCE', 'SemiTime','SemiTeacher', 'PI', 'MTL', 'TapNet'], help='choose method')
     parser.add_argument('--label_ratio', type=float, default=0.4, help='label ratio')
     parser.add_argument('--usp_weight', type=float, default=1, help='usp weight')
@@ -125,7 +125,7 @@ if __name__ == "__main__":
     opt.wb = wandb.init(project=opt.dataset_name+"_semitime", config=opt, mode="disabled", group=str(opt.label_ratio))
     exp = 'exp-cls'
 
-    Seeds = [2000, 2024, 2014]
+    Seeds = [2000,1996]
     Runs = range(0, 2, 1)
 
     aug1 = ['jitter','cutout','magnitude_warp']

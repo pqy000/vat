@@ -98,7 +98,7 @@ def trainPI(x_train, y_train, x_val, y_val, x_test, y_test, opt):
             # output = mtnet(x)
             # output1 = mtnet(aug1)
             # outputs2 = mtnet(aug2)
-            output = backbone_lineval(data)
+            output = backbone_lineval(x)
             output = linear_layer(output)
             output1 = linear_layer(backbone_lineval(aug1))
             output2 = linear_layer(backbone_lineval(aug2))
@@ -150,7 +150,7 @@ def trainPI(x_train, y_train, x_val, y_val, x_test, y_test, opt):
                     for i, (x, target) in enumerate(test_loader):
                         x, target = x.cuda(), target.cuda()
                         # output = mtnet(x)
-                        linear_layer(backbone_lineval(x))
+                        output = linear_layer(backbone_lineval(x))
                         prediction = output.argmax(-1)
                         correct = prediction.eq(target.view_as(prediction)).sum()
                         accuracy = (100.0 * correct / len(target))

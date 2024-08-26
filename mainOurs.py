@@ -6,9 +6,10 @@ os.environ["CUDA_VISIBLE_DEVICES"] = "1"
 import torch
 from optim.pretrain import *
 from optim.generalWay import *
+from optim.meanteacher import *
 from optim.train import supervised_train
 from optim.PI import *
-from optim.MTL import *
+from optim.MTL import trainMTL
 from optim.TapNet import *
 from datetime import datetime
 from dataloader.tempData import *
@@ -38,7 +39,7 @@ def parse_option():
     parser.add_argument('--learning_rate', type=float, default=2e-3, help='learning rate')
     parser.add_argument('--weight_rampup', type=int, default=30, help='weight rampup')
     # model dataset
-    parser.add_argument('--dataset_name', type=str, default='NATOPS', help='dataset')
+    parser.add_argument('--dataset_name', type=str, default='Heartbeat', help='dataset')
     parser.add_argument('--nb_class', type=int, default=3, help='class number')
 
     # ucr_path = '../datasets/UCRArchive_2018'
@@ -47,12 +48,12 @@ def parse_option():
                         help='Data path for checkpoint.')
     # method
     parser.add_argument('--backbone', type=str, default='SimConv4')
-    parser.add_argument('--model_name', type=str, default='SemiTime',
-                        choices=['SupCE', 'SemiTime','SemiTeacher', 'PI', 'MTL', 'TapNet'], help='choose method')
+    parser.add_argument('--model_name', type=str, default='Teacher',
+                        choices=['SupCE', 'SemiTime', 'SemiTeacher', 'Teacher', 'PI', 'MTL', 'TapNet'], help='choose method')
     parser.add_argument('--label_ratio', type=float, default=0.4, help='label ratio')
     parser.add_argument('--usp_weight', type=float, default=1, help='usp weight')
     parser.add_argument('--ema_decay', type=float, default=0.99, help='weight')
-    parser.add_argument('--model_select', type=str, default='TCN', help='Training model type')
+    parser.add_argument('--model_select', type=str, default='NATOPS', help='Training model type')
     parser.add_argument('--nhid', type=int, default=128, help='feature_size')
     parser.add_argument('--levels', type=int, default=8, help='feature_size')
     parser.add_argument('--ksize', type=int, default=3, help='kernel size')
@@ -62,6 +63,7 @@ def parse_option():
     parser.add_argument('--lambda_lp', type=float, default=1, help='lipisitz weight')
     parser.add_argument('--L', type=int, default=0, help='lipisitz constant')
     parser.add_argument('--iter', type=int, default=50, help='iteration')
+    parser.add_argument('--horizon', type=float, default=0.2, help='iteration')
     # cuda settings
     parser.add_argument('--no-cuda', default=False, help='Disables CUDA training.')
     parser.add_argument('--seed', type=int, default=42, help='Random seed.')
@@ -122,14 +124,13 @@ if __name__ == "__main__":
     opt.kernels = [int(l) for l in opt.kernels.split(",")]
     opt.filters = [int(l) for l in opt.filters.split(",")]
     opt.rp_params = [float(l) for l in opt.rp_params.split(",")]
-    opt.wb = wandb.init(project=opt.dataset_name+"_"+opt.model_name, config=opt, mode="online",
-                        group=str(opt.label_ratio))
+    opt.wb = wandb.init(project=opt.dataset_name+"_semitime", config=opt, mode="online", group=str(opt.label_ratio))
     exp = 'exp-cls'
 
     Seeds = [2000, 2024, 2014]
     Runs = range(0, 2, 1)
 
-    aug1 = ['jitter','cutout','magnitude_warp']
+    aug1 = ['jitter','cutout']
     aug2 = ['G0', 'time_warp']
     if opt.model_name == 'SemiTime':
         model_paras = 'label{}_{}'.format(opt.label_ratio, opt.alpha)
@@ -166,9 +167,7 @@ if __name__ == "__main__":
 
         print('[INFO] Running at:', opt.dataset_name)
 
-        if opt.dataset_name == "CricketX" or opt.dataset_name == "UWaveGestureLibraryAll" \
-                or opt.dataset_name == "InsectWingbeatSound" or  opt.dataset_name == "EpilepticSeizure" \
-                or opt.dataset_name == "MFPT" or opt.dataset_name == "XJTU":
+        if opt.dataset_name == "CricketX" or opt.dataset_name == "UWaveGestureLibraryAll" or opt.dataset_name == "InsectWingbeatSound" or  opt.dataset_name == "EpilepticSeizure" or opt.dataset_name == "MFPT" or opt.dataset_name == "XJTU":
             x_train, y_train, x_val, y_val, x_test, y_test, opt.nb_class, _ = load_ucr2018(opt.ucr_path, opt.dataset_name)
         elif opt.dataset_name == "Heartbeat" or opt.dataset_name == "NATOPS" \
                 or opt.dataset_name == "SelfRegulationSCP2":
@@ -205,12 +204,19 @@ if __name__ == "__main__":
             elif 'TapNet' in opt.model_name:
                 acc_test, acc_unlabel, epoch_max = trainTapNet(x_train, y_train, x_val, y_val, x_test, y_test, opt)
 
+            elif 'MTL' in opt.model_name:
+                acc_test, acc_unlabel, epoch_max = trainMTL(x_train, y_train, x_val, y_val, x_test, y_test, opt)
+
+            elif 'Teacher' in opt.model_name:
+                acc_test, acc_unlabel, epoch_max = train_Teacher(x_train, y_train, x_val, y_val, x_test, y_test, opt)
+
             print("{}  {}  {}  {}  {}  {}  {}  {}  {}".format(opt.dataset_name, x_train.shape[0], x_test.shape[0],
                 x_train.shape[1], opt.nb_class, seed, acc_test, acc_unlabel, epoch_max))
             # file2print_detail_train.flush()
 
             ACCs_run[run] = acc_test
             MAX_EPOCHs_run[run] = epoch_max
+            # opt.wb.log({'acc_test': acc_test, 'acc_unlabel': acc_unlabel})
 
         ACCs_seed[seed] = round(np.mean(list(ACCs_run.values())), 2)
         MAX_EPOCHs_seed[seed] = np.max(list(MAX_EPOCHs_run.values()))

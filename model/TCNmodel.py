@@ -127,7 +127,7 @@ class MTNet(torch.nn.Module):
 
 
 class MTForNet(torch.nn.Module):
-    def __init__(self, in_channel, nb_classes , horizon):
+    def __init__(self, in_channel, nb_classes, horizon):
         super(MTForNet, self).__init__()
         self.conv1 = nn.Conv1d(in_channel, 128, 9, padding=(9 // 2))
         self.bnorm1 = nn.BatchNorm1d(128)
@@ -138,7 +138,7 @@ class MTForNet(torch.nn.Module):
         self.classification_head = nn.Linear(128, nb_classes)
         self.conv4 = nn.Conv1d(128, in_channel, 3, padding=(3 // 2))
         self.bnorm4 = nn.BatchNorm1d(in_channel)
-        # self.forecasting_head = nn.Linear(128, horizon)
+        self.forecasting_head = nn.Linear(128, horizon)
 
     def forward(self, x_class, x_forecast):
         x_class = x_class.view(-1, x_class.shape[2], x_class.shape[1])
@@ -156,7 +156,7 @@ class MTForNet(torch.nn.Module):
         # forecasting_features = torch.mean(b3_f, 2)
 
         classification_out = self.classification_head(classification_features)
-        forecasting_out = self.bnorm4(self.conv4(b3_f))
+        forecasting_out = self.conv4(b3_f)
         forecasting_out = forecasting_out.view(-1, forecasting_out.shape[2], forecasting_out.shape[1])
         return classification_out, forecasting_out
 

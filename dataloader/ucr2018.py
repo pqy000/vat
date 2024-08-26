@@ -4,7 +4,7 @@ import numpy as np
 import torch.utils.data as data
 import utils.datasets as ds
 from dataloader.TSC_data_loader import TSC_data_loader
-
+import torch
 
 class UCR2018(data.Dataset):
 
@@ -91,21 +91,34 @@ class MultiUCR2018_InterIntra(data.Dataset):
 
 
 class MultiUCR2018_Forecast_new(data.Dataset):
-    def __init__(self, data, targets, K, transform, totensor_transform):
+    def __init__(self, data, targets, K, transform, totensor_transform, horizon):
         self.data = np.asarray(data, dtype=np.float32)
         self.targets = np.asarray(targets, dtype=np.float32)
-        self.K = K  # tot number of augmentations
+        self.K = K
         self.transform = transform
         self.totensor_transform = totensor_transform
+        self.horizon = horizon
 
     def __getitem__(self, index):
         # print("### {}".format(index))
         img, target = self.data[index], self.targets[index]
         img1 = self.totensor_transform(self.transform(img.copy()))
-        return img1, target
+        xf, yf = self.return_sliding_windows(img1)
+        return img1, xf, yf, target
 
     def __len__(self):
         return self.data.shape[0]
+
+    def return_sliding_windows(self, x):
+        xf, yf = [], []
+        for i in range(0, x.shape[0], int(self.horizon*x.shape[0])):
+            horizon1 = int(self.horizon*x.shape[0])
+            if (i+horizon1+horizon1 <= x.shape[0]):
+                xf.append(x[i:i+horizon1, :])
+                yf.append(x[i+horizon1:i+horizon1+horizon1, :])
+        xf = torch.cat(xf)
+        yf = torch.cat(yf)
+        return xf, yf
 
 class MultiUCR2018_Forecast(data.Dataset):
     def __init__(self, data, targets, K, transform, totensor_transform):

@@ -10,11 +10,11 @@ from copy import deepcopy
 from torch.autograd.variable import Variable
 import torchgeometry as tgm
 
-class Model_SemiMean(torch.nn.Module):
+class Model_Teacher(torch.nn.Module):
 
     def __init__(self, model, ema_model, opt, ip=1, xi=1,
                  eps_min=0.1, eps_max=5, L=0, K=2, factor=3):
-        super(Model_SemiMean, self).__init__()
+        super(Model_Teacher, self).__init__()
         self.model = model
         self.ema_model = ema_model
         self.ce_loss = torch.nn.CrossEntropyLoss()
@@ -93,7 +93,7 @@ class Model_SemiMean(torch.nn.Module):
 
                 output_aug = self.model(aug1)
                 # aug1 = self.mixup_beta_batch(aug1, aug2)
-                aug1_hat = self.get_adversarial_perturbations(self.model, aug1)
+                # aug1_hat = self.get_adversarial_perturbations(self.model, aug1)
 
                 # output_aug_hat = self.model(aug1_hat)
                 # alp_loss = self.get_alp_loss(x=aug1, x_hat=aug1_hat, y=output_aug, y_hat=output_aug_hat)
@@ -101,24 +101,16 @@ class Model_SemiMean(torch.nn.Module):
                 # alp.append(alp_loss.item())
 
                 with torch.no_grad():
-                    output_aug_ema = self.ema_model(aug1_hat)
+                    output_aug_ema = self.ema_model(aug2)
                     output_aug_ema = output_aug_ema.detach()
-                cons_loss = mse_with_softmax(output_aug_ema, output_aug)
+                cons_loss = kl_divergence(output_aug_ema, output_aug)
 
-                # with torch.no_grad():
-                #     output_aug_ema = self.ema_model(aug2)
-                #     output_aug_ema = output_aug_ema.detach()
-                # cons_loss = mse_with_softmax(output_aug_ema, output_aug)
-
-                # cons_loss *= self.rampup(epoch) * self.usp_weight
                 prediction = output_aug.argmax(-1)
                 correct = prediction.eq(targetAug).sum()
                 loss_unlabel.append(cons_loss.item())
                 acc_unlabel.append(100.0 * correct / len(targetAug))
-                # loss += cons_loss * self.lambda_Rm
                 loss += cons_loss
-                self.wb.log({'loss_unlabel': cons_loss,
-                             'acc_unlabel': 100.0 * correct / len(targetAug)})
+                self.wb.log({'loss_unlabel': cons_loss, 'acc_unlabel': 100.0 * correct / len(targetAug)})
 
                 optimizer.zero_grad()
                 loss.backward()
@@ -127,7 +119,6 @@ class Model_SemiMean(torch.nn.Module):
             acc_epoch_label = sum(acc_label) / len(acc_label)
             acc_epoch_unlabel = sum(acc_unlabel) / len(acc_unlabel)
             loss_epoch_unlabel = sum(loss_unlabel) / len(loss_unlabel)
-            # alp_epoch = sum(alp) / len(alp)
             alp_epoch = 0
             if acc_epoch_unlabel > train_best_acc:
                 train_best_acc = acc_epoch_unlabel
@@ -139,7 +130,6 @@ class Model_SemiMean(torch.nn.Module):
                 for i, (x, target) in enumerate(val_loader):
                     x, target = x.cuda(), target.cuda()
                     output = self.model(x)
-                    # estimate the accuracy
                     prediction = output.argmax(-1)
                     correct = prediction.eq(target.view_as(prediction)).sum()
                     accuracy = (100.0 * correct / len(target))
@@ -173,13 +163,13 @@ class Model_SemiMean(torch.nn.Module):
             alp_epoch = round(alp_epoch, 4)
             lipresults.append(str(alp_epoch))
             print('Epoch [{}][{}][{}] loss= {:.5f}; Epoch Label ACC.= {:.2f}%, UnLabel ACC.= {:.2f}%, '
-                  'Lipistz loss = {}, Train Unlabel Best ACC.= {:.1f}%, Train Max Epoch={}' \
+                  'Train Unlabel Best ACC.= {:.1f}%, Train Max Epoch={}' \
                   .format(epoch + 1, opt.model_name, opt.dataset_name, loss_epoch_unlabel,
-                          acc_epoch_label, acc_epoch_unlabel, alp_epoch, train_best_acc, train_max_epoch))
+                          acc_epoch_label, acc_epoch_unlabel, train_best_acc, train_max_epoch))
             self.wb.log({'acc_epoch_label': acc_epoch_label, 'acc_epoch_unlabel': acc_epoch_unlabel,
                          'loss_epoch_unlabel': loss_epoch_unlabel})
 
-        # record lipschitz constant
+        # # record lipschitz constant
         # if opt.lip and not opt.saliency:
         #     result = "\nAdv, "
         # elif opt.lip and opt.saliency:
@@ -302,7 +292,8 @@ def kl_divergence(logits_p, logits_q):
     result = torch.distributions.kl.kl_divergence(
         p=ptemp, q=qtemp
     )
-    return result.unsqueeze(1)
+    loss_result = torch.mean(result)
+    return loss_result
 
 def exp_rampup(rampup_length):
     """Exponential rampup from https://arxiv.org/abs/1610.02242"""

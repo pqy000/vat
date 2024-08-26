@@ -13,10 +13,10 @@ from model.TCNmodel import TCN, MTNet, MTForNet
 from itertools import cycle
 import torch.nn as nn
 
-def trainMTL(x_train, y_train, x_f, y_f, x_val, y_val, x_test, y_test, opt):
+def trainMTL(x_train, y_train, x_val, y_val, x_test, y_test, opt):
     K = opt.K
-    batch_size = opt.batch_size  # 128 has been used in the paper
-    tot_epochs = opt.epochs  # 400 has been used in the paper
+    batch_size = opt.batch_size
+    tot_epochs = opt.epochs
     ckpt_dir = opt.ckpt_dir
     prob = 0.2  # Transform Probability
     raw = transforms.Raw()
@@ -54,9 +54,9 @@ def trainMTL(x_train, y_train, x_f, y_f, x_val, y_val, x_test, y_test, opt):
     train_set_labeled = UCR2018(data=x_train, targets=y_train, transform=train_transform_label)
     val_set = UCR2018(data=x_val, targets=y_val, transform=tensor_transform)
     test_set = UCR2018(data=x_test, targets=y_test, transform=tensor_transform)
-    train_set = MultiUCR2018_Forecast_new(data=x_f, targets=y_f, K=K,
+    train_set = MultiUCR2018_Forecast_new(data=x_train, targets=y_train, K=K,
                                       transform=train_transform,
-                                      totensor_transform=tensor_transform)
+                                      totensor_transform=tensor_transform, horizon=opt.horizon)
 
     train_dataset_size = len(train_set_labeled)
     partial_size = int(opt.label_ratio * train_dataset_size)
@@ -84,14 +84,14 @@ def trainMTL(x_train, y_train, x_f, y_f, x_val, y_val, x_test, y_test, opt):
         acc_label, acc_unlabel, loss_label, loss_unlabel, alp = list(), list(),list(), list(), list()
         for i, (data_labeled, data_unlabel) in enumerate(zip(cycle(train_loader_label), train_loader)):
             x, targets = data_labeled
-            aug1, target_forecast = data_unlabel
-            x, targets, aug1, target_forecast = x.cuda(), targets.cuda(), aug1.float().cuda(), target_forecast.cuda()
-            y_hat_classification, y_hat_forecasting = mtnet(x.float(), aug1.float())
-
-            loss = criterion_classification(y_hat_classification, targets.long())
-            loss_forecasting = criterion_forecasting(y_hat_forecasting, target_forecast)
-
-            loss_mtl = loss + rampup(epoch) * opt.usp_weight  * loss_forecasting
+            aug1, xf, yf, target_forecast = data_unlabel
+            x, targets, xf, yf, target_forecast = x.cuda(), targets.cuda(), \
+                                                xf.cuda(), yf.cuda(), target_forecast.cuda()
+            y_hat_classification, y_hat_forecasting = mtnet(x, xf)
+            loss = criterion_classification(y_hat_classification, targets)
+            loss_forecasting = criterion_forecasting(y_hat_forecasting, yf)
+            alpha = 1e-4
+            loss_mtl = loss + alpha * loss_forecasting
             optimizer.zero_grad()
             loss_mtl.backward()
             optimizer.step()
@@ -140,6 +140,7 @@ def trainMTL(x_train, y_train, x_f, y_f, x_val, y_val, x_test, y_test, opt):
 
                     print('[Test-{}] Val ACC:{:.2f}%, Best Test ACC.: {:.2f}% in Epoch {}'
                           .format(epoch, val_acc, test_acc, val_best_epoch))
+                    opt.wb.log({'best_test_acc': test_acc})
 
             early_stopping(val_acc, mtnet)
             if(early_stopping.early_stop):
@@ -149,11 +150,11 @@ def trainMTL(x_train, y_train, x_f, y_f, x_val, y_val, x_test, y_test, opt):
             if (epoch + 1) % opt.save_freq == 0:
                 print("[INFO] save backbone at epoch {}!".format(epoch))
                 torch.save(mtnet.state_dict(), '{}/backbone_{}.tar'.format(opt.ckpt_dir, epoch))
-            print('Epoch [{}][{}][{}] loss= {:.5f}; Epoch Label ACC.= {:.2f}%, UnLabel ACC.= {:.2f}%, '
-                  'Train Unlabel Best ACC.= {:.1f}%, Train Max Epoch={}' \
+            print('Epoch [{}][{}][{}] loss= {:.5f}; Epoch Label ACC.= {:.2f}%, Train Max Epoch={}' \
                   .format(epoch + 1, opt.model_name, opt.dataset_name, loss_epoch_unlabel,
-                          acc_epoch_label, acc_epoch_unlabel, train_best_acc, train_max_epoch))
-
+                          acc_epoch_label,
+                          train_max_epoch))
+            opt.wb.log({"loss_epoch_unlabel": loss_epoch_unlabel, "acc_epoch_unlabel":acc_epoch_unlabel})
     return test_acc, acc_unlabel, val_best_epoch
 
 def exp_rampup(rampup_length):

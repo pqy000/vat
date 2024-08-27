@@ -69,7 +69,7 @@ class SimConv4(torch.nn.Module):
 
 
 class OurConv4(torch.nn.Module):
-    def __init__(self, n_class, feature_size=64, input_dim=1, ):
+    def __init__(self, n_class=2, feature_size=64, input_dim=1, ):
         super(OurConv4, self).__init__()
         self.feature_size = feature_size
         self.name = "conv4"

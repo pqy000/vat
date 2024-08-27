@@ -1,0 +1,14 @@
+g17:
+bash run.sh "Heartbeat" "0 1 2 3" "0.1 0.2 0.4 1.0" Teacher
+bash run.sh "SelfRegulationSCP2" "4 5" "0.4 1.0" MTL
+bash run.sh "NATOPS" "2 3" "0.1 0.2" MTL
+
+g19:
+bash run.sh "Heartbeat" "0 1 2 3" "0.1 0.2 0.4 1.0" MTL
+bash run.sh "SelfRegulationSCP2" "4 5" "0.1 0.2" MTL
+bash run.sh "SelfRegulationSCP2" "5 6" "0.4 1.0" Teacher
+
+g20:
+bash run.sh "NATOPS" "0 1 2 3" "0.1 0.2 0.4 1.0" Teacher
+bash run.sh "SelfRegulationSCP2" "4 5" "0.1 0.2" Teacher
+bash run.sh "NATOPS" "2 3" "0.4 1.0" MTL

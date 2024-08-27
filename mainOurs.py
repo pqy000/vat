@@ -124,7 +124,7 @@ if __name__ == "__main__":
     opt.kernels = [int(l) for l in opt.kernels.split(",")]
     opt.filters = [int(l) for l in opt.filters.split(",")]
     opt.rp_params = [float(l) for l in opt.rp_params.split(",")]
-    opt.wb = wandb.init(project=opt.dataset_name+"_semitime", config=opt, mode="online", group=str(opt.label_ratio))
+    opt.wb = wandb.init(project=opt.dataset_name+"_semitime", config=opt, mode="disabled", group=str(opt.label_ratio))
     exp = 'exp-cls'
 
     Seeds = [2000, 2024, 2014]
@@ -132,13 +132,13 @@ if __name__ == "__main__":
 
     aug1 = ['jitter','cutout']
     aug2 = ['G0', 'time_warp']
-    if opt.model_name == 'SemiTime':
-        model_paras = 'label{}_{}'.format(opt.label_ratio, opt.alpha)
-    if opt.model_name == "SemiTeacher":
-        model_paras = 'label{}_{}'.format(opt.label_ratio, opt.saliency)
-    else:
-        model_paras = 'label{}'.format(opt.label_ratio)
+    # if opt.model_name == 'SemiTime':
+    #     model_paras = 'label{}_{}'.format(opt.label_ratio, opt.alpha)
+    # if opt.model_name == "SemiTeacher":
+    #     model_paras = 'label{}_{}'.format(opt.label_ratio, opt.saliency)
+    # else:
 
+    model_paras = 'label{}'.format(opt.label_ratio)
     if aug1 == aug2:
         opt.aug_type = [aug1]
     elif type(aug1) is list:

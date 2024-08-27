@@ -96,16 +96,6 @@ def train_Teacher(x_train, y_train, x_val, y_val, x_test, y_test, opt):
     #########Generate model architec##############
     ##############################################
 
-    # if opt.model_select == "TCN":
-    #     channel_sizes = [opt.nhid] * opt.levels
-    #     kernel_size = opt.ksize
-    #     model = TCN(input_size=1, output_size=opt.nb_class,
-    #                 num_channels=channel_sizes, kernel_size=kernel_size,
-    #                 dropout=opt.dropout).cuda()
-    #     ema_model = TCN(input_size=1, output_size=opt.nb_class,
-    #                 num_channels=channel_sizes, kernel_size=kernel_size,
-    #                 dropout=opt.dropout).cuda()
-
     model = OurConv4(n_class = opt.nb_class).cuda()
     ema_model = OurConv4(n_class = opt.nb_class).cuda()
     trainer = Model_Teacher(model, ema_model, opt).cuda()

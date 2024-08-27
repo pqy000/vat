@@ -104,13 +104,6 @@ class Model_SemiMean(torch.nn.Module):
                     output_aug_ema = self.ema_model(aug1_hat)
                     output_aug_ema = output_aug_ema.detach()
                 cons_loss = mse_with_softmax(output_aug_ema, output_aug)
-
-                # with torch.no_grad():
-                #     output_aug_ema = self.ema_model(aug2)
-                #     output_aug_ema = output_aug_ema.detach()
-                # cons_loss = mse_with_softmax(output_aug_ema, output_aug)
-
-                # cons_loss *= self.rampup(epoch) * self.usp_weight
                 prediction = output_aug.argmax(-1)
                 correct = prediction.eq(targetAug).sum()
                 loss_unlabel.append(cons_loss.item())
@@ -170,23 +163,13 @@ class Model_SemiMean(torch.nn.Module):
             if (epoch + 1) % opt.save_freq == 0:
                 print("[INFO] save backbone at epoch {}!".format(epoch))
                 torch.save(self.model.state_dict(), '{}/backbone_{}.tar'.format(opt.ckpt_dir, epoch))
-            alp_epoch = round(alp_epoch, 4)
-            lipresults.append(str(alp_epoch))
-            print('Epoch [{}][{}][{}] loss= {:.5f}; Epoch Label ACC.= {:.2f}%, UnLabel ACC.= {:.2f}%, '
-                  'Lipistz loss = {}, Train Unlabel Best ACC.= {:.1f}%, Train Max Epoch={}' \
+
+
+            print('Epoch [{}][{}][{}] loss= {:.5f}; Epoch Label ACC.= {:.2f}%, UnLabel ACC.= {:.2f}%, Train Unlabel Best ACC.= {:.1f}%, Train Max Epoch={}' \
                   .format(epoch + 1, opt.model_name, opt.dataset_name, loss_epoch_unlabel,
-                          acc_epoch_label, acc_epoch_unlabel, alp_epoch, train_best_acc, train_max_epoch))
+                          acc_epoch_label, acc_epoch_unlabel, train_best_acc, train_max_epoch))
             self.wb.log({'acc_epoch_label': acc_epoch_label, 'acc_epoch_unlabel': acc_epoch_unlabel,
                          'loss_epoch_unlabel': loss_epoch_unlabel})
-
-        # record lipschitz constant
-        # if opt.lip and not opt.saliency:
-        #     result = "\nAdv, "
-        # elif opt.lip and opt.saliency:
-        #     result = "\nSS, "
-        # else:
-        #     result = "\nw/o SS, "
-        # s = ","
         # lipresults = lipresults[:600]
         # f = open("./result.txt", "a")
         # f.write(result + s.join(lipresults))
@@ -270,8 +253,6 @@ class Model_SemiMean(torch.nn.Module):
             y = f(x)
             y_hat = f(x_hat)
             lds_loss = mse_with_softmax(y, y_hat)
-            # y_diff = self.d_Y(y, y_hat)
-
             reg1 = torch.norm((x-x_hat), p=2)
             temp = (x[:,:-2,:] - x_hat[:,1:-1,:] + x[:,2:,:] - x_hat[:,1:-1,:])
             temp = temp.reshape(batch_size, -1)

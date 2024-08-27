@@ -178,12 +178,12 @@ def trainPI(x_train, y_train, x_val, y_val, x_test, y_test, opt):
             opt.wb.log({'loss_epoch_unlabel': loss_epoch_unlabel, 'acc_epoch_unlabel': acc_epoch_unlabel})
 
     # def interpret(test_loader, model, opt):
-    # interpret(test_loader, mtnet, opt)
-    # interpretloader = test_loader
-    # quaInterpret(interpretloader, mtnet, opt)
-    # createMasks(opt)
-    # getMaskedAccuracy(interpretloader, mtnet, opt)
-    # getAccuracyMetrics(mtnet, opt)
+    interpret(test_loader, mtnet, opt)
+    interpretloader = test_loader
+    quaInterpret(interpretloader, mtnet, opt)
+    createMasks(opt)
+    getMaskedAccuracy(interpretloader, mtnet, opt)
+    getAccuracyMetrics(mtnet, opt)
 
     return test_acc, acc_unlabel, val_best_epoch
 
